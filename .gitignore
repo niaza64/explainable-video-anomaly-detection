@@ -42,3 +42,8 @@ outputs/results/
 !data/.gitkeep
 !models/pretrained/.gitkeep
 !outputs/.gitkeep
+
+# Mac-specific
+.DS_Store
+.AppleDouble
+.LSOverride
