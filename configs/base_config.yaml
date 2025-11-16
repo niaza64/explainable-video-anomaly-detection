@@ -1,0 +1,29 @@
+# Project Configuration
+project:
+  name: explainable-video-anomaly-detection
+  version: 0.1.0
+  
+paths:
+  data_root: ./data
+  models_root: ./models
+  outputs_root: ./outputs
+
+datasets:
+  ucf_crime:
+    path: data/raw/ucf_crime
+  shanghaitech:
+    path: data/raw/shanghaitech
+    
+models:
+  aed_mae:
+    repo: https://github.com/ristea/aed-mae
+    pretrained: models/pretrained/
+  sam:
+    checkpoint: models/pretrained/sam_vit_h_4b8939.pth
+    model_type: vit_h
+
+training:
+  batch_size: 8
+  num_epochs: 50
+  learning_rate: 0.0001
+  device: cuda

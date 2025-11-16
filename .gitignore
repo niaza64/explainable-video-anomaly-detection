@@ -1,0 +1,44 @@
+# Data files (too large for Git)
+data/raw/
+data/processed/
+*.mp4
+*.avi
+*.h5
+
+# Model files (too large for Git)
+models/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/logs/
+outputs/visualizations/
+outputs/results/
+
+# Keep folder structure
+!data/.gitkeep
+!models/pretrained/.gitkeep
+!outputs/.gitkeep
