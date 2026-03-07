@@ -46,3 +46,10 @@ outputs/results/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Large/unwanted directories
+SHANGHAI/
+archive.zip
+my_attempt/
+';L:k.jbvxz/
+explainable-video-anomaly-detection/
