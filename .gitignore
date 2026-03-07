@@ -6,6 +6,7 @@ data/processed/
 *.h5
 
 # Model files (too large for Git)
+models/aed-mae/
 models/checkpoints/
 *.pt
 *.pth
