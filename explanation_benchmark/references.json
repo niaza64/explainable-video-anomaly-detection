@@ -1,0 +1,227 @@
+{
+  "dataset": "ShanghaiTech Campus (weakly-supervised split)",
+  "note": "Human one-sentence anomaly explanations used as references for judging explanation quality. Normal false-positive videos (localiser false alarms) share the fixed reference below.",
+  "normal_fp_reference": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "anomalous": [
+    {
+      "video_id": "01_0015",
+      "video_type": "anomalous",
+      "reference": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding."
+    },
+    {
+      "video_id": "01_0025",
+      "video_type": "anomalous",
+      "reference": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed."
+    },
+    {
+      "video_id": "01_0027",
+      "video_type": "anomalous",
+      "reference": "A person is running in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "01_0028",
+      "video_type": "anomalous",
+      "reference": "A person takes a bag from a pedestrian and runs away."
+    },
+    {
+      "video_id": "01_0051",
+      "video_type": "anomalous",
+      "reference": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed."
+    },
+    {
+      "video_id": "01_0052",
+      "video_type": "anomalous",
+      "reference": "A person wearing a white shirt and carrying a bag is riding a bicycle in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "01_0053",
+      "video_type": "anomalous",
+      "reference": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed."
+    },
+    {
+      "video_id": "01_0055",
+      "video_type": "anomalous",
+      "reference": "A person in a red shirt is running in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "01_0056",
+      "video_type": "anomalous",
+      "reference": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "01_0064",
+      "video_type": "anomalous",
+      "reference": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area."
+    },
+    {
+      "video_id": "01_0135",
+      "video_type": "anomalous",
+      "reference": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed."
+    },
+    {
+      "video_id": "01_0136",
+      "video_type": "anomalous",
+      "reference": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed."
+    },
+    {
+      "video_id": "01_0139",
+      "video_type": "anomalous",
+      "reference": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed."
+    },
+    {
+      "video_id": "01_0141",
+      "video_type": "anomalous",
+      "reference": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "01_0162",
+      "video_type": "anomalous",
+      "reference": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger."
+    },
+    {
+      "video_id": "01_0177",
+      "video_type": "anomalous",
+      "reference": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "02_0161",
+      "video_type": "anomalous",
+      "reference": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "03_0031",
+      "video_type": "anomalous",
+      "reference": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away."
+    },
+    {
+      "video_id": "03_0032",
+      "video_type": "anomalous",
+      "reference": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking."
+    },
+    {
+      "video_id": "03_0033",
+      "video_type": "anomalous",
+      "reference": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green."
+    },
+    {
+      "video_id": "03_0059",
+      "video_type": "anomalous",
+      "reference": "Two people are fighting on the road and later walk together."
+    },
+    {
+      "video_id": "04_0004",
+      "video_type": "anomalous",
+      "reference": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together."
+    },
+    {
+      "video_id": "04_0011",
+      "video_type": "anomalous",
+      "reference": "A child in a red shirt is running in a pedestrian area while others are walking."
+    },
+    {
+      "video_id": "04_0012",
+      "video_type": "anomalous",
+      "reference": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area."
+    },
+    {
+      "video_id": "04_0046",
+      "video_type": "anomalous",
+      "reference": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior."
+    },
+    {
+      "video_id": "05_0017",
+      "video_type": "anomalous",
+      "reference": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road."
+    },
+    {
+      "video_id": "05_0019",
+      "video_type": "anomalous",
+      "reference": "A group of four people fights with a person in a white shirt and then walks away."
+    },
+    {
+      "video_id": "05_0023",
+      "video_type": "anomalous",
+      "reference": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him."
+    },
+    {
+      "video_id": "06_0144",
+      "video_type": "anomalous",
+      "reference": "A white minivan is being driven in a pedestrian area."
+    },
+    {
+      "video_id": "06_0153",
+      "video_type": "anomalous",
+      "reference": "A person in a black shirt is riding a bicycle in a pedestrian area."
+    },
+    {
+      "video_id": "07_0006",
+      "video_type": "anomalous",
+      "reference": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him."
+    },
+    {
+      "video_id": "07_0008",
+      "video_type": "anomalous",
+      "reference": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation."
+    },
+    {
+      "video_id": "07_0048",
+      "video_type": "anomalous",
+      "reference": "A person in a gray/maroon shirt is chasing a person in a red shirt."
+    },
+    {
+      "video_id": "08_0058",
+      "video_type": "anomalous",
+      "reference": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area."
+    },
+    {
+      "video_id": "08_0077",
+      "video_type": "anomalous",
+      "reference": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "08_0080",
+      "video_type": "anomalous",
+      "reference": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed."
+    },
+    {
+      "video_id": "08_0157",
+      "video_type": "anomalous",
+      "reference": "A person wearing a gray/white layered shirt is riding an electric unicycle scooter in a pedestrian area where such vehicles are not allowed."
+    },
+    {
+      "video_id": "08_0158",
+      "video_type": "anomalous",
+      "reference": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area."
+    },
+    {
+      "video_id": "10_0038",
+      "video_type": "anomalous",
+      "reference": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "10_0042",
+      "video_type": "anomalous",
+      "reference": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed."
+    },
+    {
+      "video_id": "12_0142",
+      "video_type": "anomalous",
+      "reference": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "12_0151",
+      "video_type": "anomalous",
+      "reference": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "12_0173",
+      "video_type": "anomalous",
+      "reference": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    },
+    {
+      "video_id": "12_0174",
+      "video_type": "anomalous",
+      "reference": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed."
+    }
+  ]
+}
