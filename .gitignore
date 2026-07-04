@@ -90,3 +90,15 @@ rtfm/pytorch-resnet3d/
 # Disabled nested git dirs (de-embedded subrepos)
 .git-disabled/
 **/.git-disabled/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.bbl
+*.blg
+missfont.log
