@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Requires OPENAI_API_KEY and HF_TOKEN in the environment (see .env.example);
+# no credentials are hardcoded.
 """
 Retrieval-Augmented In-Context inference with Qwen3-VL-32B (NO LoRA).
 
