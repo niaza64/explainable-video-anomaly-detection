@@ -1,0 +1,3584 @@
+[
+  {
+    "video_id": "01_001",
+    "is_anomalous_gt": 0,
+    "total_frames": 765,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      218,
+      327,
+      436,
+      545,
+      654,
+      764
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathway, consistent with normal behavior."
+  },
+  {
+    "video_id": "01_0015",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways with no unusual or disruptive activities."
+  },
+  {
+    "video_id": "01_0025",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      342,
+      428,
+      514,
+      600
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show typical pedestrian activity on a walkway with people walking and a cyclist passing by, which can be considered normal in such a setting."
+  },
+  {
+    "video_id": "01_0027",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behaviour for this scene."
+  },
+  {
+    "video_id": "01_0028",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal activity for the scene."
+  },
+  {
+    "video_id": "01_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      439,
+      549,
+      659,
+      769
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "01_0051",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians and cyclists moving calmly along the path without any unusual activity."
+  },
+  {
+    "video_id": "01_0052",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": true,
+    "explanation": "A person is riding a bicycle in what appears to be a pedestrian area, which deviates from the normal behavior of pedestrians walking calmly."
+  },
+  {
+    "video_id": "01_0053",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": true,
+    "explanation": "A motorized vehicle is seen moving through an area that appears to be a pedestrian walkway, which deviates from normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_0055",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": true,
+    "explanation": "A person is seen running in frames 89 and 133, which deviates from the normal behavior of walking calmly."
+  },
+  {
+    "video_id": "01_0056",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, indicating normal activity."
+  },
+  {
+    "video_id": "01_006",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      72,
+      144,
+      216,
+      288,
+      360,
+      432,
+      505
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian behavior with individuals walking calmly on a pathway."
+  },
+  {
+    "video_id": "01_0064",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals in the frames are walking calmly on the path, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      144,
+      288,
+      432,
+      576,
+      720,
+      864,
+      1009
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal activity for these scenes."
+  },
+  {
+    "video_id": "01_012",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      421,
+      526,
+      631,
+      737
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is consistent with normal behavior in this setting."
+  },
+  {
+    "video_id": "01_0135",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": true,
+    "explanation": "A vehicle is seen driving on a pedestrian pathway, which deviates from normal pedestrian behavior and expected use of the path."
+  },
+  {
+    "video_id": "01_0136",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": true,
+    "explanation": "A truck is driving on the pedestrian walkway, which is unusual and potentially hazardous as it is intended for pedestrian use only."
+  },
+  {
+    "video_id": "01_0139",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": false,
+    "explanation": "There is no anomaly in the video. Pedestrians are walking calmly on the walkway as expected, and activities appear normal."
+  },
+  {
+    "video_id": "01_0141",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": true,
+    "explanation": "A person is riding a skateboard in frames 89 to 178, which deviates from normal pedestrian walking behavior."
+  },
+  {
+    "video_id": "01_0162",
+    "is_anomalous_gt": 1,
+    "total_frames": 193,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      27,
+      54,
+      82,
+      109,
+      137,
+      164,
+      192
+    ],
+    "anomaly_detected": false,
+    "explanation": "Pedestrians and cyclists are observed moving calmly on the paths, which is consistent with normal activity."
+  },
+  {
+    "video_id": "01_0177",
+    "is_anomalous_gt": 1,
+    "total_frames": 317,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      316
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, and there is no unusual activity."
+  },
+  {
+    "video_id": "01_018",
+    "is_anomalous_gt": 0,
+    "total_frames": 842,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      120,
+      240,
+      360,
+      480,
+      600,
+      720,
+      841
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict pedestrians walking calmly on a pathway, consistent with normal behavior."
+  },
+  {
+    "video_id": "01_021",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      144,
+      288,
+      432,
+      576,
+      720,
+      864,
+      1009
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show individuals or groups of pedestrians walking calmly on the pathway, consistent with normal activity."
+  },
+  {
+    "video_id": "01_026",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      420,
+      525,
+      630,
+      735
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "01_027",
+    "is_anomalous_gt": 0,
+    "total_frames": 944,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      134,
+      269,
+      404,
+      538,
+      673,
+      808,
+      943
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with no unusual behavior or disruptions."
+  },
+  {
+    "video_id": "01_028",
+    "is_anomalous_gt": 0,
+    "total_frames": 945,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      134,
+      269,
+      404,
+      539,
+      674,
+      809,
+      944
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with people walking calmly on the path."
+  },
+  {
+    "video_id": "01_030",
+    "is_anomalous_gt": 0,
+    "total_frames": 969,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      138,
+      276,
+      414,
+      553,
+      691,
+      829,
+      968
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking calmly on the path, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_032",
+    "is_anomalous_gt": 0,
+    "total_frames": 1192,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      170,
+      340,
+      510,
+      680,
+      850,
+      1020,
+      1191
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show individuals walking calmly, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_034",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      127,
+      254,
+      381,
+      508,
+      635,
+      762,
+      889
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly without any unusual activity."
+  },
+  {
+    "video_id": "01_038",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      68,
+      137,
+      206,
+      274,
+      343,
+      412,
+      481
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on walkways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "01_039",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      137,
+      274,
+      411,
+      549,
+      686,
+      823,
+      961
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways with no significant deviations from normal behavior."
+  },
+  {
+    "video_id": "01_040",
+    "is_anomalous_gt": 0,
+    "total_frames": 1168,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      166,
+      333,
+      500,
+      666,
+      833,
+      1000,
+      1167
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior."
+  },
+  {
+    "video_id": "01_043",
+    "is_anomalous_gt": 0,
+    "total_frames": 878,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      125,
+      250,
+      375,
+      501,
+      626,
+      751,
+      877
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways, which is normal activity for this scene."
+  },
+  {
+    "video_id": "01_045",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      343,
+      429,
+      515,
+      601
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly and normally on the walkway, which is consistent with expected behavior."
+  },
+  {
+    "video_id": "01_047",
+    "is_anomalous_gt": 0,
+    "total_frames": 1057,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      150,
+      301,
+      452,
+      603,
+      754,
+      905,
+      1056
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames depict pedestrians walking calmly on a pathway, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "01_050",
+    "is_anomalous_gt": 0,
+    "total_frames": 806,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      115,
+      230,
+      345,
+      460,
+      575,
+      690,
+      805
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict normal pedestrian activity with people walking calmly on walkways."
+  },
+  {
+    "video_id": "01_052",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      137,
+      274,
+      411,
+      549,
+      686,
+      823,
+      961
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "01_053",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      157,
+      315,
+      473,
+      631,
+      789,
+      947,
+      1105
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behaviour for this scene."
+  },
+  {
+    "video_id": "01_055",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      721
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is considered normal activity for these scenes."
+  },
+  {
+    "video_id": "01_056",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      144,
+      288,
+      432,
+      576,
+      720,
+      864,
+      1009
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "01_057",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      104,
+      209,
+      314,
+      418,
+      523,
+      628,
+      733
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is considered normal activity for surveillance footage."
+  },
+  {
+    "video_id": "01_058",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      104,
+      209,
+      314,
+      418,
+      523,
+      628,
+      733
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking calmly along a path, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_059",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      104,
+      209,
+      314,
+      418,
+      523,
+      628,
+      733
+    ],
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking calmly on the walkway, behaving normally."
+  },
+  {
+    "video_id": "01_061",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      127,
+      254,
+      381,
+      508,
+      635,
+      762,
+      889
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames display pedestrians walking calmly in an open area, which is considered normal behavior for such scenes."
+  },
+  {
+    "video_id": "01_064",
+    "is_anomalous_gt": 0,
+    "total_frames": 650,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      92,
+      185,
+      278,
+      370,
+      463,
+      556,
+      649
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal activity for the scene."
+  },
+  {
+    "video_id": "01_065",
+    "is_anomalous_gt": 0,
+    "total_frames": 616,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      87,
+      175,
+      263,
+      351,
+      439,
+      527,
+      615
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "01_071",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      150,
+      300,
+      450,
+      600,
+      750,
+      900,
+      1051
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "01_072",
+    "is_anomalous_gt": 0,
+    "total_frames": 1053,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      150,
+      300,
+      450,
+      601,
+      751,
+      901,
+      1052
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on a walkway, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "01_074",
+    "is_anomalous_gt": 0,
+    "total_frames": 1041,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      148,
+      297,
+      445,
+      594,
+      742,
+      891,
+      1040
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict pedestrians walking calmly on the walkway, which is considered normal activity."
+  },
+  {
+    "video_id": "01_075",
+    "is_anomalous_gt": 0,
+    "total_frames": 568,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      81,
+      162,
+      243,
+      324,
+      405,
+      486,
+      567
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal activity for these scenes."
+  },
+  {
+    "video_id": "01_076",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      79,
+      158,
+      237,
+      316,
+      395,
+      474,
+      553
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "01_077",
+    "is_anomalous_gt": 0,
+    "total_frames": 698,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      99,
+      199,
+      298,
+      398,
+      497,
+      597,
+      697
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along the paths, which is considered normal activity."
+  },
+  {
+    "video_id": "01_078",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      147,
+      295,
+      442,
+      590,
+      737,
+      885,
+      1033
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathway, which is normal behavior."
+  },
+  {
+    "video_id": "01_079",
+    "is_anomalous_gt": 0,
+    "total_frames": 712,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      101,
+      203,
+      304,
+      406,
+      507,
+      609,
+      711
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "01_080",
+    "is_anomalous_gt": 0,
+    "total_frames": 788,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      112,
+      224,
+      337,
+      449,
+      562,
+      674,
+      787
+    ],
+    "anomaly_detected": false,
+    "explanation": "Pedestrians appear to be walking calmly on the walkway, and there are no visible signs of unusual activity."
+  },
+  {
+    "video_id": "01_081",
+    "is_anomalous_gt": 0,
+    "total_frames": 789,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      112,
+      225,
+      337,
+      450,
+      562,
+      675,
+      788
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal activity for this setting."
+  },
+  {
+    "video_id": "01_082",
+    "is_anomalous_gt": 0,
+    "total_frames": 808,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      115,
+      230,
+      345,
+      461,
+      576,
+      691,
+      807
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for the setting."
+  },
+  {
+    "video_id": "02_001",
+    "is_anomalous_gt": 0,
+    "total_frames": 908,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      129,
+      259,
+      388,
+      518,
+      647,
+      777,
+      907
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict individuals walking calmly along the path, which aligns with normal pedestrian behavior."
+  },
+  {
+    "video_id": "02_003",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      420,
+      525,
+      630,
+      735
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along the path, which is normal behavior."
+  },
+  {
+    "video_id": "02_007",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      43,
+      86,
+      129,
+      172,
+      215,
+      258,
+      301
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along the path, which is normal behavior."
+  },
+  {
+    "video_id": "02_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      43,
+      86,
+      129,
+      172,
+      215,
+      258,
+      301
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly near a building, which is normal behavior."
+  },
+  {
+    "video_id": "02_009",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      343,
+      429,
+      515,
+      601
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "02_012",
+    "is_anomalous_gt": 0,
+    "total_frames": 227,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      32,
+      64,
+      96,
+      129,
+      161,
+      193,
+      226
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "02_015",
+    "is_anomalous_gt": 0,
+    "total_frames": 202,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      28,
+      57,
+      86,
+      114,
+      143,
+      172,
+      201
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals appear to be walking calmly along the walkway, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "02_0161",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians and cyclists moving calmly along the pathway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "03_002",
+    "is_anomalous_gt": 0,
+    "total_frames": 402,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      57,
+      114,
+      171,
+      229,
+      286,
+      343,
+      401
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on a walkway, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "03_0031",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": false,
+    "explanation": "All visible pedestrian activity in the frames appears normal, with individuals walking calmly along the path."
+  },
+  {
+    "video_id": "03_0032",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": true,
+    "explanation": "A person is lying on the ground in Frame 174, which deviates from normal pedestrian behavior where individuals are expected to walk calmly."
+  },
+  {
+    "video_id": "03_0033",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": true,
+    "explanation": "The two individuals appear to be engaged in a physical altercation, which deviates from normal pedestrian behavior."
+  },
+  {
+    "video_id": "03_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      60,
+      121,
+      182,
+      243,
+      304,
+      365,
+      426
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "03_0059",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": false,
+    "explanation": "All pedestrians are walking calmly along the path, consistent with normal behavior."
+  },
+  {
+    "video_id": "04_0004",
+    "is_anomalous_gt": 1,
+    "total_frames": 865,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      123,
+      246,
+      370,
+      493,
+      617,
+      740,
+      864
+    ],
+    "anomaly_detected": true,
+    "explanation": "In frame 493, a person is sitting on the ground while others are standing around, which is unusual in a pedestrian walkway."
+  },
+  {
+    "video_id": "04_0011",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": false,
+    "explanation": "All observed activity in the frames shows pedestrians walking calmly on the walkway, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "04_0012",
+    "is_anomalous_gt": 1,
+    "total_frames": 361,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      51,
+      102,
+      154,
+      205,
+      257,
+      308,
+      360
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show individuals walking calmly on the path without any unusual activity."
+  },
+  {
+    "video_id": "04_002",
+    "is_anomalous_gt": 0,
+    "total_frames": 913,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      130,
+      260,
+      390,
+      521,
+      651,
+      781,
+      912
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict pedestrians walking calmly along the paths, which is normal behavior for this type of scene."
+  },
+  {
+    "video_id": "04_0046",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": true,
+    "explanation": "In frames 226/528 and 301/528, an individual is jumping and has an object above their head, which deviates from normal pedestrian behavior of walking calmly."
+  },
+  {
+    "video_id": "04_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 976,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      139,
+      278,
+      417,
+      557,
+      696,
+      835,
+      975
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "04_007",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      60,
+      121,
+      182,
+      243,
+      304,
+      365,
+      426
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along the walkways without any unusual behavior or disruptions."
+  },
+  {
+    "video_id": "04_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 1702,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      243,
+      486,
+      729,
+      972,
+      1215,
+      1458,
+      1701
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathways. There is no unusual or anomalous activity visible."
+  },
+  {
+    "video_id": "04_011",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      78,
+      157,
+      236,
+      314,
+      393,
+      472,
+      551
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behaviour for the scene."
+  },
+  {
+    "video_id": "04_014",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      89,
+      178,
+      268,
+      357,
+      447,
+      536,
+      626
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames display normal pedestrian behavior with individuals walking calmly along the pathways."
+  },
+  {
+    "video_id": "04_016",
+    "is_anomalous_gt": 0,
+    "total_frames": 327,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      46,
+      93,
+      139,
+      186,
+      232,
+      279,
+      326
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "04_017",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      71,
+      143,
+      214,
+      286,
+      357,
+      429,
+      501
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathways, which is consistent with normal behavior for the scene."
+  },
+  {
+    "video_id": "04_018",
+    "is_anomalous_gt": 0,
+    "total_frames": 651,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      92,
+      185,
+      278,
+      371,
+      464,
+      557,
+      650
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking calmly on the walkway, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_0017",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": true,
+    "explanation": "Several individuals are engaged in an activity that involves looking upwards and gesturing, which is not typical pedestrian behavior on a walkway."
+  },
+  {
+    "video_id": "05_0019",
+    "is_anomalous_gt": 1,
+    "total_frames": 649,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      92,
+      185,
+      277,
+      370,
+      462,
+      555,
+      648
+    ],
+    "anomaly_detected": true,
+    "explanation": "Several individuals are seen engaged in a confrontation or aggressive interaction in frames 277 to 462, which deviates from normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_0023",
+    "is_anomalous_gt": 1,
+    "total_frames": 769,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      438,
+      548,
+      658,
+      768
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly and engaging in normal behavior on walkways or paths."
+  },
+  {
+    "video_id": "05_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      343,
+      429,
+      515,
+      601
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian behavior with individuals walking calmly along the path."
+  },
+  {
+    "video_id": "05_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 626,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      89,
+      178,
+      267,
+      357,
+      446,
+      535,
+      625
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "05_009",
+    "is_anomalous_gt": 0,
+    "total_frames": 866,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      123,
+      247,
+      370,
+      494,
+      617,
+      741,
+      865
+    ],
+    "anomaly_detected": false,
+    "explanation": "The scenes depict pedestrians walking calmly along the path, which is normal behavior for this environment."
+  },
+  {
+    "video_id": "05_010",
+    "is_anomalous_gt": 0,
+    "total_frames": 1250,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      178,
+      356,
+      535,
+      713,
+      892,
+      1070,
+      1249
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal activity."
+  },
+  {
+    "video_id": "05_013",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      116,
+      233,
+      350,
+      466,
+      583,
+      700,
+      817
+    ],
+    "anomaly_detected": false,
+    "explanation": "There is no anomaly; pedestrians are walking calmly on the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_016",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      79,
+      158,
+      237,
+      316,
+      395,
+      474,
+      553
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "05_018",
+    "is_anomalous_gt": 0,
+    "total_frames": 809,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      115,
+      230,
+      346,
+      461,
+      577,
+      692,
+      808
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "05_021",
+    "is_anomalous_gt": 0,
+    "total_frames": 1058,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      151,
+      302,
+      453,
+      604,
+      755,
+      906,
+      1057
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_023",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      104,
+      209,
+      314,
+      418,
+      523,
+      628,
+      733
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show individuals or groups of people walking calmly along a path, which is normal pedestrian behavior for these scenes."
+  },
+  {
+    "video_id": "05_025",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      104,
+      209,
+      314,
+      418,
+      523,
+      628,
+      733
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_026",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      72,
+      144,
+      216,
+      288,
+      360,
+      432,
+      505
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly without any unusual activity."
+  },
+  {
+    "video_id": "05_028",
+    "is_anomalous_gt": 0,
+    "total_frames": 877,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      125,
+      250,
+      375,
+      500,
+      625,
+      750,
+      876
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along walkways and paths, which is normal behavior."
+  },
+  {
+    "video_id": "05_030",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      79,
+      158,
+      237,
+      316,
+      395,
+      474,
+      553
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_033",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      168,
+      336,
+      504,
+      672,
+      840,
+      1008,
+      1177
+    ],
+    "anomaly_detected": true,
+    "explanation": "In frame 336, a person appears to be running, which deviates from the normal pedestrian behavior of walking calmly."
+  },
+  {
+    "video_id": "05_034",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      137,
+      274,
+      411,
+      549,
+      686,
+      823,
+      961
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, indicating normal activity."
+  },
+  {
+    "video_id": "05_038",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      68,
+      137,
+      206,
+      274,
+      343,
+      412,
+      481
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals appear to be walking calmly on the pathways, which is consistent with normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_039",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      111,
+      222,
+      334,
+      445,
+      557,
+      668,
+      780
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_041",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      111,
+      222,
+      334,
+      445,
+      557,
+      668,
+      780
+    ],
+    "anomaly_detected": false,
+    "explanation": "All visible activities in the frames show pedestrians walking calmly on walkways, indicating normal behavior."
+  },
+  {
+    "video_id": "05_043",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      438,
+      548,
+      658,
+      768
+    ],
+    "anomaly_detected": false,
+    "explanation": "All the frames show pedestrians walking calmly on the pathways, which is normal behaviour for this scene."
+  },
+  {
+    "video_id": "05_044",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      438,
+      548,
+      658,
+      768
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals appear to be walking calmly along the pathway, consistent with normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_045",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      438,
+      548,
+      658,
+      768
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "05_048",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      316,
+      421,
+      527,
+      632,
+      738
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior."
+  },
+  {
+    "video_id": "05_049",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      316,
+      421,
+      527,
+      632,
+      738
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian behavior with individuals walking calmly on designated pathways."
+  },
+  {
+    "video_id": "05_054",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      421,
+      526,
+      631,
+      737
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "05_056",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      421,
+      526,
+      631,
+      737
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways and paths, which is normal behavior."
+  },
+  {
+    "video_id": "05_057",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      421,
+      526,
+      631,
+      737
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal activity for the scene."
+  },
+  {
+    "video_id": "05_058",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      105,
+      210,
+      315,
+      421,
+      526,
+      631,
+      737
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal behavior for these scenes."
+  },
+  {
+    "video_id": "05_060",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      147,
+      295,
+      442,
+      590,
+      737,
+      885,
+      1033
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with people walking calmly along the path."
+  },
+  {
+    "video_id": "05_061",
+    "is_anomalous_gt": 0,
+    "total_frames": 1069,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      152,
+      305,
+      457,
+      610,
+      762,
+      915,
+      1068
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal activity with pedestrians walking calmly along the pathway."
+  },
+  {
+    "video_id": "05_062",
+    "is_anomalous_gt": 0,
+    "total_frames": 1070,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      152,
+      305,
+      458,
+      610,
+      763,
+      916,
+      1069
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths without any unusual behavior."
+  },
+  {
+    "video_id": "05_064",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      68,
+      137,
+      206,
+      274,
+      343,
+      412,
+      481
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "05_065",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      147,
+      295,
+      442,
+      590,
+      737,
+      885,
+      1033
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict pedestrians walking calmly along the path, with no unusual or anomalous behavior."
+  },
+  {
+    "video_id": "06_003",
+    "is_anomalous_gt": 0,
+    "total_frames": 1024,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      146,
+      292,
+      438,
+      584,
+      730,
+      876,
+      1023
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show people entering or exiting a building calmly, consistent with normal pedestrian behavior."
+  },
+  {
+    "video_id": "06_006",
+    "is_anomalous_gt": 0,
+    "total_frames": 726,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      207,
+      310,
+      414,
+      517,
+      621,
+      725
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals walking calmly on the walkway and entering the building."
+  },
+  {
+    "video_id": "06_009",
+    "is_anomalous_gt": 0,
+    "total_frames": 400,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      57,
+      114,
+      171,
+      228,
+      285,
+      342,
+      399
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals are walking calmly along the path, which is normal pedestrian behavior."
+  },
+  {
+    "video_id": "06_011",
+    "is_anomalous_gt": 0,
+    "total_frames": 256,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      36,
+      72,
+      109,
+      145,
+      182,
+      218,
+      255
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking normally near a building entrance. There is no unusual behavior or disruption visible."
+  },
+  {
+    "video_id": "06_0144",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": true,
+    "explanation": "A vehicle is parked in front of a building entrance, which may obstruct pedestrian paths or access."
+  },
+  {
+    "video_id": "06_015",
+    "is_anomalous_gt": 0,
+    "total_frames": 846,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      120,
+      241,
+      362,
+      482,
+      603,
+      724,
+      845
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show typical pedestrian behavior with individuals walking calmly along the walkway and entering or exiting the building, which aligns with normal activity."
+  },
+  {
+    "video_id": "06_0153",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian and bicycle traffic, with individuals walking calmly and a cyclist passing by. There are no signs of unusual behavior."
+  },
+  {
+    "video_id": "06_017",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      722
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian behavior with people walking calmly or exiting a building. The later frames show no unusual activity."
+  },
+  {
+    "video_id": "06_018",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      722
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals walking calmly on the walkway."
+  },
+  {
+    "video_id": "06_020",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      722
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28140, Requested 5575. Please try again in 7.43s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "06_021",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      722
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly along the path, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "06_022",
+    "is_anomalous_gt": 0,
+    "total_frames": 724,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      413,
+      516,
+      619,
+      723
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 26793, Requested 5575. Please try again in 4.736s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "06_026",
+    "is_anomalous_gt": 0,
+    "total_frames": 1336,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      190,
+      381,
+      572,
+      762,
+      953,
+      1144,
+      1335
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly or entering/exiting a building, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "06_028",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      107,
+      215,
+      322,
+      430,
+      537,
+      645,
+      753
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal activity."
+  },
+  {
+    "video_id": "06_029",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      107,
+      215,
+      322,
+      430,
+      537,
+      645,
+      753
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on the walkway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "06_030",
+    "is_anomalous_gt": 0,
+    "total_frames": 757,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      108,
+      216,
+      324,
+      432,
+      540,
+      648,
+      756
+    ],
+    "anomaly_detected": false,
+    "explanation": "No unusual activity is observed; people are entering and exiting the building normally."
+  },
+  {
+    "video_id": "07_0006",
+    "is_anomalous_gt": 1,
+    "total_frames": 385,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      54,
+      109,
+      164,
+      219,
+      274,
+      329,
+      384
+    ],
+    "anomaly_detected": true,
+    "explanation": "One person is seen lying on the ground in frame 219, which is unusual for normal pedestrian behavior."
+  },
+  {
+    "video_id": "07_0008",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": true,
+    "explanation": "An individual is carrying a rifle-like object, which is unusual for a pedestrian setting and may indicate potential danger or security concern."
+  },
+  {
+    "video_id": "07_002",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      110,
+      221,
+      332,
+      443,
+      554,
+      665,
+      776
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on a path, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "07_0048",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly, which is normal activity for this scene."
+  },
+  {
+    "video_id": "07_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      207,
+      311,
+      414,
+      518,
+      622,
+      726
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways and paths, which is normal activity for the scene."
+  },
+  {
+    "video_id": "07_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      43,
+      86,
+      129,
+      172,
+      215,
+      258,
+      301
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on a designated walkway. This is normal activity for the scene."
+  },
+  {
+    "video_id": "08_001",
+    "is_anomalous_gt": 0,
+    "total_frames": 817,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      116,
+      233,
+      349,
+      466,
+      582,
+      699,
+      816
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways without any apparent disturbances or unusual behavior."
+  },
+  {
+    "video_id": "08_002",
+    "is_anomalous_gt": 0,
+    "total_frames": 1298,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      185,
+      370,
+      555,
+      741,
+      926,
+      1111,
+      1297
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames depict pedestrians walking calmly on walkways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      439,
+      549,
+      659,
+      769
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 26983, Requested 5575. Please try again in 5.116s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "08_0058",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the designated paths, which is normal behavior for this type of scene."
+  },
+  {
+    "video_id": "08_006",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      112,
+      224,
+      336,
+      448,
+      560,
+      672,
+      784
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal activity."
+  },
+  {
+    "video_id": "08_007",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      112,
+      224,
+      336,
+      448,
+      560,
+      672,
+      784
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames display normal pedestrian activity with individuals walking calmly on the pathways."
+  },
+  {
+    "video_id": "08_0077",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 786,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      112,
+      224,
+      336,
+      448,
+      560,
+      672,
+      785
+    ],
+    "anomaly_detected": false,
+    "explanation": "All observed frames show pedestrians walking calmly, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_0080",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly; no unusual or anomalous activity is observed."
+  },
+  {
+    "video_id": "08_010",
+    "is_anomalous_gt": 0,
+    "total_frames": 721,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      102,
+      205,
+      308,
+      411,
+      514,
+      617,
+      720
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_011",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      206,
+      309,
+      412,
+      515,
+      618,
+      721
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly and normally along the paths, with no unusual or anomalous behavior observed."
+  },
+  {
+    "video_id": "08_0157",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathway, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_0158",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 27328, Requested 6343. Please try again in 7.342s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "08_016",
+    "is_anomalous_gt": 0,
+    "total_frames": 937,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      133,
+      267,
+      401,
+      534,
+      668,
+      802,
+      936
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 26841, Requested 5575. Please try again in 4.832s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "08_021",
+    "is_anomalous_gt": 0,
+    "total_frames": 1322,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      188,
+      377,
+      566,
+      754,
+      943,
+      1132,
+      1321
+    ],
+    "anomaly_detected": true,
+    "explanation": "A person is unusually standing and hiding behind a lamp post, which deviates from normal pedestrian behavior."
+  },
+  {
+    "video_id": "08_023",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      116,
+      233,
+      350,
+      466,
+      583,
+      700,
+      817
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on the pathways, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_024",
+    "is_anomalous_gt": 0,
+    "total_frames": 745,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      106,
+      212,
+      318,
+      425,
+      531,
+      637,
+      744
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on paths, which is normal activity for the scene."
+  },
+  {
+    "video_id": "08_025",
+    "is_anomalous_gt": 0,
+    "total_frames": 746,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      106,
+      212,
+      319,
+      425,
+      532,
+      638,
+      745
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on walkways, which is normal activity for this scene."
+  },
+  {
+    "video_id": "08_028",
+    "is_anomalous_gt": 0,
+    "total_frames": 1082,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      154,
+      308,
+      463,
+      617,
+      772,
+      926,
+      1081
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on the pathways, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_029",
+    "is_anomalous_gt": 0,
+    "total_frames": 901,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      128,
+      257,
+      385,
+      514,
+      642,
+      771,
+      900
+    ],
+    "anomaly_detected": false,
+    "explanation": "All the frames show pedestrians walking calmly on walkways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_030",
+    "is_anomalous_gt": 0,
+    "total_frames": 902,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      128,
+      257,
+      386,
+      514,
+      643,
+      772,
+      901
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_032",
+    "is_anomalous_gt": 0,
+    "total_frames": 801,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      114,
+      228,
+      342,
+      457,
+      571,
+      685,
+      800
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian behavior with individuals walking calmly on the walkways."
+  },
+  {
+    "video_id": "08_034",
+    "is_anomalous_gt": 0,
+    "total_frames": 805,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      114,
+      229,
+      344,
+      459,
+      574,
+      689,
+      804
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal behavior."
+  },
+  {
+    "video_id": "08_037",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      157,
+      315,
+      473,
+      631,
+      789,
+      947,
+      1105
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathways, which is normal behavior in this context."
+  },
+  {
+    "video_id": "08_043",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      168,
+      336,
+      504,
+      672,
+      840,
+      1008,
+      1177
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_045",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      113,
+      227,
+      341,
+      455,
+      569,
+      683,
+      797
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the paths, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "08_046",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      113,
+      227,
+      341,
+      455,
+      569,
+      683,
+      797
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "08_047",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      113,
+      227,
+      341,
+      455,
+      569,
+      683,
+      797
+    ],
+    "anomaly_detected": false,
+    "explanation": "Pedestrians in the frames are walking calmly on the paths, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "08_048",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      113,
+      227,
+      341,
+      455,
+      569,
+      683,
+      797
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways and paths, which is normal activity for this scene."
+  },
+  {
+    "video_id": "09_002",
+    "is_anomalous_gt": 0,
+    "total_frames": 832,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      118,
+      237,
+      356,
+      474,
+      593,
+      712,
+      831
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly along the paths, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "09_003",
+    "is_anomalous_gt": 0,
+    "total_frames": 520,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      74,
+      148,
+      222,
+      296,
+      370,
+      444,
+      519
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is typical behavior for the scene."
+  },
+  {
+    "video_id": "09_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      71,
+      143,
+      214,
+      286,
+      357,
+      429,
+      501
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with individuals walking calmly on the walkway."
+  },
+  {
+    "video_id": "09_007",
+    "is_anomalous_gt": 0,
+    "total_frames": 1577,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      225,
+      450,
+      675,
+      900,
+      1125,
+      1350,
+      1576
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "10_0038",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": true,
+    "explanation": "A bicycle is being ridden through an area designated for pedestrians, which deviates from the normal pedestrian behavior of walking."
+  },
+  {
+    "video_id": "10_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 1827,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      260,
+      521,
+      782,
+      1043,
+      1304,
+      1565,
+      1826
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on walkways and paths, which is normal activity for the scene."
+  },
+  {
+    "video_id": "10_0042",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": true,
+    "explanation": "A scooter is visible in multiple frames on a pedestrian walkway, which is unusual for an area where only pedestrian activity is expected."
+  },
+  {
+    "video_id": "10_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 1852,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      264,
+      528,
+      793,
+      1057,
+      1322,
+      1586,
+      1851
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity, with individuals walking calmly on pathways."
+  },
+  {
+    "video_id": "10_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 1227,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      175,
+      350,
+      525,
+      700,
+      875,
+      1050,
+      1226
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways, displaying normal behavior for a public space."
+  },
+  {
+    "video_id": "10_009",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      89,
+      178,
+      268,
+      357,
+      447,
+      536,
+      626
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking calmly on walkways and paths, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "10_011",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      110,
+      221,
+      332,
+      443,
+      554,
+      665,
+      776
+    ],
+    "anomaly_detected": false,
+    "explanation": "All visible activity shows pedestrians walking calmly on the paths, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "11_003",
+    "is_anomalous_gt": 0,
+    "total_frames": 677,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      96,
+      193,
+      289,
+      386,
+      482,
+      579,
+      676
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals in the frames are walking calmly along the path, which aligns with normal pedestrian behavior."
+  },
+  {
+    "video_id": "11_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 252,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      35,
+      71,
+      107,
+      143,
+      179,
+      215,
+      251
+    ],
+    "anomaly_detected": false,
+    "explanation": "The frames show a pedestrian walking calmly along the pathway, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "11_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 1102,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      157,
+      314,
+      471,
+      629,
+      786,
+      943,
+      1101
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with individuals walking calmly on the walkway."
+  },
+  {
+    "video_id": "11_006",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      78,
+      157,
+      236,
+      314,
+      393,
+      472,
+      551
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the path, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "12_001",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      60,
+      121,
+      182,
+      243,
+      304,
+      365,
+      426
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 29500, Requested 5575. Please try again in 10.15s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "12_004",
+    "is_anomalous_gt": 0,
+    "total_frames": 1077,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      153,
+      307,
+      461,
+      614,
+      768,
+      922,
+      1076
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 25336, Requested 5578. Please try again in 1.828s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "12_007",
+    "is_anomalous_gt": 0,
+    "total_frames": 852,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      121,
+      243,
+      364,
+      486,
+      607,
+      729,
+      851
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways, which is normal activity for these scenes."
+  },
+  {
+    "video_id": "12_008",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      103,
+      207,
+      311,
+      414,
+      518,
+      622,
+      726
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the pathways, which is normal behavior for this setting."
+  },
+  {
+    "video_id": "12_011",
+    "is_anomalous_gt": 0,
+    "total_frames": 1652,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      235,
+      471,
+      707,
+      943,
+      1179,
+      1415,
+      1651
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on pathways, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "12_012",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      89,
+      178,
+      268,
+      357,
+      447,
+      536,
+      626
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly, which is normal behavior for this scene."
+  },
+  {
+    "video_id": "12_0142",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      342,
+      428,
+      514,
+      600
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian and cyclist activity on walkways without any unusual or anomalous behavior."
+  },
+  {
+    "video_id": "12_015",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      150,
+      300,
+      450,
+      600,
+      750,
+      900,
+      1051
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on the walkways and paths, which is normal behavior for the scene."
+  },
+  {
+    "video_id": "12_0151",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": false,
+    "explanation": "All individuals in the frames are walking calmly, which is typical pedestrian behavior."
+  },
+  {
+    "video_id": "12_0173",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames depict individuals walking or cycling in a calm manner on pathways, which appears to be typical pedestrian activity."
+  },
+  {
+    "video_id": "12_0174",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian and cyclist activity with individuals moving calmly through the area."
+  },
+  {
+    "video_id": "13_001",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      343,
+      429,
+      515,
+      601
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 25485, Requested 5575. Please try again in 2.12s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "13_005",
+    "is_anomalous_gt": 0,
+    "total_frames": 386,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      55,
+      110,
+      165,
+      220,
+      275,
+      330,
+      385
+    ],
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 25527, Requested 5575. Please try again in 2.204s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "13_006",
+    "is_anomalous_gt": 0,
+    "total_frames": 458,
+    "frames_sampled": 7,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      261,
+      326,
+      391,
+      457
+    ],
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking calmly on a path, which is normal behavior for this scene."
+  }
+]

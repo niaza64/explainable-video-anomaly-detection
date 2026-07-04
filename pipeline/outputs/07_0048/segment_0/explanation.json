@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 39,
+  "end_frame": 219,
+  "include_heatmap": true,
+  "explanation": "The anomaly is caused by a group of people engaging in playful, unexpected interactions in the crosswalk area, deviating from the typical pedestrian behavior of walking straightforwardly across the street."
+}

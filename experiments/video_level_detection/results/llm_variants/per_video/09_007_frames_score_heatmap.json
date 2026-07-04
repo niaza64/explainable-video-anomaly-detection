@@ -1,0 +1,17 @@
+{
+  "video_id": "09_007",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1577,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    404,
+    622,
+    840,
+    1058,
+    1276
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores across frames suggest unusual behavior, such as atypical movement patterns or group dynamics in a generally calm environment."
+}

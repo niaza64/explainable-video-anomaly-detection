@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0177",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 317,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    91,
+    131,
+    171,
+    211,
+    251
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians and a cyclist moving across a paved area, with normal pedestrian activity observed. No anomalies are detected."
+}

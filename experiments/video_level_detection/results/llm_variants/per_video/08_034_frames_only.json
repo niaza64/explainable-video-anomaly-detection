@@ -1,0 +1,17 @@
+{
+  "video_id": "08_034",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 805,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    247,
+    343,
+    439,
+    535,
+    631
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "A person appears to walk across the frame between frames 439 and 631. The activity seems consistent with normal pedestrian movement."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0056",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    143,
+    211,
+    279,
+    347,
+    415
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores for frames 211, 279, and 347 are notably high, and frame 279 has the highest score of 1.00, indicating significant unusual activity. The variation in pedestrian positions between frames suggests erratic movement or interactions uncharacteristic of normal pedestrian behavior."
+}

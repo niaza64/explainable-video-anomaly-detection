@@ -1,0 +1,17 @@
+{
+  "video_id": "11_003",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 677,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    192,
+    274,
+    356,
+    438,
+    520
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores in frames 192, 274, 356, and 438 suggest unusual behavior. For instance, a person standing still on the road or holding an item, which might be considered atypical behavior in this context. The presence and movements are marked as irregular, possibly indicating suspicious activity."
+}

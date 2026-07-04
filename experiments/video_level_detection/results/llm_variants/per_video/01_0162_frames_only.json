@@ -1,0 +1,15 @@
+{
+  "video_id": "01_0162",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 193,
+  "frames_sampled": 3,
+  "sampled_indices": [
+    73,
+    112,
+    151
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The video frames show normal pedestrian activity and people riding bicycles. There are no signs of unusual behavior or anomalies."
+}

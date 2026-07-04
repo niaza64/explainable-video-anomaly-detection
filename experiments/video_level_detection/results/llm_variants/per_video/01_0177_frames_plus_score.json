@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0177",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 317,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    91,
+    131,
+    171,
+    211,
+    251
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores are high throughout, peaking at 1.00 in frame 171. This suggests significant atypical activity, potentially related to the behavior of individuals or vehicles present in the segment."
+}

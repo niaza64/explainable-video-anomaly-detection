@@ -1,0 +1,16 @@
+{
+  "video_id": "10_005",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "The anomalous activity involves a person wearing a dark top and green skirt who is standing still near a walkway and a grassy area between snippets 107-111. This behavior deviates from normal pedestrian movement, as individuals typically do not stop for extended periods in this open area. The person's stationary presence is the cause of the increased anomaly scores, peaking at snippet 109.",
+  "gate_score": 0.25008654594421387,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 5,
+    "justification": "The AI incorrectly identifies an anomaly where there is none, regarding a stationary person as anomalous. It provides specific details about the person's clothing and location. The explanation is well-written and clear, but it fails to recognize that the video is not anomalous."
+  }
+}

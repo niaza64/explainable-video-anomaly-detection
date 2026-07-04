@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0142",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly likely involves the stroller and individual interaction, suggesting an unusual exchange or handover, as evidenced by consistently high anomaly scores and bright heatmap regions around the stroller in multiple frames.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies an entirely different anomaly (stroller interaction) than the human explanation (bicycle riding in a pedestrian area), hence scoring low on correctness and completeness. Specificity is somewhat present with mention of the stroller, but it lacks relevant details. The fluency is good, with a clear and coherent sentence construction."
+      }
+    }
+  ]
+}

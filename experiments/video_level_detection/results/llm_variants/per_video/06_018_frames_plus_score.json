@@ -1,0 +1,17 @@
+{
+  "video_id": "06_018",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    225,
+    312,
+    399,
+    485,
+    572
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames indicate unusual activity, possibly due to the presence and movement of a person near the door."
+}

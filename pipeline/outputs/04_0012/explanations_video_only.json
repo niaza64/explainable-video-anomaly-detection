@@ -1,0 +1,26 @@
+{
+  "video_id": "04_0012",
+  "variant": "video_only",
+  "total_frames": 361,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    51,
+    102,
+    154,
+    205,
+    257,
+    308,
+    360
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 360,
+      "include_heatmap": false,
+      "explanation": "In Frame 205, a person is seen running, which deviates from normal pedestrian behavior like walking calmly."
+    }
+  ]
+}

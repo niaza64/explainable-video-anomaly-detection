@@ -1,0 +1,17 @@
+{
+  "video_id": "05_030",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 554,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    154,
+    225,
+    296,
+    367,
+    438
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in the frames, particularly frame 296 with a score of 1.00, indicate unusual activity relative to normal pedestrian walking."
+}

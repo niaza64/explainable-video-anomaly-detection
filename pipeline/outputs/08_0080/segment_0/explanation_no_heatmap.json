@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 47,
+  "end_frame": 267,
+  "include_heatmap": false,
+  "explanation": "Throughout the flagged video segment, individuals are consistently seen carrying or interacting with an object near the center of the pathway, which is atypical for this setting and causes high anomaly scores, suggesting unusual behavior for this location."
+}

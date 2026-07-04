@@ -1,0 +1,17 @@
+{
+  "video_id": "10_0038",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    99,
+    130,
+    160,
+    190
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The scene shows pedestrians walking in a normal manner across a plaza area. There are no unusual activities or behaviors observed in the sampled frames."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "12_0173",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    63,
+    91,
+    118,
+    146,
+    173
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, especially in frames 91 and 118, suggest significant anomalous activity. This is likely due to the presence and unusual movements of the cyclist in the pedestrian area, which deviates from expected behavior."
+}

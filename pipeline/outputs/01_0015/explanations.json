@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0015",
+  "total_frames": 433,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 71,
+      "end_frame": 393,
+      "include_heatmap": true,
+      "explanation": "The anomalous activity involves a person deviating from typical pedestrian behavior by performing unusual movements or actions, as indicated by high anomaly scores and warm regions on heatmaps where standard normal walking patterns would be expected."
+    }
+  ]
+}

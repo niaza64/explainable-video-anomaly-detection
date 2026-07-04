@@ -1,0 +1,17 @@
+{
+  "video_id": "01_065",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 616,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    178,
+    254,
+    330,
+    405,
+    481
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 178, 254, 330, and 405 have high anomaly scores above 0.8, indicating unusual activity, potentially involving interactions or movements not consistent with normal pedestrian walking."
+}

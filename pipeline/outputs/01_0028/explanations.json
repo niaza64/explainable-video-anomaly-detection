@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0028",
+  "total_frames": 457,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 78,
+      "end_frame": 429,
+      "include_heatmap": true,
+      "explanation": "The anomaly is likely due to an unusual behavior of a group of pedestrians engaging in sudden movements, such as running or chasing, which deviates from the normal walking patterns typically seen in this area."
+    }
+  ]
+}

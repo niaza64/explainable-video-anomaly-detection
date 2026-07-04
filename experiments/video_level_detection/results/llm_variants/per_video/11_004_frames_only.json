@@ -1,0 +1,17 @@
+{
+  "video_id": "11_004",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 252,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    101,
+    133,
+    164,
+    196
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show a person walking along a path in a normal manner, and by the last frame, they have exited the frame. This is typical pedestrian activity with no anomalies."
+}

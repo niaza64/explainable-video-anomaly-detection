@@ -1,0 +1,17 @@
+{
+  "video_id": "05_016",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 554,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    154,
+    224,
+    294,
+    364,
+    434
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 154, 224, 294, and 364 suggest unusual activity. Frame 294 has the highest score of 1.00, indicating significant anomalous behavior."
+}

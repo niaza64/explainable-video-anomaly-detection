@@ -1,0 +1,17 @@
+{
+  "video_id": "06_020",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    218,
+    304,
+    390,
+    476,
+    562
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high (above 0.78) with the highest being 0.99, indicating unusual activity such as unexpected movements or behavior captured in the video segments."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "06_028",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 754,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    231,
+    320,
+    410,
+    499,
+    588
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "People are walking normally in and out of the building. No unusual or suspicious activities are observed."
+}

@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 50,
+  "end_frame": 304,
+  "include_heatmap": true,
+  "explanation": "The anomaly in this segment is primarily due to multiple cyclists riding on a pedestrian pathway, which deviates from the typical pedestrian-only activity observed in this scene."
+}

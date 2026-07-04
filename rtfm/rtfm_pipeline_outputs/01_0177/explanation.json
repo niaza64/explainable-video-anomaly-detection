@@ -1,0 +1,6 @@
+{
+  "video_id": "01_0177",
+  "gate_score": 0.8683624267578125,
+  "n_frames_sent": 5,
+  "explanation": "A person on a bicycle is seen unusually cycling closely and aggressively towards a pedestrian area, deviating from typical pedestrian behavior. This begins around snippet 4 as individuals walk normally, peaks at snippet 9 with a biker closely following a pedestrian who seems to alter their path, and resolves by snippet 14 as the area appears clear again. The anomaly is characterized by the disruption of standard pedestrian movement due to the unexpected presence and behavior of the cyclist."
+}

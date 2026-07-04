@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0135",
+  "variant": "with_heatmap",
+  "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly involves a vehicle driving onto a pathway typically reserved for pedestrians, which is unusual for this scene as detected by elevated anomaly scores and heatmap activity focusing on the car's presence.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly of a vehicle driving in a pedestrian area, matching the human explanation. It lacks the specific detail of the vehicle's appearance, such as it being a white minivan with tinted windows, but it covers the main event described by the human. The explanation is well-written and clear, making it easy to understand."
+      }
+    }
+  ]
+}

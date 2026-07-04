@@ -1,0 +1,17 @@
+{
+  "video_id": "06_020",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    218,
+    304,
+    390,
+    476,
+    562
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Several frames have high anomaly scores, with a peak at frame 390 where someone is exiting the building. Frames show varying activity around the entrance, suggesting abnormal behavior."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "02_012",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 227,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    57,
+    86,
+    116,
+    145,
+    174
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The individuals in the frames are walking normally along the path, and there are no unusual activities or behaviors observed."
+}

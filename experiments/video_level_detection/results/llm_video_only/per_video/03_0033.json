@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0033",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    44,
+    89,
+    133,
+    178,
+    222,
+    267,
+    312
+  ],
+  "anomaly_detected": true,
+  "explanation": "The two individuals appear to be engaged in a physical altercation, which deviates from normal pedestrian behavior."
+}

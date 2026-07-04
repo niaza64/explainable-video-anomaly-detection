@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0023",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is likely due to individuals engaging in unusual physical activity such as running or play fighting, which deviates from the learned normal pedestrian behavior of walking calmly.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI explanation captures the general notion of deviant physical activity but does not accurately identify the specific actions (jumping, pushing, chasing) or details (clothing colors) mentioned by the human. It lacks specificity and fails to cover all key points, though it is written clearly."
+      }
+    }
+  ]
+}

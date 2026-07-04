@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0025",
+  "variant": "video_only",
+  "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The frames show normal pedestrian behavior with people walking calmly on the path.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI fails to identify the anomaly of a person riding a bicycle in a pedestrian-only area, instead describing normal pedestrian behavior without mentioning any specific activities or objects. The explanation is missing all key points that the human noted but is written clearly."
+      }
+    }
+  ]
+}

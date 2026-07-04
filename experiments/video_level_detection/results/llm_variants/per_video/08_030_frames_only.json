@@ -1,0 +1,17 @@
+{
+  "video_id": "08_030",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 902,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    280,
+    387,
+    494,
+    601,
+    708
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking normally along a pathway, which is typical pedestrian behavior."
+}

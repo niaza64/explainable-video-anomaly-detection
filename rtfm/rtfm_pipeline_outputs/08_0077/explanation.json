@@ -1,0 +1,6 @@
+{
+  "video_id": "08_0077",
+  "gate_score": 0.9011637568473816,
+  "n_frames_sent": 8,
+  "explanation": "The anomaly involves a person riding a bicycle and using an unusual path through a pedestrian walkway, potentially causing disturbances among the walking pedestrians, starting prominently around snippet 6 and peaking at snippet 11. The presence of the bicycle deviates from normal pedestrian-only behavior expected in this area, leading to elevated anomaly scores."
+}

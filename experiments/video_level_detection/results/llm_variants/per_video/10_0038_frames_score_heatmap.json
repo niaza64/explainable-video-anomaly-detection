@@ -1,0 +1,17 @@
+{
+  "video_id": "10_0038",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    99,
+    130,
+    160,
+    190
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 69, 99, 130, and 160 suggest unusual activity. The heatmaps indicate potential anomalies, likely involving the movement pattern of the pedestrian and possibly the cyclist, leading to higher scores."
+}

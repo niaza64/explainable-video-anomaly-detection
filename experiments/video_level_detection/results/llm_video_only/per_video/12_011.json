@@ -1,0 +1,18 @@
+{
+  "video_id": "12_011",
+  "is_anomalous_gt": 0,
+  "total_frames": 1652,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    235,
+    471,
+    707,
+    943,
+    1179,
+    1415,
+    1651
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show pedestrians walking calmly on pathways, which is normal behavior for this scene."
+}

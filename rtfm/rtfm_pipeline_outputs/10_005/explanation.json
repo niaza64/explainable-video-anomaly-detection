@@ -1,0 +1,6 @@
+{
+  "video_id": "10_005",
+  "gate_score": 0.25008654594421387,
+  "n_frames_sent": 5,
+  "explanation": "The anomalous activity involves a person wearing a dark top and green skirt who is standing still near a walkway and a grassy area between snippets 107-111. This behavior deviates from normal pedestrian movement, as individuals typically do not stop for extended periods in this open area. The person's stationary presence is the cause of the increased anomaly scores, peaking at snippet 109."
+}

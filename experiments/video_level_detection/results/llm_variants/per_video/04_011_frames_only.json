@@ -1,0 +1,17 @@
+{
+  "video_id": "04_011",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 552,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    145,
+    216,
+    287,
+    358,
+    429
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking normally, with no unusual behavior or activity detected."
+}

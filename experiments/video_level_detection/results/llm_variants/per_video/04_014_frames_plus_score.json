@@ -1,0 +1,17 @@
+{
+  "video_id": "04_014",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 627,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    188,
+    267,
+    346,
+    425,
+    504
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 267, 346, and 425 have high anomaly scores above 0.90, and frame 346 has the maximum score of 1.00, suggesting unusual activity relative to typical pedestrian movement."
+}

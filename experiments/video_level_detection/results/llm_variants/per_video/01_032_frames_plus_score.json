@@ -1,0 +1,17 @@
+{
+  "video_id": "01_032",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1192,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    330,
+    485,
+    639,
+    794,
+    948
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores (0.82 to 1.00) in several frames suggest unusual activity. Notable anomalies include abrupt changes or unusual pedestrian behavior, especially in frame 639 with the highest score."
+}

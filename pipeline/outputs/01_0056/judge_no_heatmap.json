@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0056",
+  "variant": "no_heatmap",
+  "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves an individual standing still in the middle of the walkway, which is unusual behavior in an area where the model expects continuous pedestrian movement.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies a different anomaly than the human explanation; it mentions standing still rather than skateboarding. It lacks specific details relevant to the actual anomaly but is written clearly and fluently."
+      }
+    }
+  ]
+}

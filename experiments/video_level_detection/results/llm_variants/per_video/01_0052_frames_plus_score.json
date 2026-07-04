@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0052",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    97,
+    140,
+    182,
+    225,
+    267
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "An individual on a bicycle appears to be riding through a pedestrian area, which is unusual compared to normal walking activity."
+}

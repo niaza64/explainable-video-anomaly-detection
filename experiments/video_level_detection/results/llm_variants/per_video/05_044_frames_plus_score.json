@@ -1,0 +1,17 @@
+{
+  "video_id": "05_044",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    237,
+    328,
+    419,
+    509,
+    600
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 328 (0.97) and 419 (0.99) suggest unusual activities, possibly due to individuals' behavior or positioning on the road."
+}

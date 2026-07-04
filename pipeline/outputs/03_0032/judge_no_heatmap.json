@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0032",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a person sitting or lying on the ground in a pedestrian area, which deviates from normal walking patterns observed in this scene, attracting attention from other pedestrians.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 3,
+        "justification": "The AI partially identifies that there is an anomaly involving a person on the ground, but it incorrectly describes the person as 'sitting or lying' rather than being pushed. The AI lacks specific details such as the color of clothing and the interaction between the two individuals. It does not cover the entire sequence described by the human, especially the stand-up and walking part. The explanation is somewhat clear but lacks precision in describing the actions and context."
+      }
+    }
+  ]
+}

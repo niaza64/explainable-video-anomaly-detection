@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0046",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    75,
+    150,
+    226,
+    301,
+    377,
+    452,
+    528
+  ],
+  "anomaly_detected": true,
+  "explanation": "In frames 226/528 and 301/528, an individual is jumping and has an object above their head, which deviates from normal pedestrian behavior of walking calmly."
+}

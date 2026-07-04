@@ -1,0 +1,17 @@
+{
+  "video_id": "08_034",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 805,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    247,
+    343,
+    439,
+    535,
+    631
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores in frames 343, 439, and 535 are relatively high, indicating unusual activity likely involving a person appearing and moving through the area."
+}

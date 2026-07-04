@@ -1,0 +1,17 @@
+{
+  "video_id": "08_032",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 801,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    246,
+    340,
+    435,
+    529,
+    623
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames have high anomaly scores, particularly frames 340 and 435, which suggest unusual activity such as loitering or an unexpected movement pattern compared to normal pedestrian behavior."
+}

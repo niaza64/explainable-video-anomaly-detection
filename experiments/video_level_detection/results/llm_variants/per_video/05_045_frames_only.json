@@ -1,0 +1,17 @@
+{
+  "video_id": "05_045",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    225,
+    316,
+    407,
+    498,
+    589
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The video frames show individuals walking along a path in a park setting, and all activities appear normal for pedestrian movement."
+}

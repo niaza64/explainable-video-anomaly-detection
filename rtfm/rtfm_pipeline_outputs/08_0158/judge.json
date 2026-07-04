@@ -1,0 +1,16 @@
+{
+  "video_id": "08_0158",
+  "video_type": "anomalous",
+  "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+  "ai_explanation": "The anomalous activity involves multiple pedestrians converging and interacting closely in the walkway, starting from snippet 4 and resuming around snippet 12. Groups of people appear to be moving unpredictably and gathering in small clusters, which deviates from the normal behavior of individuals walking in more dispersed and consistent paths typical for this area.",
+  "gate_score": 0.23522016406059265,
+  "gt_anomaly_start": 92,
+  "gt_anomaly_end": 255,
+  "scores": {
+    "correctness": 1,
+    "specificity": 2,
+    "completeness": 1,
+    "fluency": 4,
+    "justification": "The AI explanation completely misses the actual anomaly identified by the human, which involves prohibited cycling and running. While it vaguely describes pedestrian behavior, it fails to capture any specific details related to the cycling and running instances. The language is clear and well-constructed, but lacks relevance to the ground truth."
+  }
+}

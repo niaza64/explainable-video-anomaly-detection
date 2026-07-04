@@ -1,0 +1,17 @@
+{
+  "video_id": "11_005",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1102,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    289,
+    431,
+    573,
+    714,
+    856
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomalies detected in frames 289, 431, 573, 714, and 856, with high scores indicating unusual activities. Frame 431 shows pedestrians, which may explain the high score if unexpected in the context."
+}

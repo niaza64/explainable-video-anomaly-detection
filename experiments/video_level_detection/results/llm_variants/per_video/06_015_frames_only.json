@@ -1,0 +1,17 @@
+{
+  "video_id": "06_015",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 846,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    241,
+    343,
+    444,
+    546,
+    647
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sampled frames show normal pedestrian activity, with people entering and exiting a building."
+}

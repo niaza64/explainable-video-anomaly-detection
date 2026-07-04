@@ -1,0 +1,17 @@
+{
+  "video_id": "10_009",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 627,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    181,
+    257,
+    333,
+    409,
+    485
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores indicate unusual activity around frame 333 with a peak score of 1.00, suggesting significant deviation from normal behavior. The surrounding frames also show high anomaly scores, indicating persistent unusual activity."
+}

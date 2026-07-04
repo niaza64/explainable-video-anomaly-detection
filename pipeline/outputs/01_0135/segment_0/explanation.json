@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 74,
+  "end_frame": 406,
+  "include_heatmap": true,
+  "explanation": "The anomaly involves a vehicle driving onto a pathway typically reserved for pedestrians, which is unusual for this scene as detected by elevated anomaly scores and heatmap activity focusing on the car's presence."
+}

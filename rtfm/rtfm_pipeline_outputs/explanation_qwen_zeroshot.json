@@ -1,0 +1,14 @@
+{
+  "video_id": "01_0015",
+  "model": "Qwen3-VL-32B-Instruct",
+  "gate_score": 0.6644290685653687,
+  "n_segments": 27,
+  "anomalous_segments": [
+    {
+      "start": 12,
+      "end": 19
+    }
+  ],
+  "n_frames_sent": 4,
+  "explanation": "ERROR: 530 Server Error: <none> for url: https://bat-scenes-navy-intensive.trycloudflare.com/explain"
+}

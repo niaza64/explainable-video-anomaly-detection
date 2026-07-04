@@ -1,0 +1,17 @@
+{
+  "video_id": "05_056",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 738,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    227,
+    315,
+    403,
+    491,
+    579
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 315, 403, and 491 have high anomaly scores indicating unusual activity. Frame 403, in particular, shows no pedestrian presence which might suggest an anomaly in pedestrian flow."
+}

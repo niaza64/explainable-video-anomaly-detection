@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0033",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    90,
+    129,
+    168,
+    207,
+    246
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, particularly in frames 90, 129, and 168, indicate irregular activities. In frame 90, unusual positioning of people may suggest something atypical. In frame 129, physical interaction might suggest a disturbance. By frame 168, increased anomaly may reflect ongoing or resolved activity."
+}

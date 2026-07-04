@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0053",
+  "total_frames": 457,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 76,
+      "end_frame": 421,
+      "include_heatmap": false,
+      "explanation": "The anomaly is caused by a motorized vehicle operating in a pedestrian-only area, which is unusual given normal pedestrian traffic patterns in this scene."
+    }
+  ]
+}

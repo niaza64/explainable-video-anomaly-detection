@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0151",
+  "variant": "no_heatmap",
+  "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "An individual participating in stationary or slow-moving behavior in the open area, deviating from normal pedestrian flow patterns, likely caused the elevated anomaly scores.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI somewhat identifies an anomaly related to behavior deviation but fails to specifically identify the bicycling girl or the context of restricted cycling. The explanation is vague and does not mention specific details or actions such as the bicycle or the rule violation, and it lacks coverage of the key points mentioned in the human explanation. The fluency is adequate, but the language is somewhat abstract and less direct."
+      }
+    }
+  ]
+}

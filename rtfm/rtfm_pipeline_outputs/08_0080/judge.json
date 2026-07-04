@@ -1,0 +1,16 @@
+{
+  "video_id": "08_0080",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+  "ai_explanation": "The anomalous activity involves individuals skating in a pedestrian area between snippets 5 and 16. Initially, two people are seen walking normally, but later, one person is observed on a skateboard, deviating from expected pedestrian behavior. The high anomaly scores indicate that skateboarding in this area is unusual and likely prohibited, peaking in snippet 12.",
+  "gate_score": 0.842596709728241,
+  "gt_anomaly_start": 9,
+  "gt_anomaly_end": 205,
+  "scores": {
+    "correctness": 5,
+    "specificity": 4,
+    "completeness": 4,
+    "fluency": 4,
+    "justification": "The AI correctly identifies the anomaly of skateboarding in a pedestrian area, matching the human explanation. It specifically mentions one person on a skateboard, aligning with the human's focus but lacks detail about the person's clothing or backpack. The explanation is mostly complete but does not mention the backpack, and is clear and comprehensible."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "04_0004",
+  "variant": "video_only",
+  "total_frames": 865,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    123,
+    246,
+    370,
+    493,
+    617,
+    740,
+    864
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 864,
+      "include_heatmap": false,
+      "explanation": "In Frame 493, an individual is sitting on the ground, which is unusual behavior compared to the typical walking pedestrians in the other frames."
+    }
+  ]
+}

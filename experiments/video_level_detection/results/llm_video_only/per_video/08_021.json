@@ -1,0 +1,18 @@
+{
+  "video_id": "08_021",
+  "is_anomalous_gt": 0,
+  "total_frames": 1322,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    188,
+    377,
+    566,
+    754,
+    943,
+    1132,
+    1321
+  ],
+  "anomaly_detected": true,
+  "explanation": "A person is unusually standing and hiding behind a lamp post, which deviates from normal pedestrian behavior."
+}

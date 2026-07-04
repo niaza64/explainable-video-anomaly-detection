@@ -1,0 +1,17 @@
+{
+  "video_id": "05_009",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 866,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    260,
+    362,
+    464,
+    565,
+    667
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames show a pedestrian entering and moving across a pathway, which is detected as an anomaly starting from frame 260, with the highest anomaly score at frame 464, suggesting notable activity not typical for this scene."
+}

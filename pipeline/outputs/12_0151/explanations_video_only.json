@@ -1,0 +1,26 @@
+{
+  "video_id": "12_0151",
+  "variant": "video_only",
+  "total_frames": 289,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    41,
+    82,
+    123,
+    164,
+    205,
+    246,
+    288
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 288,
+      "include_heatmap": false,
+      "explanation": "All frames show normal pedestrian behavior with individuals walking calmly on the walkway. There are no unusual activities observed."
+    }
+  ]
+}

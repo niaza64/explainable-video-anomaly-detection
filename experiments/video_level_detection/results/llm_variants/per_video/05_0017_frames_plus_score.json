@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0017",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    125,
+    179,
+    233,
+    287,
+    341
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high, with a peak at frame 233. The presence of multiple people interacting in an unusual manner, such as stopping and showing interest in an area, suggests anomalous activity compared to normal pedestrian movement."
+}

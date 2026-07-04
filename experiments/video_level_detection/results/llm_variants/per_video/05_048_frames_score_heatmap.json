@@ -1,0 +1,17 @@
+{
+  "video_id": "05_048",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 739,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    238,
+    329,
+    420,
+    511,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 329, 420, and 511 have high anomaly scores, suggesting unusual activity. Observations in these frames may include individuals behaving unusually, such as entering restricted zones or carrying out irregular movements."
+}

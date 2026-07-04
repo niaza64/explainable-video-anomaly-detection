@@ -1,0 +1,16 @@
+{
+  "video_id": "04_0046",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+  "ai_explanation": "The anomalous activity involves a group of people engaging in playful behavior in a public walkway, starting at snippet 6 and resolving by snippet 29. In the frames, a person is seen tossing a backpack into the air and catching it, while others are walking nearby. This behavior deviates from normal pedestrian movement as it introduces erratic and unexpected actions in an area usually reserved for straightforward walking.",
+  "gate_score": 0.6129252910614014,
+  "gt_anomaly_start": 161,
+  "gt_anomaly_end": 336,
+  "scores": {
+    "correctness": 5,
+    "specificity": 4,
+    "completeness": 4,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly of a person throwing a bag into the air in a pedestrian area. It provides specific details about the scene, such as the presence of others and the tossing action, though it does not mention the person's clothing. The explanation covers most of the key aspects noted by the human, missing only the clothing detail. The explanation is well-written and clear."
+  }
+}

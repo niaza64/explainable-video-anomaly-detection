@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0055",
+  "variant": "video_only",
+  "human_explanation": "A person in a red shirt is running in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is running across the walkway in frames 89 and 133, which deviates from the normal pedestrian behavior of walking calmly.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly of a person running in a pedestrian area. It is more specific about frames but lacks detail about the person's clothing. The explanation is mostly complete but misses the detail about the shirt color. The fluency is clear and understandable, though slightly technical."
+      }
+    }
+  ]
+}

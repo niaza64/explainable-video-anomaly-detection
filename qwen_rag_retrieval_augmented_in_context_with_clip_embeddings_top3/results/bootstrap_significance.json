@@ -1,0 +1,131 @@
+{
+  "variants": {
+    "zero-shot": 40,
+    "LoRA v1": 42,
+    "LoRA v2": 42,
+    "LoRA v3": 42,
+    "RAG": 42
+  },
+  "comparisons": [
+    {
+      "A": "RAG",
+      "B": "zero-shot",
+      "n_paired": 40,
+      "mean_A": 3.90625,
+      "mean_B": 3.85625,
+      "delta": 0.05,
+      "ci_lo": -0.20625,
+      "ci_hi": 0.3125,
+      "p_pos": 0.6339,
+      "significant": false
+    },
+    {
+      "A": "RAG",
+      "B": "LoRA v1",
+      "n_paired": 42,
+      "mean_A": 3.9107142857142856,
+      "mean_B": 3.3511904761904763,
+      "delta": 0.5595238095238095,
+      "ci_lo": 0.26785714285714285,
+      "ci_hi": 0.8511904761904762,
+      "p_pos": 1.0,
+      "significant": true
+    },
+    {
+      "A": "RAG",
+      "B": "LoRA v2",
+      "n_paired": 42,
+      "mean_A": 3.9107142857142856,
+      "mean_B": 3.267857142857143,
+      "delta": 0.6428571428571429,
+      "ci_lo": 0.3273809523809524,
+      "ci_hi": 0.9465773809523788,
+      "p_pos": 0.9999,
+      "significant": true
+    },
+    {
+      "A": "RAG",
+      "B": "LoRA v3",
+      "n_paired": 42,
+      "mean_A": 3.9107142857142856,
+      "mean_B": 3.2976190476190474,
+      "delta": 0.6130952380952381,
+      "ci_lo": 0.26785714285714285,
+      "ci_hi": 0.9523809523809523,
+      "p_pos": 0.9999,
+      "significant": true
+    },
+    {
+      "A": "zero-shot",
+      "B": "LoRA v1",
+      "n_paired": 40,
+      "mean_A": 3.85625,
+      "mean_B": 3.30625,
+      "delta": 0.55,
+      "ci_lo": 0.30625,
+      "ci_hi": 0.8,
+      "p_pos": 1.0,
+      "significant": true
+    },
+    {
+      "A": "zero-shot",
+      "B": "LoRA v2",
+      "n_paired": 40,
+      "mean_A": 3.85625,
+      "mean_B": 3.19375,
+      "delta": 0.6625,
+      "ci_lo": 0.4125,
+      "ci_hi": 0.9125,
+      "p_pos": 1.0,
+      "significant": true
+    },
+    {
+      "A": "zero-shot",
+      "B": "LoRA v3",
+      "n_paired": 40,
+      "mean_A": 3.85625,
+      "mean_B": 3.26875,
+      "delta": 0.5875,
+      "ci_lo": 0.3375,
+      "ci_hi": 0.85,
+      "p_pos": 1.0,
+      "significant": true
+    },
+    {
+      "A": "LoRA v2",
+      "B": "LoRA v1",
+      "n_paired": 42,
+      "mean_A": 3.267857142857143,
+      "mean_B": 3.3511904761904763,
+      "delta": -0.08333333333333333,
+      "ci_lo": -0.23809523809523808,
+      "ci_hi": 0.07738095238095238,
+      "p_pos": 0.1397,
+      "significant": false
+    },
+    {
+      "A": "LoRA v3",
+      "B": "LoRA v2",
+      "n_paired": 42,
+      "mean_A": 3.2976190476190474,
+      "mean_B": 3.267857142857143,
+      "delta": 0.02976190476190476,
+      "ci_lo": -0.2261904761904762,
+      "ci_hi": 0.27976190476190477,
+      "p_pos": 0.5794,
+      "significant": false
+    },
+    {
+      "A": "LoRA v3",
+      "B": "LoRA v1",
+      "n_paired": 42,
+      "mean_A": 3.2976190476190474,
+      "mean_B": 3.3511904761904763,
+      "delta": -0.05357142857142857,
+      "ci_lo": -0.30357142857142855,
+      "ci_hi": 0.19047619047619047,
+      "p_pos": 0.3225,
+      "significant": false
+    }
+  ]
+}

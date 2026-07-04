@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0064",
+  "variant": "video_only",
+  "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames depict normal pedestrian behavior; individuals are walking calmly along the paths without any unusual or disruptive activities.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 5,
+        "justification": "The AI explanation fails to identify the correct anomaly, which involves running and skateboarding in a pedestrian area. It lacks specific details and misses the key points mentioned in the human explanation. However, the explanation is fluently written."
+      }
+    }
+  ]
+}

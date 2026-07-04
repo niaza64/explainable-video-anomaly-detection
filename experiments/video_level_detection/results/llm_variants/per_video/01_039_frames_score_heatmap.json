@@ -1,0 +1,17 @@
+{
+  "video_id": "01_039",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 962,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    288,
+    403,
+    518,
+    633,
+    748
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores in frames 403, 518, and 633 suggest unusual activity. Frame 518, in particular, has a score of 0.99, indicating a significant anomaly."
+}

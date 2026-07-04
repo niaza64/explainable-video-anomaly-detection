@@ -1,0 +1,17 @@
+{
+  "video_id": "01_027",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 944,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    399,
+    512,
+    625,
+    738
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "There is a sudden absence of people between frames 286 and 512, which coincides with high anomaly scores, suggesting unexpected pedestrian activity or a lack thereof."
+}

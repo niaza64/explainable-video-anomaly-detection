@@ -1,0 +1,17 @@
+{
+  "video_id": "02_008",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 302,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    83,
+    121,
+    159,
+    197,
+    235
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores suggest unusual activity around frames 83, 121, 159, and 197, possibly due to atypical pedestrian movement patterns or interactions near the building entrance."
+}

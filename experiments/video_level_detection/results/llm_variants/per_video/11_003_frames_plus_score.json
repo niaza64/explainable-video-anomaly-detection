@@ -1,0 +1,17 @@
+{
+  "video_id": "11_003",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 677,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    192,
+    274,
+    356,
+    438,
+    520
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "A person appears to be standing still on a road, which is unusual pedestrian behavior, causing high anomaly scores in frames 274, 356, and 438."
+}

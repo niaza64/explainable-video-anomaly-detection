@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 52,
+  "end_frame": 291,
+  "include_heatmap": true,
+  "explanation": "A person riding a bicycle through an area typically designated for pedestrians likely caused the anomaly, as bicycles deviate from the usual pedestrian-only activity in this scene."
+}

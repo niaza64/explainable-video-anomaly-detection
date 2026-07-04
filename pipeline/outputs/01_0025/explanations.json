@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0025",
+  "total_frames": 601,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 101,
+      "end_frame": 546,
+      "include_heatmap": true,
+      "explanation": "The anomaly is primarily due to a cyclist moving through an area typically used by pedestrians only, as indicated by the elevated scores and bright heatmap regions around the cyclist in frame 175, deviating from standard pedestrian activity."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "07_0048",
+  "total_frames": 241,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 39,
+      "end_frame": 219,
+      "include_heatmap": false,
+      "explanation": "The anomaly in this segment is due to multiple pedestrians unexpectedly crossing the street, with some appearing to interact in a playful or unusual manner, deviating from normal traffic patterns typically observed in this scene."
+    }
+  ]
+}

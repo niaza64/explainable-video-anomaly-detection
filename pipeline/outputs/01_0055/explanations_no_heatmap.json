@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0055",
+  "total_frames": 313,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 50,
+      "end_frame": 284,
+      "include_heatmap": false,
+      "explanation": "The anomaly involves a person moving in an erratic, non-linear path across a large open area, which deviates from expected pedestrian behavior that typically follows the designated pathways."
+    }
+  ]
+}

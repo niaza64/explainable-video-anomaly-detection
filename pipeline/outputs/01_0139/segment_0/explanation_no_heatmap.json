@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 36,
+  "end_frame": 201,
+  "include_heatmap": false,
+  "explanation": "The anomalous activity involves a cyclist passing through an area typically only used by pedestrians, which deviates from the expected pedestrian-only behavior in this scene, as indicated by high anomaly scores and concentrated heatmap highlights on the cyclist."
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "03_0033",
+  "total_frames": 313,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 51,
+      "end_frame": 285,
+      "include_heatmap": false,
+      "explanation": "The anomalous activity involves a physical altercation between individuals, deviating from normal pedestrian behavior, which usually involves calm and non-aggressive movement across the crosswalk area."
+    }
+  ]
+}

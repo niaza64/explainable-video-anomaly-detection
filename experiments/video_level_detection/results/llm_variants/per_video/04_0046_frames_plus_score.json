@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0046",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    145,
+    213,
+    281,
+    349,
+    417
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "There are high anomaly scores in multiple frames, with the highest being 1.00 in frame 281, indicating unusual activity. This is likely due to the group behavior or movement patterns that are different from normal pedestrian walking."
+}

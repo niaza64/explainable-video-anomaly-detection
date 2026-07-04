@@ -1,0 +1,40 @@
+{
+  "video_id": "12_001",
+  "total_frames": 427,
+  "processable_frames": 421,
+  "tau_high": 0.5,
+  "tau_low": 0.3,
+  "min_segment_length": 8,
+  "K_sampled": 5,
+  "num_segments_detected": 1,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 70,
+      "end_frame": 392,
+      "duration_frames": 322,
+      "sampled_frames": [
+        {
+          "frame_idx": 123,
+          "anomaly_score": 0.7904026232281903
+        },
+        {
+          "frame_idx": 177,
+          "anomaly_score": 0.9622539906247796
+        },
+        {
+          "frame_idx": 231,
+          "anomaly_score": 0.99458773386046
+        },
+        {
+          "frame_idx": 284,
+          "anomaly_score": 0.8878512052685021
+        },
+        {
+          "frame_idx": 338,
+          "anomaly_score": 0.6475060652956387
+        }
+      ]
+    }
+  ]
+}

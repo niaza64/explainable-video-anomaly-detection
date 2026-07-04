@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0012",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 361,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    84,
+    132,
+    180,
+    228,
+    276
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show unusual activity as indicated by high anomaly scores, particularly a score of 1.00 at frame 180, suggesting atypical behavior such as running or sudden movements among pedestrians."
+}

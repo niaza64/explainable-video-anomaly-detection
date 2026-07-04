@@ -1,0 +1,17 @@
+{
+  "video_id": "05_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 626,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    175,
+    252,
+    329,
+    406,
+    483
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores for the frames are significantly high, with frame 329 reaching a perfect score of 1.00, suggesting unusual activity. Frames 252, 329, and 406, with scores above 0.9, indicate consistent anomalies observed across these moments."
+}

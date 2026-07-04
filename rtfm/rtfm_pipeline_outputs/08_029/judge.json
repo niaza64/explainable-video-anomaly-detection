@@ -1,0 +1,16 @@
+{
+  "video_id": "08_029",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "The anomalous activity involves a person in a red shirt riding a small personal vehicle (possibly a scooter), which begins in snippet 10 and continues through snippet 19. This activity stands out as it deviates from the expected pedestrian behavior of walking on a sidewalk, leading to higher anomaly scores in the later snippets.",
+  "gate_score": 0.25250571966171265,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 5,
+    "justification": "The AI incorrectly identifies an anomaly where there is none according to the human explanation. It provides a specific scenario involving a person in a red shirt on a vehicle, demonstrating detail, but fails to recognize the absence of any anomaly. The explanation is well-written and clear."
+  }
+}

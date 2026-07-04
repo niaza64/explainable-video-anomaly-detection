@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 143,
+  "end_frame": 694,
+  "include_heatmap": true,
+  "explanation": "The anomaly is likely due to individuals engaging in unusual physical activity such as running or play fighting, which deviates from the learned normal pedestrian behavior of walking calmly."
+}

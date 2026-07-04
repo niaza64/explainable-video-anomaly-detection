@@ -1,0 +1,17 @@
+{
+  "video_id": "01_026",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 736,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    229,
+    319,
+    408,
+    498,
+    587
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 319, 408, and 498 suggest unusual activity, possibly due to the convergence of multiple people or another unexpected event in the area."
+}

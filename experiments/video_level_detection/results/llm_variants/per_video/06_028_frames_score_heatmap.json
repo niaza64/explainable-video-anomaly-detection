@@ -1,0 +1,17 @@
+{
+  "video_id": "06_028",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 754,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    231,
+    320,
+    410,
+    499,
+    588
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames display high anomaly scores, especially frame 410 with a score of 0.99, indicating unusual activity. The heatmaps show concentrated areas of activity suggesting actions inconsistent with normal pedestrian movement, such as irregular directions or interactions near the entrance."
+}

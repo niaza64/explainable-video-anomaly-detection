@@ -1,0 +1,17 @@
+{
+  "video_id": "01_027",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 944,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    399,
+    512,
+    625,
+    738
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores are present in frames 399, 512, and 625, which show an empty walkway despite a high score, suggesting unusual inactivity or missing objects."
+}

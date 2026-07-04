@@ -1,0 +1,17 @@
+{
+  "video_id": "06_029",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 754,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    248,
+    341,
+    434,
+    526,
+    619
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores indicate unusual activity, most notably at frames 341 and 434, with scores of 0.97 and 0.99 respectively. This suggests significant anomalous activity in these frames."
+}

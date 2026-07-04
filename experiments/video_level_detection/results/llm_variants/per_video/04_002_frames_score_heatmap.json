@@ -1,0 +1,17 @@
+{
+  "video_id": "04_002",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 913,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    281,
+    390,
+    498,
+    607,
+    715
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 281, 390, 498, and 607 have high anomaly scores, with significant heatmap activity indicating unusual interactions or movements, particularly around two individuals in frames 390 and 498. This suggests an anomaly relative to typical pedestrian walking behavior."
+}

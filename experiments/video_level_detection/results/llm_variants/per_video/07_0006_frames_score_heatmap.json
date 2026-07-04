@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0006",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 385,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    107,
+    155,
+    203,
+    251,
+    299
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frame 203 shows an individual sitting on the ground, which is unusual compared to normal pedestrian movement. This results in the highest anomaly score of 1.00."
+}

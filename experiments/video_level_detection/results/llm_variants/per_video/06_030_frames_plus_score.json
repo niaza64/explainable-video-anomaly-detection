@@ -1,0 +1,17 @@
+{
+  "video_id": "06_030",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 757,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    299,
+    391,
+    483,
+    575
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores, especially in frames 299 (0.97), 391 (0.99), and 483 (0.87), indicate potential irregularities in the video despite the images showing little visual change. Activities such as prolonged door open or minimal motion could be atypical for this setting."
+}

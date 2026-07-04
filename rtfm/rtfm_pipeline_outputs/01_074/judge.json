@@ -1,0 +1,16 @@
+{
+  "video_id": "01_074",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "An anomalous event occurs between snippets 2 and 10 where a person on a bicycle enters the pedestrian path. This behavior deviates from normal pedestrian activity because bicycles are typically not expected in this area. This anomaly peaks in snippet 5 with the highest score of 0.994 when the cyclist is most central and noticeable on the path, and the situation resolves by snippet 10.",
+  "gate_score": 0.8119511008262634,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 5,
+    "justification": "The AI explanation incorrectly identifies an anomaly where there is none, according to the human. While the AI provides specific details about the supposed anomaly, it does not cover the key point of no anomaly being present. The explanation is well-written and clear."
+  }
+}

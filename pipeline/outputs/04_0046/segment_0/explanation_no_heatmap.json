@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 77,
+  "end_frame": 485,
+  "include_heatmap": false,
+  "explanation": "A group of individuals is moving quickly and erratically through an open area, which deviates from the typical slower and more linear pedestrian patterns, causing elevated anomaly scores."
+}

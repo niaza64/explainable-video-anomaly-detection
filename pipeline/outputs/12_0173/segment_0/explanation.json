@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 36,
+  "end_frame": 201,
+  "include_heatmap": true,
+  "explanation": "The anomaly is caused by a cyclist moving through an area typically dominated by pedestrian traffic, which deviates from the normal pedestrian-only patterns expected in this scene."
+}

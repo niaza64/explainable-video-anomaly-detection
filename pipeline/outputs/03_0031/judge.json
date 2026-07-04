@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0031",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is likely caused by a group of individuals frequently stopping, crouching, and exhibiting unusual postures in the roadway, which deviates from the typical walking patterns in this area, leading to high deviation scores in the heatmaps.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation does not identify the theft or mention any individuals in red or blue shirts, instead vaguely describing unusual postures without relevance to the human explanation. The language is clear and well-structured, but lacks relevant details and the correct anomaly."
+      }
+    }
+  ]
+}

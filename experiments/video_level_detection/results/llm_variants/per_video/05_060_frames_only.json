@@ -1,0 +1,17 @@
+{
+  "video_id": "05_060",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1034,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    282,
+    411,
+    540,
+    668,
+    797
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking on a street in a calm and orderly manner, without any unusual activity."
+}

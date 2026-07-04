@@ -1,0 +1,16 @@
+{
+  "video_id": "03_0031",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+  "ai_explanation": "Two men are initially seen walking calmly across a pedestrian crossing (snippet 10-11). As the sequence progresses, a sudden sprint occurs involving a younger individual taking a backpack from another person (snippet 22), indicating a theft or similar disruptive action. This is anomalous due to the abrupt transition from normal pedestrian behavior to a potential crime, disrupting the expected calm crossing.",
+  "gate_score": 0.5767119526863098,
+  "gt_anomaly_start": 327,
+  "gt_anomaly_end": 386,
+  "scores": {
+    "correctness": 3,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI identifies the occurrence of a theft, which matches the human's mention of a theft, but it doesn't specify the red and blue shirts or that the thief ran away. The AI's description includes the detail of a backpack being taken but lacks the specifics about the shirts and the action of running away. The explanation is clear and coherent, although it is less detailed than the human's in terms of describing the individuals involved."
+  }
+}

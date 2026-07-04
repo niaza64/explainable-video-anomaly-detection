@@ -1,0 +1,17 @@
+{
+  "video_id": "06_021",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    221,
+    307,
+    394,
+    480,
+    566
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores indicate likely unusual activity, particularly around frames 307, 394, and 480. Frame 394 shows a person exiting, while in frame 480, two individuals are conversing near the entrance, potentially contributing to the high anomaly scores."
+}

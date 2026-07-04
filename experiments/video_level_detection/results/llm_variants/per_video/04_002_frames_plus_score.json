@@ -1,0 +1,17 @@
+{
+  "video_id": "04_002",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 913,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    281,
+    390,
+    498,
+    607,
+    715
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores and the frames suggest unusual interactions between individuals, as they seem to be in close proximity and possibly engaging in unusual behavior like exchanging items."
+}

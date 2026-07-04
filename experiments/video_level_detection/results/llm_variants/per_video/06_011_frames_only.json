@@ -1,0 +1,17 @@
+{
+  "video_id": "06_011",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 256,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    74,
+    106,
+    139,
+    171,
+    203
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence of frames shows a person standing near the entrance and interacting briefly, which appears to be normal activity around a building entrance."
+}

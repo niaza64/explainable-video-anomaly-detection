@@ -1,0 +1,17 @@
+{
+  "video_id": "11_006",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 552,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    149,
+    219,
+    290,
+    360,
+    430
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames show high anomaly scores, particularly frame 290 with a score of 1.00, indicating unusual activity. Multiple instances of individuals interacting closely may not match typical pedestrian behavior."
+}

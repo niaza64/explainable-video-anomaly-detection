@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0058",
+  "variant": "no_heatmap",
+  "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is likely due to a higher than usual density of pedestrians and potential unusual flow patterns, as several groups are moving closely together and occupying the walkway in crowded formations, significantly differing from expected normal pedestrian traffic in this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation does not identify the actual anomaly related to the cyclist or the running person, focusing instead on crowd density, which is unrelated to the described events. While it uses general audience-related terms, it lacks specific detail about the key individuals and their actions. The explanation is well-written and clear but fails to capture the events mentioned by the human."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "04_011",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 552,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    145,
+    216,
+    287,
+    358,
+    429
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Multiple frames exhibit high anomaly scores, especially frame 287 with a score of 1.00, indicating unusual activity. The heatmaps show focused anomaly areas around individuals, suggesting atypical behavior relative to normal walking paths or actions."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0162",
+  "variant": "video_only",
+  "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show people and a cyclist moving calmly along walkways, which is normal pedestrian behavior.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI fails to identify the anomaly of two people on a bicycle in a pedestrian-only area where cycling is not allowed. Instead, it incorrectly describes the behavior as normal pedestrian activity. Specific details about the bicycle and the two people are missing, leading to low scores in specificity and completeness. The explanation is fluently written, but still incorrect in content."
+      }
+    }
+  ]
+}

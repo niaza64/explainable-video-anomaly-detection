@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0055",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    89,
+    128,
+    167,
+    206,
+    245
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomalous activity is suggested by high anomaly scores across several frames, particularly frame 167 with a score of 0.99 and visible heatmap indications. This indicates unusual behavior or objects that differ from typical pedestrian walking patterns."
+}

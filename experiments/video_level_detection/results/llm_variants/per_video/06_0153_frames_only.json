@@ -1,0 +1,17 @@
+{
+  "video_id": "06_0153",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    64,
+    92,
+    120,
+    148,
+    176
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians walking and a person cycling past. This appears to be normal activity in an outdoor setting."
+}

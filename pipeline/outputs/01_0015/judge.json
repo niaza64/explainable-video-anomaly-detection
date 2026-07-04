@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0015",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a person deviating from typical pedestrian behavior by performing unusual movements or actions, as indicated by high anomaly scores and warm regions on heatmaps where standard normal walking patterns would be expected.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI acknowledges unusual activity in a pedestrian area but fails to specifically identify the skateboarding, which is the main anomaly. The explanation is vague with no mention of clothing or specific actions and misses key details such as the number of people involved or the prohibition against skateboarding. The language is fairly clear, but lacks specifics to enhance understanding."
+      }
+    }
+  ]
+}

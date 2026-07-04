@@ -1,0 +1,13 @@
+{
+  "video_id": "12_0151",
+  "total_frames": 289,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 48,
+      "end_frame": 269,
+      "include_heatmap": false,
+      "explanation": "An individual participating in stationary or slow-moving behavior in the open area, deviating from normal pedestrian flow patterns, likely caused the elevated anomaly scores."
+    }
+  ]
+}

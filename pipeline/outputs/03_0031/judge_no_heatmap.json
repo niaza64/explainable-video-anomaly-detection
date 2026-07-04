@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0031",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous behavior includes individuals crossing the road outside the marked pedestrian crossing and one instance of two individuals crouching with an object on the road, which deviates from typical pedestrian patterns on the walkway.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI explanation completely misses the anomaly described by the human, which involves a theft, and instead focuses on non-related pedestrian behavior. The AI captures some detail with people crouching and crossing, but these are irrelevant. The explanation is coherent but fails to address the key event."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "08_034",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 805,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    247,
+    343,
+    439,
+    535,
+    631
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show elevated anomaly scores, with frame 439 indicating significant unusual activity. Presence and movement of an individual may correspond to the detected anomalies."
+}

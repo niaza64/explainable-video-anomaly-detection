@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0136",
+  "total_frames": 529,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 90,
+      "end_frame": 516,
+      "include_heatmap": false,
+      "explanation": "The anomaly is caused by a delivery truck driving through a pedestrian-only area, which deviates significantly from the normal behavior of pedestrians in this scene."
+    }
+  ]
+}

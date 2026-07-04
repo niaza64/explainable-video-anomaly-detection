@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0053",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    133,
+    191,
+    248,
+    306,
+    363
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "There is no anomaly in the video. Pedestrians are walking normally, and the vehicle is moving along without unusual behavior."
+}

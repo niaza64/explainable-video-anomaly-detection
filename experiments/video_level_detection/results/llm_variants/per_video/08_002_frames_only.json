@@ -1,0 +1,17 @@
+{
+  "video_id": "08_002",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1298,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    348,
+    522,
+    696,
+    870,
+    1044
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show a static scene with no unusual activity. In Frame 1044, a person appears, which seems normal for a pedestrian area."
+}

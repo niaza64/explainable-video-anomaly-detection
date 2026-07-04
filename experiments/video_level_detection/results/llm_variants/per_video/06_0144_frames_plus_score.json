@@ -1,0 +1,17 @@
+{
+  "video_id": "06_0144",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    64,
+    95,
+    125,
+    156,
+    186
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "A vehicle stops in front of a building entrance, which is unusual for pedestrian pathways. A person then walks past the vehicle, which may indicate an unexpected stop."
+}

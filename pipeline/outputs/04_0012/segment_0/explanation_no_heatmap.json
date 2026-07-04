@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 37,
+  "end_frame": 324,
+  "include_heatmap": false,
+  "explanation": "The anomaly in the video segment involves an individual running across a public area, which deviates from the normal walking behavior typically observed among pedestrians in this scene."
+}

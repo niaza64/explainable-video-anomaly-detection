@@ -1,0 +1,6 @@
+{
+  "video_id": "02_0161",
+  "gate_score": 0.8963131904602051,
+  "n_frames_sent": 7,
+  "explanation": "The anomaly involves cyclists riding on a pedestrian pathway near a building. This behavior begins around snippet 7, peaks in intensity at snippet 16 with multiple cyclists, and starts to resolve by snippet 20. It is considered anomalous because cycling on pedestrian-only pavements is typically prohibited and poses a safety risk to pedestrians in this setting."
+}

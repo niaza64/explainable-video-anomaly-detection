@@ -1,0 +1,16 @@
+{
+  "video_id": "05_0023",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+  "ai_explanation": "The anomalous activity involves a person playfully jumping onto the back of another individual starting around snippet 11, peaking in snippet 16, and subsiding by snippet 36. This behavior involves several individuals including one jumping while others appear to watch or walk by. This is considered anomalous as it deviates from typical pedestrian behavior, where individuals generally walk without such physical interaction.",
+  "gate_score": 0.9830816984176636,
+  "gt_anomaly_start": 171,
+  "gt_anomaly_end": 591,
+  "scores": {
+    "correctness": 2,
+    "specificity": 3,
+    "completeness": 1,
+    "fluency": 4,
+    "justification": "The AI incorrectly identifies the anomaly as playful jumping onto another's back, whereas the human explanation focuses on a person being pushed. Specificity is somewhat present as it mentions activities involving multiple individuals but lacks details on clothing and the chase. Completeness is low since critical aspects of the human explanation are missing. The fluency is good, with clear and coherent language use."
+  }
+}

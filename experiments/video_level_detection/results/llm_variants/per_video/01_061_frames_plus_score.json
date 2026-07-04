@@ -1,0 +1,17 @@
+{
+  "video_id": "01_061",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 890,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    263,
+    368,
+    473,
+    578,
+    683
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Several frames show an individual with a skateboard, which is considered atypical movement in a pedestrian area, leading to high anomaly scores."
+}

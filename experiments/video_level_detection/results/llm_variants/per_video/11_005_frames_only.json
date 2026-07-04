@@ -1,0 +1,17 @@
+{
+  "video_id": "11_005",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1102,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    289,
+    431,
+    573,
+    714,
+    856
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sampled frames show a normal, mostly empty street except for one frame with pedestrians walking. This is typical activity for this setting."
+}

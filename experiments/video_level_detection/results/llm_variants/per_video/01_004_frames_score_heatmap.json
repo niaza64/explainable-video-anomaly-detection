@@ -1,0 +1,17 @@
+{
+  "video_id": "01_004",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 770,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    301,
+    396,
+    490,
+    584
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores for frames 301 and 396 are particularly high, indicating unusual behavior. Heatmaps show significant areas of interest, suggesting atypical activity or interactions."
+}

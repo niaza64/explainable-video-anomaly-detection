@@ -1,0 +1,17 @@
+{
+  "video_id": "05_039",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 781,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    235,
+    327,
+    419,
+    510,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The pedestrian is walking along the road in a consistent manner across the frames, indicating normal pedestrian activity."
+}

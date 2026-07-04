@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0004",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person unexpectedly fell or was lying on the ground in frame 469, causing a deviation from typical pedestrian movement, leading to high anomaly scores around that event.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI captures the anomaly related to a person on the ground but does not specify the pushing incident or the colors of the shirts. The explanation mentions a person on the ground, aligning partially with the event. However, it lacks detail about the people involved or the aftermath. The language used is clear and understandable."
+      }
+    }
+  ]
+}

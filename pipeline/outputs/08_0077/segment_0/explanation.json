@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 75,
+  "end_frame": 418,
+  "include_heatmap": true,
+  "explanation": "The anomalous activity appears to be the presence of individuals using umbrellas on a clear day, which deviates from normal pedestrian behavior in this scene as indicated by concentrated warm areas in the heatmaps around the umbrellas."
+}

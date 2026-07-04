@@ -1,0 +1,13 @@
+{
+  "video_id": "03_0031",
+  "total_frames": 529,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 76,
+      "end_frame": 487,
+      "include_heatmap": true,
+      "explanation": "The anomaly is likely caused by a group of individuals frequently stopping, crouching, and exhibiting unusual postures in the roadway, which deviates from the typical walking patterns in this area, leading to high deviation scores in the heatmaps."
+    }
+  ]
+}

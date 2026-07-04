@@ -1,0 +1,16 @@
+{
+  "video_id": "04_0012",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+  "ai_explanation": "A person in light clothing is seen moving unusually quickly through the public area from snippets 4 to 18, deviating from the normal walking speed of the other pedestrians. This rapid movement is registered as anomalous since the space appears to be designed for leisurely walking, and such behavior might suggest urgency or distress.",
+  "gate_score": 0.8196250796318054,
+  "gt_anomaly_start": 0,
+  "gt_anomaly_end": 343,
+  "scores": {
+    "correctness": 3,
+    "specificity": 4,
+    "completeness": 2,
+    "fluency": 5,
+    "justification": "The AI incorrectly identifies the anomaly as 'moving unusually quickly' rather than 'moving in circles.' It provides specific detail about the clothing and context but misses the key detail about circular movement. The explanation is fluent and well-structured."
+  }
+}

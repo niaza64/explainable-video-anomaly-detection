@@ -1,0 +1,17 @@
+{
+  "video_id": "01_012",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 738,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    220,
+    307,
+    395,
+    482,
+    569
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frame 395 shows a person appearing to interact with a trash can which may indicate out of ordinary behavior compared to typical pedestrian motion in this context."
+}

@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 54,
+  "end_frame": 305,
+  "include_heatmap": false,
+  "explanation": "A person riding a bicycle is moving through a pedestrian area, which deviates from the typical pedestrian-only activity normally seen in this scene, triggering high anomaly scores."
+}

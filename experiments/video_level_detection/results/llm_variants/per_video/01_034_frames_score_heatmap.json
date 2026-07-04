@@ -1,0 +1,17 @@
+{
+  "video_id": "01_034",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 890,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    277,
+    383,
+    489,
+    594,
+    700
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores in frames 383, 489, and 594 suggest unusual activity in the video. Heatmaps in these frames show highlighted areas around pedestrians, indicating possible atypical movement or behavior."
+}

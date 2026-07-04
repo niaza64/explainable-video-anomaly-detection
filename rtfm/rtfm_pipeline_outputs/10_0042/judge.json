@@ -1,0 +1,16 @@
+{
+  "video_id": "10_0042",
+  "video_type": "anomalous",
+  "human_explanation": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+  "ai_explanation": "The anomaly involves a pedestrian leisurely crossing a plaza while a motorbike moves nearby, observed between snippets 7 to 10 and 13 to 16. The presence of a moving motorbike in a pedestrian area is unusual and deviates from normal pedestrian behavior. The anomaly begins at snippet 7 with a peak anomaly score of 0.521, indicating initial unusual activity, and it resolves by snippet 16 with the motorbike exiting the area.",
+  "gate_score": 0.426253080368042,
+  "gt_anomaly_start": 0,
+  "gt_anomaly_end": 363,
+  "scores": {
+    "correctness": 3,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI correctly identifies the anomaly as involving a motorbike in a pedestrian area, which matches the human's mention of a scooter in a pedestrian area. However, it does not specify that there are two people on the scooter nor their clothing details. The description is clear and well-written but lacks some specifics like the presence and description of the individuals."
+  }
+}

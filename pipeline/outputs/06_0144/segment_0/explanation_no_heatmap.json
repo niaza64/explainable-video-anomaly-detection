@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 34,
+  "end_frame": 217,
+  "include_heatmap": false,
+  "explanation": "The anomalous activity is due to a vehicle entering a pedestrian area, stopping in front of the door, and parking or blocking the entrance path, which deviates significantly from typical pedestrian-only activity in this scene."
+}

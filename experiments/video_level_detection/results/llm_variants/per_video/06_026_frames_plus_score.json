@@ -1,0 +1,17 @@
+{
+  "video_id": "06_026",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1336,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    393,
+    578,
+    763,
+    948,
+    1133
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames indicate a high anomaly score with minimal visible activity, particularly in frames 763 and 948 where no one is present near the entrance, yet the anomaly scores are high. This suggests unusual or unexpected inactivity."
+}

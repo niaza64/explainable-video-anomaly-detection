@@ -1,0 +1,17 @@
+{
+  "video_id": "08_0080",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 289,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    83,
+    120,
+    157,
+    193,
+    230
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking normally in an outdoor area; no unusual activity is observed."
+}

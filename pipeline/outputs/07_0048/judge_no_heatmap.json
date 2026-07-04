@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0048",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly in this segment is due to multiple pedestrians unexpectedly crossing the street, with some appearing to interact in a playful or unusual manner, deviating from normal traffic patterns typically observed in this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI completely misses the anomaly of a person chasing another, instead focusing on pedestrians crossing the street. It lacks any specific details relevant to the human explanation, such as clothing colors or actions. The writing is fluent but does not correspond to the correct event."
+      }
+    }
+  ]
+}

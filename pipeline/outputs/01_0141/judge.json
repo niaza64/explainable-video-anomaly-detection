@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0141",
+  "variant": "with_heatmap",
+  "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "An individual using a skateboard, which is unusual in this scene likely designed for pedestrian walking, interacts dynamically with pedestrians, deviating from the typical walking behavior detected by the model.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly of a person skateboarding in an area intended for pedestrians. However, it lacks specific details about the person such as gender, clothing, or bag, reducing specificity. While it acknowledges the interaction between the skateboarder and pedestrians, it doesn't mention the skateboarder's appearance, missing one aspect. The explanation is mostly clear but could be more concise."
+      }
+    }
+  ]
+}

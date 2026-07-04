@@ -1,0 +1,18 @@
+{
+  "video_id": "06_0144",
+  "variant": "video_only",
+  "human_explanation": "A white minivan is being driven in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A vehicle is parked on the walkway, which is unusual as the area is meant for pedestrian use only.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies an unusual vehicle presence in a pedestrian area, but it describes the vehicle as parked rather than being driven. It lacks specifics such as the color and type of vehicle, but it captures the key point about pedestrian area usage. The explanation is clear and well-written."
+      }
+    }
+  ]
+}

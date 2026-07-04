@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0046",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    145,
+    213,
+    281,
+    349,
+    417
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The scores for frames 145, 213, 281, 349, and 417 are all relatively high, with frame 281 reaching a maximum score of 1.00. This indicates significant anomalous activity, likely due to unusual pedestrian movements in the scene."
+}

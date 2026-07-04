@@ -1,0 +1,16 @@
+{
+  "video_id": "05_0019",
+  "video_type": "anomalous",
+  "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+  "ai_explanation": "The anomaly involves a group of individuals converging on a single person, situated near a pedestrian walkway. Initially, one individual is seen, which leads to a sudden interaction with a group, peaking at snippet 21 with a score of 0.893, suggesting possible confrontation or unexpected gathering, deviating from typical solitary pedestrian behavior. The situation gradually disperses towards the end of sequence in snippet 35 as individuals move away from the area.",
+  "gate_score": 0.7460987567901611,
+  "gt_anomaly_start": 244,
+  "gt_anomaly_end": 403,
+  "scores": {
+    "correctness": 3,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI identifies a confrontation involving a group of individuals and a single person, aligning partially with the human's description of a fight involving one person in a white shirt. However, it lacks the specific detail of the 'fighting' action and the clothing detail mentioned by the human. The AI provides a clear but somewhat vague description, focusing on the convergence and dispersal of the group."
+  }
+}

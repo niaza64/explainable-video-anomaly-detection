@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0051",
+  "total_frames": 337,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 44,
+      "end_frame": 304,
+      "include_heatmap": false,
+      "explanation": "The anomaly is due to the presence of a cyclist riding through what appears to be a pedestrian-only area, deviating from the learned pattern of normal pedestrian behavior in this scene."
+    }
+  ]
+}

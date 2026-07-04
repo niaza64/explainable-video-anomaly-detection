@@ -1,0 +1,17 @@
+{
+  "video_id": "01_059",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 734,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    209,
+    297,
+    385,
+    473,
+    561
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence of frames shows people walking along a path in a consistent manner, with no unusual or unexpected behavior observed."
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "video_id": "01_0015",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+    "ai_explanation": "The anomalous activity involves individuals unusually spread out and frequently changing direction, which deviates from normal walking patterns typically seen in this area, where people usually move in a consistent direction.",
+    "gate_score": 0.3332175612449646,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0025",
+    "video_type": "anomalous",
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The anomalous activity involves a cyclist riding through an area typically used for pedestrian traffic, which deviates from the usual walking behavior observed in this scene.",
+    "gate_score": 0.99985671043396,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0027",
+    "video_type": "anomalous",
+    "human_explanation": "A person is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The anomalous activity involves a group of individuals walking unusually close together across the open pedestrian area, which deviates from the typical sparse and solitary walking patterns observed in this scene.",
+    "gate_score": 0.9963929057121277,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0028",
+    "video_type": "anomalous",
+    "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+    "ai_explanation": "The anomalous activity involves a group of individuals running across a typically calm pedestrian area, causing significant deviation from usual walking behavior and triggering high anomaly scores.",
+    "gate_score": 0.9698299765586853,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0051",
+    "video_type": "anomalous",
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The anomaly is due to the presence of a cyclist riding through what appears to be a pedestrian-only area, deviating from the learned pattern of normal pedestrian behavior in this scene.",
+    "gate_score": 0.9996346831321716,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0052",
+    "video_type": "anomalous",
+    "human_explanation": "A person wearing a white shirt and carrying a bag is riding a bicycle in a pedestrian area while others are walking.",
+    "ai_explanation": "A bicyclist is riding through an area typically occupied by pedestrians, which deviates from normal behavior in this scene, where foot traffic is the norm, leading to elevated anomaly scores during this segment.",
+    "gate_score": 0.9359624981880188,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0053",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "The anomaly is caused by a motorized vehicle operating in a pedestrian-only area, which is unusual given normal pedestrian traffic patterns in this scene.",
+    "gate_score": 0.99957674741745,
+    "scores": {
+      "correctness": 4,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0055",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The anomaly involves a person moving in an erratic, non-linear path across a large open area, which deviates from expected pedestrian behavior that typically follows the designated pathways.",
+    "gate_score": 0.31163790822029114,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0056",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "The anomalous activity involves an individual standing still in the middle of the walkway, which is unusual behavior in an area where the model expects continuous pedestrian movement.",
+    "gate_score": 0.3188900649547577,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0064",
+    "video_type": "anomalous",
+    "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+    "ai_explanation": "A person is running quickly down the pedestrian walkway, deviating from the normal walking behavior expected in this area, which is likely why the anomaly scores are elevated.",
+    "gate_score": 0.12478223443031311,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0135",
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "The anomaly is caused by a vehicle driving onto a pedestrian pathway, deviating from normal pedestrian-only behavior in this area.",
+    "gate_score": 0.9999681115150452,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0136",
+    "video_type": "anomalous",
+    "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "The anomaly is caused by a delivery truck driving through a pedestrian-only area, which deviates significantly from the normal behavior of pedestrians in this scene.",
+    "gate_score": 0.8672426342964172,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0139",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The anomalous activity involves a cyclist passing through an area typically only used by pedestrians, which deviates from the expected pedestrian-only behavior in this scene, as indicated by high anomaly scores and concentrated heatmap highlights on the cyclist.",
+    "gate_score": 0.9997422099113464,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0141",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "A skateboarder navigating through typically pedestrian-only areas is causing high anomaly scores, as this behavior deviates from expected walking patterns in the scene.",
+    "gate_score": 0.3241785764694214,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0162",
+    "video_type": "anomalous",
+    "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+    "ai_explanation": "A cyclist is riding on a pedestrian path, weaving through foot traffic, which is unusual for this location typically dedicated to pedestrians.",
+    "gate_score": 0.49053525924682617,
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0177",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "Anomalous activity involves the presence of a cyclist on the pedestrian path, deviating from expected patterns of solely pedestrian movement in this area.",
+    "gate_score": 0.9892067909240723,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "02_0161",
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The anomaly appears to be multiple bicycles being ridden on a pedestrian walkway where such activity may be unusual, as indicated by high scores and heatmap highlights around cyclists.",
+    "gate_score": 0.9971312880516052,
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0031",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+    "ai_explanation": "The anomalous behavior includes individuals crossing the road outside the marked pedestrian crossing and one instance of two individuals crouching with an object on the road, which deviates from typical pedestrian patterns on the walkway.",
+    "gate_score": 0.9942098259925842,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0032",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+    "ai_explanation": "The anomalous activity involves a person sitting or lying on the ground in a pedestrian area, which deviates from normal walking patterns observed in this scene, attracting attention from other pedestrians.",
+    "gate_score": 0.9879813194274902,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0033",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+    "ai_explanation": "The anomalous activity involves a physical altercation between individuals, deviating from normal pedestrian behavior, which usually involves calm and non-aggressive movement across the crosswalk area.",
+    "gate_score": 0.996028482913971,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0059",
+    "video_type": "anomalous",
+    "human_explanation": "Two people are fighting on the road and later walk together.",
+    "ai_explanation": "The anomaly is caused by a group of people unexpectedly interacting and traversing the crosswalk in a non-linear and irregular manner, deviating from typical pedestrian behavior in this scene.",
+    "gate_score": 0.985442578792572,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0004",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+    "ai_explanation": "A person is seen lying on the ground in frame 469, which represents an unusual incident in a pedestrian area, contributing to the elevated anomaly scores across these frames.",
+    "gate_score": 0.9998483657836914,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0011",
+    "video_type": "anomalous",
+    "human_explanation": "A child in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "A child is running alone across the open area without a close escort, which deviates from the learned patterns of pedestrian behavior where children are typically accompanied closely by adults.",
+    "gate_score": 0.7134749889373779,
+    "scores": {
+      "correctness": 4,
+      "specificity": 2,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0012",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+    "ai_explanation": "The anomaly in the video segment involves an individual running across a public area, which deviates from the normal walking behavior typically observed among pedestrians in this scene.",
+    "gate_score": 0.9989283084869385,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0046",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+    "ai_explanation": "A group of individuals is moving quickly and erratically through an open area, which deviates from the typical slower and more linear pedestrian patterns, causing elevated anomaly scores.",
+    "gate_score": 0.9904146194458008,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0017",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road.",
+    "ai_explanation": "A group of individuals is walking backwards along the pathway, which is atypical pedestrian behavior for this area and explains the elevated anomaly scores.",
+    "gate_score": 0.999760627746582,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0019",
+    "video_type": "anomalous",
+    "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+    "ai_explanation": "A group of individuals are engaged in a physical altercation in the middle of a normally pedestrian walkway, deviating from typical peaceful pedestrian movement in this scene.",
+    "gate_score": 0.9999921321868896,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0023",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+    "ai_explanation": "Multiple instances of quick, unusual movements by individuals, such as a person jumping or running, deviate from the typical pedestrian behavior, which triggers high anomaly scores in these frames.",
+    "gate_score": 0.9999236464500427,
+    "scores": {
+      "correctness": 2,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "06_0144",
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan is being driven in a pedestrian area.",
+    "ai_explanation": "The anomalous activity is due to a vehicle entering a pedestrian area, stopping in front of the door, and parking or blocking the entrance path, which deviates significantly from typical pedestrian-only activity in this scene.",
+    "gate_score": 0.9989986419677734,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "06_0153",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area.",
+    "ai_explanation": "The anomalous activity involves a person riding a bicycle on a path typically used by pedestrians, deviating from normal pedestrian behavior and likely causing the elevated anomaly scores.",
+    "gate_score": 0.7455043196678162,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0006",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+    "ai_explanation": "An individual has fallen to the ground, and others are approaching or assisting, causing a deviation from normal walking patterns.",
+    "gate_score": 0.9401789307594299,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0008",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+    "ai_explanation": "The anomaly is due to an individual walking in a public area carrying a large object resembling a rifle, which deviates from typical pedestrian behavior and raises safety concerns.",
+    "gate_score": 0.9992335438728333,
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0048",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+    "ai_explanation": "The anomaly in this segment is due to multiple pedestrians unexpectedly crossing the street, with some appearing to interact in a playful or unusual manner, deviating from normal traffic patterns typically observed in this scene.",
+    "gate_score": 0.9127352237701416,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0058",
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "The anomaly is likely due to a higher than usual density of pedestrians and potential unusual flow patterns, as several groups are moving closely together and occupying the walkway in crowded formations, significantly differing from expected normal pedestrian traffic in this scene.",
+    "gate_score": 0.8678865432739258,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0077",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A group of people is moving in an unusual, erratic pattern on the pedestrian path, deviating from typical walking behaviors seen in the scene, which likely involves unconventional movement such as running or interacting in unexpected ways.",
+    "gate_score": 0.9999330639839172,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0080",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+    "ai_explanation": "Throughout the flagged video segment, individuals are consistently seen carrying or interacting with an object near the center of the pathway, which is atypical for this setting and causes high anomaly scores, suggesting unusual behavior for this location.",
+    "gate_score": 0.9113319516181946,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0157",
+    "video_type": "anomalous",
+    "human_explanation": "A person wearing a gray/white layered shirt is riding an electric unicycle scooter in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "The anomaly in this video segment is due to a group of individuals congregating and moving in formation, which deviates from usual pedestrian patterns in this area, causing consistently high anomaly scores.",
+    "gate_score": 0.012704688124358654,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0158",
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "The anomalous activity appears to involve a group of individuals moving in a cluster that deviates from normal pedestrian flow in this area, likely causing congestion or unusual interactions not typical in usual foot traffic patterns.",
+    "gate_score": 0.8678865432739258,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "10_0038",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A cyclist is riding a bicycle through a pedestrian-only area, which is unusual in this scene typically restricted to foot traffic, leading to high anomaly scores.",
+    "gate_score": 0.5415433049201965,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "10_0042",
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+    "ai_explanation": "The anomalous activity in the video segment is a motorcycle driving through a pedestrian area, which is unusual for this normally pedestrian-only space, as highlighted by high anomaly scores.",
+    "gate_score": 0.419732004404068,
+    "scores": {
+      "correctness": 4,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0142",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The anomaly likely involves the stroller and individual interaction, suggesting an unusual exchange or handover, as evidenced by consistently high anomaly scores and bright heatmap regions around the stroller in multiple frames.",
+    "gate_score": 0.9997299313545227,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0151",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "An individual participating in stationary or slow-moving behavior in the open area, deviating from normal pedestrian flow patterns, likely caused the elevated anomaly scores.",
+    "gate_score": 0.9956612586975098,
+    "scores": {
+      "correctness": 2,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0173",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The anomaly is due to a person riding a bicycle on a path typically used for pedestrian traffic, which is unusual given the normal patterns learned by the model for this scene.",
+    "gate_score": 0.9958222508430481,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0174",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person riding a bicycle is moving through a pedestrian area, which deviates from the typical pedestrian-only activity normally seen in this scene, triggering high anomaly scores.",
+    "gate_score": 0.9995638728141785,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  }
+]

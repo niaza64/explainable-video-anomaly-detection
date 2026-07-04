@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 99,
+  "end_frame": 543,
+  "include_heatmap": false,
+  "explanation": "The anomaly likely involves the stroller and individual interaction, suggesting an unusual exchange or handover, as evidenced by consistently high anomaly scores and bright heatmap regions around the stroller in multiple frames."
+}

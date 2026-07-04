@@ -1,0 +1,29 @@
+[
+  {
+    "encoder": "clip",
+    "n_anom": 42,
+    "correctness": 3.4523809523809526,
+    "specificity": 4.071428571428571,
+    "completeness": 3.3095238095238093,
+    "fluency": 4.642857142857143,
+    "overall": 3.8690476190476186
+  },
+  {
+    "encoder": "dinov2",
+    "n_anom": 42,
+    "correctness": 3.380952380952381,
+    "specificity": 3.857142857142857,
+    "completeness": 3.357142857142857,
+    "fluency": 4.714285714285714,
+    "overall": 3.8273809523809526
+  },
+  {
+    "encoder": "rtfm",
+    "n_anom": 42,
+    "correctness": 3.5714285714285716,
+    "specificity": 3.738095238095238,
+    "completeness": 3.261904761904762,
+    "fluency": 4.619047619047619,
+    "overall": 3.797619047619048
+  }
+]

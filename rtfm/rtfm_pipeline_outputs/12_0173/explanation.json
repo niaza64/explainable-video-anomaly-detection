@@ -1,0 +1,6 @@
+{
+  "video_id": "12_0173",
+  "gate_score": 0.992240309715271,
+  "n_frames_sent": 6,
+  "explanation": "In this video, a cyclist is riding along a pedestrian walkway, interacting with pedestrians in frames from time-segmented footage. The anomaly begins at snippet 0 when the cyclist first appears riding close to a walking individual, increases as the cyclist weaves through people (peaking at snippet 7 with a score of 0.995), and resolves at snippet 12 as pedestrians continue without the cyclist in view. This behavior is anomalous because bicycles are usually restricted in pedestrian-only areas to prevent disturbances and ensure safety."
+}

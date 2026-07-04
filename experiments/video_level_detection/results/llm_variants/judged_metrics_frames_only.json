@@ -1,0 +1,18 @@
+{
+  "correctness": {
+    "mean": 4.201,
+    "n": 199
+  },
+  "specificity": {
+    "mean": 3.337,
+    "n": 199
+  },
+  "completeness": {
+    "mean": 4.04,
+    "n": 199
+  },
+  "fluency": {
+    "mean": 4.638,
+    "n": 199
+  }
+}

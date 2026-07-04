@@ -1,0 +1,6 @@
+{
+  "video_id": "08_0058",
+  "gate_score": 0.23522016406059265,
+  "n_frames_sent": 5,
+  "explanation": "The anomaly involves a group of individuals converging and moving in an unusually synchronized manner through the plaza from snippet 4 (frame #72) to snippet 8 (frame #136), which is atypical for pedestrian traffic. The group's behavior stands out from the surrounding pedestrians who walk in more scattered and independent directions, causing the anomaly. By snippet 12 (frame #200), the unusual movement subsides, reverting to typical pedestrian flow."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0139",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    63,
+    91,
+    118,
+    146,
+    173
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence of frames shows normal pedestrian and cyclist movement in an open area, with no unusual behavior or incidents apparent."
+}

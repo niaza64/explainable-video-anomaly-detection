@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0056",
+  "variant": "with_heatmap",
+  "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is loitering in the middle of a typically open walking area, which is unusual compared to usual pedestrian flow, as indicated by high anomaly scores and bright heatmap regions.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI incorrectly identifies 'loitering' instead of skateboarding and does not capture the action of skateboarding or clothing details. It vaguely mentions disruption in pedestrian flow but misses specific details about the girl and her actions. The explanation is clear and structured, however, lacking in content accuracy."
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "06_011",
+  "is_anomalous_gt": 0,
+  "total_frames": 256,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    36,
+    72,
+    109,
+    145,
+    182,
+    218,
+    255
+  ],
+  "anomaly_detected": false,
+  "explanation": "The frames show individuals walking normally near a building entrance. There is no unusual behavior or disruption visible."
+}

@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 46,
+  "end_frame": 283,
+  "include_heatmap": true,
+  "explanation": "The anomaly appears to be an unsupervised child moving through the scene, diverging from regular pedestrian behavior where adults typically accompany children in this area."
+}

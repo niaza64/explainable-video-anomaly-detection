@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0004",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 865,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    265,
+    367,
+    469,
+    570,
+    672
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frame 469 shows a person on the ground with others around, indicating a potential incident or fall. This is highlighted by the high anomaly score of 0.98."
+}

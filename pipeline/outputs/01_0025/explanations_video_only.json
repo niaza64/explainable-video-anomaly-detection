@@ -1,0 +1,26 @@
+{
+  "video_id": "01_0025",
+  "variant": "video_only",
+  "total_frames": 601,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    85,
+    171,
+    257,
+    342,
+    428,
+    514,
+    600
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 600,
+      "include_heatmap": false,
+      "explanation": "The frames show normal pedestrian behavior with people walking calmly on the path."
+    }
+  ]
+}

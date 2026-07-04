@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0177",
+  "total_frames": 317,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 52,
+      "end_frame": 291,
+      "include_heatmap": false,
+      "explanation": "Anomalous activity involves the presence of a cyclist on the pedestrian path, deviating from expected patterns of solely pedestrian movement in this area."
+    }
+  ]
+}

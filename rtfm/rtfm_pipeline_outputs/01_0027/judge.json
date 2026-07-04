@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0027",
+  "video_type": "anomalous",
+  "human_explanation": "A person is running in a pedestrian area while others are walking.",
+  "ai_explanation": "The anomaly involves several pedestrians initially walking normally, then suddenly transitioning to running at snippet 6, which continues sporadically through snippet 18. The activity deviates from normal pedestrian behavior where individuals typically walk continuously or gather without abrupt changes, and it concludes by snippet 22 when the area is empty or returns to a normal state.",
+  "gate_score": 0.6464950442314148,
+  "gt_anomaly_start": 77,
+  "gt_anomaly_end": 151,
+  "scores": {
+    "correctness": 3,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI correctly identifies the anomaly involving running in a pedestrian area, akin to the human explanation, but describes it as several pedestrians running rather than just one person. It provides some specific details, such as the transition from walking to running and snippet references, though these are less precise than the human account. The AI captures part of the anomaly but misses the focus on a single individual. The explanation is mostly clear and well-structured."
+  }
+}

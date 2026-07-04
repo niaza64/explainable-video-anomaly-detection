@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0023",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "Multiple instances of quick, unusual movements by individuals, such as a person jumping or running, deviate from the typical pedestrian behavior, which triggers high anomaly scores in these frames.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI correctly notes unusual movements, but it misses the specific actions and individuals mentioned in the human explanation. It lacks details such as clothing colors and the sequence of events, and it only vaguely alludes to the presence of unusual behavior. However, the explanation is clear and well-structured."
+      }
+    }
+  ]
+}

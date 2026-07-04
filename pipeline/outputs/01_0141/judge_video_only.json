@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0141",
+  "variant": "video_only",
+  "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The frames show normal pedestrian activity with individuals walking along a path.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation fails to identify the anomaly of a girl skateboarding in a pedestrian area, focusing instead on individuals walking, which is incorrect. It lacks specific details about the clothing or the activity of skateboarding. It misses all key aspects mentioned by the human. However, the explanation is well-written and clear."
+      }
+    }
+  ]
+}

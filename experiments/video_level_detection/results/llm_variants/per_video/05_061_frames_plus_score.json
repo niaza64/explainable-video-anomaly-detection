@@ -1,0 +1,17 @@
+{
+  "video_id": "05_061",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1069,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    310,
+    443,
+    576,
+    708,
+    841
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high, especially frame 576 with a score of 1.00, indicating unusual activity such as possible crowding or behavior different from normal pedestrian walking."
+}

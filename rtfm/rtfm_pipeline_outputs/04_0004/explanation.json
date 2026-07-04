@@ -1,0 +1,6 @@
+{
+  "video_id": "04_0004",
+  "gate_score": 0.9888197183609009,
+  "n_frames_sent": 11,
+  "explanation": "The anomalous activity begins with a lone individual walking normally in snippets 0-1, followed by a group of people walking and interacting in snippets 4-17. In snippets 23-42, one person appears to fall or sit on the ground while others stand around them, which is unusual for the scene. This behavior deviates from normal pedestrian movement, likely contributing to its high anomaly score and out-of-the-ordinary nature for the location."
+}

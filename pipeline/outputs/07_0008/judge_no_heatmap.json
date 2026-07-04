@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0008",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is due to an individual walking in a public area carrying a large object resembling a rifle, which deviates from typical pedestrian behavior and raises safety concerns.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly as involving a person carrying a large object in a pedestrian area, much like the human's description of swinging a steel bar, but incorrectly describes it as resembling a rifle. It conveys safety concerns which align with the notion of a dangerous situation. The explanation is quite fluent, though not entirely accurate or specific in detailing the object's appearance and the color of the person's shirt."
+      }
+    }
+  ]
+}

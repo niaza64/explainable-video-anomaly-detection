@@ -1,0 +1,17 @@
+{
+  "video_id": "05_045",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    225,
+    316,
+    407,
+    498,
+    589
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 316 (0.97) and 407 (0.99) suggest unusual activity; frame 316 shows a person standing idle and frame 407 shows significant deviation in pedestrian behavior."
+}

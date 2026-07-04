@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 53,
+  "end_frame": 298,
+  "include_heatmap": true,
+  "explanation": "An individual using a skateboard, which is unusual in this scene likely designed for pedestrian walking, interacts dynamically with pedestrians, deviating from the typical walking behavior detected by the model."
+}

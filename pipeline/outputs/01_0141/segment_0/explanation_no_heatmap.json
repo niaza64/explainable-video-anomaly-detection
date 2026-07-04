@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 53,
+  "end_frame": 298,
+  "include_heatmap": false,
+  "explanation": "A skateboarder navigating through typically pedestrian-only areas is causing high anomaly scores, as this behavior deviates from expected walking patterns in the scene."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0135",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 409,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    129,
+    184,
+    240,
+    295,
+    350
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high, with a peak at frame 240 where a vehicle moves unusually in a pedestrian area, indicating potential anomalous activity."
+}

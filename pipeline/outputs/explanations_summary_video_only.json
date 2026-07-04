@@ -1,0 +1,1146 @@
+[
+  {
+    "video_id": "01_0015",
+    "variant": "video_only",
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 432,
+        "include_heatmap": false,
+        "explanation": "All frames show normal pedestrian activity with individuals walking calmly on walkways."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0025",
+    "variant": "video_only",
+    "total_frames": 601,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      342,
+      428,
+      514,
+      600
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 600,
+        "include_heatmap": false,
+        "explanation": "The frames show normal pedestrian behavior with people walking calmly on the path."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0027",
+    "variant": "video_only",
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 408,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0028",
+    "variant": "video_only",
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 456,
+        "include_heatmap": false,
+        "explanation": "In Frame 325/456, individuals appear to be running instead of walking calmly, which deviates from normal pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0051",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "The frames show pedestrians walking calmly, and cyclists riding past without any apparent issue. The activities appear normal for a public walkway."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0052",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "The frames show pedestrians walking calmly on a walkway, which is normal behavior for this scene."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0053",
+    "variant": "video_only",
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 456,
+        "include_heatmap": false,
+        "explanation": "There is a vehicle driving on the pedestrian path, which is unusual as the area is meant for pedestrians."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0055",
+    "variant": "video_only",
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 312,
+        "include_heatmap": false,
+        "explanation": "A person is running across the walkway in frames 89 and 133, which deviates from the normal pedestrian behavior of walking calmly."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0056",
+    "variant": "video_only",
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 528,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly along the paths, which is normal behavior for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0064",
+    "variant": "video_only",
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 288,
+        "include_heatmap": false,
+        "explanation": "All frames depict normal pedestrian behavior; individuals are walking calmly along the paths without any unusual or disruptive activities."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0135",
+    "variant": "video_only",
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 408,
+        "include_heatmap": false,
+        "explanation": "A vehicle is present and driving on the pedestrian walkway, which is an unusual activity for this area meant for pedestrians."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0136",
+    "variant": "video_only",
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 528,
+        "include_heatmap": false,
+        "explanation": "A vehicle is driving on a pedestrian walkway, which is unusual behavior for this area intended for pedestrian use only."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0139",
+    "variant": "video_only",
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 216,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly, which is normal activity for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0141",
+    "variant": "video_only",
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 312,
+        "include_heatmap": false,
+        "explanation": "The frames show normal pedestrian activity with individuals walking along a path."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0162",
+    "variant": "video_only",
+    "total_frames": 193,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      27,
+      54,
+      82,
+      109,
+      137,
+      164,
+      192
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 192,
+        "include_heatmap": false,
+        "explanation": "All frames show people and a cyclist moving calmly along walkways, which is normal pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "01_0177",
+    "variant": "video_only",
+    "total_frames": 317,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      316
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 316,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly on the walkway, which is considered normal activity for this scene."
+      }
+    ]
+  },
+  {
+    "video_id": "02_0161",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "All frames show normal pedestrian and cyclist activity, with individuals walking and cycling calmly on the path."
+      }
+    ]
+  },
+  {
+    "video_id": "03_0031",
+    "variant": "video_only",
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 528,
+        "include_heatmap": false,
+        "explanation": "All frames show normal activity with pedestrians walking calmly on the pathway."
+      }
+    ]
+  },
+  {
+    "video_id": "03_0032",
+    "variant": "video_only",
+    "total_frames": 409,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      58,
+      116,
+      174,
+      233,
+      291,
+      349,
+      408
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 408,
+        "include_heatmap": false,
+        "explanation": "In frame 174, a person is seen lying on the ground, which deviates from normal pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "03_0033",
+    "variant": "video_only",
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 312,
+        "include_heatmap": false,
+        "explanation": "Two individuals appear to be engaged in a physical altercation, which deviates from normal pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "03_0059",
+    "variant": "video_only",
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 432,
+        "include_heatmap": false,
+        "explanation": "All frames depict normal pedestrian behavior, with individuals walking calmly on the path without any unusual activity."
+      }
+    ]
+  },
+  {
+    "video_id": "04_0004",
+    "variant": "video_only",
+    "total_frames": 865,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      123,
+      246,
+      370,
+      493,
+      617,
+      740,
+      864
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 864,
+        "include_heatmap": false,
+        "explanation": "In Frame 493, an individual is sitting on the ground, which is unusual behavior compared to the typical walking pedestrians in the other frames."
+      }
+    ]
+  },
+  {
+    "video_id": "04_0011",
+    "variant": "video_only",
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 312,
+        "include_heatmap": false,
+        "explanation": "The frames show pedestrians, including a child, walking calmly on the walkway, which is normal behavior for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "04_0012",
+    "variant": "video_only",
+    "total_frames": 361,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      51,
+      102,
+      154,
+      205,
+      257,
+      308,
+      360
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 360,
+        "include_heatmap": false,
+        "explanation": "In Frame 205, a person is seen running, which deviates from normal pedestrian behavior like walking calmly."
+      }
+    ]
+  },
+  {
+    "video_id": "04_0046",
+    "variant": "video_only",
+    "total_frames": 529,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      75,
+      150,
+      226,
+      301,
+      377,
+      452,
+      528
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 528,
+        "include_heatmap": false,
+        "explanation": "In frames 226 and 301, individuals are seen jumping and throwing an object, which deviates from normal pedestrian behavior of walking calmly."
+      }
+    ]
+  },
+  {
+    "video_id": "05_0017",
+    "variant": "video_only",
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 432,
+        "include_heatmap": false,
+        "explanation": "The activity observed in the frames appears normal. The individuals are walking calmly and behaving typically for a pedestrian area."
+      }
+    ]
+  },
+  {
+    "video_id": "05_0019",
+    "variant": "video_only",
+    "total_frames": 649,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      92,
+      185,
+      277,
+      370,
+      462,
+      555,
+      648
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 648,
+        "include_heatmap": false,
+        "explanation": "A group of individuals is seen stopping in the middle of the road, interacting closely and blocking the walkway, which deviates from normal pedestrian behavior of walking calmly on paths."
+      }
+    ]
+  },
+  {
+    "video_id": "05_0023",
+    "variant": "video_only",
+    "total_frames": 769,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      109,
+      219,
+      329,
+      438,
+      548,
+      658,
+      768
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 768,
+        "include_heatmap": false,
+        "explanation": "In Frame 219, an individual is bending down on the road, which is unusual for normal pedestrian walking behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "06_0144",
+    "variant": "video_only",
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 240,
+        "include_heatmap": false,
+        "explanation": "A vehicle is parked on the walkway, which is unusual as the area is meant for pedestrian use only."
+      }
+    ]
+  },
+  {
+    "video_id": "06_0153",
+    "variant": "video_only",
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 216,
+        "include_heatmap": false,
+        "explanation": "A cyclist is riding on the pedestrian walkway, which deviates from normal pedestrian behavior and may pose a safety hazard."
+      }
+    ]
+  },
+  {
+    "video_id": "07_0006",
+    "variant": "video_only",
+    "total_frames": 385,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      54,
+      109,
+      164,
+      219,
+      274,
+      329,
+      384
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 384,
+        "include_heatmap": false,
+        "explanation": "In frame 219, one person is sitting or falling on the ground while others are standing around, indicating a possible incident or playful behavior deviating from normal pedestrian walking."
+      }
+    ]
+  },
+  {
+    "video_id": "07_0008",
+    "variant": "video_only",
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 456,
+        "include_heatmap": false,
+        "explanation": "A person is handling a long object in a manner that could be considered unusual for pedestrian behavior in frames 195, 260, and 325. The handling of what appears to be a large object deviates from normal walking activity."
+      }
+    ]
+  },
+  {
+    "video_id": "07_0048",
+    "variant": "video_only",
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 240,
+        "include_heatmap": false,
+        "explanation": "The frames show pedestrians walking calmly on a path, which is normal behavior for this scene."
+      }
+    ]
+  },
+  {
+    "video_id": "08_0058",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "All frames depict normal pedestrian activity with people walking calmly on the pathways."
+      }
+    ]
+  },
+  {
+    "video_id": "08_0077",
+    "variant": "video_only",
+    "total_frames": 457,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      65,
+      130,
+      195,
+      260,
+      325,
+      390,
+      456
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 456,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly along the path, which is normal behavior for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "08_0080",
+    "variant": "video_only",
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 288,
+        "include_heatmap": false,
+        "explanation": "A person is skateboarding in frames 123, 164, and possibly others, which is atypical behavior for a pedestrian walkway."
+      }
+    ]
+  },
+  {
+    "video_id": "08_0157",
+    "variant": "video_only",
+    "total_frames": 313,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      44,
+      89,
+      133,
+      178,
+      222,
+      267,
+      312
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 312,
+        "include_heatmap": false,
+        "explanation": "All observed frames depict pedestrians walking calmly on a walkway, consistent with expected pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "08_0158",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly along the pathways, which is normal behavior for this scene."
+      }
+    ]
+  },
+  {
+    "video_id": "10_0038",
+    "variant": "video_only",
+    "total_frames": 241,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      34,
+      68,
+      102,
+      137,
+      171,
+      205,
+      240
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 240,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior for the scene."
+      }
+    ]
+  },
+  {
+    "video_id": "10_0042",
+    "variant": "video_only",
+    "total_frames": 433,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      61,
+      123,
+      185,
+      246,
+      308,
+      370,
+      432
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 432,
+        "include_heatmap": false,
+        "explanation": "A scooter is seen moving through an area meant for pedestrians, which deviates from normal pedestrian behavior."
+      }
+    ]
+  },
+  {
+    "video_id": "12_0142",
+    "variant": "video_only",
+    "total_frames": 601,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      85,
+      171,
+      257,
+      342,
+      428,
+      514,
+      600
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 600,
+        "include_heatmap": false,
+        "explanation": "All frames show pedestrians walking calmly, and one bicyclist, which is consistent with normal activity in a public walkway area."
+      }
+    ]
+  },
+  {
+    "video_id": "12_0151",
+    "variant": "video_only",
+    "total_frames": 289,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      41,
+      82,
+      123,
+      164,
+      205,
+      246,
+      288
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 288,
+        "include_heatmap": false,
+        "explanation": "All frames show normal pedestrian behavior with individuals walking calmly on the walkway. There are no unusual activities observed."
+      }
+    ]
+  },
+  {
+    "video_id": "12_0173",
+    "variant": "video_only",
+    "total_frames": 217,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      30,
+      61,
+      92,
+      123,
+      154,
+      185,
+      216
+    ],
+    "anomaly_detected": true,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 216,
+        "include_heatmap": false,
+        "explanation": "A cyclist is riding a bicycle on a pedestrian path in frames 61, 92, and 123, which deviates from the normal pedestrian walking activity expected in this area."
+      }
+    ]
+  },
+  {
+    "video_id": "12_0174",
+    "variant": "video_only",
+    "total_frames": 337,
+    "frames_sampled": 8,
+    "sampled_indices": [
+      0,
+      48,
+      96,
+      144,
+      192,
+      240,
+      288,
+      336
+    ],
+    "anomaly_detected": false,
+    "segments": [
+      {
+        "segment_index": 0,
+        "start_frame": 0,
+        "end_frame": 336,
+        "include_heatmap": false,
+        "explanation": "The activity in the frames shows individuals calmly walking and cycling, which is consistent with normal pedestrian behavior."
+      }
+    ]
+  }
+]

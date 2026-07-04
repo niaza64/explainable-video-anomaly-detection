@@ -1,0 +1,17 @@
+{
+  "video_id": "08_0077",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    132,
+    189,
+    246,
+    303,
+    360
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high, especially in frames 189, 246, and 303, indicating unusual activity. Frame 246 with a score of 0.99 is highly anomalous."
+}

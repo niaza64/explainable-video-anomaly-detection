@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0139",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    63,
+    91,
+    118,
+    146,
+    173
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores at frames 91, 118, and 146 suggest unusual activity, possibly related to the presence of a cyclist in a primarily pedestrian area."
+}

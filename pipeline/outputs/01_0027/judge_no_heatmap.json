@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0027",
+  "variant": "no_heatmap",
+  "human_explanation": "A person is running in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a group of individuals walking unusually close together across the open pedestrian area, which deviates from the typical sparse and solitary walking patterns observed in this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation misses the main anomaly of a person running in a pedestrian area. It incorrectly identifies a group walking close together as the anomaly. It is somewhat specific about the walking pattern but fails to include or focus on the actual anomalous activity. Despite this, the explanation is clearly written."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "03_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 427,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    121,
+    174,
+    227,
+    280,
+    333
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high throughout the sampled frames, peaking at frame 227 with a score of 0.99, indicating unusual activity. The person crossing the road may be moving erratically or unusually, causing the high anomaly scores."
+}

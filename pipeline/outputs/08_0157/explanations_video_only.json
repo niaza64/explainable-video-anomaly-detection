@@ -1,0 +1,26 @@
+{
+  "video_id": "08_0157",
+  "variant": "video_only",
+  "total_frames": 313,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    44,
+    89,
+    133,
+    178,
+    222,
+    267,
+    312
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 312,
+      "include_heatmap": false,
+      "explanation": "All observed frames depict pedestrians walking calmly on a walkway, consistent with expected pedestrian behavior."
+    }
+  ]
+}

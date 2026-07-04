@@ -1,0 +1,13 @@
+{
+  "video_id": "05_0023",
+  "total_frames": 769,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 143,
+      "end_frame": 694,
+      "include_heatmap": false,
+      "explanation": "Multiple instances of quick, unusual movements by individuals, such as a person jumping or running, deviate from the typical pedestrian behavior, which triggers high anomaly scores in these frames."
+    }
+  ]
+}

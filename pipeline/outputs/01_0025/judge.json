@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0025",
+  "variant": "with_heatmap",
+  "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is primarily due to a cyclist moving through an area typically used by pedestrians only, as indicated by the elevated scores and bright heatmap regions around the cyclist in frame 175, deviating from standard pedestrian activity.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 4,
+        "completeness": 4,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly of a cyclist in a pedestrian-only area, matching the human explanation. It provides specific details about the cyclist and mentions a heatmap, although it slightly lacks in details like the explicit mention of where cycling is not allowed. The explanation is well-written and clear."
+      }
+    }
+  ]
+}

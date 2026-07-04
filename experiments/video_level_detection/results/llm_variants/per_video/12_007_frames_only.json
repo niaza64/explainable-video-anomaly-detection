@@ -1,0 +1,17 @@
+{
+  "video_id": "12_007",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 852,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    262,
+    363,
+    464,
+    564,
+    665
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians walking normally across a plaza, with no unusual or suspicious activities observed."
+}

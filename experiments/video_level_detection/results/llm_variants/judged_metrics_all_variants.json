@@ -1,0 +1,38 @@
+{
+  "frames_plus_score": {
+    "correctness": {
+      "mean": 1.513,
+      "n": 199
+    },
+    "specificity": {
+      "mean": 2.362,
+      "n": 199
+    },
+    "completeness": {
+      "mean": 2.261,
+      "n": 199
+    },
+    "fluency": {
+      "mean": 3.849,
+      "n": 199
+    }
+  },
+  "frames_score_heatmap": {
+    "correctness": {
+      "mean": 1.482,
+      "n": 199
+    },
+    "specificity": {
+      "mean": 2.482,
+      "n": 199
+    },
+    "completeness": {
+      "mean": 2.241,
+      "n": 199
+    },
+    "fluency": {
+      "mean": 3.829,
+      "n": 199
+    }
+  }
+}

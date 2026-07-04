@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 50,
+  "end_frame": 284,
+  "include_heatmap": true,
+  "explanation": "The frames indicate an individual moving unusually quickly or erratically across a normally sparse pedestrian area, leading to elevated anomaly scores and deviation from typical movement patterns captured by the model."
+}

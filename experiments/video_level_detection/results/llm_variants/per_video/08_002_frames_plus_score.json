@@ -1,0 +1,17 @@
+{
+  "video_id": "08_002",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1298,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    348,
+    522,
+    696,
+    870,
+    1044
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show a quiet pedestrian area with no visible anomalous activity. The high anomaly scores might be due to lack of activity or minor environmental changes, but nothing unusual is visibly happening."
+}

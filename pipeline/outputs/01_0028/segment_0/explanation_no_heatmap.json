@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 78,
+  "end_frame": 429,
+  "include_heatmap": false,
+  "explanation": "The anomalous activity involves a group of individuals running across a typically calm pedestrian area, causing significant deviation from usual walking behavior and triggering high anomaly scores."
+}

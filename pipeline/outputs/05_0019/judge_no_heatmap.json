@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0019",
+  "variant": "no_heatmap",
+  "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A group of individuals are engaged in a physical altercation in the middle of a normally pedestrian walkway, deviating from typical peaceful pedestrian movement in this scene.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies a physical altercation involving a group, aligning with the human report of a fight. However, it lacks specific details such as the number of people and the clothing details mentioned by the human. The AI explanation is generally well-written and clear but not detailed."
+      }
+    }
+  ]
+}

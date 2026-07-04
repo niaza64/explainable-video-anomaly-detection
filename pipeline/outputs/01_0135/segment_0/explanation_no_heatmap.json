@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 74,
+  "end_frame": 406,
+  "include_heatmap": false,
+  "explanation": "The anomaly is caused by a vehicle driving onto a pedestrian pathway, deviating from normal pedestrian-only behavior in this area."
+}

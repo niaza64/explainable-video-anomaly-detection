@@ -1,0 +1,17 @@
+{
+  "video_id": "01_043",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 878,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    276,
+    381,
+    486,
+    591,
+    696
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high for several frames, particularly in frames 381 and 486, where the scores are 0.94 and 0.97 respectively. This suggests unusual activity, such as unexpected behavior or movement by individuals in the area."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_001",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 765,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    237,
+    328,
+    419,
+    510,
+    601
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores across frames (especially frames 328 and 419) suggest unusual activities. Human presence disappears in frame 328, possibly indicating atypical movement."
+}

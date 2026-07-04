@@ -1,0 +1,17 @@
+{
+  "video_id": "01_021",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1010,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    410,
+    534,
+    658,
+    782
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames contain high anomaly scores, particularly frame 534 with a score of 1.00. This may indicate unusual pedestrian activity or unexpected behavior compared to normal pedestrian walking patterns."
+}

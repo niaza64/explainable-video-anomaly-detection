@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0048",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    99,
+    129,
+    159,
+    189
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and multiple people interacting in unusual ways, such as running or potentially aggressive interactions, are observed, indicating anomalous activity."
+}

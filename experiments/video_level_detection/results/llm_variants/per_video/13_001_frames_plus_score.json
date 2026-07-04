@@ -1,0 +1,17 @@
+{
+  "video_id": "13_001",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 602,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    173,
+    247,
+    321,
+    395,
+    469
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high, peaking at 1.00 indicating unusual activity. However, the images show normal pedestrian behavior with people walking along the path. The high scores suggest there may be subtle motion anomalies not visible in the frames shown."
+}

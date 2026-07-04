@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0031",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    144,
+    213,
+    281,
+    350,
+    418
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames exhibit unusual pedestrian movements, particularly in frame 350 where two individuals are crouching, suggesting atypical behavior for a crosswalk."
+}

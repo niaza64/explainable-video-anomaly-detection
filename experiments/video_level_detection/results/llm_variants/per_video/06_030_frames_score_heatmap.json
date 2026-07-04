@@ -1,0 +1,17 @@
+{
+  "video_id": "06_030",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 757,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    299,
+    391,
+    483,
+    575
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 207, 299, 391, and 483 have high anomaly scores, indicating unusual activity near the entrance. Frame 391, in particular, has the highest score of 0.99, suggesting a significant anomaly."
+}

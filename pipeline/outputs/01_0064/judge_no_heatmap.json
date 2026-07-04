@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0064",
+  "variant": "no_heatmap",
+  "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is running quickly down the pedestrian walkway, deviating from the normal walking behavior expected in this area, which is likely why the anomaly scores are elevated.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies a person running, which corresponds to part of the human explanation, but misses the other detail about the person skateboarding. The AI is vague, lacking details such as the girl's red bag and the second person skateboarding. While it captures part of the scenario, it fails to provide a complete account. The explanation is well-written and clear, providing a coherent description of the detected behavior."
+      }
+    }
+  ]
+}

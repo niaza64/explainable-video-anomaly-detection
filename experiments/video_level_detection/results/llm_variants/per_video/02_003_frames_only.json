@@ -1,0 +1,17 @@
+{
+  "video_id": "02_003",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 736,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    203,
+    293,
+    383,
+    472,
+    562
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians walking normally along a building. There is no unusual or suspicious activity observed."
+}

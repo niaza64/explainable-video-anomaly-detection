@@ -1,0 +1,17 @@
+{
+  "video_id": "07_002",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 777,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    234,
+    325,
+    416,
+    507,
+    598
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The video shows normal pedestrian activity with individuals walking across a zebra crossing at different times, which is common in urban areas."
+}

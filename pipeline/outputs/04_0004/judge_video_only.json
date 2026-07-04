@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0004",
+  "variant": "video_only",
+  "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "In Frame 493, an individual is sitting on the ground, which is unusual behavior compared to the typical walking pedestrians in the other frames.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI identifies that an individual is sitting on the ground, which partially aligns with the aftermath of the pushing incident described by the human. However, it fails to identify the pushing action and only captures part of the scenario. The AI's description is somewhat vague with minimal detail on the individuals involved or their actions, but it is clearly written."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "02_007",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 302,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    86,
+    124,
+    162,
+    200,
+    238
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high across the sampled frames, indicating unusual activity in the scene. Frame 162 has the highest score of 1.00, suggesting significant anomalous behavior is being detected in the pedestrian group."
+}

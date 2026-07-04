@@ -1,0 +1,17 @@
+{
+  "video_id": "06_011",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 256,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    74,
+    106,
+    139,
+    171,
+    203
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores indicate unusual activity. Frames 74, 106, 139, and 171 show individuals lingering or behaving atypically near a building entrance, as indicated by heatmap highlights."
+}

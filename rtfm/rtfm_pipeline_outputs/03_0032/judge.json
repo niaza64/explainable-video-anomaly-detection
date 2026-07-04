@@ -1,0 +1,16 @@
+{
+  "video_id": "03_0032",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+  "ai_explanation": "A group of individuals is seen engaging in a playful or potentially confrontational interaction on a crosswalk, starting from snippet 6 and reaching peak activity around snippet 12. The anomaly involves one person lying on the ground in snip 10, surrounded by others either in playful motion or conflict, which is unusual for typical pedestrian behavior in this area. Activity resolves with all individuals walking away normally by snippet 16.",
+  "gate_score": 0.9977933168411255,
+  "gt_anomaly_start": 144,
+  "gt_anomaly_end": 263,
+  "scores": {
+    "correctness": 3,
+    "specificity": 2,
+    "completeness": 2,
+    "fluency": 4,
+    "justification": "The AI correctly identifies an anomaly involving a person on the ground, but does not specify the push or mention clothing colors, making it partially correct. It lacks specific details and misses key actions identified in the human explanation. The explanation is reasonably well-written but lacks the specificity needed for higher scores."
+  }
+}

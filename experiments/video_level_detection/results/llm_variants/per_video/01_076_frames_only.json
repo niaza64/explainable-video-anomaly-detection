@@ -1,0 +1,17 @@
+{
+  "video_id": "01_076",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 554,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    146,
+    217,
+    289,
+    360,
+    431
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sampled frames show normal pedestrian walking behavior with individuals walking across an open area."
+}

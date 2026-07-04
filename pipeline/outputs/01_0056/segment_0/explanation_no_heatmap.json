@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 75,
+  "end_frame": 483,
+  "include_heatmap": false,
+  "explanation": "The anomalous activity involves an individual standing still in the middle of the walkway, which is unusual behavior in an area where the model expects continuous pedestrian movement."
+}

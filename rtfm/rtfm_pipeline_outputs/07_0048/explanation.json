@@ -1,0 +1,6 @@
+{
+  "video_id": "07_0048",
+  "gate_score": 0.5500714778900146,
+  "n_frames_sent": 4,
+  "explanation": "The anomalous activity involves a group of individuals gathering on a normally empty pedestrian crossing. The anomaly begins at snippet 4 with an empty scene, peaks at snippet 9 with two people walking into the area, and resolves by snippet 12 with a total of four individuals present. This behavior is anomalous because such gatherings and lingering are not typical for this location, which is usually not populated with groups at this time."
+}

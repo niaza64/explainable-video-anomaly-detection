@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0015",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+  "ai_explanation": "The anomalous activity involves a person on a skateboard moving through a pedestrian walkway, which is typically used for walking. The anomaly begins around snippet 12 and peaks in snippet 14 with the skateboarder in motion, drawing higher scores than the start and end snippets. This is considered anomalous due to the deviation from normal walking behavior in this area, potentially posing a safety risk to pedestrians.",
+  "gate_score": 0.6644290685653687,
+  "gt_anomaly_start": 86,
+  "gt_anomaly_end": 373,
+  "scores": {
+    "correctness": 4,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly of skateboarding in a pedestrian area, but it misses the detail of there being two skateboarders. The explanation is somewhat specific but omits details like clothing colors. It captures the main anomaly but not all aspects noted by the human. The explanation is well-written and clear."
+  }
+}

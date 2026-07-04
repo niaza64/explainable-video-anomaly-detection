@@ -1,0 +1,16 @@
+{
+  "video_id": "08_001",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "The anomalous activity involves a large group of people walking together closely in a park area from snippet 41 to 47. This behavior may be considered unusual because the density and coordination of the group contrasts with the typical pedestrian flow, where individuals and smaller groups are spread out. The group\u2019s size and synchronized movement likely triggered the anomaly detection.",
+  "gate_score": 0.40333640575408936,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 3,
+    "completeness": 1,
+    "fluency": 4,
+    "justification": "The AI incorrectly identifies an anomaly where the human states there is none, leading to a low correctness score. The explanation does mention specific details about a group of people and their movement, earning it some points for specificity. However, it fails to cover the key point that nothing is anomalous, hence a low completeness score. The AI's explanation is grammatically correct and clear, which provides a good fluency score."
+  }
+}

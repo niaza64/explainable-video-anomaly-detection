@@ -1,0 +1,17 @@
+{
+  "video_id": "01_004",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 770,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    301,
+    396,
+    490,
+    584
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking in various directions, which appears to be normal pedestrian behavior with no unusual activity observed."
+}

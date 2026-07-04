@@ -1,0 +1,17 @@
+{
+  "video_id": "06_0144",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    64,
+    95,
+    125,
+    156,
+    186
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence shows a car briefly stopping and a pedestrian walking normally towards the entrance. No unusual activity is observed."
+}

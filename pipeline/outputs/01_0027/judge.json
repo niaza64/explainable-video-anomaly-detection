@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0027",
+  "variant": "with_heatmap",
+  "human_explanation": "A person is running in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity appears to be a group of individuals walking in a synchronized manner, which is unusual for this scene typically characterized by more dispersed pedestrian movement.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 3,
+        "completeness": 1,
+        "fluency": 5,
+        "justification": "The AI incorrectly identifies the anomaly, focusing on synchronized walking rather than someone running. It provides specific details about pedestrian movement, but fails to capture any aspect of the human explanation. The explanation is well-written and clear."
+      }
+    }
+  ]
+}

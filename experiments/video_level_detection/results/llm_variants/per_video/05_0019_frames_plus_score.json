@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0019",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 649,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    187,
+    266,
+    344,
+    423,
+    501
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 266, 344, and 423 show a group interaction with high anomaly scores, suggesting a possible confrontation or unusual gathering. Frame 344 has a score of 1.00, indicating significant anomalous activity."
+}

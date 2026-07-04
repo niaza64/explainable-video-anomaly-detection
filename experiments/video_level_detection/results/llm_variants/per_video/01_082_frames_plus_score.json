@@ -1,0 +1,17 @@
+{
+  "video_id": "01_082",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 808,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    227,
+    323,
+    420,
+    516,
+    612
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores in frames 323, 420, and 516 suggest unusual activity, such as a lack of people or unexpected behavior in what should be a busy area, leading to the high anomaly scores."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "02_003",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 736,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    203,
+    293,
+    383,
+    472,
+    562
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 203, 293, 383, and 472 suggest unusual activity. These frames might indicate atypical pedestrian behavior or interactions that deviate from the norm."
+}

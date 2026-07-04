@@ -1,0 +1,17 @@
+{
+  "video_id": "08_028",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1082,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    302,
+    438,
+    573,
+    709,
+    844
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "Pedestrians and cyclists are moving normally along the path without any unusual behavior or congestion."
+}

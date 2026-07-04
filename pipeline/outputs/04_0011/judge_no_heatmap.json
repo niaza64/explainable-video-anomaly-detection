@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0011",
+  "variant": "no_heatmap",
+  "human_explanation": "A child in a red shirt is running in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A child is running alone across the open area without a close escort, which deviates from the learned patterns of pedestrian behavior where children are typically accompanied closely by adults.",
+      "scores": {
+        "correctness": 4,
+        "specificity": 2,
+        "completeness": 4,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly of a child running alone but omits the detail that the child is wearing a red shirt. It lacks specific description but accurately captures the essence of the anomaly. The explanation is fluent and clear."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "06_026",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1336,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    393,
+    578,
+    763,
+    948,
+    1133
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores are present, particularly in frames 763 and 948. Frame 948 shows no visible pedestrians, indicating potential unusual activity."
+}

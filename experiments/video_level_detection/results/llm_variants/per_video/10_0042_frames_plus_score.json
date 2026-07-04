@@ -1,0 +1,17 @@
+{
+  "video_id": "10_0042",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    125,
+    179,
+    233,
+    287,
+    341
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The presence of a person on a motorbike riding through a pedestrian area is anomalous activity."
+}

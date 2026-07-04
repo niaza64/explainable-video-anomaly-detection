@@ -1,0 +1,17 @@
+{
+  "video_id": "11_004",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 252,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    101,
+    133,
+    164,
+    196
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high throughout the frames, particularly in frames 101 and 133, indicating unusual activity. The person in the video may be behaving abnormally compared to typical pedestrian walking."
+}

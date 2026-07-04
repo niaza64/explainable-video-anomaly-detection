@@ -1,0 +1,17 @@
+{
+  "video_id": "10_004",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1827,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    441,
+    704,
+    966,
+    1229,
+    1491
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in the frames suggest unusual activity patterns, possibly due to strange movement or behavior of individuals in the surveillance area."
+}

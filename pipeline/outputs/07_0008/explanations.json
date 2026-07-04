@@ -1,0 +1,13 @@
+{
+  "video_id": "07_0008",
+  "total_frames": 457,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 75,
+      "end_frame": 416,
+      "include_heatmap": true,
+      "explanation": "An individual walking while carrying a long, rifle-like object was detected, which deviates from typical pedestrian behavior in this scene."
+    }
+  ]
+}

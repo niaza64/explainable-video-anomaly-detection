@@ -1,0 +1,17 @@
+{
+  "video_id": "04_008",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1702,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    429,
+    667,
+    905,
+    1143,
+    1381
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in the frames suggest unusual pedestrian behavior, possibly related to movement patterns or interactions."
+}

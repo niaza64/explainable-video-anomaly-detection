@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0052",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    48,
+    96,
+    144,
+    192,
+    240,
+    288,
+    336
+  ],
+  "anomaly_detected": true,
+  "explanation": "A person is riding a bicycle in what appears to be a pedestrian area, which deviates from the normal behavior of pedestrians walking calmly."
+}

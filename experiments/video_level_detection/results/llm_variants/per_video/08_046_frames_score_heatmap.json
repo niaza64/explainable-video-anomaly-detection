@@ -1,0 +1,17 @@
+{
+  "video_id": "08_046",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 798,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    243,
+    337,
+    432,
+    526,
+    620
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in several frames suggest unusual activity, possibly involving observed people or objects in the scene."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0017",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A group of individuals is walking backwards along the pathway, which is atypical pedestrian behavior for this area and explains the elevated anomaly scores.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation incorrectly identifies the anomaly; it describes people walking backwards rather than someone throwing a bag, which is unrelated to the human explanation. The specificity is low as it vaguely mentions a group of individuals and atypical behavior without further details. The explanation lacks elements from the human description. However, it is relatively well-written and clear, just detailing the wrong event."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_050",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 806,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    241,
+    336,
+    430,
+    525,
+    619
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores are consistently high, peaking at 0.99 in frame 430, suggesting unusual activity in the video segment."
+}

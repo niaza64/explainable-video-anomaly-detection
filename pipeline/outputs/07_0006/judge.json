@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0006",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly occurs as one individual in a group suddenly sits or falls on the road in frame 203, deviating from normal walking behavior which raises high anomaly scores.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI explanation identifies an unusual event related to a person on the ground, which is somewhat related to the human explanation of a person being pushed. However, it fails to mention the push and chase, and lacks specific details about clothing and individual actions. The writing is clear but lacks completeness and specificity."
+      }
+    }
+  ]
+}

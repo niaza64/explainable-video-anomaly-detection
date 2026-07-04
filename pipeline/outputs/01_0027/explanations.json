@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0027",
+  "total_frames": 409,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 39,
+      "end_frame": 366,
+      "include_heatmap": true,
+      "explanation": "The anomalous activity appears to be a group of individuals walking in a synchronized manner, which is unusual for this scene typically characterized by more dispersed pedestrian movement."
+    }
+  ]
+}

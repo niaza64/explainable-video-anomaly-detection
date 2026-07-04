@@ -1,0 +1,17 @@
+{
+  "video_id": "01_071",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1052,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    302,
+    433,
+    564,
+    695,
+    826
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores indicate potential unusual activity. Frame 433 has a score of 0.98 and Frame 564 has a score of 1.00, suggesting significant deviations from normal pedestrian behavior, possibly due to unexpected movements or behavior of individuals visible in these frames."
+}

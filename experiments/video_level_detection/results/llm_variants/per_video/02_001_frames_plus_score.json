@@ -1,0 +1,17 @@
+{
+  "video_id": "02_001",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 908,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    265,
+    373,
+    481,
+    589,
+    697
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, particularly for frames 373 (0.93) and 481 (0.97), indicate unusual behavior that deviates from normal pedestrian walking patterns. The presence of a person wearing a distinctive outfit and moving in an uncharacteristic manner suggests anomalous activity."
+}

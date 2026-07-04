@@ -1,0 +1,6 @@
+{
+  "video_id": "01_0015",
+  "gate_score": 0.6644290685653687,
+  "n_frames_sent": 4,
+  "explanation": "The anomalous activity involves a person on a skateboard moving through a pedestrian walkway, which is typically used for walking. The anomaly begins around snippet 12 and peaks in snippet 14 with the skateboarder in motion, drawing higher scores than the start and end snippets. This is considered anomalous due to the deviation from normal walking behavior in this area, potentially posing a safety risk to pedestrians."
+}

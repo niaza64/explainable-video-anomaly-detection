@@ -1,0 +1,17 @@
+{
+  "video_id": "01_080",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 788,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    216,
+    312,
+    407,
+    503,
+    598
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores in frames 312, 407, and 503 suggest unusual activity. Frame 407, with a score of 0.99, indicates a significant anomaly, possibly due to a sudden change in the number of people or movement patterns."
+}

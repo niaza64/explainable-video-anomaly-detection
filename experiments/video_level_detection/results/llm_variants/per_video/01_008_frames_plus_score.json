@@ -1,0 +1,17 @@
+{
+  "video_id": "01_008",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1010,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    288,
+    412,
+    537,
+    661,
+    785
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 288, 412, 537, and 661 suggest unusual activity despite no visible unusual behavior in frame samples, indicating potential issues with the model's sensitivity."
+}

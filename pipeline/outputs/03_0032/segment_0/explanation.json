@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 67,
+  "end_frame": 375,
+  "include_heatmap": true,
+  "explanation": "The anomalous activity involves a person sitting in the middle of the road, deviating from normal pedestrian behavior where individuals typically walk across the crosswalk rather than stopping or sitting in the roadway."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "06_022",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 724,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    224,
+    311,
+    398,
+    485,
+    572
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores indicate unusual activity peaking between frames 311 and 398. The presence of a person emerging after the door is open, suggests potential loitering or unexpected behavior."
+}

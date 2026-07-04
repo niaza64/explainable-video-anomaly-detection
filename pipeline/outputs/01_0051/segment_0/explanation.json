@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 44,
+  "end_frame": 304,
+  "include_heatmap": true,
+  "explanation": "The anomaly is likely due to the presence of a cyclist on the path, which is typically meant for pedestrians only, as indicated by the high anomaly scores and the highlighted regions around the cyclist in the heatmaps."
+}

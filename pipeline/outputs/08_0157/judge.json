@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0157",
+  "variant": "with_heatmap",
+  "human_explanation": "A person wearing a gray/white layered shirt is riding an electric unicycle scooter in a pedestrian area where such vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by a group of pedestrians unusually congregating around the lamppost, obstructing normal pedestrian flow, which stands out in the scene where typically individual or dispersed walking patterns are observed.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies an entirely different anomaly, focusing on pedestrians congregating around a lamppost, rather than the electric unicycle rider mentioned by the human. It lacks specificity related to the key anomaly involving the electric unicycle, though it does mention pedestrian behavior. The AI misses out on key aspects of the human explanation regarding the unicycle and vehicle restrictions. The explanation is fluently written and clear, despite its incorrect focus."
+      }
+    }
+  ]
+}

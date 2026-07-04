@@ -1,0 +1,17 @@
+{
+  "video_id": "01_034",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 890,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    277,
+    383,
+    489,
+    594,
+    700
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 383, 489, and 594 have high anomaly scores indicating unusual activity, possibly due to the dense clustering and interactions of people that deviate from normal walking patterns."
+}

@@ -1,0 +1,28 @@
+{
+  "segment_index": 0,
+  "start_frame": 110,
+  "end_frame": 602,
+  "duration_frames": 492,
+  "sampled_frames": [
+    {
+      "frame_idx": 192,
+      "anomaly_score": 0.7987203792756691
+    },
+    {
+      "frame_idx": 274,
+      "anomaly_score": 0.970161516444738
+    },
+    {
+      "frame_idx": 356,
+      "anomaly_score": 0.9946808474354227
+    },
+    {
+      "frame_idx": 438,
+      "anomaly_score": 0.9001696985809713
+    },
+    {
+      "frame_idx": 520,
+      "anomaly_score": 0.6280259022760281
+    }
+  ]
+}

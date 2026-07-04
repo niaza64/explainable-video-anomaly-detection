@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0136",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 529,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    161,
+    232,
+    303,
+    374,
+    445
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "A vehicle is present and moving on a pedestrian walkway, which is unusual and potentially hazardous."
+}

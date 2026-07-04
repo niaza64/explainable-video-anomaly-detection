@@ -1,0 +1,17 @@
+{
+  "video_id": "10_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1852,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    439,
+    705,
+    970,
+    1236,
+    1501
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The anomaly scores are high, but the sampled frames show normal pedestrian walking on a plaza without any visibly unusual activities."
+}

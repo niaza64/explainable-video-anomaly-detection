@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0046",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly likely stems from an unusual group formation and movement pattern, with multiple individuals walking closely together in a manner not typically seen in this pedestrian area, causing significant deviations from the model's learned normal behavior.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation describes a completely different anomaly (group formation and movement) than the human explanation (person throwing a bag). It lacks specific details about the anomalous behavior, missing key elements from the human description. The writing is clear, but it does not relate to the described event."
+      }
+    }
+  ]
+}

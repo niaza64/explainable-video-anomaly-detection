@@ -1,0 +1,17 @@
+{
+  "video_id": "10_0042",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    125,
+    179,
+    233,
+    287,
+    341
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Several frames show high anomaly scores, particularly when a scooter moves through the area, which is atypical for pedestrian zones."
+}

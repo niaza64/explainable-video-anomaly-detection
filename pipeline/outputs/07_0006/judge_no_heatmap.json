@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0006",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "An individual has fallen to the ground, and others are approaching or assisting, causing a deviation from normal walking patterns.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI mentions a person falling, which is a partial aspect of the event, but it misses the specific action of pushing and the chasing. It lacks detail in identifying people and actions, and does not cover key aspects like the colors of shirts or the chase. However, it is written clearly."
+      }
+    }
+  ]
+}

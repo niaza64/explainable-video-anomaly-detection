@@ -1,0 +1,18 @@
+{
+  "video_id": "06_0144",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    34,
+    68,
+    102,
+    137,
+    171,
+    205,
+    240
+  ],
+  "anomaly_detected": true,
+  "explanation": "A vehicle is parked in front of a building entrance, which may obstruct pedestrian paths or access."
+}

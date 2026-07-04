@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0142",
+  "variant": "video_only",
+  "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show pedestrians walking calmly, and one bicyclist, which is consistent with normal activity in a public walkway area.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI identifies the presence of a bicyclist, which is part of the anomaly, but fails to recognize the specific rule violation of cycling in a pedestrian area. It lacks detail about the person's clothing and the context-specific infraction. The explanation is fluent but does not fully address the key aspects of the human description."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "09_007",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1577,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    404,
+    622,
+    840,
+    1058,
+    1276
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "All frames show normal pedestrian walking behavior with various groups and individuals moving through the area without any unusual or suspicious actions."
+}

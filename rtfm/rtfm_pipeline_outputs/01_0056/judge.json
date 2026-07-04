@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0056",
+  "video_type": "anomalous",
+  "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+  "ai_explanation": "The anomalous activity involves a person on a skateboard using it unusually as a method of moving backward while facing the other direction, which is atypical for pedestrian areas. This starts in snippet 20 and resolves by snippet 26, showing behavior that deviates from normal pedestrian and skateboarder movements such as walking forward or skateboarding in a direct path. The irregularity is highlighted by the increased anomaly score in snippet 22, indicating the peak of the atypical activity.",
+  "gate_score": 0.6174866557121277,
+  "gt_anomaly_start": 263,
+  "gt_anomaly_end": 397,
+  "scores": {
+    "correctness": 3,
+    "specificity": 4,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI identifies skateboarding in a pedestrian area as the anomaly, which partially matches the human explanation. It provides detailed specifics about the manner of skateboarding, which adds depth, but it misses mentioning the girl's appearance or the presence of others walking. The explanation is generally clear and well-structured."
+  }
+}

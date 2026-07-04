@@ -1,0 +1,16 @@
+{
+  "video_id": "07_0048",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+  "ai_explanation": "The anomalous activity involves a group of individuals gathering on a normally empty pedestrian crossing. The anomaly begins at snippet 4 with an empty scene, peaks at snippet 9 with two people walking into the area, and resolves by snippet 12 with a total of four individuals present. This behavior is anomalous because such gatherings and lingering are not typical for this location, which is usually not populated with groups at this time.",
+  "gate_score": 0.5500714778900146,
+  "gt_anomaly_start": 189,
+  "gt_anomaly_end": 240,
+  "scores": {
+    "correctness": 1,
+    "specificity": 2,
+    "completeness": 1,
+    "fluency": 4,
+    "justification": "The AI explanation fails to identify the same anomaly as the human, missing the chase between individuals with specific clothing descriptions. It provides some detail about the scene but lacks specific details about actions or clothing. Furthermore, it does not capture any key points mentioned by the human explanation. However, the explanation is well-structured and clear."
+  }
+}

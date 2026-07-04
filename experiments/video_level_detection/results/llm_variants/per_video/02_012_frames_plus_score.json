@@ -1,0 +1,17 @@
+{
+  "video_id": "02_012",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 227,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    57,
+    86,
+    116,
+    145,
+    174
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 57 to 145 suggest unusual pedestrian behavior, such as crowding or atypical movements. The score decreases in frame 174, indicating a return to normalcy."
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "03_0031",
+  "total_frames": 529,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 76,
+      "end_frame": 487,
+      "include_heatmap": false,
+      "explanation": "The anomalous behavior includes individuals crossing the road outside the marked pedestrian crossing and one instance of two individuals crouching with an object on the road, which deviates from typical pedestrian patterns on the walkway."
+    }
+  ]
+}

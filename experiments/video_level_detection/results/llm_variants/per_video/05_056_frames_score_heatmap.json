@@ -1,0 +1,17 @@
+{
+  "video_id": "05_056",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 738,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    227,
+    315,
+    403,
+    491,
+    579
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 315 and 403 have high anomaly scores (0.97 and 0.99) indicating unusual activity. Frame 403, in particular, shows an empty street which might be unexpected."
+}

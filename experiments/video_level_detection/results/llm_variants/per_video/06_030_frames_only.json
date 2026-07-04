@@ -1,0 +1,17 @@
+{
+  "video_id": "06_030",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 757,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    299,
+    391,
+    483,
+    575
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "A person begins exiting the building in frame 207 and remains by the doorway in all subsequent frames, which is unusual compared to typical pedestrian behavior."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0051",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    87,
+    130,
+    174,
+    217,
+    260
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 87, 130, 174, and 217 indicate unusual activities. The heatmap highlights a person on a bike moving across the frames, which might be considered unexpected in the context of typical pedestrian activity."
+}

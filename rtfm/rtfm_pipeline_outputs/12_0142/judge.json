@@ -1,0 +1,16 @@
+{
+  "video_id": "12_0142",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "ai_explanation": "An anomalous event occurs where two individuals, initially walking in an ordinary manner, veer towards a third individual accompanied by a child in a stroller. This interaction, starting around snippet 5, reaches a peak at snippet 9, and resolves by snippet 19, involves potentially suspicious or unplanned contact, deviating from typical pedestrian behavior of non-interference and separate transit paths.",
+  "gate_score": 0.9977781176567078,
+  "gt_anomaly_start": 74,
+  "gt_anomaly_end": 600,
+  "scores": {
+    "correctness": 1,
+    "specificity": 2,
+    "completeness": 1,
+    "fluency": 3,
+    "justification": "The AI explanation identifies an anomaly involving an interaction between individuals, which is completely different from the human-identified anomaly about cycling in a non-cycling area. The AI's description is somewhat specific, mentioning a child in a stroller and pedestrian behavior, but it lacks relevance to the actual event. It captures none of the human-grounded points and is written with moderate clarity."
+  }
+}

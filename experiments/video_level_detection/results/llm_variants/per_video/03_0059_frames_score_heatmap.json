@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0059",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    126,
+    180,
+    235,
+    289,
+    343
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores suggest unusual activity, particularly in frames 180 and 235, where interactions between individuals are highlighted, possibly indicating an altercation."
+}

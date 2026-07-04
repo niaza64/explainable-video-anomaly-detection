@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 77,
+  "end_frame": 485,
+  "include_heatmap": true,
+  "explanation": "The anomaly likely stems from an unusual group formation and movement pattern, with multiple individuals walking closely together in a manner not typically seen in this pedestrian area, causing significant deviations from the model's learned normal behavior."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "12_011",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1652,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    408,
+    637,
+    866,
+    1095,
+    1324
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show high anomaly scores, with unusual pedestrian behavior such as loitering and inconsistent walking patterns, especially in frame 1095. This suggests potential anomalous activity."
+}

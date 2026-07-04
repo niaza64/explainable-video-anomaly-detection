@@ -1,0 +1,81 @@
+{
+  "video_id": "12_0151",
+  "gate_score": 0.9869630336761475,
+  "n_segments": 18,
+  "segment_scores": [
+    0.37790748476982117,
+    0.37943705916404724,
+    0.37728041410446167,
+    0.42448940873146057,
+    0.5598533749580383,
+    0.6230170130729675,
+    0.6938154101371765,
+    0.7911983132362366,
+    0.9826423525810242,
+    0.9917231798171997,
+    0.9809721112251282,
+    0.988193690776825,
+    0.9877959489822388,
+    0.9254178404808044,
+    0.697673499584198,
+    0.5187331438064575,
+    0.3380734920501709,
+    0.17726098001003265
+  ],
+  "anomalous_segments": [
+    {
+      "start": 0,
+      "end": 16
+    }
+  ],
+  "extracted_frames": [
+    {
+      "snippet_idx": 0,
+      "score": 0.37790748476982117,
+      "frame_num": 8,
+      "file": "snippet_000_frame_0008.jpg"
+    },
+    {
+      "snippet_idx": 3,
+      "score": 0.42448940873146057,
+      "frame_num": 56,
+      "file": "snippet_003_frame_0056.jpg"
+    },
+    {
+      "snippet_idx": 5,
+      "score": 0.6230170130729675,
+      "frame_num": 88,
+      "file": "snippet_005_frame_0088.jpg"
+    },
+    {
+      "snippet_idx": 7,
+      "score": 0.7911983132362366,
+      "frame_num": 120,
+      "file": "snippet_007_frame_0120.jpg"
+    },
+    {
+      "snippet_idx": 9,
+      "score": 0.9917231798171997,
+      "frame_num": 152,
+      "file": "snippet_009_frame_0152.jpg"
+    },
+    {
+      "snippet_idx": 11,
+      "score": 0.988193690776825,
+      "frame_num": 184,
+      "file": "snippet_011_frame_0184.jpg"
+    },
+    {
+      "snippet_idx": 13,
+      "score": 0.9254178404808044,
+      "frame_num": 216,
+      "file": "snippet_013_frame_0216.jpg"
+    },
+    {
+      "snippet_idx": 16,
+      "score": 0.3380734920501709,
+      "frame_num": 264,
+      "file": "snippet_016_frame_0264.jpg"
+    }
+  ]
+}

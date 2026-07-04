@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0019",
+  "variant": "with_heatmap",
+  "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is due to a group of individuals who seem to be engaged in a confrontation or altercation in the street, which deviates from the usual pedestrian activity expected in this area.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly as a confrontation involving a group and another individual, matching the human's description of a fight. However, it lacks specific details about the number of people, clothing, and the action of walking away. The explanation is mostly clear but could benefit from more precise details."
+      }
+    }
+  ]
+}

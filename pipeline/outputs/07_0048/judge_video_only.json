@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0048",
+  "variant": "video_only",
+  "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The frames show pedestrians walking calmly on a path, which is normal behavior for this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 5,
+        "justification": "The AI explanation completely misses the identified anomaly of one person chasing another. It lacks any specific details relevant to the event and provides a generic description of normal behavior. However, it is fluently written and clear."
+      }
+    }
+  ]
+}

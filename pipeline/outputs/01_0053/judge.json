@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0053",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The presence of a motorized cart driving through a pedestrian-only area is the main anomaly, as it deviates significantly from the normal pedestrian activity expected in this scene.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies an unauthorized vehicle in a pedestrian area as the anomaly, but it refers to it as a 'motorized cart' instead of a 'tricycle' and does not mention the red shirt or specific prohibition on such vehicles. The language used is clear and coherent."
+      }
+    }
+  ]
+}

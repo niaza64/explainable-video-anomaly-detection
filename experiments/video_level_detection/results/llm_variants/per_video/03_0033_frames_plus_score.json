@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0033",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    90,
+    129,
+    168,
+    207,
+    246
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "There are multiple frames with high anomaly scores, particularly frames 129 and 168, suggesting unusual or unexpected behavior, such as an altercation or confrontation."
+}

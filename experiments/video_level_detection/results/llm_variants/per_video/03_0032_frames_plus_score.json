@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0032",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 409,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    118,
+    169,
+    221,
+    272,
+    323
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Several frames show unusual activities, such as a person sitting in the road and interactions involving multiple people, which deviate from normal pedestrian behavior."
+}

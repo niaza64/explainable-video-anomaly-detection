@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0032",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a person sitting in the middle of the road, deviating from normal pedestrian behavior where individuals typically walk across the crosswalk rather than stopping or sitting in the roadway.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation describes a completely different anomaly involving a sitting person rather than an altercation. It fails to identify the actions and individuals involved, missing all key points from the human explanation. Despite this, the explanation is relatively clear and well-written."
+      }
+    }
+  ]
+}

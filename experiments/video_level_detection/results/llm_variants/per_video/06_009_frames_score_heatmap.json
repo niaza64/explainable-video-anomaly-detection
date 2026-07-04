@@ -1,0 +1,17 @@
+{
+  "video_id": "06_009",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 400,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    117,
+    168,
+    219,
+    270,
+    321
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames display high anomaly scores, particularly in frames 168, 219, and 270, indicating unusual activity around the door area and movement patterns."
+}

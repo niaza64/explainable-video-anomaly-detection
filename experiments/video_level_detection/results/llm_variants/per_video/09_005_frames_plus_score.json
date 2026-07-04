@@ -1,0 +1,17 @@
+{
+  "video_id": "09_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 502,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    126,
+    193,
+    259,
+    326,
+    392
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are relatively high, reaching a maximum of 1.00 at frame 259, indicating unusual pedestrian behavior. The sequence shows people dramatically changing position and possibly not moving in a typical manner."
+}

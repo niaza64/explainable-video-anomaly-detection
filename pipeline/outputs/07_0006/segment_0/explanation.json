@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 59,
+  "end_frame": 348,
+  "include_heatmap": true,
+  "explanation": "The anomaly occurs as one individual in a group suddenly sits or falls on the road in frame 203, deviating from normal walking behavior which raises high anomaly scores."
+}

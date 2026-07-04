@@ -1,0 +1,17 @@
+{
+  "video_id": "04_005",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 976,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    404,
+    522,
+    640,
+    758
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show normal pedestrian movement with individuals walking calmly across the area."
+}

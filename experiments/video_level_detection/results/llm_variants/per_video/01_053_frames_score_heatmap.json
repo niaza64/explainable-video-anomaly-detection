@@ -1,0 +1,17 @@
+{
+  "video_id": "01_053",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1106,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    284,
+    426,
+    568,
+    710,
+    852
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores for frames 284, 426, 568, and 710 are high, indicating unusual behavior such as persons standing or moving erratically, which deviates from normal pedestrian walking patterns."
+}

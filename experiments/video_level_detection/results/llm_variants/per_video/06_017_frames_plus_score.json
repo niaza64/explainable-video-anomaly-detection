@@ -1,0 +1,17 @@
+{
+  "video_id": "06_017",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    294,
+    381,
+    468,
+    555
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 294, 381, and 468 suggest unusual activity, possibly related to the individuals' actions or sudden absence from the scene."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0051",
+  "variant": "video_only",
+  "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The frames show pedestrians walking calmly, and cyclists riding past without any apparent issue. The activities appear normal for a public walkway.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI explanation does not identify the anomaly of a bicycle being ridden in a pedestrian-only area, which is the key point mentioned by the human. It mentions cyclists generally but does not specify the context of the pedestrian-only restriction. The fluency is acceptable, but the content is incorrect and incomplete."
+      }
+    }
+  ]
+}

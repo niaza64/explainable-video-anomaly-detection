@@ -1,0 +1,17 @@
+{
+  "video_id": "04_017",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 502,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    115,
+    184,
+    253,
+    322,
+    391
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 184 (0.96) and 253 (0.99) suggest unusual activity, possibly related to the sudden disappearance or rapid movement of pedestrians."
+}

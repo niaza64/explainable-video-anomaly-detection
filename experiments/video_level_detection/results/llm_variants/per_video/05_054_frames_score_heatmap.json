@@ -1,0 +1,17 @@
+{
+  "video_id": "05_054",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 738,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    207,
+    296,
+    385,
+    474,
+    563
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 296, 385, and 474 show notable anomaly scores, particularly frame 385 with a score of 0.99, indicating potential unusual activity or behavior in the scene."
+}

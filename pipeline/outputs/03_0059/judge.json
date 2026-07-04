@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0059",
+  "variant": "with_heatmap",
+  "human_explanation": "Two people are fighting on the road and later walk together.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly in the video is due to a group of people congregating and briefly interacting in an area typically characterized by individual pedestrian movement, which deviates from the normal flow and density of traffic in this scene.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI explanation partially hints at unusual human interaction but fails to specifically identify a fight. Details are vague compared to the human's mention of a fight and subsequent walking. The AI misses key aspects like the fight but is generally well-written."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "10_0038",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 241,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    69,
+    99,
+    130,
+    160,
+    190
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high, especially at frames 99 and 130, indicating unusual activity. The individual is running, which differs from typical walking behavior observed in the scene."
+}

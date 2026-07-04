@@ -1,0 +1,26 @@
+{
+  "video_id": "12_0173",
+  "variant": "video_only",
+  "total_frames": 217,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    30,
+    61,
+    92,
+    123,
+    154,
+    185,
+    216
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 216,
+      "include_heatmap": false,
+      "explanation": "A cyclist is riding a bicycle on a pedestrian path in frames 61, 92, and 123, which deviates from the normal pedestrian walking activity expected in this area."
+    }
+  ]
+}

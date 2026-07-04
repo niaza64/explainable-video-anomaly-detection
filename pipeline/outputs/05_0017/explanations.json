@@ -1,0 +1,13 @@
+{
+  "video_id": "05_0017",
+  "total_frames": 433,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 71,
+      "end_frame": 396,
+      "include_heatmap": true,
+      "explanation": "The anomaly is due to the unusual behavior of individuals playing with a frisbee on a roadway, which deviates from normal pedestrian movement in this area."
+    }
+  ]
+}

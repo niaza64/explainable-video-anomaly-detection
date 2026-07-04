@@ -1,0 +1,13 @@
+{
+  "video_id": "08_0077",
+  "total_frames": 457,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 75,
+      "end_frame": 418,
+      "include_heatmap": false,
+      "explanation": "A group of people is moving in an unusual, erratic pattern on the pedestrian path, deviating from typical walking behaviors seen in the scene, which likely involves unconventional movement such as running or interacting in unexpected ways."
+    }
+  ]
+}

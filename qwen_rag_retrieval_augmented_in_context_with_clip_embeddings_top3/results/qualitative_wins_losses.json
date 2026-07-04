@@ -1,0 +1,166 @@
+{
+  "wins": [
+    {
+      "video_id": "01_0056",
+      "human_gt": "A girl in a white shirt is skateboarding in a pedestrian area.",
+      "rag_output": "A girl in a white shirt is riding a skateboard across a pedestrian plaza, while a boy in a light green shirt walks nearby holding a red object. The skateboarder moves from the left side of the frame toward the center, which is unusual in a pedestrian-only area where wheeled devices are typically prohibited. This behavior is anomalous because it violates the expected norm of foot traffic only in such public spaces.",
+      "lora_v1_output": "A boy in a light green shirt and dark shorts is walking across a paved plaza while holding a red object, possibly a toy or small bag, in his right hand. This behavior is anomalous because, in a typical pedestrian environment, individuals do not usually walk while holding a small object in a manner that suggests it is being used as a prop or toy, especially in an open public space where such activity is uncommon. The anomaly occurs in snippets 23-24, with the highest score in snippet 24, indicating the peak of the unusual behavior.",
+      "zeroshot_output": "An anomalous event occurs between snippets 20 and 26, where a person on a skateboard suddenly stops and turns around, deviating from normal forward motion. This individual, wearing a white top and dark pants, is seen riding across a paved plaza, then abruptly halting and facing backward, which is atypical for pedestrian or skateboarding behavior in this open space. The anomaly peaks at snippet 22, where the person is stationary, before resuming movement, indicating a brief but unusual pause in motion.",
+      "rag_C": 5,
+      "v1_C": 1,
+      "zs_C": 2,
+      "retrieved_train_ids": [
+        "01_0073",
+        "01_0054",
+        "01_0016"
+      ],
+      "retrieved_train_labels": [
+        "A girl in a white shirt is seen riding a bicycle through a pedestrian-only area. Two men, one in a blue shirt and the other in a gray shirt, are walking nearby. Cycling is not allowed in this pedestrian zone, making this behavior anomalous.",
+        "A person wearing a blue shirt is pulling a trolley or handcart in an area designated for pedestrians. This action is unusual as pedestrian areas typically restrict the use of trolleys and handcarts. Other people are walking nearby, highlighting the area's intended use for foot traffic only.",
+        "A person in a grey shirt is riding a scooter through a pedestrian area where scooters are not allowed. The individual rides across the empty pavement, moving past several people who are standing nearby. The presence of the scooter in this pedestrian-only zone is the anomaly in the scene."
+      ]
+    },
+    {
+      "video_id": "08_0080",
+      "human_gt": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+      "rag_output": "A person wearing a dark shirt and carrying a backpack is skateboarding along a pedestrian walkway, an activity that is inappropriate for this area designated for walking. The individual moves through the space while other pedestrians walk normally nearby, making the skateboarding behavior stand out as disruptive and anomalous. The anomaly peaks in the middle frames and begins to resolve as the skater moves out of view.",
+      "lora_v1_output": "A man in a black shirt and light-colored pants is seen running and chasing a woman in a white top and dark pants along a paved walkway in a modern outdoor area. The chase begins around snippet 3 and peaks in intensity around snippets 7-12, with the man closing the distance and appearing to grab or physically interact with the woman by snippet 14. This behavior is anomalous because it deviates from normal pedestrian activity, which typically involves calm, non-aggressive movement; the sudden, forceful pursuit and physical contact suggest a potential assault or kidnapping, making it a high-risk event in an otherwise peaceful public space.",
+      "zeroshot_output": "An anomalous event occurs between snippets 5 and 16, where a person in a black shirt and light pants suddenly runs across the paved walkway, deviating from the normal walking behavior of other pedestrians. This running motion, which peaks in anomaly score at snippet 12, is unusual in this calm, pedestrian-friendly outdoor environment and stands out against the otherwise steady, unhurried movement of others. The anomaly resolves as the runner exits the frame and normal walking resumes.",
+      "rag_C": 5,
+      "v1_C": 1,
+      "zs_C": 1,
+      "retrieved_train_ids": [
+        "08_0078",
+        "08_0079",
+        "08_0179"
+      ],
+      "retrieved_train_labels": [
+        "A guy in a grey shirt carrying a black bag is seen running in a pedestrian area. This area is meant for walking only, making running an anomaly. Several other people can be observed walking casually nearby, emphasizing the unusual nature of his behavior.",
+        "A person wearing a striped shirt and carrying a bag is running through a pedestrian area, an activity that is typically inappropriate for such a zone. The individual is moving alongside others who are walking, contrasting with the usual orderly pedestrian flow.",
+        "A person wearing a checkered shirt is skateboarding along a pedestrian walkway, where skateboarding is prohibited. The area is populated with other pedestrians, including one in a light-colored shirt carrying a backpack. This activity is disruptive as the path is meant for walking only."
+      ]
+    },
+    {
+      "video_id": "06_0153",
+      "human_gt": "A person in a black shirt is riding a bicycle in a pedestrian area.",
+      "rag_output": "A man wearing a dark blue shirt and beige pants is seen riding a bicycle through a pedestrian area where cycling is not permitted. He enters the frame from the left, rides past a building with glass doors, and exits to the right, while other pedestrians walk normally in the vicinity. This behavior is anomalous because cycling is restricted in this pedestrian zone, which is designated for walking only.",
+      "lora_v1_output": "A man in a white shirt walks toward the entrance of a building, then stops and turns back, appearing to hesitate or loiter. This behavior is anomalous because it deviates from typical pedestrian flow, where people usually enter or pass by without stopping. The anomaly peaks when he stands still, and a cyclist passes by, further highlighting his unusual pause in a public walkway.",
+      "zeroshot_output": "A man in a white shirt walks along a sidewalk in front of a glass-walled building, while a woman in green stands near the entrance. The anomaly begins when a man on a bicycle enters the scene from the left (snippet 7) and continues as he rides past the building, reaching peak anomaly at snippet 10. This is anomalous because cycling on the sidewalk is an atypical and potentially hazardous behavior in this pedestrian-focused environment, especially near a building entrance where people are walking.",
+      "rag_C": 4,
+      "v1_C": 1,
+      "zs_C": 4,
+      "retrieved_train_ids": [
+        "06_0155",
+        "06_0147",
+        "06_0145"
+      ],
+      "retrieved_train_labels": [
+        "A girl in a white shirt is cycling through a pedestrian area where biking is not permitted. She is riding a bicycle, carrying a bag in her front basket, and heading down a walkway adjacent to a building with glass doors. Another person is walking nearby wearing a dark blue shirt with text on the back.",
+        "A person wearing a blue shirt is seen cycling on a bicycle while holding a white umbrella in a pedestrian-only area. Another individual is visible exiting a building nearby. Cycling is not permitted in this area, which is designated for pedestrians.",
+        "A girl wearing a white shirt and carrying a pink backpack is riding a bicycle through a pedestrian area where cycling is not permitted. She is seen passing by several people who are walking near a building with large windows. This activity is against the regulations in the pedestrian zone."
+      ]
+    },
+    {
+      "video_id": "12_0173",
+      "human_gt": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+      "rag_output": "A person in a white shirt is riding a bicycle through a pedestrian-only plaza, where cycling is prohibited. The cyclist moves across the paved area, passing near other pedestrians, including a person in a purple shirt and another in a pink shirt walking nearby. This behavior is anomalous because the area is designated for foot traffic only, and the presence of a bicycle disrupts the expected pedestrian flow and safety.",
+      "lora_v1_output": "A person in a pink shirt is walking while looking at their phone, and a cyclist rides past them. The anomaly occurs when the cyclist collides with a pedestrian, causing both to fall. This is anomalous because the cyclist was riding in a pedestrian area and failed to avoid the pedestrian, leading to a collision.",
+      "zeroshot_output": "A person on a bicycle enters a pedestrian plaza and rides across the paved area, which is an anomalous activity as cycling is typically restricted in such spaces. The anomaly peaks when the cyclist is in the center of the plaza (snippet 7, score 0.995), and is followed by a group of pedestrians reacting or moving away, indicating disruption to normal pedestrian flow. The activity is anomalous because it violates expected pedestrian-only behavior in the plaza.",
+      "rag_C": 5,
+      "v1_C": 2,
+      "zs_C": 5,
+      "retrieved_train_ids": [
+        "12_0148",
+        "12_0175",
+        "12_0154"
+      ],
+      "retrieved_train_labels": [
+        "Three individuals are riding together on a single scooter through a pedestrian-only area where vehicles are not permitted. They navigate a paved path lined with trees and benches, passing by other pedestrians. This behavior is anomalous as the area is restricted to foot traffic only, ensuring safety for people walking.",
+        "A person in a white shirt is riding a bicycle through a pedestrian area, where cycling is not permitted. He travels along a paved path lined with trees, moving past other pedestrians who are walking in the designated space. The area is marked for foot traffic only, making the cycling behavior unusual.",
+        "In a pedestrian-only area, a person in a black shirt is seen riding a bicycle while carrying an umbrella. Another person in a white shirt is following closely behind on a bicycle. Cycling is not allowed in this pedestrian zone, making this activity unusual."
+      ]
+    }
+  ],
+  "losses": [
+    {
+      "video_id": "01_0015",
+      "human_gt": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+      "rag_output": "The video shows a pedestrian area with several individuals walking normally, including a person in a patterned shirt and jeans walking across the center, and others in the background. The anomaly scores are low (0.4034 and 0.3180), indicating no significant anomalous activity such as cycling or using a trolley. The behavior observed is consistent with normal pedestrian movement, and no clear deviation from expected activity is present.",
+      "lora_v1_output": "A person in a patterned shirt and jeans is walking across a paved plaza while holding a camera, moving from the center toward the left side of the frame. This behavior is flagged as anomalous because the individual is carrying a camera in a public space where such activity is uncommon, and their movement pattern deviates from typical pedestrian flow, suggesting potential surveillance or unauthorized recording. The anomaly occurs between snippets 10 and 12, peaking at snippet 10.",
+      "zeroshot_output": "An anomalous event occurs between snippets 12 and 19, where a person in a patterned shirt and jeans walks erratically across a paved plaza, deviating from the normal straight-line pedestrian motion. This individual moves laterally and then exits the frame abruptly, while other people in the background (including one in orange and another in white) continue walking normally on skateboards or on foot. The anomaly peaks around snippet 14, suggesting unusual movement patterns that stand out from typical pedestrian behavior in the area.",
+      "rag_C": 1,
+      "v1_C": 1,
+      "zs_C": 2,
+      "retrieved_train_ids": [
+        "01_0054",
+        "01_0014",
+        "01_0073"
+      ],
+      "retrieved_train_labels": [
+        "A person wearing a blue shirt is pulling a trolley or handcart in an area designated for pedestrians. This action is unusual as pedestrian areas typically restrict the use of trolleys and handcarts. Other people are walking nearby, highlighting the area's intended use for foot traffic only.",
+        "A person wearing a grey shirt is cycling through a pedestrian area where bicycles are not permitted. Several other people are walking nearby, highlighting the area's intended pedestrian use. The cyclist rides smoothly across the open walkway, disregarding the rules prohibiting cycling in this zone.",
+        "A girl in a white shirt is seen riding a bicycle through a pedestrian-only area. Two men, one in a blue shirt and the other in a gray shirt, are walking nearby. Cycling is not allowed in this pedestrian zone, making this behavior anomalous."
+      ]
+    },
+    {
+      "video_id": "01_0027",
+      "human_gt": "A person in black shirt pushed a person in white shirt while running",
+      "rag_output": "A group of four young males, including one in a white shirt and another in a striped shirt, are walking together across a pedestrian plaza. As they move, they begin to run and scatter in different directions, with one individual in a light green shirt running off to the left side of the frame. This sudden burst of erratic, uncoordinated movement is anomalous in a public pedestrian area where calm, orderly walking is expected.",
+      "lora_v1_output": "A group of four young males walk together across a paved plaza in a coordinated, side-by-side formation, which is unusual for typical pedestrian behavior in this public space. The anomaly peaks as they move across the center of the plaza (snippets 12-14) and gradually resolves as they disperse and exit the frame (snippet 21). This group movement deviates from normal individual or small-group pedestrian patterns, triggering high anomaly scores.",
+      "zeroshot_output": "A group of young boys is seen running and moving erratically across a paved plaza, which is unusual for this typically calm, pedestrian area. The anomalous behavior begins around snippet 3, peaks between snippets 8 and 20 with high anomaly scores, and resolves by snippet 22 as the group exits the frame. This is anomalous because the sudden, uncoordinated running deviates from normal walking patterns expected in this public space.",
+      "rag_C": 1,
+      "v1_C": 1,
+      "zs_C": 2,
+      "retrieved_train_ids": [
+        "01_0026",
+        "01_0030",
+        "01_0063"
+      ],
+      "retrieved_train_labels": [
+        "A person in a light mint-green shirt is engaging in a fight with another person wearing a dark blue shirt on a paved walkway. They are surrounded by other individuals who appear to be walking nearby. This is an unusual occurrence as fighting is not typical behavior in public walkways.",
+        "A person in a red shirt is skateboarding down a wide pedestrian pathway where skateboarding is not allowed. He is moving towards the camera while two pedestrians, one in black attire and the other in light clothing, are walking in the area. This creates an anomaly as skateboarding is prohibited in pedestrian zones.",
+        "A person wearing a white-grey shirt and a backpack is riding a bicycle through a pedestrian-only area where cycling is not permitted. Several pedestrians, including a group of people walking together, can be seen nearby. This area is designated for foot traffic, making cycling an anomaly here."
+      ]
+    },
+    {
+      "video_id": "03_0033",
+      "human_gt": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+      "rag_output": "A man in a white shirt is seen falling to the ground on the road, and another man in a light green shirt rushes to help him up. The man in white then runs away quickly, while other pedestrians continue walking normally. This sudden fall and rapid departure are unusual for a pedestrian crossing, where such physical incidents are rare and disruptive to normal traffic flow.",
+      "lora_v1_output": "A man in a white shirt and black shorts is seen running across a pedestrian crossing while being chased by another man in a green shirt. The chase begins around snippet 5 and peaks in snippets 9 and 12, where the man in white is running frantically, which is highly anomalous for a pedestrian crossing. The anomaly is due to the aggressive, non-standard behavior of running and chasing in a pedestrian zone, which deviates from normal walking patterns.",
+      "zeroshot_output": "A man in a white shirt and black shorts runs across a crosswalk, then collides with another man in a green shirt and grey shorts, causing the first man to fall. The second man helps him up, and they both run away from the scene. This interaction is anomalous because it involves sudden, aggressive movement and physical contact in a public space where pedestrian behavior is typically calm and orderly, peaking in anomaly at snippet 9 when the man is running away after the collision.",
+      "rag_C": 1,
+      "v1_C": 3,
+      "zs_C": 2,
+      "retrieved_train_ids": [
+        "03_0035",
+        "03_0039",
+        "03_0036"
+      ],
+      "retrieved_train_labels": [
+        "A boy in a red shirt is seen running after another boy in a blue shirt, attempting to hit him with a bag. On the side, a third boy wearing a light green shirt is energetically jumping. This activity is unusual for a pedestrian pathway.",
+        "A person in a dark blue shirt and shorts is swinging a camera tripod in the middle of a road. He is wearing sandals and is alone in this activity while other pedestrians nearby are walking normally. Swinging objects in the road is unusual and potentially dangerous for traffic and pedestrians.",
+        "A man in a white shirt is seen circling in the middle of the road, creating a disruption in the flow of pedestrian traffic. He engages in this behavior while other individuals walk normally across the street. His actions are unusual because the road is meant for crossing, not loitering or circling."
+      ]
+    },
+    {
+      "video_id": "10_0042",
+      "human_gt": "Two people, one in a white shirt and another in striped shirt, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+      "rag_output": "A man in a black t-shirt and shorts is walking through a pedestrian plaza while looking down at his phone, appearing distracted. He walks slowly and remains focused on his device, which is unusual behavior in a public space where pedestrians typically maintain awareness of their surroundings. This behavior is flagged as anomalous because it deviates from normal pedestrian conduct, potentially posing a safety risk in a shared environment.",
+      "lora_v1_output": "A man in a black t-shirt and shorts is walking across a paved plaza while looking down at his phone, appearing distracted. This behavior is flagged as anomalous because he is not paying attention to his surroundings, which is a deviation from normal pedestrian behavior in a public space where awareness is expected for safety. The anomaly spans from snippet 6 to snippet 24, with the highest score at snippet 8, indicating the peak of the unusual behavior.",
+      "zeroshot_output": "A man in a black t-shirt and dark shorts is seen walking across a paved plaza, moving from the right side toward the center. His motion appears erratic and uncoordinated, with sudden shifts in direction and pace, which deviates from normal pedestrian behavior. The anomaly occurs between snippets 7 and 16, peaking around snippet 7, and is flagged due to this unusual gait and movement pattern in an otherwise calm public space.",
+      "rag_C": 1,
+      "v1_C": 1,
+      "zs_C": 1,
+      "retrieved_train_ids": [
+        "10_0037",
+        "10_0074",
+        "10_0075"
+      ],
+      "retrieved_train_labels": [
+        "Two people in white shirts are each riding a bicycle in a pedestrian area. They are cycling past several other pedestrians, including one person in a striped shirt and another with a backpack. Cycling is not allowed in this pedestrian-only zone.",
+        "In a pedestrian area, a security guard wearing a dark uniform is seen riding a motorbike. He stops in the middle of the space, waits briefly, then continues riding, which is not allowed. Meanwhile, a man in a green shirt is running through the same pedestrian area.",
+        "A girl in a white shirt and dark skirt steps off the pedestrian path into a small garden area. She then suddenly turns right and begins running across the open square. This behavior is unusual as the area is designed for walking and not for running through garden spaces."
+      ]
+    }
+  ]
+}

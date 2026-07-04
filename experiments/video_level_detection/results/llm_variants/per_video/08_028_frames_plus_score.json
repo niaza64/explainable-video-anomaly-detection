@@ -1,0 +1,17 @@
+{
+  "video_id": "08_028",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1082,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    302,
+    438,
+    573,
+    709,
+    844
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 438 and 573 have high anomaly scores (0.99) suggesting unusual activity. Multiple people are gathered, which deviates from the usual pedestrian flow observed in other frames."
+}

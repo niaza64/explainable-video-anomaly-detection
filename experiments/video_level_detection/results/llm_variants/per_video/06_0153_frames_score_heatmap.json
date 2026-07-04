@@ -1,0 +1,17 @@
+{
+  "video_id": "06_0153",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    64,
+    92,
+    120,
+    148,
+    176
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and heatmaps indicate unusual activity, such as a bicycle being ridden near a building entrance in areas typically restricted to pedestrian traffic."
+}

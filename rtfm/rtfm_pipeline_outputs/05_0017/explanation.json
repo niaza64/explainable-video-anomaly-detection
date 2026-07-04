@@ -1,0 +1,6 @@
+{
+  "video_id": "05_0017",
+  "gate_score": 0.7165684700012207,
+  "n_frames_sent": 8,
+  "explanation": "The anomaly involves a group of people converging in the middle of a road, with erratic behavior such as raising arms and walking together atypically. The sequence begins in snippet 9 with a single person and gradually includes more individuals by snippet 26. This behavior is anomalous because it diverges from expected pedestrian activity, where individuals usually walk along the path alone or in small groups without obstructing traffic."
+}

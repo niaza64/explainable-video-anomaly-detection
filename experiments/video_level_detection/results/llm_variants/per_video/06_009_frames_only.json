@@ -1,0 +1,17 @@
+{
+  "video_id": "06_009",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 400,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    117,
+    168,
+    219,
+    270,
+    321
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence shows people walking normally near a building entrance without any unusual behavior."
+}

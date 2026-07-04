@@ -1,0 +1,17 @@
+{
+  "video_id": "01_045",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 602,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    176,
+    251,
+    326,
+    401,
+    476
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show high anomaly scores, especially frame 326 with a score of 1.00, indicating unusual activity. Multiple frames suggest movement or behavior deviating from normal pedestrian walking."
+}

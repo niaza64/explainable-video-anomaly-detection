@@ -1,0 +1,17 @@
+{
+  "video_id": "02_015",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 202,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    58,
+    83,
+    109,
+    134,
+    159
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians walking along a sidewalk in an orderly manner, which appears to be normal pedestrian activity."
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "03_0059",
+  "total_frames": 433,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 72,
+      "end_frame": 398,
+      "include_heatmap": false,
+      "explanation": "The anomaly is caused by a group of people unexpectedly interacting and traversing the crosswalk in a non-linear and irregular manner, deviating from typical pedestrian behavior in this scene."
+    }
+  ]
+}

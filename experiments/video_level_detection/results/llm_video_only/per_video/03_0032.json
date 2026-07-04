@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0032",
+  "is_anomalous_gt": 1,
+  "total_frames": 409,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    58,
+    116,
+    174,
+    233,
+    291,
+    349,
+    408
+  ],
+  "anomaly_detected": true,
+  "explanation": "A person is lying on the ground in Frame 174, which deviates from normal pedestrian behavior where individuals are expected to walk calmly."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0011",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    85,
+    125,
+    164,
+    204,
+    243
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking in a park-like area, including a child running. All movements appear typical of pedestrian activity."
+}

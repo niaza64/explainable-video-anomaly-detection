@@ -1,0 +1,17 @@
+{
+  "video_id": "08_023",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 818,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    249,
+    345,
+    440,
+    536,
+    631
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The scores are relatively high, with 0.96 and 0.99 suggesting significant deviations, possibly indicating unusual pedestrian congestion or movement patterns in frames 345 and 440."
+}

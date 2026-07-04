@@ -1,0 +1,17 @@
+{
+  "video_id": "08_0158",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    93,
+    135,
+    178,
+    220,
+    262
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence shows normal pedestrian movement with people walking in a public area. No unusual behavior or anomalies are observed."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0059",
+  "variant": "no_heatmap",
+  "human_explanation": "Two people are fighting on the road and later walk together.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by a group of people unexpectedly interacting and traversing the crosswalk in a non-linear and irregular manner, deviating from typical pedestrian behavior in this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI does not identify the same anomaly as the human, which is a fight between two people. The AI's explanation lacks necessary detail about individuals or actions, and it misses the key aspect of the fight and subsequent walking together. However, the explanation is fairly well-written and clear, thus receiving a higher score for fluency."
+      }
+    }
+  ]
+}

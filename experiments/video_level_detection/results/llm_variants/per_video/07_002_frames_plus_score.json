@@ -1,0 +1,17 @@
+{
+  "video_id": "07_002",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 777,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    234,
+    325,
+    416,
+    507,
+    598
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frame 325 shows an unusually high anomaly score of 0.97, yet no visible pedestrians or vehicles, indicating potential lack of expected movement. Frame 416 has a score of 0.99, suggesting unusual activity as multiple people are crossing, which aligns with typical anomaly score responses for increased pedestrian activity."
+}

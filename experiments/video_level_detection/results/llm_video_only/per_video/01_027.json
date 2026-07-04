@@ -1,0 +1,18 @@
+{
+  "video_id": "01_027",
+  "is_anomalous_gt": 0,
+  "total_frames": 944,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    134,
+    269,
+    404,
+    538,
+    673,
+    808,
+    943
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show normal pedestrian activity with no unusual behavior or disruptions."
+}

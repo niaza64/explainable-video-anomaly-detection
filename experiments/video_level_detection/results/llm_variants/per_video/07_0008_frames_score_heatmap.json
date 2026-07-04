@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0008",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    131,
+    188,
+    245,
+    302,
+    359
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores suggest unusual activity, possibly related to an individual carrying an object in an unusual manner in frames 245 and 302, which likely contributes to the high scores."
+}

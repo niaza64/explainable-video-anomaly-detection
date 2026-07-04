@@ -1,0 +1,6 @@
+{
+  "video_id": "04_0011",
+  "gate_score": 0.6413383483886719,
+  "n_frames_sent": 5,
+  "explanation": "An anomalous activity is detected involving a child in pink walking away from a group of adults walking with a stroller. The anomaly begins in snippet 6, peaks at snippet 13 with a man in a striped shirt moving towards the child, and resolves in snippet 16. This behavior is anomalous as the child is unsupervised, moving significantly away from the accompanying group, deviating from typical pedestrian behavior involving children."
+}

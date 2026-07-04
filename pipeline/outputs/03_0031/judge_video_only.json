@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0031",
+  "variant": "video_only",
+  "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show normal activity with pedestrians walking calmly on the pathway.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI completely missed the anomaly of a theft occurring in the scene, incorrectly stating that there is normal pedestrian activity, which is both incorrect and non-specific. The explanation fails to address the key points regarding the theft and the individuals involved. However, the explanation is fluently written with clear language."
+      }
+    }
+  ]
+}

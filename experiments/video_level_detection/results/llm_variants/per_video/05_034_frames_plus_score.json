@@ -1,0 +1,17 @@
+{
+  "video_id": "05_034",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 962,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    300,
+    416,
+    532,
+    648,
+    764
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "There are high anomaly scores, particularly in frames 416 and 532, suggesting unusual activity or behavior on the pathway."
+}

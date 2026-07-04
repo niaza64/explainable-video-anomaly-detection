@@ -1,0 +1,16 @@
+{
+  "video_id": "12_0173",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "ai_explanation": "In this video, a cyclist is riding along a pedestrian walkway, interacting with pedestrians in frames from time-segmented footage. The anomaly begins at snippet 0 when the cyclist first appears riding close to a walking individual, increases as the cyclist weaves through people (peaking at snippet 7 with a score of 0.995), and resolves at snippet 12 as pedestrians continue without the cyclist in view. This behavior is anomalous because bicycles are usually restricted in pedestrian-only areas to prevent disturbances and ensure safety.",
+  "gate_score": 0.992240309715271,
+  "gt_anomaly_start": 51,
+  "gt_anomaly_end": 167,
+  "scores": {
+    "correctness": 5,
+    "specificity": 4,
+    "completeness": 5,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly of a cyclist riding in a pedestrian area where cycling is not allowed, matching the human explanation. It provides specific details about the cyclist weaving through pedestrians and references the time segments, though it could mention the cyclist's clothing for more specificity. It captures all key aspects mentioned by the human by explaining why this behavior is anomalous, and the explanation is clear and well-written."
+  }
+}

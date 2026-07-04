@@ -1,0 +1,17 @@
+{
+  "video_id": "11_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1102,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    289,
+    431,
+    573,
+    714,
+    856
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The presence of pedestrians in frame 431, with a high anomaly score of 0.98, suggests unusual activity in the context of mostly empty frames in this segment, indicating an anomaly."
+}

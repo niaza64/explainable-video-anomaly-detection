@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0004",
+  "is_anomalous_gt": 1,
+  "total_frames": 865,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    123,
+    246,
+    370,
+    493,
+    617,
+    740,
+    864
+  ],
+  "anomaly_detected": true,
+  "explanation": "In frame 493, a person is sitting on the ground while others are standing around, which is unusual in a pedestrian walkway."
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0139",
+  "total_frames": 217,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 36,
+      "end_frame": 201,
+      "include_heatmap": true,
+      "explanation": "The anomalous activity involves an individual cycling on a path typically used by pedestrians, which deviates from the normal walking patterns expected in this scene."
+    }
+  ]
+}

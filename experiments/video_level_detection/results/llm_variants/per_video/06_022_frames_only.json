@@ -1,0 +1,17 @@
+{
+  "video_id": "06_022",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 724,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    224,
+    311,
+    398,
+    485,
+    572
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show individuals walking out of a building, which is normal pedestrian activity."
+}

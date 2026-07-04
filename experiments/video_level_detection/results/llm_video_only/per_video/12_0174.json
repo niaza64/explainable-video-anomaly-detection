@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0174",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    48,
+    96,
+    144,
+    192,
+    240,
+    288,
+    336
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show normal pedestrian and cyclist activity with individuals moving calmly through the area."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "10_011",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 777,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    237,
+    328,
+    420,
+    511,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frame scores indicate potential anomalies, particularly in frames 328 (0.97) and 420 (0.99). The images show pedestrians in relatively static positions, suggesting non-standard movement patterns or behavior."
+}

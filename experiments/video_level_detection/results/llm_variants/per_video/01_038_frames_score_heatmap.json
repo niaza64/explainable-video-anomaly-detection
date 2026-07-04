@@ -1,0 +1,17 @@
+{
+  "video_id": "01_038",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 482,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    142,
+    206,
+    270,
+    334,
+    398
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores are generally high, especially frame 270 with a score of 1.00, indicating unusual activity such as clustering or unexpected stopping, as highlighted in the heatmaps."
+}

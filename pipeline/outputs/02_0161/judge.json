@@ -1,0 +1,18 @@
+{
+  "video_id": "02_0161",
+  "variant": "with_heatmap",
+  "human_explanation": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly in this segment is primarily due to multiple cyclists riding on a pedestrian pathway, which deviates from the typical pedestrian-only activity observed in this scene.",
+      "scores": {
+        "correctness": 4,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly as cyclists riding in a pedestrian area, which aligns with the human explanation. However, it lacks specific details such as the number of people involved and their clothing. The explanation is well-written and clear."
+      }
+    }
+  ]
+}

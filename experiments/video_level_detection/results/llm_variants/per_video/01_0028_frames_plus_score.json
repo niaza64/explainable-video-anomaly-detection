@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0028",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    136,
+    195,
+    253,
+    312,
+    370
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores correspond to unusual activities like a sudden change in direction or interaction among individuals on the street, especially evident in frames 195, 253, and 312."
+}

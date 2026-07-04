@@ -1,0 +1,16 @@
+{
+  "video_id": "09_002",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "In the sequence from snippets 17 to 41, a gradual reduction in pedestrian activity is observed, peaking at snippet 27 with a significant drop in foot traffic. The area, which initially hosts several groups walking normally, becomes almost empty with only a few individuals present by snippet 29. This deviation indicates an unusual and abrupt change in crowd density, potentially suggesting an evacuation scenario or a localized disruption that is atypical for the location.",
+  "gate_score": 0.21706537902355194,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 5,
+    "justification": "The AI indicates an anomaly in pedestrian reduction, which contradicts the human's description of no anomaly. It provides specific details about the timeline and changes in crowd density, but these do not match the human's view. The explanation is well-written and clear."
+  }
+}

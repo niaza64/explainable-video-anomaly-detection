@@ -1,0 +1,17 @@
+{
+  "video_id": "10_004",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1827,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    441,
+    704,
+    966,
+    1229,
+    1491
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking normally through a public area without any unusual behavior."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "08_011",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 722,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    215,
+    301,
+    386,
+    472,
+    557
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The video shows normal pedestrian activity with people walking along a path in a consistent and orderly manner."
+}

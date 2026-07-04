@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0023",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    234,
+    326,
+    418,
+    510,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show unusual activity such as a person being pushed in frame 234, a sudden chase or aggressive movement in frames 326 and 418, and non-standard pedestrian activity in frames 510 and 602."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "02_0161",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    92,
+    134,
+    177,
+    219,
+    261
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores between frames 92 to 219 suggest unusual activity; notable interaction between pedestrians and cyclists."
+}

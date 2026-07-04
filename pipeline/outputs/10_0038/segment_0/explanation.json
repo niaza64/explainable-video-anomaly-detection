@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 39,
+  "end_frame": 221,
+  "include_heatmap": true,
+  "explanation": "The anomaly is likely due to a person riding a bicycle through an area typically reserved for pedestrians, deviating from normal walking patterns observed in this scene."
+}

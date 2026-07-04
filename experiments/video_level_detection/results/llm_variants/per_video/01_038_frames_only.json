@@ -1,0 +1,17 @@
+{
+  "video_id": "01_038",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 482,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    142,
+    206,
+    270,
+    334,
+    398
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking in a pedestrian area with no unusual behavior or anomalies."
+}

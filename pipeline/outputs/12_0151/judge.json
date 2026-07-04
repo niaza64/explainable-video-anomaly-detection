@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0151",
+  "variant": "with_heatmap",
+  "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A bicyclist is riding through an area typically used for pedestrian traffic, which is causing elevated anomaly scores and deviations in the heatmaps due to the unusual presence and movement patterns.",
+      "scores": {
+        "correctness": 4,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the presence of a cyclist in a pedestrian area as the anomaly, but does not specify that the cyclist is a girl in a white shirt, missing some detail. The explanation covers the main aspects but lacks the specificity regarding the person's appearance. The explanation is clear and well-written."
+      }
+    }
+  ]
+}

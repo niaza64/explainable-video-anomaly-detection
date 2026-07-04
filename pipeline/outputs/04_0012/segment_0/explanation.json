@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 37,
+  "end_frame": 324,
+  "include_heatmap": true,
+  "explanation": "The anomaly is caused by an individual running at a fast pace through an area where typical behavior is walking, indicated by high anomaly scores and consistent deviation in the heatmaps focused on this individual."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "08_046",
+  "is_anomalous_gt": 0,
+  "total_frames": 798,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    113,
+    227,
+    341,
+    455,
+    569,
+    683,
+    797
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show pedestrians walking calmly, which is normal behavior for this setting."
+}

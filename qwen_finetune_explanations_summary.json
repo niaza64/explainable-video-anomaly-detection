@@ -1,0 +1,3272 @@
+[
+  {
+    "video_id": "01_0015",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3332175612449646,
+    "n_segments": 27,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 12,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.4033997654914856
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.31796807050704956
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A person in a patterned shirt and jeans is walking across a paved plaza while holding a camera, moving from the center toward the left side of the frame. This behavior is flagged as anomalous because the individual is carrying a camera in a public space where such activity is uncommon, and their movement pattern deviates from typical pedestrian flow, suggesting potential surveillance or unauthorized recording. The anomaly occurs between snippets 10 and 12, peaking at snippet 10."
+  },
+  {
+    "video_id": "01_0025",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.99985671043396,
+    "n_segments": 37,
+    "anomalous_segments": [
+      {
+        "start_snippet": 1,
+        "end_snippet": 33,
+        "selected_snippets": [
+          {
+            "snippet_idx": 1,
+            "score": 0.3284117877483368
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9987580180168152
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9896828532218933
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.9997807741165161
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9999039769172668
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.999870777130127
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.8920553922653198
+          },
+          {
+            "snippet_idx": 33,
+            "score": 0.33976706862449646
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A person riding a bicycle enters the pedestrian walkway from the right side, moving across the paved area where walking is expected. This is anomalous because cycling is not permitted on this pedestrian-only path, and the cyclist's presence disrupts normal pedestrian flow. The anomaly peaks when the cyclist is in the center of the walkway (snippets 9-11) and resolves as they exit the frame, after which three pedestrians walk normally through the area (snippets 14-18)."
+  },
+  {
+    "video_id": "01_0027",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9963929057121277,
+    "n_segments": 25,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 21,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.37677380442619324
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.8453960418701172
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9909707307815552
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9999497532844543
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9998685121536255
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9976125955581665
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.901271641254425
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.5566008687019348
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of four young males walk together across a paved plaza in a coordinated, side-by-side formation, which is unusual for typical pedestrian behavior in this public space. The anomaly peaks as they move across the center of the plaza (snippets 12-14) and gradually resolves as they disperse and exit the frame (snippet 21). This group movement deviates from normal individual or small-group pedestrian patterns, triggering high anomaly scores."
+  },
+  {
+    "video_id": "01_0028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9698299765586853,
+    "n_segments": 28,
+    "anomalous_segments": [
+      {
+        "start_snippet": 7,
+        "end_snippet": 24,
+        "selected_snippets": [
+          {
+            "snippet_idx": 7,
+            "score": 0.5094430446624756
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.6462811231613159
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.922111988067627
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9968222379684448
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.792618453502655
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.6824501156806946
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.663155198097229
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.3860718905925751
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of young men are walking normally across a paved plaza when, around snippet 17, one man suddenly runs toward another, grabs him, and pulls him down to the ground in what appears to be an aggressive or assaultive act. This violent interaction is highly anomalous compared to the otherwise calm pedestrian activity, and the anomaly score peaks at 0.997 during the peak of the incident before declining as the individuals disperse."
+  },
+  {
+    "video_id": "01_0051",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9996346831321716,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 20,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.39849844574928284
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9941408038139343
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9995935559272766
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9997211694717407
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.9995625615119934
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9999203681945801
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.9921145439147949
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.46660977602005005
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A man on a bicycle rides across a pedestrian plaza, passing two women walking on the right side. The anomaly occurs from snippet 2 to snippet 20, with peak anomaly scores (1.000) in snippets 7, 9, 11, and 14, indicating the bicycle's presence and movement through the pedestrian area is considered abnormal. This is anomalous because cycling is typically not permitted in pedestrian zones, and the cyclist's path directly crosses the walkway, posing a safety risk to pedestrians."
+  },
+  {
+    "video_id": "01_0052",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9359624981880188,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 18,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.4996468126773834
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.9991510510444641
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.9820561408996582
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9961349368095398
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.8412569165229797
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.643394947052002
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.44947177171707153
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A person on a bicycle enters a pedestrian area, riding through a crowd of people walking on a paved plaza. This is anomalous because cycling is not permitted in this pedestrian zone, posing a safety risk to others. The anomaly peaks around snippet 10 when the cyclist is most visible among the pedestrians, and the activity resolves as the cyclist exits the area."
+  },
+  {
+    "video_id": "01_0053",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.99957674741745,
+    "n_segments": 28,
+    "anomalous_segments": [
+      {
+        "start_snippet": 0,
+        "end_snippet": 25,
+        "selected_snippets": [
+          {
+            "snippet_idx": 0,
+            "score": 0.3039335310459137
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.9959769248962402
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.999845027923584
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9999302625656128
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9996827244758606
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9994232058525085
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9360721707344055
+          },
+          {
+            "snippet_idx": 25,
+            "score": 0.48339956998825073
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A green three-wheeled utility vehicle, driven by a man in a red shirt, enters the paved plaza from the left and drives across the area, which is unusual as the space is designated for pedestrian use. The vehicle's presence and movement through the pedestrian zone, where people are walking normally, constitutes the anomaly, as motorized vehicles are not expected in this environment. The anomaly peaks from snippet 6 to snippet 16 as the vehicle traverses the plaza, and then resolves as it exits the frame."
+  },
+  {
+    "video_id": "01_0055",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.31163790822029114,
+    "n_segments": 19,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 11,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.3683791756629944
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.33187469840049744
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A person in a red shirt and dark pants is running across a paved plaza, moving from the right side of the frame toward the left. This running behavior is anomalous in this context, as the surrounding individuals are walking calmly, and running is atypical for this pedestrian area. The anomaly occurs in snippets 10-11, with the running person visible in both frames, indicating a brief but distinct deviation from normal pedestrian activity."
+  },
+  {
+    "video_id": "01_0056",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3188900649547577,
+    "n_segments": 33,
+    "anomalous_segments": [
+      {
+        "start_snippet": 23,
+        "end_snippet": 24,
+        "selected_snippets": [
+          {
+            "snippet_idx": 23,
+            "score": 0.317376047372818
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.37272003293037415
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A boy in a light green shirt and dark shorts is walking across a paved plaza while holding a red object, possibly a toy or small bag, in his right hand. This behavior is anomalous because, in a typical pedestrian environment, individuals do not usually walk while holding a small object in a manner that suggests it is being used as a prop or toy, especially in an open public space where such activity is uncommon. The anomaly occurs in snippets 23-24, with the highest score in snippet 24, indicating the peak of the unusual behavior."
+  },
+  {
+    "video_id": "01_0135",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9999681115150452,
+    "n_segments": 25,
+    "anomalous_segments": [
+      {
+        "start_snippet": 7,
+        "end_snippet": 21,
+        "selected_snippets": [
+          {
+            "snippet_idx": 7,
+            "score": 0.39874330163002014
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.7622159719467163
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9991391897201538
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9998537302017212
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.9999834895133972
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.9997398257255554
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.5683426856994629
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A silver minivan drives into a pedestrian area, crossing a paved walkway where people are walking. The vehicle's presence and movement through the pedestrian zone is anomalous, as it violates normal traffic and pedestrian separation rules. The anomaly peaks as the van moves across the walkway, with the highest scores occurring during its traversal (snippets 12-19), and resolves as it exits the frame."
+  },
+  {
+    "video_id": "01_0136",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.8672426342964172,
+    "n_segments": 33,
+    "anomalous_segments": [
+      {
+        "start_snippet": 15,
+        "end_snippet": 29,
+        "selected_snippets": [
+          {
+            "snippet_idx": 15,
+            "score": 0.5366966724395752
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.9863607287406921
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.9943666458129883
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.9841423034667969
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.7533913254737854
+          },
+          {
+            "snippet_idx": 26,
+            "score": 0.6000025272369385
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.37764397263526917
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A blue and white delivery truck drives across a pedestrian plaza, which is an anomalous event as vehicles are not expected to enter this pedestrian area. The truck enters from the left, moves across the plaza, and exits to the right, disrupting normal pedestrian flow. The anomaly peaks when the truck is fully in the plaza (snippets 20-22) and gradually resolves as it leaves the area (snippet 29)."
+  },
+  {
+    "video_id": "01_0139",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9997422099113464,
+    "n_segments": 13,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 12,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.5902878046035767
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9989582896232605
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9999011158943176
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9993818402290344
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.4495927691459656
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A boy in a blue shirt rides a bicycle across a pedestrian plaza, which is anomalous because cycling is not permitted in this area designated for walking. The anomaly peaks when the boy is in the center of the plaza (snippet 7, score 1.000) and continues as he rides toward the right edge (snippet 10, score 0.999), deviating from normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_0141",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3241785764694214,
+    "n_segments": 19,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 10,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.34495529532432556
+          }
+        ]
+      },
+      {
+        "start_snippet": 12,
+        "end_snippet": 12,
+        "selected_snippets": [
+          {
+            "snippet_idx": 12,
+            "score": 0.36249276995658875
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A girl is riding a skateboard while holding a phone, which is unusual behavior in a pedestrian area where skateboarding is typically not allowed or expected. She is moving in the same direction as two boys walking, but her mode of transportation and distraction from the phone make her behavior anomalous compared to normal pedestrian activity. The anomaly occurs in snippets 10-12, with the highest score at snippet 12, indicating the peak of the unusual activity."
+  },
+  {
+    "video_id": "01_0162",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.49053525924682617,
+    "n_segments": 12,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 4,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.3253757059574127
+          },
+          {
+            "snippet_idx": 4,
+            "score": 0.4675838053226471
+          }
+        ]
+      },
+      {
+        "start_snippet": 7,
+        "end_snippet": 8,
+        "selected_snippets": [
+          {
+            "snippet_idx": 7,
+            "score": 0.513853132724762
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.5243239402770996
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A person is riding a bicycle with a passenger on the back, which is unusual in this pedestrian area. The anomaly begins around snippet 2 and peaks in snippets 7-8, where the cyclist is clearly visible with a passenger, deviating from normal behavior in a walkway setting."
+  },
+  {
+    "video_id": "01_0177",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9892067909240723,
+    "n_segments": 19,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 15,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.4526606500148773
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.9997177124023438
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.9238649606704712
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9992771148681641
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.8493586778640747
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.5053002238273621
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A man in a green shirt is seen walking normally in the plaza, but then suddenly starts riding a bicycle in a way that is inconsistent with typical pedestrian behavior, causing a high anomaly score. The anomaly peaks when he is actively riding the bike across the paved area, which is unusual for a pedestrian zone, and then resolves as he exits the frame. This behavior is anomalous because riding a bicycle in a pedestrian area is a deviation from expected norms."
+  },
+  {
+    "video_id": "01_034",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3694966733455658,
+    "n_segments": 55,
+    "anomalous_segments": [
+      {
+        "start_snippet": 26,
+        "end_snippet": 29,
+        "selected_snippets": [
+          {
+            "snippet_idx": 26,
+            "score": 0.33440637588500977
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.36148276925086975
+          }
+        ]
+      },
+      {
+        "start_snippet": 35,
+        "end_snippet": 35,
+        "selected_snippets": [
+          {
+            "snippet_idx": 35,
+            "score": 0.3060525059700012
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 3,
+    "explanation": "A man carrying a large box on his shoulder walks with a companion across a paved plaza, while two other women walk ahead of them. The anomaly occurs from snippet 26 to 35, where the man's unusual burden and the group's slow, deliberate movement deviate from typical pedestrian behavior in this open public space."
+  },
+  {
+    "video_id": "01_047",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.23815667629241943,
+    "n_segments": 66,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 50,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.12075304985046387
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.15200848877429962
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.2838093936443329
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.18588557839393616
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.02532513067126274
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.012341678142547607
+          },
+          {
+            "snippet_idx": 48,
+            "score": 0.11840768158435822
+          },
+          {
+            "snippet_idx": 50,
+            "score": 0.14326338469982147
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "The anomaly involves a group of students walking across a paved plaza, with the most significant anomaly occurring around snippet 15 (frame 248) where a student in a white shirt and black shorts with a backpack walks alone across the plaza. This is anomalous because, while individual students walking is normal, the model may have flagged this as unusual due to the specific timing, path, or isolation of the individual compared to the typical group behavior seen in other frames. The anomaly score peaks at 0.284 during this snippet, suggesting the model detected a deviation from expected pedestrian patterns, possibly due to the person's trajectory or timing relative to others. The anomaly begins around snippet 10 and ends around snippet 50, with the highest score occurring in the middle of the sequence."
+  },
+  {
+    "video_id": "01_050",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.20847398042678833,
+    "n_segments": 50,
+    "anomalous_segments": [
+      {
+        "start_snippet": 37,
+        "end_snippet": 37,
+        "selected_snippets": [
+          {
+            "snippet_idx": 37,
+            "score": 0.3289835751056671
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 1,
+    "explanation": "A group of four people are walking across a paved plaza. The anomaly is not immediately apparent from this single frame, as the individuals appear to be engaged in normal pedestrian behavior\u2014walking in small groups across an open area. However, the model flagged this snippet as anomalous (score 0.329), suggesting a potential deviation from expected patterns, such as unusual group formation, direction of movement, or timing relative to other activity in the scene, even if not visually obvious in this still image."
+  },
+  {
+    "video_id": "01_072",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.22601895034313202,
+    "n_segments": 65,
+    "anomalous_segments": [
+      {
+        "start_snippet": 54,
+        "end_snippet": 61,
+        "selected_snippets": [
+          {
+            "snippet_idx": 54,
+            "score": 0.21101531386375427
+          },
+          {
+            "snippet_idx": 56,
+            "score": 0.22823169827461243
+          },
+          {
+            "snippet_idx": 58,
+            "score": 0.21784281730651855
+          },
+          {
+            "snippet_idx": 61,
+            "score": 0.11664827913045883
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A woman in a blue jacket and black skirt runs across a paved walkway from left to right, which is anomalous as running is unusual in this pedestrian area where others are walking calmly. This behavior starts around snippet 54 and peaks around snippet 58 before subsiding by snippet 61, deviating from the normal walking pace of other pedestrians."
+  },
+  {
+    "video_id": "01_074",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.8724557757377625,
+    "n_segments": 65,
+    "anomalous_segments": [
+      {
+        "start_snippet": 0,
+        "end_snippet": 11,
+        "selected_snippets": [
+          {
+            "snippet_idx": 0,
+            "score": 0.45197734236717224
+          },
+          {
+            "snippet_idx": 2,
+            "score": 0.8581312894821167
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9816964864730835
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.7987985014915466
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.589318573474884
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.39479494094848633
+          }
+        ]
+      },
+      {
+        "start_snippet": 29,
+        "end_snippet": 32,
+        "selected_snippets": [
+          {
+            "snippet_idx": 29,
+            "score": 0.35213667154312134
+          },
+          {
+            "snippet_idx": 32,
+            "score": 0.32134926319122314
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A person riding a bicycle appears in the middle of a pedestrian walkway, which is an anomalous activity as bicycles are not typically allowed on such paths. The cyclist is wearing dark clothing and rides from the center of the walkway toward the left side, passing near a trash can. This behavior is flagged as anomalous because it violates the expected pedestrian-only use of the area, posing a potential safety hazard. The anomaly peaks around snippet 5 (frame 88) and resolves by snippet 7 (frame 120) as the cyclist exits the frame. A second, less severe anomaly occurs later (snippets 29-32) when a group of people, including one holding an umbrella, walks through the area, but this is less severe and may be considered normal group pedestrian activity."
+  },
+  {
+    "video_id": "01_078",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3119385540485382,
+    "n_segments": 64,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 5,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.3018589913845062
+          }
+        ]
+      },
+      {
+        "start_snippet": 8,
+        "end_snippet": 8,
+        "selected_snippets": [
+          {
+            "snippet_idx": 8,
+            "score": 0.365470826625824
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "Two men are walking together on a paved outdoor area. One man in a blue shirt is looking down at his phone while walking, while the other man in a dark shirt is walking normally. The anomaly occurs when the man in the blue shirt continues to look at his phone while walking, which is considered abnormal behavior in this context as it may indicate distraction or potential risk of collision, especially in a shared pedestrian space. The anomaly is detected in snippets 5 and 8, with the highest score at snippet 8, suggesting the behavior persists and is flagged as unusual."
+  },
+  {
+    "video_id": "01_079",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.29679611325263977,
+    "n_segments": 44,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 11,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.3112778663635254
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.3620607852935791
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A man in a dark green shirt and light shorts is walking on a paved pathway while looking down at his phone, appearing distracted. This behavior is anomalous because he is not paying attention to his surroundings, which increases the risk of collision or accident in a public space where other pedestrians are present. The anomaly occurs in snippets 10-11, with the highest score in snippet 11, indicating the peak of the unusual behavior."
+  },
+  {
+    "video_id": "01_080",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.39508676528930664,
+    "n_segments": 49,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 17,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.3309270739555359
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.39250168204307556
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.39625710248947144
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.39358633756637573
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.3835141062736511
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.32301610708236694
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A group of students is walking on a paved outdoor path, with one individual in a white shirt and blue jeans walking ahead of the group while looking down at a phone. The anomaly occurs from snippet 5 to 17, where this person's focused, distracted walking behavior deviates from the normal group movement, potentially posing a safety risk. The anomaly scores peak around snippets 10-12, indicating the most pronounced deviation during this time."
+  },
+  {
+    "video_id": "01_082",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3560684621334076,
+    "n_segments": 50,
+    "anomalous_segments": [
+      {
+        "start_snippet": 12,
+        "end_snippet": 12,
+        "selected_snippets": [
+          {
+            "snippet_idx": 12,
+            "score": 0.3109685778617859
+          }
+        ]
+      },
+      {
+        "start_snippet": 17,
+        "end_snippet": 26,
+        "selected_snippets": [
+          {
+            "snippet_idx": 17,
+            "score": 0.3188706040382385
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.3985775411128998
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.38286638259887695
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.35287046432495117
+          },
+          {
+            "snippet_idx": 26,
+            "score": 0.33021900057792664
+          }
+        ]
+      },
+      {
+        "start_snippet": 28,
+        "end_snippet": 28,
+        "selected_snippets": [
+          {
+            "snippet_idx": 28,
+            "score": 0.32112443447113037
+          }
+        ]
+      },
+      {
+        "start_snippet": 32,
+        "end_snippet": 32,
+        "selected_snippets": [
+          {
+            "snippet_idx": 32,
+            "score": 0.30650100111961365
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of young men in casual clothing suddenly runs across a pedestrian plaza from left to right, then quickly disperses and exits the frame. This is anomalous because the sudden, coordinated running motion contrasts with the normal, leisurely walking behavior of other pedestrians in the area."
+  },
+  {
+    "video_id": "02_003",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.21004188060760498,
+    "n_segments": 46,
+    "anomalous_segments": [
+      {
+        "start_snippet": 15,
+        "end_snippet": 22,
+        "selected_snippets": [
+          {
+            "snippet_idx": 15,
+            "score": 0.16169659793376923
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.20422136783599854
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.19777870178222656
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.08168202638626099
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A man on a scooter suddenly enters the scene from the bottom of the frame, moving quickly across the paved area in front of a glass-walled building. This is anomalous because the area is a pedestrian zone where scooters are not expected, and his rapid movement contrasts with the normal walking pace of the pedestrians around him. The anomaly peaks around snippet 17 when he is most visible, then resolves as he exits the frame."
+  },
+  {
+    "video_id": "02_012",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.4681355953216553,
+    "n_segments": 14,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 9,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.3800901770591736
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.4991413950920105
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.39455196261405945
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 3,
+    "explanation": "A man in a red and blue shirt is walking while looking down at his phone, which is unusual behavior for a pedestrian in a public area. This activity is flagged as anomalous because it deviates from normal walking patterns where individuals typically maintain awareness of their surroundings. The anomaly occurs from snippet 5 to snippet 9, peaking at snippet 7, and is likely detected due to the man's focused attention on his phone rather than his environment."
+  },
+  {
+    "video_id": "02_015",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.28571340441703796,
+    "n_segments": 12,
+    "anomalous_segments": [
+      {
+        "start_snippet": 6,
+        "end_snippet": 7,
+        "selected_snippets": [
+          {
+            "snippet_idx": 6,
+            "score": 0.37935131788253784
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.32004231214523315
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A group of people are walking along a sidewalk in front of a building with large glass windows. The anomaly occurs when a man in a dark blue shirt suddenly turns and runs away from the group, deviating from the normal walking behavior of the others who continue walking in the same direction. This abrupt change in motion and direction makes his behavior anomalous compared to the group's consistent movement."
+  },
+  {
+    "video_id": "02_0161",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9971312880516052,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 7,
+        "end_snippet": 20,
+        "selected_snippets": [
+          {
+            "snippet_idx": 7,
+            "score": 0.3987927734851837
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.7053377628326416
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9981247186660767
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9855638742446899
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9997085332870483
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.9106919169425964
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.6847277283668518
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A man in a red shirt and jeans is walking along a sidewalk in front of a store, while a cyclist rides past him on the adjacent road. The anomaly occurs when the man suddenly stops, turns, and begins running in the opposite direction, which is unusual behavior for a pedestrian in this context. This erratic movement, especially the abrupt reversal of direction, is flagged as anomalous by the model, with the highest anomaly score occurring at the peak of this action."
+  },
+  {
+    "video_id": "03_002",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.8760180473327637,
+    "n_segments": 25,
+    "anomalous_segments": [
+      {
+        "start_snippet": 11,
+        "end_snippet": 19,
+        "selected_snippets": [
+          {
+            "snippet_idx": 11,
+            "score": 0.5700365304946899
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.9238810539245605
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.7809248566627502
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.48974865674972534
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.3857811689376831
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A group of young men are crossing a street at a crosswalk, but one man in a white shirt and black shorts is seen running across the road while carrying a backpack, which is unusual behavior for a pedestrian crossing. This running action, occurring between snippets 11 and 19, deviates from the normal walking pace of the other pedestrians and is flagged as anomalous, peaking in snippet 13."
+  },
+  {
+    "video_id": "03_0031",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9942098259925842,
+    "n_segments": 33,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 27,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.3902883529663086
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.5217899680137634
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9640715718269348
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.8596040606498718
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.8326376676559448
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.998428463935852
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.8386541604995728
+          },
+          {
+            "snippet_idx": 27,
+            "score": 0.8211554288864136
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "Two men are walking across a pedestrian crossing, but then suddenly start running in the same direction, which is unusual behavior for a pedestrian crossing."
+  },
+  {
+    "video_id": "03_0032",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9879813194274902,
+    "n_segments": 25,
+    "anomalous_segments": [
+      {
+        "start_snippet": 7,
+        "end_snippet": 19,
+        "selected_snippets": [
+          {
+            "snippet_idx": 7,
+            "score": 0.3829319477081299
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.6005471348762512
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.7041251063346863
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9980643391609192
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9997982978820801
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.8543669581413269
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A group of five men are crossing a street at a crosswalk. One man in a light green shirt falls to the ground in the middle of the crosswalk. Another man in a red shirt then playfully pushes him, causing him to stumble and fall again. The other men continue walking across the street, seemingly unfazed. This is anomalous because falling and being pushed in a public crosswalk is unusual and potentially dangerous behavior, deviating from normal pedestrian conduct."
+  },
+  {
+    "video_id": "03_0033",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.996028482913971,
+    "n_segments": 19,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 14,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.3828955590724945
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.4612075388431549
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9993187189102173
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.995795726776123
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.6624516844749451
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A man in a white shirt and black shorts is seen running across a pedestrian crossing while being chased by another man in a green shirt. The chase begins around snippet 5 and peaks in snippets 9 and 12, where the man in white is running frantically, which is highly anomalous for a pedestrian crossing. The anomaly is due to the aggressive, non-standard behavior of running and chasing in a pedestrian zone, which deviates from normal walking patterns."
+  },
+  {
+    "video_id": "03_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.21766000986099243,
+    "n_segments": 26,
+    "anomalous_segments": [
+      {
+        "start_snippet": 0,
+        "end_snippet": 7,
+        "selected_snippets": [
+          {
+            "snippet_idx": 0,
+            "score": 0.0009019271237775683
+          },
+          {
+            "snippet_idx": 3,
+            "score": 0.22482040524482727
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.2071181982755661
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.00018713664030656219
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A group of three pedestrians, including a man in a purple shirt, a man in a red shirt, and a boy in a navy blue shirt, are crossing a street at a marked crosswalk. The anomaly occurs as they walk across the road, with the highest anomaly scores (0.225 and 0.207) appearing in the middle of their crossing (snippets 3 and 5), suggesting their movement pattern or timing may be unusual or unexpected for the location. The anomaly resolves as they exit the frame (snippet 7, score 0.000), indicating the event is brief and isolated. This is anomalous because pedestrian crossings at marked crosswalks are typically normal, so the model likely flagged this as unusual due to potential timing, speed, or group behavior deviations."
+  },
+  {
+    "video_id": "03_0059",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.985442578792572,
+    "n_segments": 27,
+    "anomalous_segments": [
+      {
+        "start_snippet": 12,
+        "end_snippet": 23,
+        "selected_snippets": [
+          {
+            "snippet_idx": 12,
+            "score": 0.3566371500492096
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9484400749206543
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.9967976808547974
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.9937312006950378
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.6109542846679688
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.3948703408241272
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A group of young men are seen walking across a pedestrian crosswalk in an urban setting. The anomaly occurs when two men in dark shirts appear to engage in a physical altercation or aggressive interaction near the crosswalk, with one pushing or grabbing the other, which is highly unusual for a public pedestrian area. This aggressive behavior peaks around snippets 15-19 before the individuals disperse, with the anomaly score dropping as the situation resolves."
+  },
+  {
+    "video_id": "04_0004",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9998483657836914,
+    "n_segments": 54,
+    "anomalous_segments": [
+      {
+        "start_snippet": 1,
+        "end_snippet": 48,
+        "selected_snippets": [
+          {
+            "snippet_idx": 1,
+            "score": 0.3180082142353058
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.9991257786750793
+          },
+          {
+            "snippet_idx": 30,
+            "score": 0.9992119073867798
+          },
+          {
+            "snippet_idx": 32,
+            "score": 0.9998558759689331
+          },
+          {
+            "snippet_idx": 34,
+            "score": 0.9999483823776245
+          },
+          {
+            "snippet_idx": 36,
+            "score": 0.9997367858886719
+          },
+          {
+            "snippet_idx": 39,
+            "score": 0.9833217859268188
+          },
+          {
+            "snippet_idx": 48,
+            "score": 0.5064793825149536
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of four young men are walking together in a public plaza when one of them suddenly falls to the ground. The other three stop and gather around him, appearing concerned, before helping him to his feet and continuing to walk together. This event is anomalous because the sudden fall and the group's immediate, coordinated response deviate from normal pedestrian behavior, which typically involves continuous, uneventful movement."
+  },
+  {
+    "video_id": "04_0011",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.7134749889373779,
+    "n_segments": 19,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 15,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.48019108176231384
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.7751265168190002
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.6210399866104126
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.6831416487693787
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.8244352340698242
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.645545482635498
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A young child in a pink outfit runs ahead of a group of adults, including one pushing a stroller, in a public plaza. A man in a green striped shirt suddenly appears from behind a tree and begins walking toward the child, who continues running ahead. This is anomalous because the man's sudden appearance and direct approach toward the unattended child in a public space deviates from normal pedestrian behavior, raising safety concerns."
+  },
+  {
+    "video_id": "04_0012",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9989283084869385,
+    "n_segments": 22,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 18,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.7568672895431519
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.999470055103302
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9996925592422485
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9992778897285461
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9999603033065796
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.996848464012146
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9995290040969849
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.5542252063751221
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A man in a white shirt and light-colored pants is seen walking alone across a paved plaza, moving from the right side of the frame toward the left. He appears to be walking at a normal pace, but his solitary movement in an otherwise empty public space is flagged as anomalous, especially as other pedestrians (including a woman pushing a stroller and a couple walking together) are seen in earlier frames but have since exited the scene. The anomaly likely stems from the sudden absence of other people and the man's continued, unaccompanied presence in the area, which deviates from typical social patterns in a public plaza."
+  },
+  {
+    "video_id": "04_002",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3813598155975342,
+    "n_segments": 57,
+    "anomalous_segments": [
+      {
+        "start_snippet": 36,
+        "end_snippet": 39,
+        "selected_snippets": [
+          {
+            "snippet_idx": 36,
+            "score": 0.3650076389312744
+          },
+          {
+            "snippet_idx": 39,
+            "score": 0.388428270816803
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A group of pedestrians is walking normally in a park-like plaza, but one individual in a white shirt and black shorts is seen holding a long, thin object (possibly a stick or bat) in a manner that suggests potential aggression or threat, which is unusual for a public space. This behavior, occurring between snippets 36 and 39, is flagged as anomalous because it deviates from typical pedestrian conduct, which is generally non-threatening and non-confrontational in such an environment."
+  },
+  {
+    "video_id": "04_0046",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9904146194458008,
+    "n_segments": 33,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 29,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.36516621708869934
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.8094361424446106
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.8078460693359375
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.9980319142341614
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.9994174242019653
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.9734405279159546
+          },
+          {
+            "snippet_idx": 25,
+            "score": 0.8437965512275696
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.4037792682647705
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of four men are walking through a public plaza. One man in a dark shirt and shorts is seen swinging a black bag or object in a circular motion, which is unusual and aggressive behavior in a public space. This action occurs between snippets 14 and 25, peaking in anomaly score at snippet 21, and is anomalous because it deviates from normal pedestrian behavior, which typically involves calm, non-aggressive movement."
+  },
+  {
+    "video_id": "04_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.6429586410522461,
+    "n_segments": 61,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 9,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.4005795121192932
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.6826598048210144
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.35323214530944824
+          }
+        ]
+      },
+      {
+        "start_snippet": 14,
+        "end_snippet": 16,
+        "selected_snippets": [
+          {
+            "snippet_idx": 14,
+            "score": 0.5654210448265076
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.3370409607887268
+          }
+        ]
+      },
+      {
+        "start_snippet": 22,
+        "end_snippet": 23,
+        "selected_snippets": [
+          {
+            "snippet_idx": 22,
+            "score": 0.336463987827301
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.31553515791893005
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A group of people, including a man in a blue shirt and a man in a yellow shirt, are walking together in a park-like area. The group appears to be moving in a coordinated manner, which is unusual for typical pedestrian behavior in this setting. The anomaly peaks around snippet 7, where the group is most visible and their collective movement is most pronounced, before they disperse and the anomaly score decreases."
+  },
+  {
+    "video_id": "05_0017",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.999760627746582,
+    "n_segments": 27,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 26,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.3828985095024109
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.9960525631904602
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9990347623825073
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.9994114637374878
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.9998300671577454
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.9996827840805054
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.9944089651107788
+          },
+          {
+            "snippet_idx": 26,
+            "score": 0.524966835975647
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "Three young men are seen walking along a paved path in a park-like setting. Around snippet 13, they begin to engage in unusual, coordinated movements, including jumping and raising their arms, which deviates from normal pedestrian behavior. The anomaly peaks around snippets 19-21, where one man performs a dramatic jump with arms raised, while the others continue walking. The activity is anomalous because it involves sudden, energetic, and non-functional movements in a public space where such behavior is unexpected."
+  },
+  {
+    "video_id": "05_0019",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9999921321868896,
+    "n_segments": 40,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 38,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.35219815373420715
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9998130798339844
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9997990727424622
+          },
+          {
+            "snippet_idx": 27,
+            "score": 0.9999397397041321
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.9999946355819702
+          },
+          {
+            "snippet_idx": 31,
+            "score": 0.999988853931427
+          },
+          {
+            "snippet_idx": 33,
+            "score": 0.9999588131904602
+          },
+          {
+            "snippet_idx": 38,
+            "score": 0.352068156003952
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of five young men are walking together on a paved path in a park-like setting. At snippet 16, they suddenly engage in a physical altercation, with one man pushing another, causing the group to scatter. The anomaly peaks during the confrontation and continues as the individuals walk away separately, with the incident resolving by snippet 38. This is anomalous because the sudden physical aggression and disruption of normal pedestrian behavior deviates from the expected calm, non-confrontational environment."
+  },
+  {
+    "video_id": "05_0023",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9999236464500427,
+    "n_segments": 48,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 46,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.3286898732185364
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.999933123588562
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9999726414680481
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9999697804450989
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.9999701380729675
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.9999547004699707
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.9999442100524902
+          },
+          {
+            "snippet_idx": 46,
+            "score": 0.6270688772201538
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of young men are seen engaging in unusual and acrobatic behavior in a public park area. Starting around snippet 2, one man in a black shirt performs a dramatic dive or flip onto the road, followed by another man in a red shirt who later performs a similar stunt, while others watch or walk by. This behavior is anomalous because it deviates from normal pedestrian conduct in a public space, involving risky physical stunts on a paved road rather than a designated play or sports area."
+  },
+  {
+    "video_id": "05_010",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.20522181689739227,
+    "n_segments": 78,
+    "anomalous_segments": [
+      {
+        "start_snippet": 60,
+        "end_snippet": 60,
+        "selected_snippets": [
+          {
+            "snippet_idx": 60,
+            "score": 0.3679822087287903
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 1,
+    "explanation": "A group of four pedestrians, including two boys with backpacks, are walking on a paved path near a river. The anomaly occurs when one of the boys in a teal jacket suddenly stops and turns around to face the others, which is unusual behavior for a group walking together in a public space, as it disrupts the normal forward motion and group cohesion."
+  },
+  {
+    "video_id": "05_058",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.4372861683368683,
+    "n_segments": 46,
+    "anomalous_segments": [
+      {
+        "start_snippet": 8,
+        "end_snippet": 10,
+        "selected_snippets": [
+          {
+            "snippet_idx": 8,
+            "score": 0.370658278465271
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.3380485475063324
+          }
+        ]
+      },
+      {
+        "start_snippet": 20,
+        "end_snippet": 26,
+        "selected_snippets": [
+          {
+            "snippet_idx": 20,
+            "score": 0.3214579224586487
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.445281982421875
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.3967657685279846
+          },
+          {
+            "snippet_idx": 26,
+            "score": 0.35524818301200867
+          }
+        ]
+      },
+      {
+        "start_snippet": 29,
+        "end_snippet": 31,
+        "selected_snippets": [
+          {
+            "snippet_idx": 29,
+            "score": 0.35131898522377014
+          },
+          {
+            "snippet_idx": 31,
+            "score": 0.3843871057033539
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "The anomaly involves a group of pedestrians, including a man in an orange jacket and another in a black jacket with a green logo, who are walking in the middle of a paved road marked with yellow lines, which is designated for vehicles or should be avoided by pedestrians. This behavior is anomalous because pedestrians are consistently walking in the roadway instead of using the adjacent sidewalk, posing a safety risk and deviating from normal pedestrian behavior. The anomalous activity occurs from snippet 8 to snippet 31, with peak anomaly scores around snippets 22 and 31."
+  },
+  {
+    "video_id": "05_060",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3154754340648651,
+    "n_segments": 64,
+    "anomalous_segments": [
+      {
+        "start_snippet": 13,
+        "end_snippet": 14,
+        "selected_snippets": [
+          {
+            "snippet_idx": 13,
+            "score": 0.31020480394363403
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.3401343822479248
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A group of young men are walking together on a paved path in a park-like setting. The anomaly occurs when one individual in a red jacket and light-colored pants suddenly stops and turns around, facing the group, while others continue walking forward. This abrupt change in direction and behavior deviates from the normal flow of pedestrian movement, making it anomalous."
+  },
+  {
+    "video_id": "05_062",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.2473064512014389,
+    "n_segments": 66,
+    "anomalous_segments": [
+      {
+        "start_snippet": 40,
+        "end_snippet": 40,
+        "selected_snippets": [
+          {
+            "snippet_idx": 40,
+            "score": 0.34207260608673096
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 1,
+    "explanation": "A man in a blue jacket and beige pants is walking along a paved path near a railing, holding his head with his right hand in a manner that suggests distress or discomfort. This behavior is anomalous because it deviates from normal pedestrian activity, which typically involves walking without such gestures, especially in a public park setting where people are generally engaged in leisurely activities. The anomaly occurs in snippet 40, which is the only flagged segment in the video."
+  },
+  {
+    "video_id": "06_0144",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9989986419677734,
+    "n_segments": 15,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 12,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.6585501432418823
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9805933833122253
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9990078806877136
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9991921186447144
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9144958257675171
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A silver minivan drives into a pedestrian walkway in front of a building, parking directly in front of the entrance, which is an unusual and obstructive action. The vehicle remains stationary for several seconds before driving away, and a pedestrian then walks toward the entrance. This is anomalous because vehicles are not expected to enter or park on the pedestrian walkway, especially in front of a building entrance, disrupting normal pedestrian flow and safety."
+  },
+  {
+    "video_id": "06_0153",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.7455043196678162,
+    "n_segments": 13,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 10,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.4453907907009125
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.7876070737838745
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.49767881631851196
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.794082522392273
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A man in a white shirt walks toward the entrance of a building, then stops and turns back, appearing to hesitate or loiter. This behavior is anomalous because it deviates from typical pedestrian flow, where people usually enter or pass by without stopping. The anomaly peaks when he stands still, and a cyclist passes by, further highlighting his unusual pause in a public walkway."
+  },
+  {
+    "video_id": "06_017",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.6676537394523621,
+    "n_segments": 45,
+    "anomalous_segments": [
+      {
+        "start_snippet": 8,
+        "end_snippet": 16,
+        "selected_snippets": [
+          {
+            "snippet_idx": 8,
+            "score": 0.4368599057197571
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.8056850433349609
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.6980983018875122
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.3808686137199402
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A woman in a white shirt and dark pants exits a building carrying a red box and a black bag, walking along the sidewalk. This activity is flagged as anomalous because she is carrying an unusually large, bulky object (the red box) in a public outdoor space where such items are not typically transported, deviating from normal pedestrian behavior. The anomaly peaks around snippet 11 and gradually resolves by snippet 16 as she continues walking away from the building."
+  },
+  {
+    "video_id": "06_018",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.5845041871070862,
+    "n_segments": 45,
+    "anomalous_segments": [
+      {
+        "start_snippet": 31,
+        "end_snippet": 40,
+        "selected_snippets": [
+          {
+            "snippet_idx": 31,
+            "score": 0.44477319717407227
+          },
+          {
+            "snippet_idx": 33,
+            "score": 0.44765716791152954
+          },
+          {
+            "snippet_idx": 36,
+            "score": 0.5212622880935669
+          },
+          {
+            "snippet_idx": 38,
+            "score": 0.6542940139770508
+          },
+          {
+            "snippet_idx": 40,
+            "score": 0.3147338926792145
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A man in a plaid shirt and jeans walks past a building entrance, followed by a woman in a white top and grey pants, and then a man in a white t-shirt and jeans walking with the woman. The anomaly is the sudden appearance and movement of multiple pedestrians in a sequence where only one person was initially present, which deviates from the expected pattern of isolated or consistent pedestrian flow."
+  },
+  {
+    "video_id": "06_020",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.20436717569828033,
+    "n_segments": 45,
+    "anomalous_segments": [
+      {
+        "start_snippet": 14,
+        "end_snippet": 14,
+        "selected_snippets": [
+          {
+            "snippet_idx": 14,
+            "score": 0.3138951063156128
+          }
+        ]
+      },
+      {
+        "start_snippet": 20,
+        "end_snippet": 20,
+        "selected_snippets": [
+          {
+            "snippet_idx": 20,
+            "score": 0.3621995747089386
+          }
+        ]
+      },
+      {
+        "start_snippet": 27,
+        "end_snippet": 31,
+        "selected_snippets": [
+          {
+            "snippet_idx": 27,
+            "score": 0.30253735184669495
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.4275740683078766
+          },
+          {
+            "snippet_idx": 31,
+            "score": 0.3239293098449707
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A man in a white shirt and beige pants exits a building through a glass door and walks along the sidewalk. The anomaly occurs as he walks away from the entrance, with the highest anomaly score at snippet 29 (frame 473), suggesting unusual behavior such as erratic movement or an unexpected path, though his actions appear normal at first glance. The anomaly is likely flagged due to subtle deviations in gait or trajectory compared to typical pedestrian behavior in this environment."
+  },
+  {
+    "video_id": "06_026",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.698322594165802,
+    "n_segments": 83,
+    "anomalous_segments": [
+      {
+        "start_snippet": 28,
+        "end_snippet": 30,
+        "selected_snippets": [
+          {
+            "snippet_idx": 28,
+            "score": 0.4141836166381836
+          },
+          {
+            "snippet_idx": 30,
+            "score": 0.40956777334213257
+          }
+        ]
+      },
+      {
+        "start_snippet": 39,
+        "end_snippet": 42,
+        "selected_snippets": [
+          {
+            "snippet_idx": 39,
+            "score": 0.31978827714920044
+          },
+          {
+            "snippet_idx": 42,
+            "score": 0.3335667848587036
+          }
+        ]
+      },
+      {
+        "start_snippet": 64,
+        "end_snippet": 76,
+        "selected_snippets": [
+          {
+            "snippet_idx": 64,
+            "score": 0.4949222207069397
+          },
+          {
+            "snippet_idx": 66,
+            "score": 0.6995285749435425
+          },
+          {
+            "snippet_idx": 69,
+            "score": 0.7001704573631287
+          },
+          {
+            "snippet_idx": 71,
+            "score": 0.662693202495575
+          },
+          {
+            "snippet_idx": 76,
+            "score": 0.3780117630958557
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 9,
+    "explanation": "A group of people, primarily young men, are seen walking together toward and entering a building with glass doors. The anomaly occurs when a large group of individuals, who were not previously together, suddenly converge and walk as a cohesive unit toward the entrance, which is unusual compared to the earlier scattered, individual pedestrian movements. This coordinated group behavior is flagged as anomalous because it deviates from the typical pattern of independent, non-organized pedestrian flow in the area."
+  },
+  {
+    "video_id": "06_028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.599699079990387,
+    "n_segments": 47,
+    "anomalous_segments": [
+      {
+        "start_snippet": 20,
+        "end_snippet": 26,
+        "selected_snippets": [
+          {
+            "snippet_idx": 20,
+            "score": 0.5188663005828857
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.6126123070716858
+          },
+          {
+            "snippet_idx": 24,
+            "score": 0.4377148151397705
+          },
+          {
+            "snippet_idx": 26,
+            "score": 0.39875781536102295
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A man in a plaid shirt and beige shorts is seen pushing a woman in a red top into a building entrance, which is anomalous as it involves forceful physical interaction in a public space. The incident occurs between snippets 20 and 26, peaking at snippet 22, and deviates from normal pedestrian behavior by showing aggression rather than peaceful coexistence."
+  },
+  {
+    "video_id": "07_0006",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9401789307594299,
+    "n_segments": 24,
+    "anomalous_segments": [
+      {
+        "start_snippet": 6,
+        "end_snippet": 20,
+        "selected_snippets": [
+          {
+            "snippet_idx": 6,
+            "score": 0.41797155141830444
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.8771501779556274
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.95295649766922
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9012648463249207
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9927918314933777
+          },
+          {
+            "snippet_idx": 18,
+            "score": 0.9650259017944336
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.4058090150356293
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A group of five men are crossing a pedestrian crosswalk. One man in a light green shirt pushes another man in a white shirt, causing him to fall to the ground. The other three men continue walking without intervening. The anomaly peaks when the man is pushed and falls, which is highly unusual and aggressive behavior in a public pedestrian area."
+  },
+  {
+    "video_id": "07_0008",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9992335438728333,
+    "n_segments": 28,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 22,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.5878947973251343
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.999821662902832
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.9993942975997925
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.9984681010246277
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.9752768278121948
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.8973581194877625
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.8555343747138977
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.7783054113388062
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A man in a dark blue t-shirt and grey shorts is seen carrying a long, dark object (resembling a bat or pole) across a pedestrian crosswalk. He walks normally with the object at first, then lifts it above his head, holds it there for a moment, and then walks away with it. This behavior is anomalous because carrying a large, potentially dangerous object in a public pedestrian area, especially in a manner that could be perceived as threatening, deviates from normal pedestrian conduct. The anomaly peaks around snippet 9-17 when he raises the object, and the event concludes by snippet 22 as he exits the frame."
+  },
+  {
+    "video_id": "07_0048",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9127352237701416,
+    "n_segments": 15,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 13,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.6273703575134277
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.8961348533630371
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9218087196350098
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.649649977684021
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.6228386163711548
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A group of young men are seen walking across a road near a crosswalk, but instead of using the designated pedestrian crossing, they are walking directly across the road in an unsafe manner. The anomaly begins around snippet 5 when the first person enters the frame and continues through snippet 13 as more individuals join and walk across the road, with the highest anomaly score occurring at snippet 9. This behavior is anomalous because pedestrians are expected to use the crosswalk for safety, and walking directly across the road increases the risk of accidents."
+  },
+  {
+    "video_id": "08_001",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9949101805686951,
+    "n_segments": 51,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 14,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.5801665186882019
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.4248639941215515
+          }
+        ]
+      },
+      {
+        "start_snippet": 21,
+        "end_snippet": 50,
+        "selected_snippets": [
+          {
+            "snippet_idx": 21,
+            "score": 0.3976022005081177
+          },
+          {
+            "snippet_idx": 40,
+            "score": 0.8024402856826782
+          },
+          {
+            "snippet_idx": 43,
+            "score": 0.9955809712409973
+          },
+          {
+            "snippet_idx": 45,
+            "score": 0.9955398440361023
+          },
+          {
+            "snippet_idx": 47,
+            "score": 0.9534944295883179
+          },
+          {
+            "snippet_idx": 50,
+            "score": 0.347303181886673
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A large group of students with backpacks is seen walking along a paved pathway in an outdoor campus or park area. The anomaly occurs between snippets 5-14 and 21-50, where the group's movement becomes increasingly dense and chaotic, with individuals moving in various directions, some running, and others stopping or turning abruptly. This is anomalous because it deviates from the normal, orderly pedestrian flow expected in such an environment, suggesting a sudden disruption or emergency situation."
+  },
+  {
+    "video_id": "08_0058",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.8678865432739258,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 17,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.3587999641895294
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.5621291995048523
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.6588366031646729
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.84843510389328
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.8597997426986694
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.8847138285636902
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.4572769105434418
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A group of young men, many wearing backpacks, are seen running in a coordinated manner across a pedestrian plaza, which is unusual given the otherwise calm and normal walking pace of other pedestrians in the area. This sudden, collective running behavior, particularly evident from snippet 8 to snippet 15, deviates from typical pedestrian activity and is flagged as anomalous. The anomaly peaks around snippet 15 before subsiding, suggesting a brief, unusual event such as a chase or emergency drill."
+  },
+  {
+    "video_id": "08_0077",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9999330639839172,
+    "n_segments": 28,
+    "anomalous_segments": [
+      {
+        "start_snippet": 1,
+        "end_snippet": 25,
+        "selected_snippets": [
+          {
+            "snippet_idx": 1,
+            "score": 0.34741225838661194
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.996996283531189
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.9995932579040527
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.9998757243156433
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9999690055847168
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.9993128776550293
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.9973829388618469
+          },
+          {
+            "snippet_idx": 25,
+            "score": 0.4455631375312805
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A group of people are walking on a paved path in a campus-like setting. Starting around snippet 6, a person on a bicycle appears and rides through the pedestrian area, which is unusual as the area is designated for walking. The cyclist continues through the crowd, causing some pedestrians to move aside, and the anomaly persists until snippet 25 as the cyclist exits the frame. This is anomalous because cycling is not permitted in this pedestrian zone, posing a safety risk to others."
+  },
+  {
+    "video_id": "08_0080",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9113319516181946,
+    "n_segments": 18,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 17,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.6599603891372681
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9175122976303101
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.921467125415802
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9469712376594543
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9183725118637085
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.8627279996871948
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.38317662477493286
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A man in a black shirt and light-colored pants is seen running and chasing a woman in a white top and dark pants along a paved walkway in a modern outdoor area. The chase begins around snippet 3 and peaks in intensity around snippets 7-12, with the man closing the distance and appearing to grab or physically interact with the woman by snippet 14. This behavior is anomalous because it deviates from normal pedestrian activity, which typically involves calm, non-aggressive movement; the sudden, forceful pursuit and physical contact suggest a potential assault or kidnapping, making it a high-risk event in an otherwise peaceful public space."
+  },
+  {
+    "video_id": "08_0158",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.8678865432739258,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 4,
+        "end_snippet": 17,
+        "selected_snippets": [
+          {
+            "snippet_idx": 4,
+            "score": 0.3587999641895294
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.5621291995048523
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.6588366031646729
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.84843510389328
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.8597997426986694
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.8847138285636902
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.4572769105434418
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A group of young men, many wearing backpacks, are seen running in a coordinated manner across a pedestrian plaza, which is unusual given the otherwise calm and normal walking pace of other pedestrians in the area. This sudden, collective running behavior, particularly evident from snippet 8 to snippet 15, deviates from typical pedestrian activity and is flagged as anomalous. The anomaly peaks around snippet 15 before subsiding, suggesting a brief, unusual event such as a chase or emergency drill."
+  },
+  {
+    "video_id": "08_016",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.47577574849128723,
+    "n_segments": 58,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 14,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.33240386843681335
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.4091115891933441
+          }
+        ]
+      },
+      {
+        "start_snippet": 21,
+        "end_snippet": 22,
+        "selected_snippets": [
+          {
+            "snippet_idx": 21,
+            "score": 0.3002130389213562
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.3128191828727722
+          }
+        ]
+      },
+      {
+        "start_snippet": 24,
+        "end_snippet": 48,
+        "selected_snippets": [
+          {
+            "snippet_idx": 24,
+            "score": 0.35066550970077515
+          },
+          {
+            "snippet_idx": 27,
+            "score": 0.46570104360580444
+          },
+          {
+            "snippet_idx": 34,
+            "score": 0.42846792936325073
+          },
+          {
+            "snippet_idx": 45,
+            "score": 0.4472457766532898
+          },
+          {
+            "snippet_idx": 48,
+            "score": 0.33574673533439636
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 9,
+    "explanation": "A large group of pedestrians, mostly young adults carrying backpacks, are walking together in a coordinated manner along a paved outdoor pathway in what appears to be a campus or urban park setting. The anomaly begins around snippet 5 and continues through snippet 48, with the group maintaining a consistent formation and direction, which is unusual for typical pedestrian behavior where individuals or small groups move independently. This collective, organized movement deviates from the expected random or scattered flow of people in a public space, making it stand out as anomalous."
+  },
+  {
+    "video_id": "08_021",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.36644458770751953,
+    "n_segments": 82,
+    "anomalous_segments": [
+      {
+        "start_snippet": 49,
+        "end_snippet": 50,
+        "selected_snippets": [
+          {
+            "snippet_idx": 49,
+            "score": 0.47650614380836487
+          },
+          {
+            "snippet_idx": 50,
+            "score": 0.4430695176124573
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 2,
+    "explanation": "A person in a white shirt and dark pants is seen pushing a stroller along a paved walkway in a park-like setting. The anomaly occurs when this individual suddenly stops and turns around, facing the direction they came from, while still holding the stroller. This behavior is anomalous because it deviates from the expected continuous forward motion of a pedestrian with a stroller, suggesting a potential disruption or unusual interaction."
+  },
+  {
+    "video_id": "08_023",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9571561813354492,
+    "n_segments": 51,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 47,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.3433104157447815
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.8262583613395691
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.9765946269035339
+          },
+          {
+            "snippet_idx": 21,
+            "score": 0.9431867599487305
+          },
+          {
+            "snippet_idx": 37,
+            "score": 0.9477440714836121
+          },
+          {
+            "snippet_idx": 39,
+            "score": 0.9424792528152466
+          },
+          {
+            "snippet_idx": 41,
+            "score": 0.9812451601028442
+          },
+          {
+            "snippet_idx": 47,
+            "score": 0.38462701439857483
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A large group of students, mostly wearing backpacks, is walking together in a coordinated manner along a paved pathway in what appears to be a campus or park setting. The anomaly occurs from snippet 3 to snippet 47, where the group maintains a tight, organized formation as they move forward, which is unusual for typical pedestrian behavior where individuals or small groups walk independently. This collective, synchronized movement deviates from normal patterns, making it stand out as anomalous."
+  },
+  {
+    "video_id": "08_028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.41064801812171936,
+    "n_segments": 67,
+    "anomalous_segments": [
+      {
+        "start_snippet": 21,
+        "end_snippet": 30,
+        "selected_snippets": [
+          {
+            "snippet_idx": 21,
+            "score": 0.322670042514801
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.3897816836833954
+          },
+          {
+            "snippet_idx": 25,
+            "score": 0.4009215235710144
+          },
+          {
+            "snippet_idx": 27,
+            "score": 0.4254520535469055
+          },
+          {
+            "snippet_idx": 30,
+            "score": 0.3196544349193573
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A group of individuals in dark uniforms, likely security personnel, are seen approaching and surrounding a person in a white shirt and pink backpack who is walking along a paved pathway. The anomaly begins around snippet 21 and peaks at snippet 27, where the group converges on the individual, suggesting an unusual or potentially confrontational interaction in an otherwise normal public space. This is anomalous because the coordinated approach by multiple uniformed individuals toward a single civilian deviates from typical pedestrian behavior in a public park setting."
+  },
+  {
+    "video_id": "08_029",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3971850574016571,
+    "n_segments": 56,
+    "anomalous_segments": [
+      {
+        "start_snippet": 11,
+        "end_snippet": 19,
+        "selected_snippets": [
+          {
+            "snippet_idx": 11,
+            "score": 0.3338346481323242
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.397666335105896
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.39287394285202026
+          },
+          {
+            "snippet_idx": 19,
+            "score": 0.3671645522117615
+          }
+        ]
+      },
+      {
+        "start_snippet": 23,
+        "end_snippet": 23,
+        "selected_snippets": [
+          {
+            "snippet_idx": 23,
+            "score": 0.3150826096534729
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A person in a red shirt is riding a skateboard along a paved walkway in a park-like area, moving from the background toward the left side of the frame. This activity is anomalous because skateboarding is an atypical and potentially unsafe behavior in this pedestrian zone, which is designed for walking and leisure, not wheeled sports. The anomaly peaks around snippets 14-17 as the skateboarder moves through the central area, and the activity resolves by snippet 23 as they exit the frame."
+  },
+  {
+    "video_id": "08_030",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3232276737689972,
+    "n_segments": 56,
+    "anomalous_segments": [
+      {
+        "start_snippet": 20,
+        "end_snippet": 23,
+        "selected_snippets": [
+          {
+            "snippet_idx": 20,
+            "score": 0.3417882025241852
+          },
+          {
+            "snippet_idx": 23,
+            "score": 0.31536850333213806
+          }
+        ]
+      },
+      {
+        "start_snippet": 47,
+        "end_snippet": 47,
+        "selected_snippets": [
+          {
+            "snippet_idx": 47,
+            "score": 0.34677693247795105
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 3,
+    "explanation": "Two individuals are seen walking together on a paved pathway in a park-like setting. The anomaly occurs when one of them suddenly runs away from the other, breaking their normal walking pattern and causing a disruption in their coordinated movement. This abrupt change in behavior is flagged as anomalous because it deviates from the expected calm, steady pedestrian activity in the area."
+  },
+  {
+    "video_id": "08_037",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.3897680342197418,
+    "n_segments": 69,
+    "anomalous_segments": [
+      {
+        "start_snippet": 25,
+        "end_snippet": 33,
+        "selected_snippets": [
+          {
+            "snippet_idx": 25,
+            "score": 0.3015533983707428
+          },
+          {
+            "snippet_idx": 27,
+            "score": 0.38410496711730957
+          },
+          {
+            "snippet_idx": 29,
+            "score": 0.37255483865737915
+          },
+          {
+            "snippet_idx": 31,
+            "score": 0.3361782729625702
+          },
+          {
+            "snippet_idx": 33,
+            "score": 0.3102569580078125
+          }
+        ]
+      },
+      {
+        "start_snippet": 37,
+        "end_snippet": 42,
+        "selected_snippets": [
+          {
+            "snippet_idx": 37,
+            "score": 0.3911982476711273
+          },
+          {
+            "snippet_idx": 39,
+            "score": 0.3988892138004303
+          },
+          {
+            "snippet_idx": 42,
+            "score": 0.31726327538490295
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A person in a blue shirt is walking slowly and erratically across a paved outdoor area, deviating from the normal walking patterns of other pedestrians. This unusual gait and movement, which persists from snippet 25 to snippet 42, is flagged as anomalous because it contrasts with the typical brisk, purposeful walking seen in the surrounding environment."
+  },
+  {
+    "video_id": "08_047",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.49863338470458984,
+    "n_segments": 49,
+    "anomalous_segments": [
+      {
+        "start_snippet": 6,
+        "end_snippet": 15,
+        "selected_snippets": [
+          {
+            "snippet_idx": 6,
+            "score": 0.3546852469444275
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.43880313634872437
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.552890419960022
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.32322216033935547
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 4,
+    "explanation": "A person in a red shirt and black pants is seen running across a pedestrian walkway in a park-like area, moving from the right side of the frame toward the left. This running behavior is anomalous because it deviates from the normal walking pace observed in the surrounding environment, where other pedestrians are walking calmly. The anomaly peaks around snippet 12, where the runner is most visible in the center of the walkway, and then resolves as they exit the frame to the left."
+  },
+  {
+    "video_id": "09_003",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.2795395851135254,
+    "n_segments": 32,
+    "anomalous_segments": [
+      {
+        "start_snippet": 10,
+        "end_snippet": 10,
+        "selected_snippets": [
+          {
+            "snippet_idx": 10,
+            "score": 0.3410722017288208
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 1,
+    "explanation": "Two men are walking together on a paved outdoor path near a modern building. One man in a yellow shirt is looking down at his phone while walking, and the other man in a gray jacket is also looking at his phone. This behavior is anomalous because both individuals are distracted by their phones while walking, which deviates from normal pedestrian behavior where people typically pay attention to their surroundings for safety. The anomaly occurs in snippet 10 (frame 170) and is the only flagged segment in the video."
+  },
+  {
+    "video_id": "09_007",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.20852947235107422,
+    "n_segments": 98,
+    "anomalous_segments": [
+      {
+        "start_snippet": 13,
+        "end_snippet": 88,
+        "selected_snippets": [
+          {
+            "snippet_idx": 13,
+            "score": 0.1527644693851471
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.2093229591846466
+          },
+          {
+            "snippet_idx": 38,
+            "score": 0.025163745507597923
+          },
+          {
+            "snippet_idx": 40,
+            "score": 0.12478367239236832
+          },
+          {
+            "snippet_idx": 42,
+            "score": 0.08878286182880402
+          },
+          {
+            "snippet_idx": 70,
+            "score": 0.027447590604424477
+          },
+          {
+            "snippet_idx": 86,
+            "score": 0.03413137421011925
+          },
+          {
+            "snippet_idx": 88,
+            "score": 0.10272872447967529
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "The anomaly occurs between snippets 13 and 88, where a group of four young men walk together across a paved plaza, with one man in a red shirt repeatedly bending down to look at or interact with something in his hands, which is unusual for normal pedestrian behavior in this setting. This behavior stands out as anomalous because it deviates from the typical walking patterns of other individuals in the scene, who are moving normally without stopping or bending. The anomaly peaks around snippet 16 (score 0.209) and gradually diminishes, with the group dispersing by snippet 88."
+  },
+  {
+    "video_id": "10_0038",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.5415433049201965,
+    "n_segments": 15,
+    "anomalous_segments": [
+      {
+        "start_snippet": 5,
+        "end_snippet": 13,
+        "selected_snippets": [
+          {
+            "snippet_idx": 5,
+            "score": 0.44663771986961365
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.47933489084243774
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.5937027931213379
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.4145515561103821
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.39002561569213867
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A person in a green shirt is riding a bicycle through a pedestrian plaza, moving from the background toward the foreground. This is anomalous because cycling is not permitted in this pedestrian area, and the rider is navigating through a space designed for walking, posing a safety risk to others. The anomaly peaks around snippet 9 as the cyclist moves closer to the camera, then resolves as they exit the frame."
+  },
+  {
+    "video_id": "10_004",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.39827415347099304,
+    "n_segments": 114,
+    "anomalous_segments": [
+      {
+        "start_snippet": 79,
+        "end_snippet": 84,
+        "selected_snippets": [
+          {
+            "snippet_idx": 79,
+            "score": 0.38407817482948303
+          },
+          {
+            "snippet_idx": 81,
+            "score": 0.39914608001708984
+          },
+          {
+            "snippet_idx": 84,
+            "score": 0.36880865693092346
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 3,
+    "explanation": "A man in a dark t-shirt and light shorts is walking across a paved plaza, moving from the background toward the foreground. His gait appears unsteady and erratic, with arms flailing and legs moving in an uncoordinated manner, which is unusual for normal pedestrian behavior in this public space. The anomaly occurs between snippets 79 and 84, peaking at snippet 81, and is likely flagged due to the abnormal, jerky motion that deviates from typical walking patterns."
+  },
+  {
+    "video_id": "10_0042",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.419732004404068,
+    "n_segments": 27,
+    "anomalous_segments": [
+      {
+        "start_snippet": 6,
+        "end_snippet": 22,
+        "selected_snippets": [
+          {
+            "snippet_idx": 6,
+            "score": 0.3443692922592163
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.5110336542129517
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.41498875617980957
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.39591026306152344
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.4546937048435211
+          },
+          {
+            "snippet_idx": 17,
+            "score": 0.40196314454078674
+          },
+          {
+            "snippet_idx": 20,
+            "score": 0.3978249430656433
+          },
+          {
+            "snippet_idx": 22,
+            "score": 0.39343732595443726
+          }
+        ]
+      },
+      {
+        "start_snippet": 24,
+        "end_snippet": 24,
+        "selected_snippets": [
+          {
+            "snippet_idx": 24,
+            "score": 0.30498993396759033
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 9,
+    "explanation": "A man in a black t-shirt and shorts is walking across a paved plaza while looking down at his phone, appearing distracted. This behavior is flagged as anomalous because he is not paying attention to his surroundings, which is a deviation from normal pedestrian behavior in a public space where awareness is expected for safety. The anomaly spans from snippet 6 to snippet 24, with the highest score at snippet 8, indicating the peak of the unusual behavior."
+  },
+  {
+    "video_id": "10_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.4089632034301758,
+    "n_segments": 115,
+    "anomalous_segments": [
+      {
+        "start_snippet": 106,
+        "end_snippet": 110,
+        "selected_snippets": [
+          {
+            "snippet_idx": 106,
+            "score": 0.31178051233291626
+          },
+          {
+            "snippet_idx": 108,
+            "score": 0.4021499752998352
+          },
+          {
+            "snippet_idx": 110,
+            "score": 0.3513987064361572
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 3,
+    "explanation": "A person in a dark top and long green skirt walks across a paved plaza, moving from the right side of the frame toward a curved stone bench. They briefly pause near the bench, then continue walking along its edge. This behavior is anomalous because the person deviates from typical pedestrian paths by walking along the bench rather than on the main walkway, suggesting unusual or potentially suspicious movement in an otherwise normal public space."
+  },
+  {
+    "video_id": "12_0142",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9997299313545227,
+    "n_segments": 37,
+    "anomalous_segments": [
+      {
+        "start_snippet": 1,
+        "end_snippet": 33,
+        "selected_snippets": [
+          {
+            "snippet_idx": 1,
+            "score": 0.47642993927001953
+          },
+          {
+            "snippet_idx": 3,
+            "score": 0.9657813310623169
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9996811747550964
+          },
+          {
+            "snippet_idx": 8,
+            "score": 0.9997577667236328
+          },
+          {
+            "snippet_idx": 10,
+            "score": 0.999279797077179
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9960058331489563
+          },
+          {
+            "snippet_idx": 14,
+            "score": 0.8856976628303528
+          },
+          {
+            "snippet_idx": 33,
+            "score": 0.39672502875328064
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 8,
+    "explanation": "A man in a red shirt and another in a white shirt are walking together in a public plaza. Around snippet 5, a cyclist enters from the left and rides across the plaza, followed by a woman pushing a stroller with a child, who joins the two men. The anomaly is caused by the sudden appearance and movement of the cyclist and the stroller, which are unexpected in this pedestrian-only area, disrupting the normal walking pattern and creating a potential safety hazard."
+  },
+  {
+    "video_id": "12_0151",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9956612586975098,
+    "n_segments": 18,
+    "anomalous_segments": [
+      {
+        "start_snippet": 3,
+        "end_snippet": 15,
+        "selected_snippets": [
+          {
+            "snippet_idx": 3,
+            "score": 0.40536314249038696
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9977385401725769
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.9991469383239746
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9969108700752258
+          },
+          {
+            "snippet_idx": 12,
+            "score": 0.9935205578804016
+          },
+          {
+            "snippet_idx": 15,
+            "score": 0.374011367559433
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 6,
+    "explanation": "A man in a yellow shirt walks across a paved plaza, while a woman on a bicycle rides through the same area. The anomaly occurs when the cyclist moves directly through the pedestrian zone, potentially endangering the man walking nearby, which is unusual behavior in a pedestrian-focused environment. The anomaly peaks around snippets 5-12 as the cyclist approaches and passes the man, then resolves as both individuals exit the frame."
+  },
+  {
+    "video_id": "12_0173",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9958222508430481,
+    "n_segments": 13,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 11,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.3967415392398834
+          },
+          {
+            "snippet_idx": 4,
+            "score": 0.8733846545219421
+          },
+          {
+            "snippet_idx": 6,
+            "score": 0.9965275526046753
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9444724917411804
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.6102386116981506
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 5,
+    "explanation": "A person in a pink shirt is walking while looking at their phone, and a cyclist rides past them. The anomaly occurs when the cyclist collides with a pedestrian, causing both to fall. This is anomalous because the cyclist was riding in a pedestrian area and failed to avoid the pedestrian, leading to a collision."
+  },
+  {
+    "video_id": "12_0174",
+    "model": "Qwen/Qwen3-VL-32B-Instruct+LoRA",
+    "run_tag": "finetune",
+    "gate_score": 0.9995638728141785,
+    "n_segments": 21,
+    "anomalous_segments": [
+      {
+        "start_snippet": 2,
+        "end_snippet": 16,
+        "selected_snippets": [
+          {
+            "snippet_idx": 2,
+            "score": 0.38707566261291504
+          },
+          {
+            "snippet_idx": 5,
+            "score": 0.9996426701545715
+          },
+          {
+            "snippet_idx": 7,
+            "score": 0.999612033367157
+          },
+          {
+            "snippet_idx": 9,
+            "score": 0.9991207122802734
+          },
+          {
+            "snippet_idx": 11,
+            "score": 0.9958251714706421
+          },
+          {
+            "snippet_idx": 13,
+            "score": 0.947150707244873
+          },
+          {
+            "snippet_idx": 16,
+            "score": 0.37787190079689026
+          }
+        ]
+      }
+    ],
+    "n_frames_sent": 7,
+    "explanation": "A man in a white shirt and dark shorts walks across a paved plaza while carrying a backpack. Around the middle of the sequence, a woman on a bicycle enters the scene from the left and rides across the plaza in the same direction as the man, passing him. The anomaly is triggered by the sudden appearance and movement of the cyclist, which is unexpected in this otherwise quiet pedestrian area, causing a brief but significant deviation from normal activity patterns."
+  }
+]

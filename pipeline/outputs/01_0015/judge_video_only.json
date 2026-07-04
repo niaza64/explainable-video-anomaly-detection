@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0015",
+  "variant": "video_only",
+  "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show normal pedestrian activity with individuals walking calmly on walkways.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI failed to identify the anomaly of skateboarding in a pedestrian area, incorrectly describing normal pedestrian activity. It briefly mentions individuals and walkways but lacks detail about the specific actions or clothing. The explanation is fluent and clear but incorrect."
+      }
+    }
+  ]
+}

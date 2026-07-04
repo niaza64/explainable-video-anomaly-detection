@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0077",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A group of people is moving in an unusual, erratic pattern on the pedestrian path, deviating from typical walking behaviors seen in the scene, which likely involves unconventional movement such as running or interacting in unexpected ways.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies a group and erratic movement which is incorrect; the anomaly involves a single person biking. Specificity is low but mentions movement patterns. Completeness is lacking as it misses the key activity of cycling. Fluency is reasonably good and clear."
+      }
+    }
+  ]
+}

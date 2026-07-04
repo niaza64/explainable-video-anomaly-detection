@@ -1,0 +1,6 @@
+{
+  "video_id": "10_0038",
+  "gate_score": 0.2139144390821457,
+  "n_frames_sent": 4,
+  "explanation": "The anomaly involves a cyclist navigating a pedestrian walkway with a group of pedestrians nearby, occurring from snippet 8 to 13. The cyclist, wearing a green shirt, is moving through an area typically meant for pedestrians, which causes the anomaly due to potential safety concerns or deviations from expected use of the space. This starts at snippet 8 and escalates by snippet 12, peaking with the highest anomaly score at snippet 13, indicating the cyclist's presence and movement amidst the pedestrians as the anomalous activity."
+}

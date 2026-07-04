@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0023",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    234,
+    326,
+    418,
+    510,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames show unusual activities such as people pushing or chasing each other, leading to high anomaly scores, particularly in frames 326 and 418."
+}

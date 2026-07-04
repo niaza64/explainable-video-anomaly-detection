@@ -1,0 +1,17 @@
+{
+  "video_id": "13_006",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 458,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    129,
+    186,
+    243,
+    300,
+    357
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 186, 243, and 300 suggest unusual activity, such as irregular movement or unexpected behavior."
+}

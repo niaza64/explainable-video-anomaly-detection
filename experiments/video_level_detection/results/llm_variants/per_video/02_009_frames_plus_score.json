@@ -1,0 +1,17 @@
+{
+  "video_id": "02_009",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 602,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    179,
+    256,
+    333,
+    410,
+    487
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high, reaching up to 1.00, indicating abnormal activity. The presence of multiple groups and the positioning of individuals may contribute to this."
+}

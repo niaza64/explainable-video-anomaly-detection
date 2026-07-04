@@ -1,0 +1,17 @@
+{
+  "video_id": "05_013",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 818,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    250,
+    347,
+    443,
+    540,
+    636
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are relatively high across the sampled frames, particularly frames 347 and 443, suggesting noteworthy deviations from typical pedestrian activity. Potential crowding or unusual movement patterns might be present, especially with groups of people gathered on the road."
+}

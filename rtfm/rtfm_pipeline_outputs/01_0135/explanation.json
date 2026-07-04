@@ -1,0 +1,6 @@
+{
+  "video_id": "01_0135",
+  "gate_score": 0.9977158308029175,
+  "n_frames_sent": 7,
+  "explanation": "The anomaly involves a silver van entering a pedestrian path and disrupting foot traffic. This activity starts around snippet 7 as pedestrians walk normally, but by snippet 10 the vehicle appears and closely approaches pedestrians, which peaks in snippet 12-14. It is anomalous because vehicles are not expected to drive on pedestrian pathways, creating a potential hazard and deviating from normal pedestrian behavior."
+}

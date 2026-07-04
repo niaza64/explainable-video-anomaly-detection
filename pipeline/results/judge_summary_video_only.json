@@ -1,0 +1,618 @@
+[
+  {
+    "video_id": "01_0015",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+    "ai_explanation": "All frames show normal pedestrian activity with individuals walking calmly on walkways.",
+    "gate_score": 0.3332175612449646,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0025",
+    "video_type": "anomalous",
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The frames show normal pedestrian behavior with people walking calmly on the path.",
+    "gate_score": 0.99985671043396,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0027",
+    "video_type": "anomalous",
+    "human_explanation": "A person is running in a pedestrian area while others are walking.",
+    "ai_explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for the scene.",
+    "gate_score": 0.9963929057121277,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0028",
+    "video_type": "anomalous",
+    "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+    "ai_explanation": "In Frame 325/456, individuals appear to be running instead of walking calmly, which deviates from normal pedestrian behavior.",
+    "gate_score": 0.9698299765586853,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0051",
+    "video_type": "anomalous",
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The frames show pedestrians walking calmly, and cyclists riding past without any apparent issue. The activities appear normal for a public walkway.",
+    "gate_score": 0.9996346831321716,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0052",
+    "video_type": "anomalous",
+    "human_explanation": "A person wearing a white shirt and carrying a bag is riding a bicycle in a pedestrian area while others are walking.",
+    "ai_explanation": "The frames show pedestrians walking calmly on a walkway, which is normal behavior for this scene.",
+    "gate_score": 0.9359624981880188,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0053",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "There is a vehicle driving on the pedestrian path, which is unusual as the area is meant for pedestrians.",
+    "gate_score": 0.99957674741745,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0055",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "A person is running across the walkway in frames 89 and 133, which deviates from the normal pedestrian behavior of walking calmly.",
+    "gate_score": 0.31163790822029114,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0056",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "All frames show pedestrians walking calmly along the paths, which is normal behavior for the scene.",
+    "gate_score": 0.3188900649547577,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0064",
+    "video_type": "anomalous",
+    "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+    "ai_explanation": "All frames depict normal pedestrian behavior; individuals are walking calmly along the paths without any unusual or disruptive activities.",
+    "gate_score": 0.12478223443031311,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0135",
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "A vehicle is present and driving on the pedestrian walkway, which is an unusual activity for this area meant for pedestrians.",
+    "gate_score": 0.9999681115150452,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0136",
+    "video_type": "anomalous",
+    "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "A vehicle is driving on a pedestrian walkway, which is unusual behavior for this area intended for pedestrian use only.",
+    "gate_score": 0.8672426342964172,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0139",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "All frames show pedestrians walking calmly, which is normal activity for the scene.",
+    "gate_score": 0.9997422099113464,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0141",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "The frames show normal pedestrian activity with individuals walking along a path.",
+    "gate_score": 0.3241785764694214,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0162",
+    "video_type": "anomalous",
+    "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+    "ai_explanation": "All frames show people and a cyclist moving calmly along walkways, which is normal pedestrian behavior.",
+    "gate_score": 0.49053525924682617,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "01_0177",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show pedestrians walking calmly on the walkway, which is considered normal activity for this scene.",
+    "gate_score": 0.9892067909240723,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "02_0161",
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show normal pedestrian and cyclist activity, with individuals walking and cycling calmly on the path.",
+    "gate_score": 0.9971312880516052,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0031",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+    "ai_explanation": "All frames show normal activity with pedestrians walking calmly on the pathway.",
+    "gate_score": 0.9942098259925842,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0032",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+    "ai_explanation": "In frame 174, a person is seen lying on the ground, which deviates from normal pedestrian behavior.",
+    "gate_score": 0.9879813194274902,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0033",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+    "ai_explanation": "Two individuals appear to be engaged in a physical altercation, which deviates from normal pedestrian behavior.",
+    "gate_score": 0.996028482913971,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "03_0059",
+    "video_type": "anomalous",
+    "human_explanation": "Two people are fighting on the road and later walk together.",
+    "ai_explanation": "All frames depict normal pedestrian behavior, with individuals walking calmly on the path without any unusual activity.",
+    "gate_score": 0.985442578792572,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0004",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+    "ai_explanation": "In Frame 493, an individual is sitting on the ground, which is unusual behavior compared to the typical walking pedestrians in the other frames.",
+    "gate_score": 0.9998483657836914,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0011",
+    "video_type": "anomalous",
+    "human_explanation": "A child in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The frames show pedestrians, including a child, walking calmly on the walkway, which is normal behavior for the scene.",
+    "gate_score": 0.7134749889373779,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0012",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+    "ai_explanation": "In Frame 205, a person is seen running, which deviates from normal pedestrian behavior like walking calmly.",
+    "gate_score": 0.9989283084869385,
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "04_0046",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+    "ai_explanation": "In frames 226 and 301, individuals are seen jumping and throwing an object, which deviates from normal pedestrian behavior of walking calmly.",
+    "gate_score": 0.9904146194458008,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0017",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road.",
+    "ai_explanation": "The activity observed in the frames appears normal. The individuals are walking calmly and behaving typically for a pedestrian area.",
+    "gate_score": 0.999760627746582,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0019",
+    "video_type": "anomalous",
+    "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+    "ai_explanation": "A group of individuals is seen stopping in the middle of the road, interacting closely and blocking the walkway, which deviates from normal pedestrian behavior of walking calmly on paths.",
+    "gate_score": 0.9999921321868896,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "05_0023",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+    "ai_explanation": "In Frame 219, an individual is bending down on the road, which is unusual for normal pedestrian walking behavior.",
+    "gate_score": 0.9999236464500427,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "06_0144",
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan is being driven in a pedestrian area.",
+    "ai_explanation": "A vehicle is parked on the walkway, which is unusual as the area is meant for pedestrian use only.",
+    "gate_score": 0.9989986419677734,
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "06_0153",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area.",
+    "ai_explanation": "A cyclist is riding on the pedestrian walkway, which deviates from normal pedestrian behavior and may pose a safety hazard.",
+    "gate_score": 0.7455043196678162,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0006",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+    "ai_explanation": "In frame 219, one person is sitting or falling on the ground while others are standing around, indicating a possible incident or playful behavior deviating from normal pedestrian walking.",
+    "gate_score": 0.9401789307594299,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0008",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+    "ai_explanation": "A person is handling a long object in a manner that could be considered unusual for pedestrian behavior in frames 195, 260, and 325. The handling of what appears to be a large object deviates from normal walking activity.",
+    "gate_score": 0.9992335438728333,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "07_0048",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+    "ai_explanation": "The frames show pedestrians walking calmly on a path, which is normal behavior for this scene.",
+    "gate_score": 0.9127352237701416,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0058",
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "All frames depict normal pedestrian activity with people walking calmly on the pathways.",
+    "gate_score": 0.8678865432739258,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0077",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show pedestrians walking calmly along the path, which is normal behavior for the scene.",
+    "gate_score": 0.9999330639839172,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0080",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+    "ai_explanation": "A person is skateboarding in frames 123, 164, and possibly others, which is atypical behavior for a pedestrian walkway.",
+    "gate_score": 0.9113319516181946,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0157",
+    "video_type": "anomalous",
+    "human_explanation": "A person wearing a gray/white layered shirt is riding an electric unicycle scooter in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "All observed frames depict pedestrians walking calmly on a walkway, consistent with expected pedestrian behavior.",
+    "gate_score": 0.012704688124358654,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "08_0158",
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "All frames show pedestrians walking calmly along the pathways, which is normal behavior for this scene.",
+    "gate_score": 0.8678865432739258,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "10_0038",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior for the scene.",
+    "gate_score": 0.5415433049201965,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "10_0042",
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+    "ai_explanation": "A scooter is seen moving through an area meant for pedestrians, which deviates from normal pedestrian behavior.",
+    "gate_score": 0.419732004404068,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0142",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show pedestrians walking calmly, and one bicyclist, which is consistent with normal activity in a public walkway area.",
+    "gate_score": 0.9997299313545227,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0151",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "All frames show normal pedestrian behavior with individuals walking calmly on the walkway. There are no unusual activities observed.",
+    "gate_score": 0.9956612586975098,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0173",
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A cyclist is riding a bicycle on a pedestrian path in frames 61, 92, and 123, which deviates from the normal pedestrian walking activity expected in this area.",
+    "gate_score": 0.9958222508430481,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": ""
+    }
+  },
+  {
+    "video_id": "12_0174",
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The activity in the frames shows individuals calmly walking and cycling, which is consistent with normal pedestrian behavior.",
+    "gate_score": 0.9995638728141785,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": ""
+    }
+  }
+]

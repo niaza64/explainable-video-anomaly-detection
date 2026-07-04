@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0141",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    93,
+    134,
+    175,
+    216,
+    257
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The individuals appear to be moving in a coordinated and normal manner without any signs of conflict or irregular activity."
+}

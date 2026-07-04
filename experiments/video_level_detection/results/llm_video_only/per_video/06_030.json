@@ -1,0 +1,18 @@
+{
+  "video_id": "06_030",
+  "is_anomalous_gt": 0,
+  "total_frames": 757,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    108,
+    216,
+    324,
+    432,
+    540,
+    648,
+    756
+  ],
+  "anomaly_detected": false,
+  "explanation": "No unusual activity is observed; people are entering and exiting the building normally."
+}

@@ -1,0 +1,13 @@
+{
+  "video_id": "04_0004",
+  "total_frames": 865,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 164,
+      "end_frame": 774,
+      "include_heatmap": true,
+      "explanation": "A person unexpectedly fell or was lying on the ground in frame 469, causing a deviation from typical pedestrian movement, leading to high anomaly scores around that event."
+    }
+  ]
+}

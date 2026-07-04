@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0139",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a cyclist passing through an area typically only used by pedestrians, which deviates from the expected pedestrian-only behavior in this scene, as indicated by high anomaly scores and concentrated heatmap highlights on the cyclist.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the same anomaly of a cyclist in a pedestrian area. It lacks specific details like the person's clothing but captures the key aspect of the anomaly. The explanation is clear but could benefit from more concrete details."
+      }
+    }
+  ]
+}

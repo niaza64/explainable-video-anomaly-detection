@@ -1,0 +1,17 @@
+{
+  "video_id": "06_015",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 846,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    241,
+    343,
+    444,
+    546,
+    647
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 241, 343, 444, and 546 have high anomaly scores, with frame 444 having the highest at 0.99. This suggests unusual activity in these frames, particularly around the entrance area."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "04_0004",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 865,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    265,
+    367,
+    469,
+    570,
+    672
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frame 469 shows an individual on the ground, suggesting a possible fall or incident, which is an anomaly relative to normal pedestrian walking."
+}

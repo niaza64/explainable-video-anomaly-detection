@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0158",
+  "variant": "video_only",
+  "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show pedestrians walking calmly along the pathways, which is normal behavior for this scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation fails to identify the anomaly involving a cyclist and a running person. It provides almost no specific details about the actions or people involved, and misses all key points mentioned by the human. The language used is clear but lacks the necessary detail and relevance."
+      }
+    }
+  ]
+}

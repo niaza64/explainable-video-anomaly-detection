@@ -1,0 +1,13 @@
+{
+  "video_id": "07_0008",
+  "total_frames": 457,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 75,
+      "end_frame": 416,
+      "include_heatmap": false,
+      "explanation": "The anomaly is due to an individual walking in a public area carrying a large object resembling a rifle, which deviates from typical pedestrian behavior and raises safety concerns."
+    }
+  ]
+}

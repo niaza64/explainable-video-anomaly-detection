@@ -1,0 +1,13 @@
+{
+  "video_id": "06_0153",
+  "total_frames": 217,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 36,
+      "end_frame": 204,
+      "include_heatmap": true,
+      "explanation": "The anomaly is due to a person riding a bicycle on a pedestrian pathway, which deviates from the normal pedestrian-only behavior typically seen in this scene."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "07_0008",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+  "ai_explanation": "A group of individuals is walking across a crosswalk, with one individual drawing attention for carrying a large object resembling a musical instrument or equipment case over his shoulder, which becomes more pronounced from snippet 9 to 20. This behavior is anomalous as it diverges from typical pedestrian activities in this area, highlighting unusual object transportation in a public space. The anomaly starts in snippet 5 and peaks by snippet 11, gradually resolving by snippet 20.",
+  "gate_score": 0.7731265425682068,
+  "gt_anomaly_start": 177,
+  "gt_anomaly_end": 364,
+  "scores": {
+    "correctness": 2,
+    "specificity": 3,
+    "completeness": 2,
+    "fluency": 4,
+    "justification": "The AI identifies an anomalous behavior related to carrying an unusual object but misinterprets the steel bar as a musical instrument or case. It vaguely captures the notion of unusual activity in a public space but lacks the specificity of the dangerous swinging action. The explanation is reasonably fluent but misses key details from the ground truth."
+  }
+}

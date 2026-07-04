@@ -1,0 +1,17 @@
+{
+  "video_id": "05_021",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1058,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    288,
+    421,
+    553,
+    686,
+    818
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and overlays in frames 421 and 553 suggest unusual activity, such as potential unexpected pedestrian behavior or object presence outside normal patterns."
+}

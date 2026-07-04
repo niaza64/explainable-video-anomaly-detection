@@ -1,0 +1,17 @@
+{
+  "video_id": "01_043",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 878,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    276,
+    381,
+    486,
+    591,
+    696
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames depict individuals walking across an open plaza, which appears to be normal pedestrian activity. No unusual behavior or obstruction is observed."
+}

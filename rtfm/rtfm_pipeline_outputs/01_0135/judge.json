@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0135",
+  "video_type": "anomalous",
+  "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+  "ai_explanation": "The anomaly involves a silver van entering a pedestrian path and disrupting foot traffic. This activity starts around snippet 7 as pedestrians walk normally, but by snippet 10 the vehicle appears and closely approaches pedestrians, which peaks in snippet 12-14. It is anomalous because vehicles are not expected to drive on pedestrian pathways, creating a potential hazard and deviating from normal pedestrian behavior.",
+  "gate_score": 0.9977158308029175,
+  "gt_anomaly_start": 167,
+  "gt_anomaly_end": 355,
+  "scores": {
+    "correctness": 4,
+    "specificity": 4,
+    "completeness": 4,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly involving a vehicle in a pedestrian area but misidentifies the van's color as silver instead of white with black tinted windows. It provides specific details about the activity and timeline involved, and mostly captures the key aspects of the human explanation. The explanation is well-written and clear."
+  }
+}

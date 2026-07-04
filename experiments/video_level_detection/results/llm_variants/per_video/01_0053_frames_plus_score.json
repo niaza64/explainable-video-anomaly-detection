@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0053",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    133,
+    191,
+    248,
+    306,
+    363
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The presence of a motorized vehicle (a tricycle) on a pedestrian path indicates unusual activity compared to normal pedestrian walking."
+}

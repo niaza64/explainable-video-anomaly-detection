@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0004",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is seen lying on the ground in frame 469, which represents an unusual incident in a pedestrian area, contributing to the elevated anomaly scores across these frames.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI identifies an unusual incident involving a person on the ground but misses the interaction details of pushing and subsequent actions. The explanation is somewhat vague, focusing only on the ground position without identifying individuals or actions. It lacks completeness as key elements such as the initial push and the interaction between the two people are omitted. The writing is clear, although it lacks detail."
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0028",
+  "video_type": "anomalous",
+  "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+  "ai_explanation": "The anomaly involves a group of people moving in an unusual or hurried manner on a normally quiet pathway. Initially, a few pedestrians are seen walking calmly, but by snippets 17 to 19, more people are running quickly across the area, some carrying bags, which is atypical for this setting. This deviation from regular pedestrian behavior, particularly the transition from calm walking to running, accounts for the anomalous activity detected.",
+  "gate_score": 0.40900754928588867,
+  "gt_anomaly_start": 266,
+  "gt_anomaly_end": 330,
+  "scores": {
+    "correctness": 2,
+    "specificity": 3,
+    "completeness": 2,
+    "fluency": 4,
+    "justification": "The AI explanation does not identify the same anomaly as the human, which is a specific theft incident, but instead references a general unusual movement of several people. It mentions details like the transition from walking to running and carrying bags, but lacks the specificity of a theft. The AI only partially covers the event since it misses the theft aspect. The explanation is relatively clear and well-structured."
+  }
+}

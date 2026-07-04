@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0136",
+  "video_type": "anomalous",
+  "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+  "ai_explanation": "Anomalous activity involves a delivery truck driving on a pedestrian walkway, starting at snippet 17 and ending at snippet 25. The truck is interacting with both pedestrians, who appear to adjust their path to accommodate it, and the driver who is seen near the vehicle. This behavior deviates from normal pedestrian area activities where vehicles are typically restricted.",
+  "gate_score": 0.5951427817344666,
+  "gt_anomaly_start": 133,
+  "gt_anomaly_end": 445,
+  "scores": {
+    "correctness": 5,
+    "specificity": 4,
+    "completeness": 4,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly of a truck driving in a pedestrian area, which matches the human explanation. It provides specific details about the interaction with pedestrians and the driver's presence, but lacks the specific color detail of the truck. The explanation is clear and well-structured."
+  }
+}

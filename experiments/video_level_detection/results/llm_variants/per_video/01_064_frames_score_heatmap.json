@@ -1,0 +1,17 @@
+{
+  "video_id": "01_064",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 650,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    182,
+    262,
+    342,
+    422,
+    502
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and heatmaps suggest unusual behavior or movement in multiple frames, particularly around persons or objects in the scene."
+}

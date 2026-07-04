@@ -1,0 +1,597 @@
+{
+  "config": {
+    "num_anomaly": 10,
+    "num_normal": 10,
+    "seed": 42,
+    "k_values": [
+      1,
+      3,
+      5,
+      8,
+      10,
+      15,
+      20,
+      30,
+      50
+    ],
+    "threshold_steps": 200,
+    "cache_dir": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache",
+    "no_cache": false
+  },
+  "selected_videos": [
+    {
+      "video_id": "01_056",
+      "label": 0,
+      "num_frames": 1010,
+      "num_scored_frames": 1004,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_056_smoothed_scores.npy"
+    },
+    {
+      "video_id": "08_0077",
+      "label": 1,
+      "num_frames": 457,
+      "num_scored_frames": 451,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/08_0077_smoothed_scores.npy"
+    },
+    {
+      "video_id": "03_0031",
+      "label": 1,
+      "num_frames": 529,
+      "num_scored_frames": 523,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/03_0031_smoothed_scores.npy"
+    },
+    {
+      "video_id": "08_001",
+      "label": 0,
+      "num_frames": 817,
+      "num_scored_frames": 811,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/08_001_smoothed_scores.npy"
+    },
+    {
+      "video_id": "12_015",
+      "label": 0,
+      "num_frames": 1052,
+      "num_scored_frames": 1046,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/12_015_smoothed_scores.npy"
+    },
+    {
+      "video_id": "05_004",
+      "label": 0,
+      "num_frames": 602,
+      "num_scored_frames": 596,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/05_004_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0055",
+      "label": 1,
+      "num_frames": 313,
+      "num_scored_frames": 307,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0055_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_027",
+      "label": 0,
+      "num_frames": 944,
+      "num_scored_frames": 938,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_027_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0162",
+      "label": 1,
+      "num_frames": 193,
+      "num_scored_frames": 187,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0162_smoothed_scores.npy"
+    },
+    {
+      "video_id": "13_006",
+      "label": 0,
+      "num_frames": 458,
+      "num_scored_frames": 452,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/13_006_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0025",
+      "label": 1,
+      "num_frames": 601,
+      "num_scored_frames": 595,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0025_smoothed_scores.npy"
+    },
+    {
+      "video_id": "12_0142",
+      "label": 1,
+      "num_frames": 601,
+      "num_scored_frames": 595,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/12_0142_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0177",
+      "label": 1,
+      "num_frames": 317,
+      "num_scored_frames": 311,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0177_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0052",
+      "label": 1,
+      "num_frames": 337,
+      "num_scored_frames": 331,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0052_smoothed_scores.npy"
+    },
+    {
+      "video_id": "04_014",
+      "label": 0,
+      "num_frames": 627,
+      "num_scored_frames": 621,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/04_014_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0053",
+      "label": 1,
+      "num_frames": 457,
+      "num_scored_frames": 451,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0053_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_026",
+      "label": 0,
+      "num_frames": 736,
+      "num_scored_frames": 730,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_026_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_021",
+      "label": 0,
+      "num_frames": 1010,
+      "num_scored_frames": 1004,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_021_smoothed_scores.npy"
+    },
+    {
+      "video_id": "01_0056",
+      "label": 1,
+      "num_frames": 529,
+      "num_scored_frames": 523,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/01_0056_smoothed_scores.npy"
+    },
+    {
+      "video_id": "08_046",
+      "label": 0,
+      "num_frames": 798,
+      "num_scored_frames": 792,
+      "cache_file": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache/08_046_smoothed_scores.npy"
+    }
+  ],
+  "tuning": {
+    "best": {
+      "k": 3,
+      "threshold": 0.9999305377900813,
+      "tp": 10.0,
+      "tn": 4.0,
+      "fp": 6.0,
+      "fn": 0.0,
+      "accuracy": 0.7,
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1": 0.7692307692307693,
+      "balanced_accuracy": 0.7
+    },
+    "top_results": [
+      {
+        "k": 3,
+        "threshold": 0.9999305377900813,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999315011507032,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.999932464511325,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999334278719468,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999343912325687,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999353545931906,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999363179538124,
+        "tp": 10.0,
+        "tn": 4.0,
+        "fp": 6.0,
+        "fn": 0.0,
+        "accuracy": 0.7,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693,
+        "balanced_accuracy": 0.7
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999083804957788,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999093438564006,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999103072170225,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999112705776443,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999122339382661,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.999913197298888,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999141606595099,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999151240201317,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999160873807535,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999170507413754,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999180141019972,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.9999189774626192,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      },
+      {
+        "k": 3,
+        "threshold": 0.999919940823241,
+        "tp": 10.0,
+        "tn": 3.0,
+        "fp": 7.0,
+        "fn": 0.0,
+        "accuracy": 0.65,
+        "precision": 0.5882352941176471,
+        "recall": 1.0,
+        "f1": 0.7407407407407407,
+        "balanced_accuracy": 0.65
+      }
+    ]
+  },
+  "best_params": {
+    "k": 3,
+    "threshold": 0.9999305377900813
+  },
+  "final_metrics_on_subset": {
+    "tp": 10.0,
+    "tn": 4.0,
+    "fp": 6.0,
+    "fn": 0.0,
+    "accuracy": 0.7,
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1": 0.7692307692307693,
+    "balanced_accuracy": 0.7
+  },
+  "final_per_video": [
+    {
+      "video_id": "01_056",
+      "label": 0,
+      "video_score": 0.9998926276298966,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "video_id": "08_0077",
+      "label": 1,
+      "video_score": 0.9999851768548659,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "03_0031",
+      "label": 1,
+      "video_score": 0.9999900691213645,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "08_001",
+      "label": 0,
+      "video_score": 0.9999960463123672,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "video_id": "12_015",
+      "label": 0,
+      "video_score": 0.9999304201854485,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "video_id": "05_004",
+      "label": 0,
+      "video_score": 0.9999924634107696,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "video_id": "01_0055",
+      "label": 1,
+      "video_score": 0.999969927357346,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "01_027",
+      "label": 0,
+      "video_score": 0.9999075592012304,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "video_id": "01_0162",
+      "label": 1,
+      "video_score": 0.9999368213061922,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "13_006",
+      "label": 0,
+      "video_score": 0.9999852936698455,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "video_id": "01_0025",
+      "label": 1,
+      "video_score": 0.9999921792790142,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "12_0142",
+      "label": 1,
+      "video_score": 0.9999923923862828,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "01_0177",
+      "label": 1,
+      "video_score": 0.9999708773003334,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "01_0052",
+      "label": 1,
+      "video_score": 0.9999741943282295,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "04_014",
+      "label": 0,
+      "video_score": 0.9999932161016326,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "video_id": "01_0053",
+      "label": 1,
+      "video_score": 0.9999856537259704,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "01_026",
+      "label": 0,
+      "video_score": 0.9999948950094198,
+      "prediction": 1,
+      "correct": false
+    },
+    {
+      "video_id": "01_021",
+      "label": 0,
+      "video_score": 0.9998043375486189,
+      "prediction": 0,
+      "correct": true
+    },
+    {
+      "video_id": "01_0056",
+      "label": 1,
+      "video_score": 0.9999900005063028,
+      "prediction": 1,
+      "correct": true
+    },
+    {
+      "video_id": "08_046",
+      "label": 0,
+      "video_score": 0.9999955693766509,
+      "prediction": 1,
+      "correct": false
+    }
+  ]
+}

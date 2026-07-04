@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0019",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 649,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    187,
+    266,
+    344,
+    423,
+    501
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores and heatmaps suggest unusual activity, particularly in frames 266, 344, and 423, where a group of people appear to be interacting in a way that deviates from normal walking."
+}

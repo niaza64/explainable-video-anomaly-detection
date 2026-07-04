@@ -1,0 +1,13 @@
+{
+  "video_id": "03_0033",
+  "total_frames": 313,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 51,
+      "end_frame": 285,
+      "include_heatmap": true,
+      "explanation": "An unfamiliar interaction, possibly an altercation or unexpected gathering involving several individuals, occurred in this typically less crowded area, causing significant deviation from normal pedestrian behavior as indicated by high anomaly scores and dense heatmap activity."
+    }
+  ]
+}

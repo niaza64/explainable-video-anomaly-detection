@@ -1,0 +1,17 @@
+{
+  "video_id": "01_018",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 842,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    289,
+    395,
+    500,
+    606,
+    711
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 395 and 500 have high anomaly scores, suggesting unusual activity such as erratic movement or unexpected changes in pedestrian patterns."
+}

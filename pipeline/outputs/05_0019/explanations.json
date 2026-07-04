@@ -1,0 +1,13 @@
+{
+  "video_id": "05_0019",
+  "total_frames": 649,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 109,
+      "end_frame": 580,
+      "include_heatmap": true,
+      "explanation": "The anomaly is due to a group of individuals who seem to be engaged in a confrontation or altercation in the street, which deviates from the usual pedestrian activity expected in this area."
+    }
+  ]
+}

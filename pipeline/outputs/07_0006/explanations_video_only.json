@@ -1,0 +1,26 @@
+{
+  "video_id": "07_0006",
+  "variant": "video_only",
+  "total_frames": 385,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    54,
+    109,
+    164,
+    219,
+    274,
+    329,
+    384
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 384,
+      "include_heatmap": false,
+      "explanation": "In frame 219, one person is sitting or falling on the ground while others are standing around, indicating a possible incident or playful behavior deviating from normal pedestrian walking."
+    }
+  ]
+}

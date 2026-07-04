@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0055",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a red shirt is running in a pedestrian area while others are walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly involves a person moving in an erratic, non-linear path across a large open area, which deviates from expected pedestrian behavior that typically follows the designated pathways.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI identifies an anomaly involving unusual movement but does not specify the running or the red shirt, which are key elements in the human explanation. It lacks specificity about the person or their actions and misses the context of others walking. The explanation is generally clear and well-written."
+      }
+    }
+  ]
+}

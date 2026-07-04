@@ -1,0 +1,18 @@
+{
+  "video_id": "06_015",
+  "is_anomalous_gt": 0,
+  "total_frames": 846,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    120,
+    241,
+    362,
+    482,
+    603,
+    724,
+    845
+  ],
+  "anomaly_detected": false,
+  "explanation": "The frames show typical pedestrian behavior with individuals walking calmly along the walkway and entering or exiting the building, which aligns with normal activity."
+}

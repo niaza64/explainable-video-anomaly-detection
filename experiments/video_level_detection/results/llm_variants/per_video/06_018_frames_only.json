@@ -1,0 +1,17 @@
+{
+  "video_id": "06_018",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    225,
+    312,
+    399,
+    485,
+    572
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show normal pedestrian activity as an individual exits a building and walks away. There is no unusual or suspicious behavior apparent."
+}

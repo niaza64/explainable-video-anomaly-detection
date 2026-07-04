@@ -1,0 +1,17 @@
+{
+  "video_id": "01_071",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1052,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    302,
+    433,
+    564,
+    695,
+    826
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking normally along a pathway. There is no unusual behavior or activity evident in the images."
+}

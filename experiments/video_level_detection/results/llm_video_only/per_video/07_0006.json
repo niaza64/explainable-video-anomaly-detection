@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0006",
+  "is_anomalous_gt": 1,
+  "total_frames": 385,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    54,
+    109,
+    164,
+    219,
+    274,
+    329,
+    384
+  ],
+  "anomaly_detected": true,
+  "explanation": "One person is seen lying on the ground in frame 219, which is unusual for normal pedestrian behavior."
+}

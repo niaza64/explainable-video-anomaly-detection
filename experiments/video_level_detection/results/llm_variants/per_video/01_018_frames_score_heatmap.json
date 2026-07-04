@@ -1,0 +1,17 @@
+{
+  "video_id": "01_018",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 842,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    289,
+    395,
+    500,
+    606,
+    711
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 289, 395, 500, and 606 have high anomaly scores and heatmaps indicating abnormal activity or movement patterns. Frame 395 (score 0.97) and frame 500 (score 0.96) particularly show significant deviation from normal pedestrian behavior."
+}

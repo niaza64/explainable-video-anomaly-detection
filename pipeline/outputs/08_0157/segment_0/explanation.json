@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 48,
+  "end_frame": 283,
+  "include_heatmap": true,
+  "explanation": "The anomaly is caused by a group of pedestrians unusually congregating around the lamppost, obstructing normal pedestrian flow, which stands out in the scene where typically individual or dispersed walking patterns are observed."
+}

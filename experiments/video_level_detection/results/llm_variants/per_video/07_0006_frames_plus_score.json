@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0006",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 385,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    107,
+    155,
+    203,
+    251,
+    299
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "In frame 203, one person appears to have fallen or is sitting on the ground, which is unusual compared to normal pedestrian walking."
+}

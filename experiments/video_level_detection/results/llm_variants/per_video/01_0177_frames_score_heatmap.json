@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0177",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 317,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    91,
+    131,
+    171,
+    211,
+    251
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high across frames, with the highest score of 1.00 at frame 171, indicating unusual pedestrian behavior or movement patterns, particularly around the individual on the bicycle."
+}

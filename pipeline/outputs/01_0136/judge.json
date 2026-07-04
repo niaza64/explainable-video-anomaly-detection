@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0136",
+  "variant": "with_heatmap",
+  "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by a vehicle driving through an area typically designated for pedestrians, as indicated by consistent high anomaly scores and heatmap highlights over the truck.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly of a vehicle in a pedestrian area, matching the human explanation. However, it lacks specific details like the color and type of the vehicle. It covers most key points but misses mentioning that vehicles are not allowed in that area. The explanation is generally clear but could be more detailed."
+      }
+    }
+  ]
+}

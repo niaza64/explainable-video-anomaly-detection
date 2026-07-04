@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0025",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 601,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    175,
+    249,
+    323,
+    397,
+    471
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and potential conflicts in pedestrians' paths suggest unusual activity."
+}

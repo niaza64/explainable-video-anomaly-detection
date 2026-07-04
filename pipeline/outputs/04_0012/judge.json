@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0012",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by an individual running at a fast pace through an area where typical behavior is walking, indicated by high anomaly scores and consistent deviation in the heatmaps focused on this individual.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 3,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies unusual behavior of an individual in a pedestrian area, but incorrectly describes the action as 'running' rather than 'moving in circles'. Specificity is moderate as it mentions the location and pace, but misses clothing details. Completeness is low as it doesn't capture the circular movement. The explanation is fluent and clear."
+      }
+    }
+  ]
+}

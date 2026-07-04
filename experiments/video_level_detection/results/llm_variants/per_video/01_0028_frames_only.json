@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0028",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    136,
+    195,
+    253,
+    312,
+    370
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "In Frame 312, three individuals are engaged in an activity that resembles running or chasing, which deviates from normal walking behavior observed in other frames."
+}

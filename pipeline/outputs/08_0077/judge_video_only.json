@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0077",
+  "variant": "video_only",
+  "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show pedestrians walking calmly along the path, which is normal behavior for the scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 5,
+        "justification": "The AI explanation fails to identify the anomaly involving a person cycling in a restricted area, mentioning only pedestrians walking. It lacks any specific detail about the key event or individuals involved. However, the explanation is fluently written."
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0008",
+  "variant": "video_only",
+  "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is handling a long object in a manner that could be considered unusual for pedestrian behavior in frames 195, 260, and 325. The handling of what appears to be a large object deviates from normal walking activity.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly as a person handling an object unusually, aligning with the human's mention of a person swinging a steel bar. However, the AI lacks specific details like the maroon shirt and identifying the object as a steel bar. It captures the essence of the unusual behavior but misses the specific clothing and full context of danger. The explanation is clear but less detailed."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "04_005",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 976,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    404,
+    522,
+    640,
+    758
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames show varying anomaly scores, with the highest score of 1.00 at frame 522. This indicates potential unusual activity, particularly around frames 404 to 522. The presence of multiple individuals could be contributing to the high anomaly score."
+}

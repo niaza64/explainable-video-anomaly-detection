@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0033",
+  "variant": "video_only",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "Two individuals appear to be engaged in a physical altercation, which deviates from normal pedestrian behavior.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies a physical altercation as the anomaly, aligning partially with the human explanation. However, it lacks specific details about the individuals involved, such as clothing color, and the sequence of events mentioned by the human. The explanation is generally well-written, but it lacks the depth and detail of the human description."
+      }
+    }
+  ]
+}

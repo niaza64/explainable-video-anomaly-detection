@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 36,
+  "end_frame": 201,
+  "include_heatmap": false,
+  "explanation": "The anomaly is due to a person riding a bicycle on a path typically used for pedestrian traffic, which is unusual given the normal patterns learned by the model for this scene."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_079",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 712,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    204,
+    290,
+    376,
+    462,
+    548
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in multiple frames suggest unusual activity. The heatmap indicates significant focus on certain individuals, which might relate to atypical behavior."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "11_006",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 552,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    149,
+    219,
+    290,
+    360,
+    430
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 149, 219, 290, and 360 have high anomaly scores, particularly frame 290 which scores 1.00, indicating significant deviations from typical pedestrian behavior. Frame 360 shows an empty scene, which might be expected if the location is typically busy."
+}

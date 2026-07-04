@@ -1,0 +1,17 @@
+{
+  "video_id": "01_056",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1010,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    252,
+    380,
+    508,
+    635,
+    763
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 380 and 508 show high anomaly scores of 0.96 and 0.98 respectively, corresponding with isolated individuals in a previously populated area, suggesting unusual behavior."
+}

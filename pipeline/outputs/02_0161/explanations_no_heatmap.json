@@ -1,0 +1,13 @@
+{
+  "video_id": "02_0161",
+  "total_frames": 337,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 50,
+      "end_frame": 304,
+      "include_heatmap": false,
+      "explanation": "The anomaly appears to be multiple bicycles being ridden on a pedestrian walkway where such activity may be unusual, as indicated by high scores and heatmap highlights around cyclists."
+    }
+  ]
+}

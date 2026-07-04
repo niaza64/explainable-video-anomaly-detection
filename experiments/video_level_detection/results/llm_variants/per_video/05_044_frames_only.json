@@ -1,0 +1,17 @@
+{
+  "video_id": "05_044",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    237,
+    328,
+    419,
+    509,
+    600
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show pedestrians walking on a path, and there is no unusual or suspicious behavior observed."
+}

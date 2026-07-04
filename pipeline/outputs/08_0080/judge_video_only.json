@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0080",
+  "variant": "video_only",
+  "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is skateboarding in frames 123, 164, and possibly others, which is atypical behavior for a pedestrian walkway.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 2,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomaly of skateboarding in a pedestrian area. However, it lacks specific details such as the person's clothing or a backpack. While it captures the location and activity, it misses mentioning that skateboarding is not allowed there. The explanation is generally well-written and clear."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 101,
+  "end_frame": 546,
+  "include_heatmap": false,
+  "explanation": "The anomalous activity involves a cyclist riding through an area typically used for pedestrian traffic, which deviates from the usual walking behavior observed in this scene."
+}

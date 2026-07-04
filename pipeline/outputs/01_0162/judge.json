@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0162",
+  "variant": "with_heatmap",
+  "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by multiple people appearing closely grouped while a cyclist navigates around them, which may deviate from the typical pedestrian and cycling patterns in this area.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI partially identifies the anomaly by noting a cyclist in a pedestrian area but does not specify the presence of two people on the bicycle, which is crucial to the explanation. It provides some detail about the surroundings but lacks specificity regarding the rule being broken. The explanation is relatively fluent, though it could be clearer about the key aspects."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 34,
+  "end_frame": 217,
+  "include_heatmap": true,
+  "explanation": "The anomaly is caused by a vehicle stopping in an area typically free of cars, and a person interacting with the environment, both of which deviate from the normal pedestrian-only scene."
+}

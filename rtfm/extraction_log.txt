@@ -1,0 +1,581 @@
+Using device: cpu
+Loading I3D ResNet50 model...
+Model loaded.
+
+=== Extracting train features: 238 videos → /Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/data/SH_Train_ten_crop_i3d ===
+
+[1/238] 01_0014 (265 frames)... saved (10, 16, 2048)
+[2/238] 01_0016 (337 frames)... saved (10, 21, 2048)
+[3/238] 01_002 (482 frames)... saved (10, 30, 2048)
+[4/238] 01_0026 (505 frames)... saved (10, 31, 2048)
+[5/238] 01_0029 (313 frames)... saved (10, 19, 2048)
+[6/238] 01_003 (769 frames)... saved (10, 48, 2048)
+[7/238] 01_0030 (409 frames)... saved (10, 25, 2048)
+[8/238] 01_005 (674 frames)... saved (10, 42, 2048)
+[9/238] 01_0054 (577 frames)... saved (10, 36, 2048)
+[10/238] 01_0063 (193 frames)... saved (10, 12, 2048)
+[11/238] 01_007 (578 frames)... saved (10, 36, 2048)
+[12/238] 01_0073 (289 frames)... saved (10, 18, 2048)
+[13/238] 01_0076 (265 frames)... saved (10, 16, 2048)
+[14/238] 01_009 (860 frames)... saved (10, 53, 2048)
+[15/238] 01_010 (861 frames)... saved (10, 53, 2048)
+[16/238] 01_011 (738 frames)... saved (10, 46, 2048)
+[17/238] 01_0129 (241 frames)... saved (10, 15, 2048)
+[18/238] 01_013 (738 frames)... saved (10, 46, 2048)
+[19/238] 01_0130 (337 frames)... saved (10, 21, 2048)
+[20/238] 01_0131 (289 frames)... saved (10, 18, 2048)
+[21/238] 01_0132 (265 frames)... saved (10, 16, 2048)
+[22/238] 01_0133 (217 frames)... saved (10, 13, 2048)
+[23/238] 01_0134 (433 frames)... saved (10, 27, 2048)
+[24/238] 01_0138 (313 frames)... saved (10, 19, 2048)
+[25/238] 01_014 (738 frames)... saved (10, 46, 2048)
+[26/238] 01_0140 (241 frames)... saved (10, 15, 2048)
+[27/238] 01_015 (740 frames)... saved (10, 46, 2048)
+[28/238] 01_016 (602 frames)... saved (10, 37, 2048)
+[29/238] 01_0163 (265 frames)... saved (10, 16, 2048)
+[30/238] 01_017 (841 frames)... saved (10, 52, 2048)
+[31/238] 01_019 (578 frames)... saved (10, 36, 2048)
+[32/238] 01_020 (818 frames)... saved (10, 51, 2048)
+[33/238] 01_022 (482 frames)... saved (10, 30, 2048)
+[34/238] 01_023 (1298 frames)... saved (10, 81, 2048)
+[35/238] 01_024 (674 frames)... saved (10, 42, 2048)
+[36/238] 01_025 (764 frames)... saved (10, 47, 2048)
+[37/238] 01_029 (968 frames)... saved (10, 60, 2048)
+[38/238] 01_031 (472 frames)... saved (10, 29, 2048)
+[39/238] 01_033 (890 frames)... saved (10, 55, 2048)
+[40/238] 01_035 (818 frames)... saved (10, 51, 2048)
+[41/238] 01_036 (472 frames)... saved (10, 29, 2048)
+[42/238] 01_037 (832 frames)... saved (10, 52, 2048)
+[43/238] 01_041 (878 frames)... saved (10, 54, 2048)
+[44/238] 01_042 (878 frames)... saved (10, 54, 2048)
+[45/238] 01_044 (458 frames)... saved (10, 28, 2048)
+[46/238] 01_046 (1058 frames)... saved (10, 66, 2048)
+[47/238] 01_048 (1058 frames)... saved (10, 66, 2048)
+[48/238] 01_049 (805 frames)... saved (10, 50, 2048)
+[49/238] 01_051 (962 frames)... saved (10, 60, 2048)
+[50/238] 01_054 (1058 frames)... saved (10, 66, 2048)
+[51/238] 01_060 (578 frames)... saved (10, 36, 2048)
+[52/238] 01_062 (746 frames)... saved (10, 46, 2048)
+[53/238] 01_063 (1370 frames)... saved (10, 85, 2048)
+[54/238] 01_066 (1384 frames)... saved (10, 86, 2048)
+[55/238] 01_067 (1384 frames)... saved (10, 86, 2048)
+[56/238] 01_068 (1024 frames)... saved (10, 64, 2048)
+[57/238] 01_069 (1226 frames)... saved (10, 76, 2048)
+[58/238] 01_070 (1048 frames)... saved (10, 65, 2048)
+[59/238] 01_073 (1040 frames)... saved (10, 65, 2048)
+[60/238] 01_083 (890 frames)... saved (10, 55, 2048)
+[61/238] 02_002 (909 frames)... saved (10, 56, 2048)
+[62/238] 02_004 (1432 frames)... saved (10, 89, 2048)
+[63/238] 02_005 (362 frames)... saved (10, 22, 2048)
+[64/238] 02_006 (452 frames)... saved (10, 28, 2048)
+[65/238] 02_010 (327 frames)... saved (10, 20, 2048)
+[66/238] 02_011 (277 frames)... saved (10, 17, 2048)
+[67/238] 02_0128 (457 frames)... saved (10, 28, 2048)
+[68/238] 02_013 (577 frames)... saved (10, 36, 2048)
+[69/238] 02_014 (252 frames)... saved (10, 15, 2048)
+[70/238] 02_0164 (361 frames)... saved (10, 22, 2048)
+[71/238] 03_001 (327 frames)... saved (10, 20, 2048)
+[72/238] 03_003 (352 frames)... saved (10, 22, 2048)
+[73/238] 03_0035 (385 frames)... saved (10, 24, 2048)
+[74/238] 03_0036 (457 frames)... saved (10, 28, 2048)
+[75/238] 03_0039 (481 frames)... saved (10, 30, 2048)
+[76/238] 03_004 (527 frames)... saved (10, 32, 2048)
+[77/238] 03_0041 (457 frames)... saved (10, 28, 2048)
+[78/238] 03_006 (277 frames)... saved (10, 17, 2048)
+[79/238] 03_0060 (385 frames)... saved (10, 24, 2048)
+[80/238] 03_0061 (241 frames)... saved (10, 15, 2048)
+[81/238] 04_0001 (553 frames)... saved (10, 34, 2048)
+[82/238] 04_0003 (937 frames)... saved (10, 58, 2048)
+[83/238] 04_001 (577 frames)... saved (10, 36, 2048)
+[84/238] 04_0010 (505 frames)... saved (10, 31, 2048)
+[85/238] 04_0013 (361 frames)... saved (10, 22, 2048)
+[86/238] 04_003 (914 frames)... saved (10, 57, 2048)
+[87/238] 04_004 (866 frames)... saved (10, 54, 2048)
+[88/238] 04_0050 (337 frames)... saved (10, 21, 2048)
+[89/238] 04_006 (328 frames)... saved (10, 20, 2048)
+[90/238] 04_009 (2327 frames)... saved (10, 145, 2048)
+[91/238] 04_010 (352 frames)... saved (10, 22, 2048)
+[92/238] 04_012 (952 frames)... saved (10, 59, 2048)
+[93/238] 04_013 (452 frames)... saved (10, 28, 2048)
+[94/238] 04_015 (377 frames)... saved (10, 23, 2048)
+[95/238] 04_019 (727 frames)... saved (10, 45, 2048)
+[96/238] 04_020 (552 frames)... saved (10, 34, 2048)
+[97/238] 05_001 (842 frames)... saved (10, 52, 2048)
+[98/238] 05_0018 (481 frames)... saved (10, 30, 2048)
+[99/238] 05_002 (770 frames)... saved (10, 48, 2048)
+[100/238] 05_0020 (649 frames)... saved (10, 40, 2048)
+[101/238] 05_0021 (409 frames)... saved (10, 25, 2048)
+[102/238] 05_0022 (337 frames)... saved (10, 21, 2048)
+[103/238] 05_0024 (433 frames)... saved (10, 27, 2048)
+[104/238] 05_003 (1274 frames)... saved (10, 79, 2048)
+[105/238] 05_006 (1058 frames)... saved (10, 66, 2048)
+[106/238] 05_007 (746 frames)... saved (10, 46, 2048)
+[107/238] 05_008 (482 frames)... saved (10, 30, 2048)
+[108/238] 05_011 (817 frames)... saved (10, 51, 2048)
+[109/238] 05_012 (817 frames)... saved (10, 51, 2048)
+[110/238] 05_014 (866 frames)... saved (10, 54, 2048)
+[111/238] 05_015 (1098 frames)... Traceback (most recent call last):
+  File "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/extract_i3d_features.py", line 237, in <module>
+    main()
+  File "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/extract_i3d_features.py", line 226, in main
+    features = extract_video_features(model, frame_dir, device)
+  File "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/extract_i3d_features.py", line 122, in extract_video_features
+    frames = load_frames(frame_dir)
+  File "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/extract_i3d_features.py", line 44, in load_frames
+    img = Image.open(os.path.join(frame_dir, ff)).convert('RGB')
+  File "/Users/niazahmad/Library/Python/3.9/lib/python/site-packages/PIL/Image.py", line 922, in convert
+    self.load()
+  File "/Users/niazahmad/Library/Python/3.9/lib/python/site-packages/PIL/ImageFile.py", line 288, in load
+    raise OSError(msg)
+OSError: image file is truncated (104 bytes not processed)
+Using device: cpu
+Loading I3D ResNet50 model...
+Model loaded.
+
+=== Extracting train features: 238 videos → /Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/data/SH_Train_ten_crop_i3d ===
+
+[1/238] 01_0014 — already exists, skipping
+[2/238] 01_0016 — already exists, skipping
+[3/238] 01_002 — already exists, skipping
+[4/238] 01_0026 — already exists, skipping
+[5/238] 01_0029 — already exists, skipping
+[6/238] 01_003 — already exists, skipping
+[7/238] 01_0030 — already exists, skipping
+[8/238] 01_005 — already exists, skipping
+[9/238] 01_0054 — already exists, skipping
+[10/238] 01_0063 — already exists, skipping
+[11/238] 01_007 — already exists, skipping
+[12/238] 01_0073 — already exists, skipping
+[13/238] 01_0076 — already exists, skipping
+[14/238] 01_009 — already exists, skipping
+[15/238] 01_010 — already exists, skipping
+[16/238] 01_011 — already exists, skipping
+[17/238] 01_0129 — already exists, skipping
+[18/238] 01_013 — already exists, skipping
+[19/238] 01_0130 — already exists, skipping
+[20/238] 01_0131 — already exists, skipping
+[21/238] 01_0132 — already exists, skipping
+[22/238] 01_0133 — already exists, skipping
+[23/238] 01_0134 — already exists, skipping
+[24/238] 01_0138 — already exists, skipping
+[25/238] 01_014 — already exists, skipping
+[26/238] 01_0140 — already exists, skipping
+[27/238] 01_015 — already exists, skipping
+[28/238] 01_016 — already exists, skipping
+[29/238] 01_0163 — already exists, skipping
+[30/238] 01_017 — already exists, skipping
+[31/238] 01_019 — already exists, skipping
+[32/238] 01_020 — already exists, skipping
+[33/238] 01_022 — already exists, skipping
+[34/238] 01_023 — already exists, skipping
+[35/238] 01_024 — already exists, skipping
+[36/238] 01_025 — already exists, skipping
+[37/238] 01_029 — already exists, skipping
+[38/238] 01_031 — already exists, skipping
+[39/238] 01_033 — already exists, skipping
+[40/238] 01_035 — already exists, skipping
+[41/238] 01_036 — already exists, skipping
+[42/238] 01_037 — already exists, skipping
+[43/238] 01_041 — already exists, skipping
+[44/238] 01_042 — already exists, skipping
+[45/238] 01_044 — already exists, skipping
+[46/238] 01_046 — already exists, skipping
+[47/238] 01_048 — already exists, skipping
+[48/238] 01_049 — already exists, skipping
+[49/238] 01_051 — already exists, skipping
+[50/238] 01_054 — already exists, skipping
+[51/238] 01_060 — already exists, skipping
+[52/238] 01_062 — already exists, skipping
+[53/238] 01_063 — already exists, skipping
+[54/238] 01_066 — already exists, skipping
+[55/238] 01_067 — already exists, skipping
+[56/238] 01_068 — already exists, skipping
+[57/238] 01_069 — already exists, skipping
+[58/238] 01_070 — already exists, skipping
+[59/238] 01_073 — already exists, skipping
+[60/238] 01_083 — already exists, skipping
+[61/238] 02_002 — already exists, skipping
+[62/238] 02_004 — already exists, skipping
+[63/238] 02_005 — already exists, skipping
+[64/238] 02_006 — already exists, skipping
+[65/238] 02_010 — already exists, skipping
+[66/238] 02_011 — already exists, skipping
+[67/238] 02_0128 — already exists, skipping
+[68/238] 02_013 — already exists, skipping
+[69/238] 02_014 — already exists, skipping
+[70/238] 02_0164 — already exists, skipping
+[71/238] 03_001 — already exists, skipping
+[72/238] 03_003 — already exists, skipping
+[73/238] 03_0035 — already exists, skipping
+[74/238] 03_0036 — already exists, skipping
+[75/238] 03_0039 — already exists, skipping
+[76/238] 03_004 — already exists, skipping
+[77/238] 03_0041 — already exists, skipping
+[78/238] 03_006 — already exists, skipping
+[79/238] 03_0060 — already exists, skipping
+[80/238] 03_0061 — already exists, skipping
+[81/238] 04_0001 — already exists, skipping
+[82/238] 04_0003 — already exists, skipping
+[83/238] 04_001 — already exists, skipping
+[84/238] 04_0010 — already exists, skipping
+[85/238] 04_0013 — already exists, skipping
+[86/238] 04_003 — already exists, skipping
+[87/238] 04_004 — already exists, skipping
+[88/238] 04_0050 — already exists, skipping
+[89/238] 04_006 — already exists, skipping
+[90/238] 04_009 — already exists, skipping
+[91/238] 04_010 — already exists, skipping
+[92/238] 04_012 — already exists, skipping
+[93/238] 04_013 — already exists, skipping
+[94/238] 04_015 — already exists, skipping
+[95/238] 04_019 — already exists, skipping
+[96/238] 04_020 — already exists, skipping
+[97/238] 05_001 — already exists, skipping
+[98/238] 05_0018 — already exists, skipping
+[99/238] 05_002 — already exists, skipping
+[100/238] 05_0020 — already exists, skipping
+[101/238] 05_0021 — already exists, skipping
+[102/238] 05_0022 — already exists, skipping
+[103/238] 05_0024 — already exists, skipping
+[104/238] 05_003 — already exists, skipping
+[105/238] 05_006 — already exists, skipping
+[106/238] 05_007 — already exists, skipping
+[107/238] 05_008 — already exists, skipping
+[108/238] 05_011 — already exists, skipping
+[109/238] 05_012 — already exists, skipping
+[110/238] 05_014 — already exists, skipping
+[111/238] 05_015 (1098 frames)... saved (10, 68, 2048)
+[112/238] 05_017 (809 frames)... saved (10, 50, 2048)
+[113/238] 05_019 (810 frames)... saved (10, 50, 2048)
+[114/238] 05_020 (1322 frames)... saved (10, 82, 2048)
+[115/238] 05_022 (733 frames)... saved (10, 45, 2048)
+[116/238] 05_024 (733 frames)... saved (10, 45, 2048)
+[117/238] 05_027 (842 frames)... saved (10, 52, 2048)
+[118/238] 05_029 (878 frames)... saved (10, 54, 2048)
+[119/238] 05_031 (1202 frames)... saved (10, 75, 2048)
+[120/238] 05_032 (770 frames)... saved (10, 48, 2048)
+[121/238] 05_035 (1346 frames)... saved (10, 84, 2048)
+[122/238] 05_036 (1021 frames)... saved (10, 63, 2048)
+[123/238] 05_037 (1022 frames)... saved (10, 63, 2048)
+[124/238] 05_040 (781 frames)... saved (10, 48, 2048)
+[125/238] 05_042 (782 frames)... saved (10, 48, 2048)
+[126/238] 05_046 (769 frames)... saved (10, 48, 2048)
+[127/238] 05_047 (739 frames)... saved (10, 46, 2048)
+[128/238] 05_050 (740 frames)... saved (10, 46, 2048)
+[129/238] 05_051 (721 frames)... saved (10, 45, 2048)
+[130/238] 05_052 (722 frames)... saved (10, 45, 2048)
+[131/238] 05_053 (738 frames)... saved (10, 46, 2048)
+[132/238] 05_055 (738 frames)... saved (10, 46, 2048)
+[133/238] 05_059 (740 frames)... saved (10, 46, 2048)
+[134/238] 05_063 (1274 frames)... saved (10, 79, 2048)
+[135/238] 05_066 (722 frames)... saved (10, 45, 2048)
+[136/238] 06_001 (764 frames)... saved (10, 47, 2048)
+[137/238] 06_002 (765 frames)... saved (10, 47, 2048)
+[138/238] 06_004 (472 frames)... saved (10, 29, 2048)
+[139/238] 06_005 (726 frames)... saved (10, 45, 2048)
+[140/238] 06_007 (726 frames)... saved (10, 45, 2048)
+[141/238] 06_008 (1120 frames)... saved (10, 70, 2048)
+[142/238] 06_010 (256 frames)... saved (10, 16, 2048)
+[143/238] 06_012 (616 frames)... saved (10, 38, 2048)
+[144/238] 06_013 (846 frames)... saved (10, 52, 2048)
+[145/238] 06_014 (846 frames)... saved (10, 52, 2048)
+[146/238] 06_0145 (217 frames)... saved (10, 13, 2048)
+[147/238] 06_0147 (265 frames)... saved (10, 16, 2048)
+[148/238] 06_0150 (265 frames)... saved (10, 16, 2048)
+[149/238] 06_0155 (265 frames)... saved (10, 16, 2048)
+[150/238] 06_016 (723 frames)... saved (10, 45, 2048)
+[151/238] 06_019 (723 frames)... saved (10, 45, 2048)
+[152/238] 06_023 (1144 frames)... saved (10, 71, 2048)
+[153/238] 06_024 (568 frames)... saved (10, 35, 2048)
+[154/238] 06_025 (1024 frames)... saved (10, 64, 2048)
+[155/238] 06_027 (754 frames)... saved (10, 47, 2048)
+[156/238] 07_0005 (409 frames)... saved (10, 25, 2048)
+[157/238] 07_0007 (481 frames)... saved (10, 30, 2048)
+[158/238] 07_0009 (313 frames)... saved (10, 19, 2048)
+[159/238] 07_001 (650 frames)... saved (10, 40, 2048)
+[160/238] 07_003 (502 frames)... saved (10, 31, 2048)
+[161/238] 07_004 (352 frames)... saved (10, 22, 2048)
+[162/238] 07_0047 (601 frames)... saved (10, 37, 2048)
+[163/238] 07_0049 (481 frames)... saved (10, 30, 2048)
+[164/238] 07_006 (602 frames)... saved (10, 37, 2048)
+[165/238] 07_007 (202 frames)... saved (10, 12, 2048)
+[166/238] 08_003 (769 frames)... saved (10, 48, 2048)
+[167/238] 08_0044 (313 frames)... saved (10, 19, 2048)
+[168/238] 08_005 (770 frames)... saved (10, 48, 2048)
+[169/238] 08_0078 (217 frames)... saved (10, 13, 2048)
+[170/238] 08_0079 (241 frames)... saved (10, 15, 2048)
+[171/238] 08_009 (1106 frames)... saved (10, 69, 2048)
+[172/238] 08_012 (785 frames)... saved (10, 49, 2048)
+[173/238] 08_013 (785 frames)... saved (10, 49, 2048)
+[174/238] 08_014 (786 frames)... saved (10, 49, 2048)
+[175/238] 08_015 (578 frames)... saved (10, 36, 2048)
+[176/238] 08_0156 (337 frames)... saved (10, 21, 2048)
+[177/238] 08_0159 (265 frames)... saved (10, 16, 2048)
+[178/238] 08_017 (937 frames)... saved (10, 58, 2048)
+[179/238] 08_0178 (265 frames)... saved (10, 16, 2048)
+[180/238] 08_0179 (337 frames)... saved (10, 21, 2048)
+[181/238] 08_018 (938 frames)... saved (10, 58, 2048)
+[182/238] 08_019 (877 frames)... saved (10, 54, 2048)
+[183/238] 08_020 (878 frames)... saved (10, 54, 2048)
+[184/238] 08_022 (817 frames)... saved (10, 51, 2048)
+[185/238] 08_026 (1082 frames)... saved (10, 67, 2048)
+[186/238] 08_027 (1370 frames)... saved (10, 85, 2048)
+[187/238] 08_031 (801 frames)... saved (10, 50, 2048)
+[188/238] 08_033 (802 frames)... saved (10, 50, 2048)
+[189/238] 08_035 (806 frames)... saved (10, 50, 2048)
+[190/238] 08_036 (1154 frames)... saved (10, 72, 2048)
+[191/238] 08_038 (726 frames)... saved (10, 45, 2048)
+[192/238] 08_039 (726 frames)... saved (10, 45, 2048)
+[193/238] 08_040 (726 frames)... saved (10, 45, 2048)
+[194/238] 08_041 (726 frames)... saved (10, 45, 2048)
+[195/238] 08_042 (726 frames)... saved (10, 45, 2048)
+[196/238] 08_044 (798 frames)... saved (10, 49, 2048)
+[197/238] 08_049 (1418 frames)... saved (10, 88, 2048)
+[198/238] 09_001 (1408 frames)... saved (10, 88, 2048)
+[199/238] 09_004 (1168 frames)... saved (10, 73, 2048)
+[200/238] 09_0057 (361 frames)... saved (10, 22, 2048)
+[201/238] 09_006 (802 frames)... saved (10, 50, 2048)
+[202/238] 09_008 (752 frames)... saved (10, 47, 2048)
+[203/238] 09_009 (1002 frames)... saved (10, 62, 2048)
+[204/238] 09_010 (652 frames)... saved (10, 40, 2048)
+[205/238] 10_001 (448 frames)... saved (10, 28, 2048)
+[206/238] 10_002 (877 frames)... saved (10, 54, 2048)
+[207/238] 10_003 (1452 frames)... saved (10, 90, 2048)
+[208/238] 10_0037 (433 frames)... saved (10, 27, 2048)
+[209/238] 10_006 (727 frames)... saved (10, 45, 2048)
+[210/238] 10_007 (802 frames)... saved (10, 50, 2048)
+[211/238] 10_0074 (601 frames)... saved (10, 37, 2048)
+[212/238] 10_0075 (505 frames)... saved (10, 31, 2048)
+[213/238] 10_010 (1102 frames)... saved (10, 68, 2048)
+[214/238] 11_001 (552 frames)... saved (10, 34, 2048)
+[215/238] 11_002 (1352 frames)... saved (10, 84, 2048)
+[216/238] 11_007 (477 frames)... saved (10, 29, 2048)
+[217/238] 11_008 (627 frames)... saved (10, 39, 2048)
+[218/238] 11_009 (1802 frames)... saved (10, 112, 2048)
+[219/238] 11_010 (527 frames)... saved (10, 32, 2048)
+[220/238] 11_0176 (337 frames)... saved (10, 21, 2048)
+[221/238] 12_002 (752 frames)... saved (10, 47, 2048)
+[222/238] 12_003 (727 frames)... saved (10, 45, 2048)
+[223/238] 12_005 (1177 frames)... saved (10, 73, 2048)
+[224/238] 12_006 (877 frames)... saved (10, 54, 2048)
+[225/238] 12_009 (902 frames)... saved (10, 56, 2048)
+[226/238] 12_010 (1398 frames)... saved (10, 87, 2048)
+[227/238] 12_013 (4171 frames)... saved (10, 260, 2048)
+[228/238] 12_014 (4121 frames)... saved (10, 257, 2048)
+[229/238] 12_0143 (265 frames)... saved (10, 16, 2048)
+[230/238] 12_0148 (313 frames)... saved (10, 19, 2048)
+[231/238] 12_0149 (241 frames)... saved (10, 15, 2048)
+[232/238] 12_0152 (361 frames)... saved (10, 22, 2048)
+[233/238] 12_0154 (385 frames)... saved (10, 24, 2048)
+[234/238] 12_0175 (265 frames)... saved (10, 16, 2048)
+[235/238] 13_002 (650 frames)... saved (10, 40, 2048)
+[236/238] 13_003 (650 frames)... saved (10, 40, 2048)
+[237/238] 13_004 (938 frames)... saved (10, 58, 2048)
+[238/238] 13_007 (1106 frames)... saved (10, 69, 2048)
+
+=== Done with train ===
+
+=== Extracting test features: 199 videos → /Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/rtfm/data/SH_Test_ten_crop_i3d ===
+
+[1/199] 01_001 (765 frames)... saved (10, 47, 2048)
+[2/199] 01_0015 (433 frames)... saved (10, 27, 2048)
+[3/199] 01_0025 (601 frames)... saved (10, 37, 2048)
+[4/199] 01_0027 (409 frames)... saved (10, 25, 2048)
+[5/199] 01_0028 (457 frames)... saved (10, 28, 2048)
+[6/199] 01_004 (770 frames)... saved (10, 48, 2048)
+[7/199] 01_0051 (337 frames)... saved (10, 21, 2048)
+[8/199] 01_0052 (337 frames)... saved (10, 21, 2048)
+[9/199] 01_0053 (457 frames)... saved (10, 28, 2048)
+[10/199] 01_0055 (313 frames)... saved (10, 19, 2048)
+[11/199] 01_0056 (529 frames)... saved (10, 33, 2048)
+[12/199] 01_006 (506 frames)... saved (10, 31, 2048)
+[13/199] 01_0064 (289 frames)... saved (10, 18, 2048)
+[14/199] 01_008 (1010 frames)... saved (10, 63, 2048)
+[15/199] 01_012 (738 frames)... saved (10, 46, 2048)
+[16/199] 01_0135 (409 frames)... saved (10, 25, 2048)
+[17/199] 01_0136 (529 frames)... saved (10, 33, 2048)
+[18/199] 01_0139 (217 frames)... saved (10, 13, 2048)
+[19/199] 01_0141 (313 frames)... saved (10, 19, 2048)
+[20/199] 01_0162 (193 frames)... saved (10, 12, 2048)
+[21/199] 01_0177 (317 frames)... saved (10, 19, 2048)
+[22/199] 01_018 (842 frames)... saved (10, 52, 2048)
+[23/199] 01_021 (1010 frames)... saved (10, 63, 2048)
+[24/199] 01_026 (736 frames)... saved (10, 46, 2048)
+[25/199] 01_027 (944 frames)... saved (10, 59, 2048)
+[26/199] 01_028 (945 frames)... saved (10, 59, 2048)
+[27/199] 01_030 (969 frames)... saved (10, 60, 2048)
+[28/199] 01_032 (1192 frames)... saved (10, 74, 2048)
+[29/199] 01_034 (890 frames)... saved (10, 55, 2048)
+[30/199] 01_038 (482 frames)... saved (10, 30, 2048)
+[31/199] 01_039 (962 frames)... saved (10, 60, 2048)
+[32/199] 01_040 (1168 frames)... saved (10, 73, 2048)
+[33/199] 01_043 (878 frames)... saved (10, 54, 2048)
+[34/199] 01_045 (602 frames)... saved (10, 37, 2048)
+[35/199] 01_047 (1057 frames)... saved (10, 66, 2048)
+[36/199] 01_050 (806 frames)... saved (10, 50, 2048)
+[37/199] 01_052 (962 frames)... saved (10, 60, 2048)
+[38/199] 01_053 (1106 frames)... saved (10, 69, 2048)
+[39/199] 01_055 (722 frames)... saved (10, 45, 2048)
+[40/199] 01_056 (1010 frames)... saved (10, 63, 2048)
+[41/199] 01_057 (734 frames)... saved (10, 45, 2048)
+[42/199] 01_058 (734 frames)... saved (10, 45, 2048)
+[43/199] 01_059 (734 frames)... saved (10, 45, 2048)
+[44/199] 01_061 (890 frames)... saved (10, 55, 2048)
+[45/199] 01_064 (650 frames)... saved (10, 40, 2048)
+[46/199] 01_065 (616 frames)... saved (10, 38, 2048)
+[47/199] 01_071 (1052 frames)... saved (10, 65, 2048)
+[48/199] 01_072 (1053 frames)... saved (10, 65, 2048)
+[49/199] 01_074 (1041 frames)... saved (10, 65, 2048)
+[50/199] 01_075 (568 frames)... saved (10, 35, 2048)
+[51/199] 01_076 (554 frames)... saved (10, 34, 2048)
+[52/199] 01_077 (698 frames)... saved (10, 43, 2048)
+[53/199] 01_078 (1034 frames)... saved (10, 64, 2048)
+[54/199] 01_079 (712 frames)... saved (10, 44, 2048)
+[55/199] 01_080 (788 frames)... saved (10, 49, 2048)
+[56/199] 01_081 (789 frames)... saved (10, 49, 2048)
+[57/199] 01_082 (808 frames)... saved (10, 50, 2048)
+[58/199] 02_001 (908 frames)... saved (10, 56, 2048)
+[59/199] 02_003 (736 frames)... saved (10, 46, 2048)
+[60/199] 02_007 (302 frames)... saved (10, 18, 2048)
+[61/199] 02_008 (302 frames)... saved (10, 18, 2048)
+[62/199] 02_009 (602 frames)... saved (10, 37, 2048)
+[63/199] 02_012 (227 frames)... saved (10, 14, 2048)
+[64/199] 02_015 (202 frames)... saved (10, 12, 2048)
+[65/199] 02_0161 (337 frames)... saved (10, 21, 2048)
+[66/199] 03_002 (402 frames)... saved (10, 25, 2048)
+[67/199] 03_0031 (529 frames)... saved (10, 33, 2048)
+[68/199] 03_0032 (409 frames)... saved (10, 25, 2048)
+[69/199] 03_0033 (313 frames)... saved (10, 19, 2048)
+[70/199] 03_005 (427 frames)... saved (10, 26, 2048)
+[71/199] 03_0059 (433 frames)... saved (10, 27, 2048)
+[72/199] 04_0004 (865 frames)... saved (10, 54, 2048)
+[73/199] 04_0011 (313 frames)... saved (10, 19, 2048)
+[74/199] 04_0012 (361 frames)... saved (10, 22, 2048)
+[75/199] 04_002 (913 frames)... saved (10, 57, 2048)
+[76/199] 04_0046 (529 frames)... saved (10, 33, 2048)
+[77/199] 04_005 (976 frames)... saved (10, 61, 2048)
+[78/199] 04_007 (427 frames)... saved (10, 26, 2048)
+[79/199] 04_008 (1702 frames)... saved (10, 106, 2048)
+[80/199] 04_011 (552 frames)... saved (10, 34, 2048)
+[81/199] 04_014 (627 frames)... saved (10, 39, 2048)
+[82/199] 04_016 (327 frames)... saved (10, 20, 2048)
+[83/199] 04_017 (502 frames)... saved (10, 31, 2048)
+[84/199] 04_018 (651 frames)... saved (10, 40, 2048)
+[85/199] 05_0017 (433 frames)... saved (10, 27, 2048)
+[86/199] 05_0019 (649 frames)... saved (10, 40, 2048)
+[87/199] 05_0023 (769 frames)... saved (10, 48, 2048)
+[88/199] 05_004 (602 frames)... saved (10, 37, 2048)
+[89/199] 05_005 (626 frames)... saved (10, 39, 2048)
+[90/199] 05_009 (866 frames)... saved (10, 54, 2048)
+[91/199] 05_010 (1250 frames)... saved (10, 78, 2048)
+[92/199] 05_013 (818 frames)... saved (10, 51, 2048)
+[93/199] 05_016 (554 frames)... saved (10, 34, 2048)
+[94/199] 05_018 (809 frames)... saved (10, 50, 2048)
+[95/199] 05_021 (1058 frames)... saved (10, 66, 2048)
+[96/199] 05_023 (734 frames)... saved (10, 45, 2048)
+[97/199] 05_025 (734 frames)... saved (10, 45, 2048)
+[98/199] 05_026 (506 frames)... saved (10, 31, 2048)
+[99/199] 05_028 (877 frames)... saved (10, 54, 2048)
+[100/199] 05_030 (554 frames)... saved (10, 34, 2048)
+[101/199] 05_033 (1178 frames)... saved (10, 73, 2048)
+[102/199] 05_034 (962 frames)... saved (10, 60, 2048)
+[103/199] 05_038 (482 frames)... saved (10, 30, 2048)
+[104/199] 05_039 (781 frames)... saved (10, 48, 2048)
+[105/199] 05_041 (781 frames)... saved (10, 48, 2048)
+[106/199] 05_043 (769 frames)... saved (10, 48, 2048)
+[107/199] 05_044 (769 frames)... saved (10, 48, 2048)
+[108/199] 05_045 (769 frames)... saved (10, 48, 2048)
+[109/199] 05_048 (739 frames)... saved (10, 46, 2048)
+[110/199] 05_049 (739 frames)... saved (10, 46, 2048)
+[111/199] 05_054 (738 frames)... saved (10, 46, 2048)
+[112/199] 05_056 (738 frames)... saved (10, 46, 2048)
+[113/199] 05_057 (738 frames)... saved (10, 46, 2048)
+[114/199] 05_058 (738 frames)... saved (10, 46, 2048)
+[115/199] 05_060 (1034 frames)... saved (10, 64, 2048)
+[116/199] 05_061 (1069 frames)... saved (10, 66, 2048)
+[117/199] 05_062 (1070 frames)... saved (10, 66, 2048)
+[118/199] 05_064 (482 frames)... saved (10, 30, 2048)
+[119/199] 05_065 (1034 frames)... saved (10, 64, 2048)
+[120/199] 06_003 (1024 frames)... saved (10, 64, 2048)
+[121/199] 06_006 (726 frames)... saved (10, 45, 2048)
+[122/199] 06_009 (400 frames)... saved (10, 25, 2048)
+[123/199] 06_011 (256 frames)... saved (10, 16, 2048)
+[124/199] 06_0144 (241 frames)... saved (10, 15, 2048)
+[125/199] 06_015 (846 frames)... saved (10, 52, 2048)
+[126/199] 06_0153 (217 frames)... saved (10, 13, 2048)
+[127/199] 06_017 (723 frames)... saved (10, 45, 2048)
+[128/199] 06_018 (723 frames)... saved (10, 45, 2048)
+[129/199] 06_020 (723 frames)... saved (10, 45, 2048)
+[130/199] 06_021 (723 frames)... saved (10, 45, 2048)
+[131/199] 06_022 (724 frames)... saved (10, 45, 2048)
+[132/199] 06_026 (1336 frames)... saved (10, 83, 2048)
+[133/199] 06_028 (754 frames)... saved (10, 47, 2048)
+[134/199] 06_029 (754 frames)... saved (10, 47, 2048)
+[135/199] 06_030 (757 frames)... saved (10, 47, 2048)
+[136/199] 07_0006 (385 frames)... saved (10, 24, 2048)
+[137/199] 07_0008 (457 frames)... saved (10, 28, 2048)
+[138/199] 07_002 (777 frames)... saved (10, 48, 2048)
+[139/199] 07_0048 (241 frames)... saved (10, 15, 2048)
+[140/199] 07_005 (727 frames)... saved (10, 45, 2048)
+[141/199] 07_008 (302 frames)... saved (10, 18, 2048)
+[142/199] 08_001 (817 frames)... saved (10, 51, 2048)
+[143/199] 08_002 (1298 frames)... saved (10, 81, 2048)
+[144/199] 08_004 (770 frames)... saved (10, 48, 2048)
+[145/199] 08_0058 (337 frames)... saved (10, 21, 2048)
+[146/199] 08_006 (785 frames)... saved (10, 49, 2048)
+[147/199] 08_007 (785 frames)... saved (10, 49, 2048)
+[148/199] 08_0077 (457 frames)... saved (10, 28, 2048)
+[149/199] 08_008 (786 frames)... saved (10, 49, 2048)
+[150/199] 08_0080 (289 frames)... saved (10, 18, 2048)
+[151/199] 08_010 (721 frames)... saved (10, 45, 2048)
+[152/199] 08_011 (722 frames)... saved (10, 45, 2048)
+[153/199] 08_0157 (313 frames)... saved (10, 19, 2048)
+[154/199] 08_0158 (337 frames)... saved (10, 21, 2048)
+[155/199] 08_016 (937 frames)... saved (10, 58, 2048)
+[156/199] 08_021 (1322 frames)... saved (10, 82, 2048)
+[157/199] 08_023 (818 frames)... saved (10, 51, 2048)
+[158/199] 08_024 (745 frames)... saved (10, 46, 2048)
+[159/199] 08_025 (746 frames)... saved (10, 46, 2048)
+[160/199] 08_028 (1082 frames)... saved (10, 67, 2048)
+[161/199] 08_029 (901 frames)... saved (10, 56, 2048)
+[162/199] 08_030 (902 frames)... saved (10, 56, 2048)
+[163/199] 08_032 (801 frames)... saved (10, 50, 2048)
+[164/199] 08_034 (805 frames)... saved (10, 50, 2048)
+[165/199] 08_037 (1106 frames)... saved (10, 69, 2048)
+[166/199] 08_043 (1178 frames)... saved (10, 73, 2048)
+[167/199] 08_045 (798 frames)... saved (10, 49, 2048)
+[168/199] 08_046 (798 frames)... saved (10, 49, 2048)
+[169/199] 08_047 (798 frames)... saved (10, 49, 2048)
+[170/199] 08_048 (798 frames)... saved (10, 49, 2048)
+[171/199] 09_002 (832 frames)... saved (10, 52, 2048)
+[172/199] 09_003 (520 frames)... saved (10, 32, 2048)
+[173/199] 09_005 (502 frames)... saved (10, 31, 2048)
+[174/199] 09_007 (1577 frames)... saved (10, 98, 2048)
+[175/199] 10_0038 (241 frames)... saved (10, 15, 2048)
+[176/199] 10_004 (1827 frames)... saved (10, 114, 2048)
+[177/199] 10_0042 (433 frames)... saved (10, 27, 2048)
+[178/199] 10_005 (1852 frames)... saved (10, 115, 2048)
+[179/199] 10_008 (1227 frames)... saved (10, 76, 2048)
+[180/199] 10_009 (627 frames)... saved (10, 39, 2048)
+[181/199] 10_011 (777 frames)... saved (10, 48, 2048)
+[182/199] 11_003 (677 frames)... saved (10, 42, 2048)
+[183/199] 11_004 (252 frames)... saved (10, 15, 2048)
+[184/199] 11_005 (1102 frames)... saved (10, 68, 2048)
+[185/199] 11_006 (552 frames)... saved (10, 34, 2048)
+[186/199] 12_001 (427 frames)... saved (10, 26, 2048)
+[187/199] 12_004 (1077 frames)... saved (10, 67, 2048)
+[188/199] 12_007 (852 frames)... saved (10, 53, 2048)
+[189/199] 12_008 (727 frames)... saved (10, 45, 2048)
+[190/199] 12_011 (1652 frames)... saved (10, 103, 2048)
+[191/199] 12_012 (627 frames)... saved (10, 39, 2048)
+[192/199] 12_0142 (601 frames)... saved (10, 37, 2048)
+[193/199] 12_015 (1052 frames)... saved (10, 65, 2048)
+[194/199] 12_0151 (289 frames)... saved (10, 18, 2048)
+[195/199] 12_0173 (217 frames)... saved (10, 13, 2048)
+[196/199] 12_0174 (337 frames)... saved (10, 21, 2048)
+[197/199] 13_001 (602 frames)... saved (10, 37, 2048)
+[198/199] 13_005 (386 frames)... saved (10, 24, 2048)
+[199/199] 13_006 (458 frames)... saved (10, 28, 2048)
+
+=== Done with test ===
+

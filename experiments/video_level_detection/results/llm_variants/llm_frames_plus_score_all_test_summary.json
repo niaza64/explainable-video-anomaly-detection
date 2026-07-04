@@ -1,0 +1,3383 @@
+[
+  {
+    "video_id": "01_001",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 765,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      419,
+      510,
+      601
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores across frames (especially frames 328 and 419) suggest unusual activities. Human presence disappears in frame 328, possibly indicating atypical movement."
+  },
+  {
+    "video_id": "01_0015",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      124,
+      178,
+      232,
+      285,
+      339
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 178 (0.96), 232 (0.99), and 285 (0.89) suggest unusual activity in these segments compared to normal pedestrian walking patterns."
+  },
+  {
+    "video_id": "01_0025",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      175,
+      249,
+      323,
+      397,
+      471
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores and potential conflicts in pedestrians' paths suggest unusual activity."
+  },
+  {
+    "video_id": "01_0027",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      148,
+      202,
+      257,
+      311
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly in frames 148, 202, and 257, suggest unusual activity or motion patterns among pedestrians."
+  },
+  {
+    "video_id": "01_0028",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      136,
+      195,
+      253,
+      312,
+      370
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores correspond to unusual activities like a sudden change in direction or interaction among individuals on the street, especially evident in frames 195, 253, and 312."
+  },
+  {
+    "video_id": "01_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      301,
+      396,
+      490,
+      584
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frame 396 has the highest anomaly score of 0.99, indicating unusual behavior such as people moving unusually or unpredictable interactions compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_0051",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      130,
+      174,
+      217,
+      260
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 87 to 217 suggest unusual activity, likely related to the interactions between pedestrians and the cyclist."
+  },
+  {
+    "video_id": "01_0052",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      97,
+      140,
+      182,
+      225,
+      267
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "An individual on a bicycle appears to be riding through a pedestrian area, which is unusual compared to normal walking activity."
+  },
+  {
+    "video_id": "01_0053",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      133,
+      191,
+      248,
+      306,
+      363
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The presence of a motorized vehicle (a tricycle) on a pedestrian path indicates unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_0055",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      89,
+      128,
+      167,
+      206,
+      245
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores across the sampled frames are relatively high, peaking at 0.99 in frame 167, indicating potential unusual activity. This suggests there might be unusual movements or behaviors in these frames compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_0056",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      143,
+      211,
+      279,
+      347,
+      415
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for frames 211, 279, and 347 are notably high, and frame 279 has the highest score of 1.00, indicating significant unusual activity. The variation in pedestrian positions between frames suggests erratic movement or interactions uncharacteristic of normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      205,
+      270,
+      336,
+      401
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high across the sampled frames, with a peak at frame 270. This suggests unusual activity compared to normal pedestrian walking patterns, possibly involving the movement or behavior of individuals in the area."
+  },
+  {
+    "video_id": "01_0064",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      120,
+      157,
+      194,
+      231
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly score is high across multiple frames, peaking at frame 157 with a score of 1.00. An individual in a purple shirt is running backwards, which is not typical pedestrian behavior, indicating anomalous activity."
+  },
+  {
+    "video_id": "01_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      412,
+      537,
+      661,
+      785
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 288, 412, 537, and 661 suggest unusual activity despite no visible unusual behavior in frame samples, indicating potential issues with the model's sensitivity."
+  },
+  {
+    "video_id": "01_012",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      220,
+      307,
+      395,
+      482,
+      569
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 307, 395, and 482 have high anomaly scores, with suspicious activity involving a person near the trash area."
+  },
+  {
+    "video_id": "01_0135",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      129,
+      184,
+      240,
+      295,
+      350
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomalous activity is detected due to a vehicle on the pedestrian path in frames with high anomaly scores, especially frame 240 where the score is 1.00."
+  },
+  {
+    "video_id": "01_0136",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      161,
+      232,
+      303,
+      374,
+      445
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly detected due to a vehicle unexpectedly driving through an area primarily used for pedestrian traffic, as seen in frames 303 and 374."
+  },
+  {
+    "video_id": "01_0139",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      63,
+      91,
+      118,
+      146,
+      173
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores at frames 91, 118, and 146 suggest unusual activity, possibly related to the presence of a cyclist in a primarily pedestrian area."
+  },
+  {
+    "video_id": "01_0141",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      134,
+      175,
+      216,
+      257
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores and change in behavior from frames 93 to 175 suggest possible unusual activity involving interactions among the individuals."
+  },
+  {
+    "video_id": "01_0162",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 193,
+    "frames_sampled": 3,
+    "sampled_indices": [
+      73,
+      112,
+      151
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in the frames suggest unusual activity. Frame 112 has the highest score of 1.00, indicating a significant anomaly, possibly due to the crowded interaction or unconventional movement seen."
+  },
+  {
+    "video_id": "01_0177",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 317,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      91,
+      131,
+      171,
+      211,
+      251
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are high throughout, peaking at 1.00 in frame 171. This suggests significant atypical activity, potentially related to the behavior of individuals or vehicles present in the segment."
+  },
+  {
+    "video_id": "01_018",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 842,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      289,
+      395,
+      500,
+      606,
+      711
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 395 and 500 have high anomaly scores, suggesting unusual activity such as erratic movement or unexpected changes in pedestrian patterns."
+  },
+  {
+    "video_id": "01_021",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      410,
+      534,
+      658,
+      782
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames contain high anomaly scores, particularly frame 534 with a score of 1.00. This may indicate unusual pedestrian activity or unexpected behavior compared to normal pedestrian walking patterns."
+  },
+  {
+    "video_id": "01_026",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      229,
+      319,
+      408,
+      498,
+      587
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 319, 408, and 498 suggest unusual activity, possibly due to the convergence of multiple people or another unexpected event in the area."
+  },
+  {
+    "video_id": "01_027",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 944,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      399,
+      512,
+      625,
+      738
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "There is a sudden absence of people between frames 286 and 512, which coincides with high anomaly scores, suggesting unexpected pedestrian activity or a lack thereof."
+  },
+  {
+    "video_id": "01_028",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 945,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      389,
+      502,
+      615,
+      728
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All sampled frames show an empty pathway with no visible unusual activity. The anomaly scores are relatively high, but visually, there's nothing notable in the frames."
+  },
+  {
+    "video_id": "01_030",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 969,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      292,
+      408,
+      524,
+      640,
+      756
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "There are high anomaly scores, especially in frames 408 (0.95) and 524 (0.99), suggesting unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_032",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1192,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      330,
+      485,
+      639,
+      794,
+      948
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores (0.82 to 1.00) in several frames suggest unusual activity. Notable anomalies include abrupt changes or unusual pedestrian behavior, especially in frame 639 with the highest score."
+  },
+  {
+    "video_id": "01_034",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      277,
+      383,
+      489,
+      594,
+      700
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 383, 489, and 594 have high anomaly scores indicating unusual activity, possibly due to the dense clustering and interactions of people that deviate from normal walking patterns."
+  },
+  {
+    "video_id": "01_038",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      142,
+      206,
+      270,
+      334,
+      398
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly frames 206, 270, and 334, suggest unusual activity compared to normal pedestrian walking, although no explicit anomalous behavior is visible in the frames provided."
+  },
+  {
+    "video_id": "01_039",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      403,
+      518,
+      633,
+      748
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Multiple frames show pedestrian behavior with high anomaly scores, particularly frame 518 with a score of 0.99, indicating unusual activity relative to normal walking patterns."
+  },
+  {
+    "video_id": "01_040",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1168,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      460,
+      610,
+      760,
+      910
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially at frames 460, 610, and 760, suggest unusual activity relative to typical pedestrian walking patterns. This implies suspicious or atypical behavior in the video segment."
+  },
+  {
+    "video_id": "01_043",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 878,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      381,
+      486,
+      591,
+      696
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high for several frames, particularly in frames 381 and 486, where the scores are 0.94 and 0.97 respectively. This suggests unusual activity, such as unexpected behavior or movement by individuals in the area."
+  },
+  {
+    "video_id": "01_045",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      176,
+      251,
+      326,
+      401,
+      476
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show high anomaly scores, especially frame 326 with a score of 1.00, indicating unusual activity. Multiple frames suggest movement or behavior deviating from normal pedestrian walking."
+  },
+  {
+    "video_id": "01_047",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1057,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      296,
+      429,
+      562,
+      695,
+      828
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores in frames 429 (0.98) and 562 (0.99) suggest unusual movement or behavior compared to normal pedestrian walking patterns."
+  },
+  {
+    "video_id": "01_050",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 806,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      241,
+      336,
+      430,
+      525,
+      619
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are consistently high, peaking at 0.99 in frame 430, suggesting unusual activity in the video segment."
+  },
+  {
+    "video_id": "01_052",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      300,
+      419,
+      539,
+      658,
+      777
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 419 (0.94) and 539 (0.98) suggest unusual activity that deviates from normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_053",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      284,
+      426,
+      568,
+      710,
+      852
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, indicating unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_055",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      222,
+      309,
+      396,
+      483,
+      570
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially in frames 309 and 396, suggest unusual behavior in the movement of the individual on the sidewalk."
+  },
+  {
+    "video_id": "01_056",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      252,
+      380,
+      508,
+      635,
+      763
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 380 and 508 show high anomaly scores of 0.96 and 0.98 respectively, corresponding with isolated individuals in a previously populated area, suggesting unusual behavior."
+  },
+  {
+    "video_id": "01_057",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      240,
+      330,
+      420,
+      510,
+      600
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are significantly high, especially in frames 330 and 420, possibly indicating unusual pedestrian behavior or unexpected events in those frames."
+  },
+  {
+    "video_id": "01_058",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      169,
+      263,
+      357,
+      451,
+      545
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly in frames 263, 357, and 451, suggest unusual activity despite the pedestrians appearing to walk normally. Frame 357 has the highest score at 0.99, indicating a significant deviation from expected behavior."
+  },
+  {
+    "video_id": "01_059",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      209,
+      297,
+      385,
+      473,
+      561
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 297, 385, and 473 indicate potential unusual activity, with frame 385 having the highest score of 0.99, suggesting significant deviation from normal pedestrian behavior."
+  },
+  {
+    "video_id": "01_061",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      263,
+      368,
+      473,
+      578,
+      683
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames show an individual with a skateboard, which is considered atypical movement in a pedestrian area, leading to high anomaly scores."
+  },
+  {
+    "video_id": "01_064",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 650,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      182,
+      262,
+      342,
+      422,
+      502
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores indicate unusual activity. In frames 262, 342, and 422, the clustering or positioning of individuals seems atypical for normal pedestrian movement."
+  },
+  {
+    "video_id": "01_065",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 616,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      178,
+      254,
+      330,
+      405,
+      481
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 178, 254, 330, and 405 have high anomaly scores above 0.8, indicating unusual activity, potentially involving interactions or movements not consistent with normal pedestrian walking."
+  },
+  {
+    "video_id": "01_071",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      302,
+      433,
+      564,
+      695,
+      826
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores indicate potential unusual activity. Frame 433 has a score of 0.98 and Frame 564 has a score of 1.00, suggesting significant deviations from normal pedestrian behavior, possibly due to unexpected movements or behavior of individuals visible in these frames."
+  },
+  {
+    "video_id": "01_072",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1053,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      253,
+      392,
+      531,
+      670,
+      809
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for frames 253, 392, 531, and 670 are high, especially frame 392 with a score of 0.97. This suggests unusual activity in these frames compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "01_074",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1041,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      320,
+      449,
+      577,
+      706,
+      834
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show inconsistent behavior with high anomaly scores, particularly in frame 577, indicating unusual activity likely compared to regular pedestrian walking."
+  },
+  {
+    "video_id": "01_075",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 568,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      161,
+      233,
+      305,
+      377,
+      449
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high scores across multiple frames suggest unusual activity likely caused by the close interaction or unusual behavior of individuals."
+  },
+  {
+    "video_id": "01_076",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      146,
+      217,
+      289,
+      360,
+      431
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for frames 146, 217, 289, and 360 are significantly high, indicating unusual activity. The peak score in frame 289 suggests a notable anomaly in pedestrian behavior."
+  },
+  {
+    "video_id": "01_077",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 698,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      216,
+      302,
+      388,
+      473,
+      559
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames have high anomaly scores, especially frames 302, 388, and 473, indicating unusual activity relative to normal pedestrian walking, such as potential crowding or suspicious behavior."
+  },
+  {
+    "video_id": "01_078",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      273,
+      403,
+      533,
+      663,
+      793
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames exhibit high anomaly scores, particularly in frames 403 and 533, which suggests unusual or unexpected activity compared to typical pedestrian behavior."
+  },
+  {
+    "video_id": "01_079",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 712,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      204,
+      290,
+      376,
+      462,
+      548
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially in frames 290 (0.97) and 376 (0.99), suggest unusual activity compared to typical pedestrian behavior."
+  },
+  {
+    "video_id": "01_080",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 788,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      216,
+      312,
+      407,
+      503,
+      598
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores in frames 312, 407, and 503 suggest unusual activity. Frame 407, with a score of 0.99, indicates a significant anomaly, possibly due to a sudden change in the number of people or movement patterns."
+  },
+  {
+    "video_id": "01_081",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 789,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      424,
+      517,
+      610
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores (0.97 and 0.99) in frames 331 and 424 suggest unusual activity, possibly due to the lone pedestrian in an otherwise empty area."
+  },
+  {
+    "video_id": "01_082",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 808,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      227,
+      323,
+      420,
+      516,
+      612
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores in frames 323, 420, and 516 suggest unusual activity, such as a lack of people or unexpected behavior in what should be a busy area, leading to the high anomaly scores."
+  },
+  {
+    "video_id": "02_001",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 908,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      265,
+      373,
+      481,
+      589,
+      697
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly for frames 373 (0.93) and 481 (0.97), indicate unusual behavior that deviates from normal pedestrian walking patterns. The presence of a person wearing a distinctive outfit and moving in an uncharacteristic manner suggests anomalous activity."
+  },
+  {
+    "video_id": "02_003",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      203,
+      293,
+      383,
+      472,
+      562
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 203, 293, 383, and 472 suggest unusual activity. These frames might indicate atypical pedestrian behavior or interactions that deviate from the norm."
+  },
+  {
+    "video_id": "02_007",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      86,
+      124,
+      162,
+      200,
+      238
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, particularly peaking at frame 162 with a score of 1.00, indicating unusual activity relative to normal pedestrian walking in the given frames."
+  },
+  {
+    "video_id": "02_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      121,
+      159,
+      197,
+      235
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores are present, peaking at frame 159 with 0.99, suggesting unusual activity. The specific behavior causing the anomaly isn't clear from the images, but such high scores indicate a significant deviation from normal pedestrian movement."
+  },
+  {
+    "video_id": "02_009",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      179,
+      256,
+      333,
+      410,
+      487
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, reaching up to 1.00, indicating abnormal activity. The presence of multiple groups and the positioning of individuals may contribute to this."
+  },
+  {
+    "video_id": "02_012",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 227,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      57,
+      86,
+      116,
+      145,
+      174
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 57 to 145 suggest unusual pedestrian behavior, such as crowding or atypical movements. The score decreases in frame 174, indicating a return to normalcy."
+  },
+  {
+    "video_id": "02_015",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 202,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      58,
+      83,
+      109,
+      134,
+      159
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high across multiple frames, peaking at frame 109 with 0.99, indicating potential unusual activity in pedestrian behavior during the video segment."
+  },
+  {
+    "video_id": "02_0161",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      92,
+      134,
+      177,
+      219,
+      261
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores between frames 92 to 219 suggest unusual activity; notable interaction between pedestrians and cyclists."
+  },
+  {
+    "video_id": "03_002",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 402,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      116,
+      167,
+      218,
+      268,
+      319
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 167, 218, and 268 suggest unusual pedestrian activity, possibly due to crowding or unexpected movement patterns."
+  },
+  {
+    "video_id": "03_0031",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      144,
+      213,
+      281,
+      350,
+      418
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show varying activities including people crouching in frame 350 and an absence of pedestrians in frame 144 despite the crosswalk area, contributing to high anomaly scores."
+  },
+  {
+    "video_id": "03_0032",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      118,
+      169,
+      221,
+      272,
+      323
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames show unusual activities, such as a person sitting in the road and interactions involving multiple people, which deviate from normal pedestrian behavior."
+  },
+  {
+    "video_id": "03_0033",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      90,
+      129,
+      168,
+      207,
+      246
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "There are multiple frames with high anomaly scores, particularly frames 129 and 168, suggesting unusual or unexpected behavior, such as an altercation or confrontation."
+  },
+  {
+    "video_id": "03_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      121,
+      174,
+      227,
+      280,
+      333
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high throughout the sampled frames, peaking at frame 227 with a score of 0.99, indicating unusual activity. The person crossing the road may be moving erratically or unusually, causing the high anomaly scores."
+  },
+  {
+    "video_id": "03_0059",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      126,
+      180,
+      235,
+      289,
+      343
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores suggest unusual pedestrian behavior, particularly in frames 180 and 235, indicating potential abnormal activity."
+  },
+  {
+    "video_id": "04_0004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 865,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      265,
+      367,
+      469,
+      570,
+      672
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frame 469 shows an individual on the ground, suggesting a possible fall or incident, which is an anomaly relative to normal pedestrian walking."
+  },
+  {
+    "video_id": "04_0011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      85,
+      125,
+      164,
+      204,
+      243
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly frames 125, 164, and 204, suggest unusual behavior possibly due to the child running far from the guardians on a pedestrian path."
+  },
+  {
+    "video_id": "04_0012",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 361,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      84,
+      132,
+      180,
+      228,
+      276
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show unusual activity as indicated by high anomaly scores, particularly a score of 1.00 at frame 180, suggesting atypical behavior such as running or sudden movements among pedestrians."
+  },
+  {
+    "video_id": "04_002",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 913,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      281,
+      390,
+      498,
+      607,
+      715
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores and the frames suggest unusual interactions between individuals, as they seem to be in close proximity and possibly engaging in unusual behavior like exchanging items."
+  },
+  {
+    "video_id": "04_0046",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      145,
+      213,
+      281,
+      349,
+      417
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "There are high anomaly scores in multiple frames, with the highest being 1.00 in frame 281, indicating unusual activity. This is likely due to the group behavior or movement patterns that are different from normal pedestrian walking."
+  },
+  {
+    "video_id": "04_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 976,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      404,
+      522,
+      640,
+      758
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show varying anomaly scores, with the highest score of 1.00 at frame 522. This indicates potential unusual activity, particularly around frames 404 to 522. The presence of multiple individuals could be contributing to the high anomaly score."
+  },
+  {
+    "video_id": "04_007",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, peaking at 0.99, suggest unusual activity compared to normal pedestrian behavior. Without more context, this could indicate unusual movement patterns or unexpected behavior in the footage."
+  },
+  {
+    "video_id": "04_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1702,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      429,
+      667,
+      905,
+      1143,
+      1381
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores across multiple frames are high, particularly frame 1143 with a score of 0.98, indicating unusual pedestrian activity or behavior."
+  },
+  {
+    "video_id": "04_011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      145,
+      216,
+      287,
+      358,
+      429
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames (216, 287, 358) have high anomaly scores, suggesting unusual or unexpected behavior relative to normal pedestrian activity."
+  },
+  {
+    "video_id": "04_014",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      188,
+      267,
+      346,
+      425,
+      504
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 267, 346, and 425 have high anomaly scores above 0.90, and frame 346 has the maximum score of 1.00, suggesting unusual activity relative to typical pedestrian movement."
+  },
+  {
+    "video_id": "04_016",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 327,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores across the frames are consistently high, reaching a peak of 1.00 at frame 179. This indicates a significant deviation from normal pedestrian behavior in this segment."
+  },
+  {
+    "video_id": "04_017",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      115,
+      184,
+      253,
+      322,
+      391
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 184 (0.96) and 253 (0.99) suggest unusual activity, possibly related to the sudden disappearance or rapid movement of pedestrians."
+  },
+  {
+    "video_id": "04_018",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 651,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      174,
+      255,
+      336,
+      417,
+      498
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 255, 336, and 417 suggest unusual activity, possibly due to the absence or movement of people compared to frame 174."
+  },
+  {
+    "video_id": "05_0017",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, with a peak at frame 233. The presence of multiple people interacting in an unusual manner, such as stopping and showing interest in an area, suggests anomalous activity compared to normal pedestrian movement."
+  },
+  {
+    "video_id": "05_0019",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 649,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      187,
+      266,
+      344,
+      423,
+      501
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 266, 344, and 423 show a group interaction with high anomaly scores, suggesting a possible confrontation or unusual gathering. Frame 344 has a score of 1.00, indicating significant anomalous activity."
+  },
+  {
+    "video_id": "05_0023",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      326,
+      418,
+      510,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show unusual activity such as a person being pushed in frame 234, a sudden chase or aggressive movement in frames 326 and 418, and non-standard pedestrian activity in frames 510 and 602."
+  },
+  {
+    "video_id": "05_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      167,
+      242,
+      317,
+      391,
+      466
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, particularly in frames 242 (0.97), 317 (1.00), and 391 (0.90), indicating unusual behavior or activity in these frames."
+  },
+  {
+    "video_id": "05_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 626,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      175,
+      252,
+      329,
+      406,
+      483
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for the frames are significantly high, with frame 329 reaching a perfect score of 1.00, suggesting unusual activity. Frames 252, 329, and 406, with scores above 0.9, indicate consistent anomalies observed across these moments."
+  },
+  {
+    "video_id": "05_009",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 866,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      260,
+      362,
+      464,
+      565,
+      667
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show a pedestrian entering and moving across a pathway, which is detected as an anomaly starting from frame 260, with the highest anomaly score at frame 464, suggesting notable activity not typical for this scene."
+  },
+  {
+    "video_id": "05_010",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1250,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      331,
+      495,
+      658,
+      822,
+      985
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show anomaly scores greater than 0.7, indicating unusual activities such as unusual paths or interactions between pedestrians."
+  },
+  {
+    "video_id": "05_013",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      250,
+      347,
+      443,
+      540,
+      636
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores, especially in frames 347 and 443, suggest unusual activity among pedestrians, possibly indicating unexpected behavior or gatherings."
+  },
+  {
+    "video_id": "05_016",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      154,
+      224,
+      294,
+      364,
+      434
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 154, 224, 294, and 364 suggest unusual activity. Frame 294 has the highest score of 1.00, indicating significant anomalous behavior."
+  },
+  {
+    "video_id": "05_018",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 809,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      249,
+      345,
+      440,
+      536,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are significantly high, especially in frames 345 and 440, suggesting unusual activity. However, the frames themselves show normal pedestrian behavior. The high scores may indicate some uncommon occurrences not visible in the given samples."
+  },
+  {
+    "video_id": "05_021",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1058,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      421,
+      553,
+      686,
+      818
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are high in frames 288, 421, and 553, indicating unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "05_023",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      215,
+      302,
+      390,
+      477,
+      564
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for frames 215, 302, 390, and 477 are quite high, particularly frames 302 (0.97) and 390 (0.99), suggesting unusual behavior in the pedestrian area."
+  },
+  {
+    "video_id": "05_025",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      220,
+      307,
+      394,
+      480,
+      567
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, with peaks at frames 307 and 394. This suggests unusual activity, possibly due to the observed pedestrian behavior that differs from standard walking patterns."
+  },
+  {
+    "video_id": "05_026",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      204,
+      269,
+      334,
+      399
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames have high anomaly scores, indicating unusual activity. Frame 269 scores a perfect 1.00, suggesting significant irregular behavior, possibly due to erratic pedestrian movement or interaction with surroundings."
+  },
+  {
+    "video_id": "05_028",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 877,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      260,
+      364,
+      468,
+      571,
+      675
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 260, 364, 468, and 571 suggest unusual activity, potentially involving changes in pedestrian behavior or unexpected movements."
+  },
+  {
+    "video_id": "05_030",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      154,
+      225,
+      296,
+      367,
+      438
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in multiple frames, particularly frame 296 with a score of 1.00, indicate unusual activity beyond normal pedestrian walking."
+  },
+  {
+    "video_id": "05_033",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      308,
+      460,
+      612,
+      764,
+      916
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores across multiple frames suggest unusual behavior or activity, especially between frames 460 and 764."
+  },
+  {
+    "video_id": "05_034",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      300,
+      416,
+      532,
+      648,
+      764
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "There are high anomaly scores, particularly in frames 416 and 532, suggesting unusual activity or behavior on the pathway."
+  },
+  {
+    "video_id": "05_038",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      135,
+      196,
+      257,
+      318,
+      379
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 196, 257, and 318 suggest unusual activity, possibly due to more people than usual or atypical behavior."
+  },
+  {
+    "video_id": "05_039",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      235,
+      327,
+      419,
+      510,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 327, 419, and 510 suggest unusual behavior or movement on the road, possibly indicating irregular pedestrian activity."
+  },
+  {
+    "video_id": "05_041",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      424,
+      517,
+      610
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frame 331 and 424 have high anomaly scores of 0.97 and 0.99 respectively, indicating unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "05_043",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      423,
+      516,
+      608
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are high, peaking at 0.99 in frame 423. Possible irregular behavior includes atypical movements or interactions among pedestrians."
+  },
+  {
+    "video_id": "05_044",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      419,
+      509,
+      600
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 328 (0.97) and 419 (0.99) suggest unusual activities, possibly due to individuals' behavior or positioning on the road."
+  },
+  {
+    "video_id": "05_045",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      225,
+      316,
+      407,
+      498,
+      589
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 316 (0.97) and 407 (0.99) suggest unusual activity; frame 316 shows a person standing idle and frame 407 shows significant deviation in pedestrian behavior."
+  },
+  {
+    "video_id": "05_048",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      329,
+      420,
+      511,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores in multiple frames suggest unusual behavior relative to typical pedestrian activity, indicating a potential anomaly during the segment."
+  },
+  {
+    "video_id": "05_049",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      224,
+      312,
+      400,
+      488,
+      576
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are consistently high in the sampled frames, particularly at frame 400 with a score of 0.99, suggesting irregular behavior or movement patterns despite the normal appearance of the scenes."
+  },
+  {
+    "video_id": "05_054",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      296,
+      385,
+      474,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 296, 385, and 474 have high anomaly scores, with Frame 385 having the highest (0.99). This suggests unusual activity is occurring, although further contextual analysis is needed."
+  },
+  {
+    "video_id": "05_056",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      227,
+      315,
+      403,
+      491,
+      579
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 315, 403, and 491 have high anomaly scores indicating unusual activity. Frame 403, in particular, shows no pedestrian presence which might suggest an anomaly in pedestrian flow."
+  },
+  {
+    "video_id": "05_057",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      222,
+      309,
+      396,
+      483,
+      570
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 309, 396, and 483 show relatively high anomaly scores, indicating possible unusual activities on the pedestrian path during these moments."
+  },
+  {
+    "video_id": "05_058",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      205,
+      295,
+      384,
+      474,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 295, 384, and 474 have high anomaly scores (0.97, 0.99, and 0.87 respectively), suggesting unusual activity compared to normal pedestrian walking in these samples."
+  },
+  {
+    "video_id": "05_060",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      282,
+      411,
+      540,
+      668,
+      797
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The unusually high anomaly scores in frames 411, 540, and 668 suggest some irregular activities compared to normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_061",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1069,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      443,
+      576,
+      708,
+      841
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, especially frame 576 with a score of 1.00, indicating unusual activity such as possible crowding or behavior different from normal pedestrian walking."
+  },
+  {
+    "video_id": "05_062",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1070,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      444,
+      578,
+      712,
+      846
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames have high anomaly scores, suggesting unusual activity detected, particularly at frames 444, 578, and 712."
+  },
+  {
+    "video_id": "05_064",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      203,
+      266,
+      330,
+      393
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly in frames 203, 266, and 330, suggest unusual activity. Frame 266 shows an individual walking on the street, which may be considered non-normal pedestrian behavior."
+  },
+  {
+    "video_id": "05_065",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      285,
+      414,
+      542,
+      671,
+      799
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Multiple frames show high anomaly scores, particularly frames 414 (0.97) and 542 (0.98), suggesting unusual activity. The increased scores might indicate unexpected pedestrian behavior or movement patterns that deviate from normal."
+  },
+  {
+    "video_id": "06_003",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1024,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      330,
+      460,
+      591,
+      721,
+      851
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomaly scores are high, especially frames 460 (0.94) and 591 (0.99), indicating unusual activity like people entering or exiting the building."
+  },
+  {
+    "video_id": "06_006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 726,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      231,
+      320,
+      409,
+      497,
+      586
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores, particularly frames 320 (0.97) and 409 (0.99), suggest unusual activity despite similar appearances in sampled frames."
+  },
+  {
+    "video_id": "06_009",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 400,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      117,
+      168,
+      219,
+      270,
+      321
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames have high anomaly scores, suggesting unusual behavior. One image shows a person entering an open door, which may not be typical for regular pedestrian movement."
+  },
+  {
+    "video_id": "06_011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 256,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      74,
+      106,
+      139,
+      171,
+      203
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "An anomaly is detected as a person is seen lingering near the building entrance over multiple frames, which could be considered unusual behavior compared to normal pedestrian movement."
+  },
+  {
+    "video_id": "06_0144",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      64,
+      95,
+      125,
+      156,
+      186
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A vehicle stops in front of a building entrance, which is unusual for pedestrian pathways. A person then walks past the vehicle, which may indicate an unexpected stop."
+  },
+  {
+    "video_id": "06_015",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 846,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      241,
+      343,
+      444,
+      546,
+      647
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially for frames 343 and 444, suggest unusual activity likely due to the open and unmonitored door, with no people visible in frame 444. This could indicate a potential security breach or unaccounted access."
+  },
+  {
+    "video_id": "06_0153",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      64,
+      92,
+      120,
+      148,
+      176
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, indicating unusual activity. A bicycle is moving through the pedestrian area, which is likely the source of the anomaly."
+  },
+  {
+    "video_id": "06_017",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      294,
+      381,
+      468,
+      555
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 294, 381, and 468 suggest unusual activity, possibly related to the individuals' actions or sudden absence from the scene."
+  },
+  {
+    "video_id": "06_018",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      225,
+      312,
+      399,
+      485,
+      572
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames indicate unusual activity, possibly due to the presence and movement of a person near the door."
+  },
+  {
+    "video_id": "06_020",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      218,
+      304,
+      390,
+      476,
+      562
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high (above 0.78) with the highest being 0.99, indicating unusual activity such as unexpected movements or behavior captured in the video segments."
+  },
+  {
+    "video_id": "06_021",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      221,
+      307,
+      394,
+      480,
+      566
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores indicate likely unusual activity, particularly around frames 307, 394, and 480. Frame 394 shows a person exiting, while in frame 480, two individuals are conversing near the entrance, potentially contributing to the high anomaly scores."
+  },
+  {
+    "video_id": "06_022",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 724,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      224,
+      311,
+      398,
+      485,
+      572
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores indicate unusual activity peaking between frames 311 and 398. The presence of a person emerging after the door is open, suggests potential loitering or unexpected behavior."
+  },
+  {
+    "video_id": "06_026",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1336,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      393,
+      578,
+      763,
+      948,
+      1133
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames indicate a high anomaly score with minimal visible activity, particularly in frames 763 and 948 where no one is present near the entrance, yet the anomaly scores are high. This suggests unusual or unexpected inactivity."
+  },
+  {
+    "video_id": "06_028",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      231,
+      320,
+      410,
+      499,
+      588
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show high anomaly scores, especially at frames 320 and 410, possibly indicating unusual behavior such as a crowd forming or erratic movement patterns near the entrance."
+  },
+  {
+    "video_id": "06_029",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      248,
+      341,
+      434,
+      526,
+      619
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores indicate unusual activity, most notably at frames 341 and 434, with scores of 0.97 and 0.99 respectively. This suggests significant anomalous activity in these frames."
+  },
+  {
+    "video_id": "06_030",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 757,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      299,
+      391,
+      483,
+      575
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores, especially in frames 299 (0.97), 391 (0.99), and 483 (0.87), indicate potential irregularities in the video despite the images showing little visual change. Activities such as prolonged door open or minimal motion could be atypical for this setting."
+  },
+  {
+    "video_id": "07_0006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 385,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      107,
+      155,
+      203,
+      251,
+      299
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "In frame 203, one person appears to have fallen or is sitting on the ground, which is unusual compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "07_0008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      131,
+      188,
+      245,
+      302,
+      359
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The presence of a person walking with a rifle-like object in frames 245, 302, and 359 is anomalous and poses a potential security concern."
+  },
+  {
+    "video_id": "07_002",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      325,
+      416,
+      507,
+      598
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frame 325 shows an unusually high anomaly score of 0.97, yet no visible pedestrians or vehicles, indicating potential lack of expected movement. Frame 416 has a score of 0.99, suggesting unusual activity as multiple people are crossing, which aligns with typical anomaly score responses for increased pedestrian activity."
+  },
+  {
+    "video_id": "07_0048",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      99,
+      129,
+      159,
+      189
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores and the presence of running and interaction in frame 189 suggest unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "07_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      219,
+      305,
+      391,
+      477,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores for the frames are high, especially frame 391 with a score of 0.99, indicating unusual activity relative to normal pedestrian walking."
+  },
+  {
+    "video_id": "07_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      125,
+      163,
+      201,
+      239
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The activity in the frames appears to show normal pedestrian movement across a crosswalk and does not exhibit significant anomalies."
+  },
+  {
+    "video_id": "08_001",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 817,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      262,
+      361,
+      460,
+      558,
+      657
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, suggesting unusual pedestrian activity, possibly due to increased crowding or unusual movement patterns in the area."
+  },
+  {
+    "video_id": "08_002",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1298,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      348,
+      522,
+      696,
+      870,
+      1044
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show a quiet pedestrian area with no visible anomalous activity. The high anomaly scores might be due to lack of activity or minor environmental changes, but nothing unusual is visibly happening."
+  },
+  {
+    "video_id": "08_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      218,
+      311,
+      404,
+      496,
+      589
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 311 (0.97) and 404 (0.99) suggest unusual activity, such as a person moving unexpectedly or interacting with the environment differently than normal pedestrian walking."
+  },
+  {
+    "video_id": "08_0058",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores in several frames are quite high, indicating unusual activity. Frame 179 has the highest score of 0.99, suggesting something abnormal likely occurred during that frame."
+  },
+  {
+    "video_id": "08_006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      245,
+      339,
+      433,
+      526,
+      620
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores across frames, particularly peaking at 0.99, suggest unusual activity. The images show pedestrians in atypical positions and movement for a regular walkway, indicating unexpected behavior."
+  },
+  {
+    "video_id": "08_007",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      243,
+      336,
+      429,
+      522,
+      615
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, particularly frames 336 (0.97), 429 (0.99), and 522 (0.84), indicating unusual activity likely related to the presence and movement of people in these frames compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "08_0077",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      132,
+      189,
+      246,
+      303,
+      360
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, especially in frames 189, 246, and 303, indicating unusual activity. Frame 246 with a score of 0.99 is highly anomalous."
+  },
+  {
+    "video_id": "08_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 786,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      329,
+      421,
+      513,
+      605
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Anomalous activity is likely present as indicated by high anomaly scores, especially in frames 329, 421, and 513. However, the specific nature of the anomaly is not evident in the frames provided, where pedestrian activity appears normal."
+  },
+  {
+    "video_id": "08_0080",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      120,
+      157,
+      193,
+      230
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, especially frame 157 with 0.99, suggesting unusual activity. The presence of individuals in close proximity and possibly interacting in a way that stands out from normal pedestrian behavior could be causing the high scores."
+  },
+  {
+    "video_id": "08_010",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 721,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      211,
+      297,
+      384,
+      470,
+      556
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 297, 384, and 470 suggest unusual activity, possibly due to changes in group behavior or movement patterns."
+  },
+  {
+    "video_id": "08_011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      215,
+      301,
+      386,
+      472,
+      557
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, particularly in frames 301, 386, and 472, indicating unusual pedestrian activity relative to normal walking patterns."
+  },
+  {
+    "video_id": "08_0157",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      126,
+      165,
+      204,
+      243
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are relatively high throughout the sequence, with a peak at frame 165 (score 1.00), indicating unusual activity. The positioning and clustering of individuals, along with possible interactions, suggest an anomaly compared to typical pedestrian movement."
+  },
+  {
+    "video_id": "08_0158",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      135,
+      178,
+      220,
+      262
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores, particularly in frames 135, 178, and 220, suggest unusual activity relative to normal pedestrian walking."
+  },
+  {
+    "video_id": "08_016",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 937,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      285,
+      398,
+      511,
+      623,
+      736
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 398, 511, and 623 have high anomaly scores indicating unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "08_021",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1322,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      369,
+      545,
+      721,
+      897,
+      1073
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores indicate unusual activity, particularly in frames 545, 721, and 897. These frames show individuals acting in ways that deviate from typical pedestrian behavior."
+  },
+  {
+    "video_id": "08_023",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      249,
+      345,
+      440,
+      536,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The scores are relatively high, with 0.96 and 0.99 suggesting significant deviations, possibly indicating unusual pedestrian congestion or movement patterns in frames 345 and 440."
+  },
+  {
+    "video_id": "08_024",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 745,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      226,
+      315,
+      404,
+      493,
+      582
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly in frames 315, 404, and 493, suggest unusual activity. The presence of the same individuals over several frames might indicate loitering or an unusual pattern of movement."
+  },
+  {
+    "video_id": "08_025",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 746,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      208,
+      298,
+      388,
+      478,
+      568
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially in frames 298 and 388, suggest unusual activity. The specific nature of the anomaly is not clear from the images, but the consistent high scores indicate significant deviations from normal pedestrian behavior."
+  },
+  {
+    "video_id": "08_028",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1082,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      302,
+      438,
+      573,
+      709,
+      844
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 438 and 573 have high anomaly scores (0.99) suggesting unusual activity. Multiple people are gathered, which deviates from the usual pedestrian flow observed in other frames."
+  },
+  {
+    "video_id": "08_029",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 901,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      382,
+      488,
+      594,
+      700
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 382 and 488 have high anomaly scores indicating unusual activity. There might be irregular movement or behavior present in these frames."
+  },
+  {
+    "video_id": "08_030",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 902,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      280,
+      387,
+      494,
+      601,
+      708
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, with frames 387 and 494 showing significant deviation from normal activity, likely due to unusual movement or behavior that stands out, despite normal pedestrian activity visible in the sampled frames."
+  },
+  {
+    "video_id": "08_032",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 801,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      246,
+      340,
+      435,
+      529,
+      623
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames have high anomaly scores, particularly frames 340 and 435, which suggest unusual activity such as loitering or an unexpected movement pattern compared to normal pedestrian behavior."
+  },
+  {
+    "video_id": "08_034",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 805,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      247,
+      343,
+      439,
+      535,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores in frames 343, 439, and 535 are relatively high, indicating unusual activity likely involving a person appearing and moving through the area."
+  },
+  {
+    "video_id": "08_037",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      312,
+      452,
+      592,
+      732,
+      872
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores on multiple frames suggest unusual activity. Frames 452 and 592 have very high scores indicating significant deviations from normal pedestrian behavior."
+  },
+  {
+    "video_id": "08_043",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      337,
+      490,
+      644,
+      797,
+      950
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores indicating unusual activity compared to normal pedestrian walking. Frame 644, in particular, shows very little pedestrian presence, which is unusual for this setting."
+  },
+  {
+    "video_id": "08_045",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      239,
+      333,
+      427,
+      521,
+      615
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, particularly frame 427 with a score of 0.99. This indicates unusual activity, possibly related to the movement of people or objects as depicted in the sampled frames."
+  },
+  {
+    "video_id": "08_046",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      243,
+      337,
+      432,
+      526,
+      620
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, particularly frames 337, 432, and 526, indicating unusual activity such as unexpected movements or behaviors in the pedestrian area."
+  },
+  {
+    "video_id": "08_047",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      246,
+      340,
+      435,
+      529,
+      623
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 340 and 435 have high anomaly scores, suggesting unusual activity. This likely indicates something atypical compared to normal pedestrian activity, such as erratic movement or unusual behavior."
+  },
+  {
+    "video_id": "08_048",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      329,
+      423,
+      518,
+      612
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, particularly for frames 329 and 423. The scores suggest unusual activity relative to normal pedestrian walking."
+  },
+  {
+    "video_id": "09_002",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 832,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      337,
+      437,
+      536,
+      636
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 237, 337, 437, and 536 suggest unusual activity, possibly due to sudden or rapid movements by pedestrians."
+  },
+  {
+    "video_id": "09_003",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 520,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      146,
+      214,
+      283,
+      351,
+      419
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores, peaking at 1.00 in frame 283, suggest unusual pedestrian activity. Movement patterns or behavior of individuals might differ significantly from normal pedestrian behavior."
+  },
+  {
+    "video_id": "09_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      126,
+      193,
+      259,
+      326,
+      392
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are relatively high, reaching a maximum of 1.00 at frame 259, indicating unusual pedestrian behavior. The sequence shows people dramatically changing position and possibly not moving in a typical manner."
+  },
+  {
+    "video_id": "09_007",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1577,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      404,
+      622,
+      840,
+      1058,
+      1276
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores throughout the frames suggest unusual pedestrian behavior, possibly due to movement patterns or speed."
+  },
+  {
+    "video_id": "10_0038",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      99,
+      130,
+      160,
+      190
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are high, especially at frames 99 and 130, indicating unusual activity. The individual is running, which differs from typical walking behavior observed in the scene."
+  },
+  {
+    "video_id": "10_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1827,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      441,
+      704,
+      966,
+      1229,
+      1491
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores in frames 441, 704, 966, 1229, and 1491 suggest unusual activities compared to typical pedestrian movement."
+  },
+  {
+    "video_id": "10_0042",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The presence of a person on a motorbike riding through a pedestrian area is anomalous activity."
+  },
+  {
+    "video_id": "10_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1852,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      439,
+      705,
+      970,
+      1236,
+      1501
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The anomaly scores are high, but the sampled frames show normal pedestrian walking on a plaza without any visibly unusual activities."
+  },
+  {
+    "video_id": "10_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1227,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      331,
+      490,
+      650,
+      809,
+      968
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores and observed behavior in frames 331 to 809 suggest unusual pedestrian patterns compared to typical walking. "
+  },
+  {
+    "video_id": "10_009",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      181,
+      257,
+      333,
+      409,
+      485
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores indicate unusual activity around frame 333 with a peak score of 1.00, suggesting significant deviation from normal behavior. The surrounding frames also show high anomaly scores, indicating persistent unusual activity."
+  },
+  {
+    "video_id": "10_011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      420,
+      511,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frame scores indicate potential anomalies, particularly in frames 328 (0.97) and 420 (0.99). The images show pedestrians in relatively static positions, suggesting non-standard movement patterns or behavior."
+  },
+  {
+    "video_id": "11_003",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 677,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      192,
+      274,
+      356,
+      438,
+      520
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A person appears to be standing still on a road, which is unusual pedestrian behavior, causing high anomaly scores in frames 274, 356, and 438."
+  },
+  {
+    "video_id": "11_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 252,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      101,
+      133,
+      164,
+      196
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individual appears to be walking normally along the path with no unusual behavior observed across the sampled frames."
+  },
+  {
+    "video_id": "11_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1102,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      289,
+      431,
+      573,
+      714,
+      856
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The presence of pedestrians in frame 431, with a high anomaly score of 0.98, suggests unusual activity in the context of mostly empty frames in this segment, indicating an anomaly."
+  },
+  {
+    "video_id": "11_006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      149,
+      219,
+      290,
+      360,
+      430
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show high anomaly scores, particularly frame 290 with a score of 1.00, indicating unusual activity. Multiple instances of individuals interacting closely may not match typical pedestrian behavior."
+  },
+  {
+    "video_id": "12_001",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      123,
+      177,
+      231,
+      284,
+      338
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in the sequence (up to 0.99) suggest unusual activity compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "12_004",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1077,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      303,
+      437,
+      570,
+      704,
+      837
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores suggest unusual activity, particularly around frames 437 and 570, indicated by dense clustering or unusual movement patterns."
+  },
+  {
+    "video_id": "12_007",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 852,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      262,
+      363,
+      464,
+      564,
+      665
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames have high anomaly scores, particularly frame 464 with a score of 0.98, suggesting unusual activity. This could indicate an atypical event or behavior in the scene."
+  },
+  {
+    "video_id": "12_008",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      327,
+      417,
+      507,
+      597
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores indicate unusual activity, especially around frames 327 and 417, possibly due to irregular pedestrian movements or interactions."
+  },
+  {
+    "video_id": "12_011",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1652,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      408,
+      637,
+      866,
+      1095,
+      1324
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The frames show high anomaly scores, with unusual pedestrian behavior such as loitering and inconsistent walking patterns, especially in frame 1095. This suggests potential anomalous activity."
+  },
+  {
+    "video_id": "12_012",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      180,
+      257,
+      333,
+      410,
+      486
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Several frames show high anomaly scores, notably frames 257, 333, and 410, indicating unusual activity compared to normal pedestrian walking patterns."
+  },
+  {
+    "video_id": "12_0142",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      173,
+      247,
+      321,
+      395,
+      469
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores suggest unusual activity, especially in frames 247 to 321, where individuals appear to move rapidly or unexpectedly alter their path, which may indicate erratic pedestrian behavior."
+  },
+  {
+    "video_id": "12_015",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      308,
+      438,
+      569,
+      699,
+      829
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames 438, 569, and 699 have high anomaly scores, with frame 569 reaching 1.00, indicating a possible unusual activity in the pedestrian behavior or number of people."
+  },
+  {
+    "video_id": "12_0151",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      84,
+      121,
+      158,
+      195,
+      232
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, particularly in frames 121 (0.96), 158 (1.00), and 195 (0.89), suggest unusual activity. The presence of a person on a bicycle moving through the area might account for these increased scores, indicating abnormal pedestrian behavior in this context."
+  },
+  {
+    "video_id": "12_0173",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      63,
+      91,
+      118,
+      146,
+      173
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The high anomaly scores, especially in frames 91 and 118, suggest significant anomalous activity. This is likely due to the presence and unusual movements of the cyclist in the pedestrian area, which deviates from expected behavior."
+  },
+  {
+    "video_id": "12_0174",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian and bicycle movement in an open area. Although the scores indicate some deviations, no unusual or dangerous activity is observed in the frames provided."
+  },
+  {
+    "video_id": "13_001",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      173,
+      247,
+      321,
+      395,
+      469
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "The anomaly scores are consistently high, peaking at 1.00 indicating unusual activity. However, the images show normal pedestrian behavior with people walking along the path. The high scores suggest there may be subtle motion anomalies not visible in the frames shown."
+  },
+  {
+    "video_id": "13_005",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 386,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      109,
+      157,
+      205,
+      253,
+      301
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in multiple frames suggest unusual activity, possibly due to interactions between pedestrians or unexpected movements."
+  },
+  {
+    "video_id": "13_006",
+    "variant": "frames_plus_score",
+    "is_anomalous_gt": 0,
+    "total_frames": 458,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      129,
+      186,
+      243,
+      300,
+      357
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "High anomaly scores in frames 186, 243, and 300 suggest unusual activity, such as irregular movement or unexpected behavior."
+  }
+]

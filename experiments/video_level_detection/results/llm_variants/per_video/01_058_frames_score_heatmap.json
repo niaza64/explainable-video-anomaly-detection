@@ -1,0 +1,17 @@
+{
+  "video_id": "01_058",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 734,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    169,
+    263,
+    357,
+    451,
+    545
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores indicate unusual activity, particularly in frames 263 and 357. Significant heatmap highlights suggest atypical behavior, especially with the individuals on the path."
+}

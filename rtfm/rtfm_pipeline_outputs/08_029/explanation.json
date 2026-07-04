@@ -1,0 +1,6 @@
+{
+  "video_id": "08_029",
+  "gate_score": 0.25250571966171265,
+  "n_frames_sent": 6,
+  "explanation": "The anomalous activity involves a person in a red shirt riding a small personal vehicle (possibly a scooter), which begins in snippet 10 and continues through snippet 19. This activity stands out as it deviates from the expected pedestrian behavior of walking on a sidewalk, leading to higher anomaly scores in the later snippets."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "12_0173",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    63,
+    91,
+    118,
+    146,
+    173
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Significant anomaly scores above 0.8 suggest unusual activity. Heatmaps indicate movement deviations or unexpected behavior between frames 63 to 146. Frame 118 shows an anomaly score of 1.00, indicating a peak in unusual actions."
+}

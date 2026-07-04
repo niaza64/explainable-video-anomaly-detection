@@ -1,0 +1,17 @@
+{
+  "video_id": "06_028",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 754,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    231,
+    320,
+    410,
+    499,
+    588
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames show high anomaly scores, especially at frames 320 and 410, possibly indicating unusual behavior such as a crowd forming or erratic movement patterns near the entrance."
+}

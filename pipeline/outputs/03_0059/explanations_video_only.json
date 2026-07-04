@@ -1,0 +1,26 @@
+{
+  "video_id": "03_0059",
+  "variant": "video_only",
+  "total_frames": 433,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    61,
+    123,
+    185,
+    246,
+    308,
+    370,
+    432
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 432,
+      "include_heatmap": false,
+      "explanation": "All frames depict normal pedestrian behavior, with individuals walking calmly on the path without any unusual activity."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0032",
+  "variant": "video_only",
+  "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "In frame 174, a person is seen lying on the ground, which deviates from normal pedestrian behavior.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI partially correctly identifies the presence of a person on the ground as an anomaly but misses the context of a physical altercation. It lacks specific details such as the actions and clothing described by the human. The explanation fails to mention the push or the act of standing and walking afterward, covering none of the key points mentioned by the human. However, the AI's language is clear and structured, thus scoring higher on fluency."
+      }
+    }
+  ]
+}

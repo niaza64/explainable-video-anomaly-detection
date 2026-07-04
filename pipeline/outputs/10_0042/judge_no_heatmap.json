@@ -1,0 +1,18 @@
+{
+  "video_id": "10_0042",
+  "variant": "no_heatmap",
+  "human_explanation": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity in the video segment is a motorcycle driving through a pedestrian area, which is unusual for this normally pedestrian-only space, as highlighted by high anomaly scores.",
+      "scores": {
+        "correctness": 4,
+        "specificity": 2,
+        "completeness": 3,
+        "fluency": 4,
+        "justification": "The AI correctly identifies the anomalous activity of a vehicle in a pedestrian area, which aligns with the human explanation, but incorrectly labels the vehicle as a 'motorcycle' instead of a 'scooter.' The AI explanation is less specific, omitting details about the occupants' clothing and the number of people. While the explanation is clear and well-written, it lacks the full detail and specificity of the human description."
+      }
+    }
+  ]
+}

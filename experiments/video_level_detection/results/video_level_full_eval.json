@@ -1,0 +1,1828 @@
+{
+  "config": {
+    "k": 3,
+    "threshold": 0.9999305377900813,
+    "test_list": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/SHANGHAI/SHANGHAI_Test/SHANGHAI_test.txt",
+    "cache_dir": "/Users/niazahmad/Desktop/Research/explainable-video-anomaly-detection/video_level_detection/scores_cache",
+    "no_cache": false
+  },
+  "num_videos": 199,
+  "metrics": {
+    "tp": 44.0,
+    "tn": 35.0,
+    "fp": 120.0,
+    "fn": 0.0,
+    "accuracy": 0.3969849246231156,
+    "precision": 0.2682926829268293,
+    "recall": 1.0,
+    "f1": 0.4230769230769231,
+    "balanced_accuracy": 0.6129032258064516
+  },
+  "confusion_matrix": {
+    "rows": "actual [normal, anomaly]",
+    "cols": "predicted [normal, anomaly]",
+    "matrix": [
+      [
+        35,
+        120
+      ],
+      [
+        0,
+        44
+      ]
+    ]
+  },
+  "per_video": [
+    {
+      "video_id": "01_001",
+      "label": 0,
+      "video_score": 0.9999952222493483,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 765,
+      "num_scored_frames": 759
+    },
+    {
+      "video_id": "01_0015",
+      "label": 1,
+      "video_score": 0.9999835560236354,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 433,
+      "num_scored_frames": 427
+    },
+    {
+      "video_id": "01_0025",
+      "label": 1,
+      "video_score": 0.9999921792790142,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 601,
+      "num_scored_frames": 595
+    },
+    {
+      "video_id": "01_0027",
+      "label": 1,
+      "video_score": 0.9999838638866345,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 409,
+      "num_scored_frames": 403
+    },
+    {
+      "video_id": "01_0028",
+      "label": 1,
+      "video_score": 0.999986539682533,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 457,
+      "num_scored_frames": 451
+    },
+    {
+      "video_id": "01_004",
+      "label": 0,
+      "video_score": 0.9999954752080731,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 770,
+      "num_scored_frames": 764
+    },
+    {
+      "video_id": "01_0051",
+      "label": 1,
+      "video_score": 0.9999763366279453,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "01_0052",
+      "label": 1,
+      "video_score": 0.9999741943282295,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "01_0053",
+      "label": 1,
+      "video_score": 0.9999856537259704,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 457,
+      "num_scored_frames": 451
+    },
+    {
+      "video_id": "01_0055",
+      "label": 1,
+      "video_score": 0.999969927357346,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 313,
+      "num_scored_frames": 307
+    },
+    {
+      "video_id": "01_0056",
+      "label": 1,
+      "video_score": 0.9999900005063028,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 529,
+      "num_scored_frames": 523
+    },
+    {
+      "video_id": "01_006",
+      "label": 0,
+      "video_score": 0.9999890388854666,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 506,
+      "num_scored_frames": 500
+    },
+    {
+      "video_id": "01_0064",
+      "label": 1,
+      "video_score": 0.9999662378309022,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 289,
+      "num_scored_frames": 283
+    },
+    {
+      "video_id": "01_008",
+      "label": 0,
+      "video_score": 0.9996205428704014,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1010,
+      "num_scored_frames": 1004
+    },
+    {
+      "video_id": "01_012",
+      "label": 0,
+      "video_score": 0.9999948750827127,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 738,
+      "num_scored_frames": 732
+    },
+    {
+      "video_id": "01_0135",
+      "label": 1,
+      "video_score": 0.9999843515010708,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 409,
+      "num_scored_frames": 403
+    },
+    {
+      "video_id": "01_0136",
+      "label": 1,
+      "video_score": 0.9999906698857197,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 529,
+      "num_scored_frames": 523
+    },
+    {
+      "video_id": "01_0139",
+      "label": 1,
+      "video_score": 0.9999394571544777,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 217,
+      "num_scored_frames": 211
+    },
+    {
+      "video_id": "01_0141",
+      "label": 1,
+      "video_score": 0.9999721470987132,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 313,
+      "num_scored_frames": 307
+    },
+    {
+      "video_id": "01_0162",
+      "label": 1,
+      "video_score": 0.9999368213061922,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 193,
+      "num_scored_frames": 187
+    },
+    {
+      "video_id": "01_0177",
+      "label": 1,
+      "video_score": 0.9999708773003334,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 317,
+      "num_scored_frames": 311
+    },
+    {
+      "video_id": "01_018",
+      "label": 0,
+      "video_score": 0.9998334189185617,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 842,
+      "num_scored_frames": 836
+    },
+    {
+      "video_id": "01_021",
+      "label": 0,
+      "video_score": 0.9998043375486189,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1010,
+      "num_scored_frames": 1004
+    },
+    {
+      "video_id": "01_026",
+      "label": 0,
+      "video_score": 0.9999948950094198,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 736,
+      "num_scored_frames": 730
+    },
+    {
+      "video_id": "01_027",
+      "label": 0,
+      "video_score": 0.9999075592012304,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 944,
+      "num_scored_frames": 938
+    },
+    {
+      "video_id": "01_028",
+      "label": 0,
+      "video_score": 0.999954982892946,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 945,
+      "num_scored_frames": 939
+    },
+    {
+      "video_id": "01_030",
+      "label": 0,
+      "video_score": 0.9998881685324449,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 969,
+      "num_scored_frames": 963
+    },
+    {
+      "video_id": "01_032",
+      "label": 0,
+      "video_score": 0.9999702772317814,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1192,
+      "num_scored_frames": 1186
+    },
+    {
+      "video_id": "01_034",
+      "label": 0,
+      "video_score": 0.9999622180141522,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 890,
+      "num_scored_frames": 884
+    },
+    {
+      "video_id": "01_038",
+      "label": 0,
+      "video_score": 0.9999885758743582,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 482,
+      "num_scored_frames": 476
+    },
+    {
+      "video_id": "01_039",
+      "label": 0,
+      "video_score": 0.9999906091612236,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 962,
+      "num_scored_frames": 956
+    },
+    {
+      "video_id": "01_040",
+      "label": 0,
+      "video_score": 0.999798846345572,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1168,
+      "num_scored_frames": 1162
+    },
+    {
+      "video_id": "01_043",
+      "label": 0,
+      "video_score": 0.9999922326352912,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 878,
+      "num_scored_frames": 872
+    },
+    {
+      "video_id": "01_045",
+      "label": 0,
+      "video_score": 0.9999927048994621,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 602,
+      "num_scored_frames": 596
+    },
+    {
+      "video_id": "01_047",
+      "label": 0,
+      "video_score": 0.9998860903770375,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1057,
+      "num_scored_frames": 1051
+    },
+    {
+      "video_id": "01_050",
+      "label": 0,
+      "video_score": 0.9999957347296182,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 806,
+      "num_scored_frames": 800
+    },
+    {
+      "video_id": "01_052",
+      "label": 0,
+      "video_score": 0.9994244510313276,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 962,
+      "num_scored_frames": 956
+    },
+    {
+      "video_id": "01_053",
+      "label": 0,
+      "video_score": 0.9998511086649849,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1106,
+      "num_scored_frames": 1100
+    },
+    {
+      "video_id": "01_055",
+      "label": 0,
+      "video_score": 0.9999947694209964,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 722,
+      "num_scored_frames": 716
+    },
+    {
+      "video_id": "01_056",
+      "label": 0,
+      "video_score": 0.9998926276298966,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1010,
+      "num_scored_frames": 1004
+    },
+    {
+      "video_id": "01_057",
+      "label": 0,
+      "video_score": 0.9999952878235998,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 734,
+      "num_scored_frames": 728
+    },
+    {
+      "video_id": "01_058",
+      "label": 0,
+      "video_score": 0.9999954022982278,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 734,
+      "num_scored_frames": 728
+    },
+    {
+      "video_id": "01_059",
+      "label": 0,
+      "video_score": 0.9999949538254261,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 734,
+      "num_scored_frames": 728
+    },
+    {
+      "video_id": "01_061",
+      "label": 0,
+      "video_score": 0.9999965314050504,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 890,
+      "num_scored_frames": 884
+    },
+    {
+      "video_id": "01_064",
+      "label": 0,
+      "video_score": 0.9999935693081233,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 650,
+      "num_scored_frames": 644
+    },
+    {
+      "video_id": "01_065",
+      "label": 0,
+      "video_score": 0.9999925835886098,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 616,
+      "num_scored_frames": 610
+    },
+    {
+      "video_id": "01_071",
+      "label": 0,
+      "video_score": 0.9999642927748406,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1052,
+      "num_scored_frames": 1046
+    },
+    {
+      "video_id": "01_072",
+      "label": 0,
+      "video_score": 0.9996577308541981,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1053,
+      "num_scored_frames": 1047
+    },
+    {
+      "video_id": "01_074",
+      "label": 0,
+      "video_score": 0.9998605311799483,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1041,
+      "num_scored_frames": 1035
+    },
+    {
+      "video_id": "01_075",
+      "label": 0,
+      "video_score": 0.9999915222996357,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 568,
+      "num_scored_frames": 562
+    },
+    {
+      "video_id": "01_076",
+      "label": 0,
+      "video_score": 0.9999912996336734,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 554,
+      "num_scored_frames": 548
+    },
+    {
+      "video_id": "01_077",
+      "label": 0,
+      "video_score": 0.9999943225603385,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 698,
+      "num_scored_frames": 692
+    },
+    {
+      "video_id": "01_078",
+      "label": 0,
+      "video_score": 0.9997517040501732,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1034,
+      "num_scored_frames": 1028
+    },
+    {
+      "video_id": "01_079",
+      "label": 0,
+      "video_score": 0.9999944813986251,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 712,
+      "num_scored_frames": 706
+    },
+    {
+      "video_id": "01_080",
+      "label": 0,
+      "video_score": 0.9999956508610376,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 788,
+      "num_scored_frames": 782
+    },
+    {
+      "video_id": "01_081",
+      "label": 0,
+      "video_score": 0.9999956232105512,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 789,
+      "num_scored_frames": 783
+    },
+    {
+      "video_id": "01_082",
+      "label": 0,
+      "video_score": 0.9999960905023331,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 808,
+      "num_scored_frames": 802
+    },
+    {
+      "video_id": "02_001",
+      "label": 0,
+      "video_score": 0.9995628465835589,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 908,
+      "num_scored_frames": 902
+    },
+    {
+      "video_id": "02_003",
+      "label": 0,
+      "video_score": 0.9999948147731335,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 736,
+      "num_scored_frames": 730
+    },
+    {
+      "video_id": "02_007",
+      "label": 0,
+      "video_score": 0.9999678682608911,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 302,
+      "num_scored_frames": 296
+    },
+    {
+      "video_id": "02_008",
+      "label": 0,
+      "video_score": 0.9999689775349987,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 302,
+      "num_scored_frames": 296
+    },
+    {
+      "video_id": "02_009",
+      "label": 0,
+      "video_score": 0.9999925699345721,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 602,
+      "num_scored_frames": 596
+    },
+    {
+      "video_id": "02_012",
+      "label": 0,
+      "video_score": 0.9999484857108677,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 227,
+      "num_scored_frames": 221
+    },
+    {
+      "video_id": "02_015",
+      "label": 0,
+      "video_score": 0.9999283951778577,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 202,
+      "num_scored_frames": 196
+    },
+    {
+      "video_id": "02_0161",
+      "label": 1,
+      "video_score": 0.9999740129752276,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "03_002",
+      "label": 0,
+      "video_score": 0.9999816102529263,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 402,
+      "num_scored_frames": 396
+    },
+    {
+      "video_id": "03_0031",
+      "label": 1,
+      "video_score": 0.9999900691213645,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 529,
+      "num_scored_frames": 523
+    },
+    {
+      "video_id": "03_0032",
+      "label": 1,
+      "video_score": 0.9999818241029673,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 409,
+      "num_scored_frames": 403
+    },
+    {
+      "video_id": "03_0033",
+      "label": 1,
+      "video_score": 0.9999701872868475,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 313,
+      "num_scored_frames": 307
+    },
+    {
+      "video_id": "03_005",
+      "label": 0,
+      "video_score": 0.99998335915206,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 427,
+      "num_scored_frames": 421
+    },
+    {
+      "video_id": "03_0059",
+      "label": 1,
+      "video_score": 0.9999842177513508,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 433,
+      "num_scored_frames": 427
+    },
+    {
+      "video_id": "04_0004",
+      "label": 1,
+      "video_score": 0.9999962844103282,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 865,
+      "num_scored_frames": 859
+    },
+    {
+      "video_id": "04_0011",
+      "label": 1,
+      "video_score": 0.9999697775058513,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 313,
+      "num_scored_frames": 307
+    },
+    {
+      "video_id": "04_0012",
+      "label": 1,
+      "video_score": 0.9999788018342143,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 361,
+      "num_scored_frames": 355
+    },
+    {
+      "video_id": "04_002",
+      "label": 0,
+      "video_score": 0.9999806013588218,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 913,
+      "num_scored_frames": 907
+    },
+    {
+      "video_id": "04_0046",
+      "label": 1,
+      "video_score": 0.9999900541823997,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 529,
+      "num_scored_frames": 523
+    },
+    {
+      "video_id": "04_005",
+      "label": 0,
+      "video_score": 0.9997962623075313,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 976,
+      "num_scored_frames": 970
+    },
+    {
+      "video_id": "04_007",
+      "label": 0,
+      "video_score": 0.9999838141122743,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 427,
+      "num_scored_frames": 421
+    },
+    {
+      "video_id": "04_008",
+      "label": 0,
+      "video_score": 0.9998591917206662,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1702,
+      "num_scored_frames": 1696
+    },
+    {
+      "video_id": "04_011",
+      "label": 0,
+      "video_score": 0.9999914315754036,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 552,
+      "num_scored_frames": 546
+    },
+    {
+      "video_id": "04_014",
+      "label": 0,
+      "video_score": 0.9999932161016326,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 627,
+      "num_scored_frames": 621
+    },
+    {
+      "video_id": "04_016",
+      "label": 0,
+      "video_score": 0.9999725684503381,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 327,
+      "num_scored_frames": 321
+    },
+    {
+      "video_id": "04_017",
+      "label": 0,
+      "video_score": 0.9999896871293025,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 502,
+      "num_scored_frames": 496
+    },
+    {
+      "video_id": "04_018",
+      "label": 0,
+      "video_score": 0.9999940521939298,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 651,
+      "num_scored_frames": 645
+    },
+    {
+      "video_id": "05_0017",
+      "label": 1,
+      "video_score": 0.9999839497655572,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 433,
+      "num_scored_frames": 427
+    },
+    {
+      "video_id": "05_0019",
+      "label": 1,
+      "video_score": 0.9999934303558652,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 649,
+      "num_scored_frames": 643
+    },
+    {
+      "video_id": "05_0023",
+      "label": 1,
+      "video_score": 0.9999953749371633,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 769,
+      "num_scored_frames": 763
+    },
+    {
+      "video_id": "05_004",
+      "label": 0,
+      "video_score": 0.9999924634107696,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 602,
+      "num_scored_frames": 596
+    },
+    {
+      "video_id": "05_005",
+      "label": 0,
+      "video_score": 0.9999929552312744,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 626,
+      "num_scored_frames": 620
+    },
+    {
+      "video_id": "05_009",
+      "label": 0,
+      "video_score": 0.9999962758435551,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 866,
+      "num_scored_frames": 860
+    },
+    {
+      "video_id": "05_010",
+      "label": 0,
+      "video_score": 0.9999645067867609,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1250,
+      "num_scored_frames": 1244
+    },
+    {
+      "video_id": "05_013",
+      "label": 0,
+      "video_score": 0.9999957013794046,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 818,
+      "num_scored_frames": 812
+    },
+    {
+      "video_id": "05_016",
+      "label": 0,
+      "video_score": 0.9999909684432767,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 554,
+      "num_scored_frames": 548
+    },
+    {
+      "video_id": "05_018",
+      "label": 0,
+      "video_score": 0.9999957705561012,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 809,
+      "num_scored_frames": 803
+    },
+    {
+      "video_id": "05_021",
+      "label": 0,
+      "video_score": 0.9996479657346903,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1058,
+      "num_scored_frames": 1052
+    },
+    {
+      "video_id": "05_023",
+      "label": 0,
+      "video_score": 0.9999948469043675,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 734,
+      "num_scored_frames": 728
+    },
+    {
+      "video_id": "05_025",
+      "label": 0,
+      "video_score": 0.9999947553059263,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 734,
+      "num_scored_frames": 728
+    },
+    {
+      "video_id": "05_026",
+      "label": 0,
+      "video_score": 0.9999890439313194,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 506,
+      "num_scored_frames": 500
+    },
+    {
+      "video_id": "05_028",
+      "label": 0,
+      "video_score": 0.9999963130491939,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 877,
+      "num_scored_frames": 871
+    },
+    {
+      "video_id": "05_030",
+      "label": 0,
+      "video_score": 0.9999912807232626,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 554,
+      "num_scored_frames": 548
+    },
+    {
+      "video_id": "05_033",
+      "label": 0,
+      "video_score": 0.999965825662963,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1178,
+      "num_scored_frames": 1172
+    },
+    {
+      "video_id": "05_034",
+      "label": 0,
+      "video_score": 0.9997356153149582,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 962,
+      "num_scored_frames": 956
+    },
+    {
+      "video_id": "05_038",
+      "label": 0,
+      "video_score": 0.9999872387951253,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 482,
+      "num_scored_frames": 476
+    },
+    {
+      "video_id": "05_039",
+      "label": 0,
+      "video_score": 0.9999954116484989,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 781,
+      "num_scored_frames": 775
+    },
+    {
+      "video_id": "05_041",
+      "label": 0,
+      "video_score": 0.9999953750611851,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 781,
+      "num_scored_frames": 775
+    },
+    {
+      "video_id": "05_043",
+      "label": 0,
+      "video_score": 0.9999953024498459,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 769,
+      "num_scored_frames": 763
+    },
+    {
+      "video_id": "05_044",
+      "label": 0,
+      "video_score": 0.9999952803979753,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 769,
+      "num_scored_frames": 763
+    },
+    {
+      "video_id": "05_045",
+      "label": 0,
+      "video_score": 0.9999952786964643,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 769,
+      "num_scored_frames": 763
+    },
+    {
+      "video_id": "05_048",
+      "label": 0,
+      "video_score": 0.9999952478573967,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 739,
+      "num_scored_frames": 733
+    },
+    {
+      "video_id": "05_049",
+      "label": 0,
+      "video_score": 0.9999948759719954,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 739,
+      "num_scored_frames": 733
+    },
+    {
+      "video_id": "05_054",
+      "label": 0,
+      "video_score": 0.9999950515371537,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 738,
+      "num_scored_frames": 732
+    },
+    {
+      "video_id": "05_056",
+      "label": 0,
+      "video_score": 0.9999949016816524,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 738,
+      "num_scored_frames": 732
+    },
+    {
+      "video_id": "05_057",
+      "label": 0,
+      "video_score": 0.999995014482325,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 738,
+      "num_scored_frames": 732
+    },
+    {
+      "video_id": "05_058",
+      "label": 0,
+      "video_score": 0.9999949728436177,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 738,
+      "num_scored_frames": 732
+    },
+    {
+      "video_id": "05_060",
+      "label": 0,
+      "video_score": 0.9998801435580503,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1034,
+      "num_scored_frames": 1028
+    },
+    {
+      "video_id": "05_061",
+      "label": 0,
+      "video_score": 0.9997757923519748,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1069,
+      "num_scored_frames": 1063
+    },
+    {
+      "video_id": "05_062",
+      "label": 0,
+      "video_score": 0.9998368038789227,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1070,
+      "num_scored_frames": 1064
+    },
+    {
+      "video_id": "05_064",
+      "label": 0,
+      "video_score": 0.999988133186371,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 482,
+      "num_scored_frames": 476
+    },
+    {
+      "video_id": "05_065",
+      "label": 0,
+      "video_score": 0.999490721893639,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1034,
+      "num_scored_frames": 1028
+    },
+    {
+      "video_id": "06_003",
+      "label": 0,
+      "video_score": 0.9995983954844624,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1024,
+      "num_scored_frames": 1018
+    },
+    {
+      "video_id": "06_006",
+      "label": 0,
+      "video_score": 0.9999950086280153,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 726,
+      "num_scored_frames": 720
+    },
+    {
+      "video_id": "06_009",
+      "label": 0,
+      "video_score": 0.9999818536941119,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 400,
+      "num_scored_frames": 394
+    },
+    {
+      "video_id": "06_011",
+      "label": 0,
+      "video_score": 0.9999564528463812,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 256,
+      "num_scored_frames": 250
+    },
+    {
+      "video_id": "06_0144",
+      "label": 1,
+      "video_score": 0.9999508169267575,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 241,
+      "num_scored_frames": 235
+    },
+    {
+      "video_id": "06_015",
+      "label": 0,
+      "video_score": 0.999996163885336,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 846,
+      "num_scored_frames": 840
+    },
+    {
+      "video_id": "06_0153",
+      "label": 1,
+      "video_score": 0.9999450306459842,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 217,
+      "num_scored_frames": 211
+    },
+    {
+      "video_id": "06_017",
+      "label": 0,
+      "video_score": 0.9999947416007756,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 723,
+      "num_scored_frames": 717
+    },
+    {
+      "video_id": "06_018",
+      "label": 0,
+      "video_score": 0.9999948783518104,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 723,
+      "num_scored_frames": 717
+    },
+    {
+      "video_id": "06_020",
+      "label": 0,
+      "video_score": 0.9999946902432869,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 723,
+      "num_scored_frames": 717
+    },
+    {
+      "video_id": "06_021",
+      "label": 0,
+      "video_score": 0.9999948284047443,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 723,
+      "num_scored_frames": 717
+    },
+    {
+      "video_id": "06_022",
+      "label": 0,
+      "video_score": 0.9999948750372405,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 724,
+      "num_scored_frames": 718
+    },
+    {
+      "video_id": "06_026",
+      "label": 0,
+      "video_score": 0.9996018006177035,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1336,
+      "num_scored_frames": 1330
+    },
+    {
+      "video_id": "06_028",
+      "label": 0,
+      "video_score": 0.9999949848335614,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 754,
+      "num_scored_frames": 748
+    },
+    {
+      "video_id": "06_029",
+      "label": 0,
+      "video_score": 0.9999955647394517,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 754,
+      "num_scored_frames": 748
+    },
+    {
+      "video_id": "06_030",
+      "label": 0,
+      "video_score": 0.9999953897425752,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 757,
+      "num_scored_frames": 751
+    },
+    {
+      "video_id": "07_0006",
+      "label": 1,
+      "video_score": 0.9999796040954724,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 385,
+      "num_scored_frames": 379
+    },
+    {
+      "video_id": "07_0008",
+      "label": 1,
+      "video_score": 0.9999852686576213,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 457,
+      "num_scored_frames": 451
+    },
+    {
+      "video_id": "07_002",
+      "label": 0,
+      "video_score": 0.9999953194210138,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 777,
+      "num_scored_frames": 771
+    },
+    {
+      "video_id": "07_0048",
+      "label": 1,
+      "video_score": 0.9999504604994417,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 241,
+      "num_scored_frames": 235
+    },
+    {
+      "video_id": "07_005",
+      "label": 0,
+      "video_score": 0.9999947026363429,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 727,
+      "num_scored_frames": 721
+    },
+    {
+      "video_id": "07_008",
+      "label": 0,
+      "video_score": 0.9999686116106624,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 302,
+      "num_scored_frames": 296
+    },
+    {
+      "video_id": "08_001",
+      "label": 0,
+      "video_score": 0.9999960463123672,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 817,
+      "num_scored_frames": 811
+    },
+    {
+      "video_id": "08_002",
+      "label": 0,
+      "video_score": 0.9997417083389647,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1298,
+      "num_scored_frames": 1292
+    },
+    {
+      "video_id": "08_004",
+      "label": 0,
+      "video_score": 0.9999954619317571,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 770,
+      "num_scored_frames": 764
+    },
+    {
+      "video_id": "08_0058",
+      "label": 1,
+      "video_score": 0.9999737812142895,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "08_006",
+      "label": 0,
+      "video_score": 0.9999954752618742,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 785,
+      "num_scored_frames": 779
+    },
+    {
+      "video_id": "08_007",
+      "label": 0,
+      "video_score": 0.9999953286988109,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 785,
+      "num_scored_frames": 779
+    },
+    {
+      "video_id": "08_0077",
+      "label": 1,
+      "video_score": 0.9999851768548659,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 457,
+      "num_scored_frames": 451
+    },
+    {
+      "video_id": "08_008",
+      "label": 0,
+      "video_score": 0.9999954304544102,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 786,
+      "num_scored_frames": 780
+    },
+    {
+      "video_id": "08_0080",
+      "label": 1,
+      "video_score": 0.9999656059520176,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 289,
+      "num_scored_frames": 283
+    },
+    {
+      "video_id": "08_010",
+      "label": 0,
+      "video_score": 0.9999946140675456,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 721,
+      "num_scored_frames": 715
+    },
+    {
+      "video_id": "08_011",
+      "label": 0,
+      "video_score": 0.999994711453635,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 722,
+      "num_scored_frames": 716
+    },
+    {
+      "video_id": "08_0157",
+      "label": 1,
+      "video_score": 0.9999701874687594,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 313,
+      "num_scored_frames": 307
+    },
+    {
+      "video_id": "08_0158",
+      "label": 1,
+      "video_score": 0.999974419135056,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "08_016",
+      "label": 0,
+      "video_score": 0.9997936655468873,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 937,
+      "num_scored_frames": 931
+    },
+    {
+      "video_id": "08_021",
+      "label": 0,
+      "video_score": 0.9998776049606563,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1322,
+      "num_scored_frames": 1316
+    },
+    {
+      "video_id": "08_023",
+      "label": 0,
+      "video_score": 0.99999584536091,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 818,
+      "num_scored_frames": 812
+    },
+    {
+      "video_id": "08_024",
+      "label": 0,
+      "video_score": 0.9999949439213154,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 745,
+      "num_scored_frames": 739
+    },
+    {
+      "video_id": "08_025",
+      "label": 0,
+      "video_score": 0.9999951164840621,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 746,
+      "num_scored_frames": 740
+    },
+    {
+      "video_id": "08_028",
+      "label": 0,
+      "video_score": 0.9998191476678167,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1082,
+      "num_scored_frames": 1076
+    },
+    {
+      "video_id": "08_029",
+      "label": 0,
+      "video_score": 0.9999314614638202,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 901,
+      "num_scored_frames": 895
+    },
+    {
+      "video_id": "08_030",
+      "label": 0,
+      "video_score": 0.9999751348811294,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 902,
+      "num_scored_frames": 896
+    },
+    {
+      "video_id": "08_032",
+      "label": 0,
+      "video_score": 0.999995654108431,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 801,
+      "num_scored_frames": 795
+    },
+    {
+      "video_id": "08_034",
+      "label": 0,
+      "video_score": 0.9999956515826739,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 805,
+      "num_scored_frames": 799
+    },
+    {
+      "video_id": "08_037",
+      "label": 0,
+      "video_score": 0.9999660967370912,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1106,
+      "num_scored_frames": 1100
+    },
+    {
+      "video_id": "08_043",
+      "label": 0,
+      "video_score": 0.9998918218193626,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1178,
+      "num_scored_frames": 1172
+    },
+    {
+      "video_id": "08_045",
+      "label": 0,
+      "video_score": 0.9999955907202166,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 798,
+      "num_scored_frames": 792
+    },
+    {
+      "video_id": "08_046",
+      "label": 0,
+      "video_score": 0.9999955693766509,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 798,
+      "num_scored_frames": 792
+    },
+    {
+      "video_id": "08_047",
+      "label": 0,
+      "video_score": 0.9999956226437637,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 798,
+      "num_scored_frames": 792
+    },
+    {
+      "video_id": "08_048",
+      "label": 0,
+      "video_score": 0.9999956226899638,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 798,
+      "num_scored_frames": 792
+    },
+    {
+      "video_id": "09_002",
+      "label": 0,
+      "video_score": 0.999995978456994,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 832,
+      "num_scored_frames": 826
+    },
+    {
+      "video_id": "09_003",
+      "label": 0,
+      "video_score": 0.9999901159355687,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 520,
+      "num_scored_frames": 514
+    },
+    {
+      "video_id": "09_005",
+      "label": 0,
+      "video_score": 0.9999893401113887,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 502,
+      "num_scored_frames": 496
+    },
+    {
+      "video_id": "09_007",
+      "label": 0,
+      "video_score": 0.9997030948908595,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1577,
+      "num_scored_frames": 1571
+    },
+    {
+      "video_id": "10_0038",
+      "label": 1,
+      "video_score": 0.9999496268261457,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 241,
+      "num_scored_frames": 235
+    },
+    {
+      "video_id": "10_004",
+      "label": 0,
+      "video_score": 0.9999021525999274,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1827,
+      "num_scored_frames": 1821
+    },
+    {
+      "video_id": "10_0042",
+      "label": 1,
+      "video_score": 0.9999839434315004,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 433,
+      "num_scored_frames": 427
+    },
+    {
+      "video_id": "10_005",
+      "label": 0,
+      "video_score": 0.9997784808344271,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1852,
+      "num_scored_frames": 1846
+    },
+    {
+      "video_id": "10_008",
+      "label": 0,
+      "video_score": 0.9999369136822723,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1227,
+      "num_scored_frames": 1221
+    },
+    {
+      "video_id": "10_009",
+      "label": 0,
+      "video_score": 0.9999929665882809,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 627,
+      "num_scored_frames": 621
+    },
+    {
+      "video_id": "10_011",
+      "label": 0,
+      "video_score": 0.9999953729271791,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 777,
+      "num_scored_frames": 771
+    },
+    {
+      "video_id": "11_003",
+      "label": 0,
+      "video_score": 0.9999939815304238,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 677,
+      "num_scored_frames": 671
+    },
+    {
+      "video_id": "11_004",
+      "label": 0,
+      "video_score": 0.9999538327768861,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 252,
+      "num_scored_frames": 246
+    },
+    {
+      "video_id": "11_005",
+      "label": 0,
+      "video_score": 0.9998416573486936,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1102,
+      "num_scored_frames": 1096
+    },
+    {
+      "video_id": "11_006",
+      "label": 0,
+      "video_score": 0.9999910955611199,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 552,
+      "num_scored_frames": 546
+    },
+    {
+      "video_id": "12_001",
+      "label": 0,
+      "video_score": 0.99998351473738,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 427,
+      "num_scored_frames": 421
+    },
+    {
+      "video_id": "12_004",
+      "label": 0,
+      "video_score": 0.9999563741293702,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1077,
+      "num_scored_frames": 1071
+    },
+    {
+      "video_id": "12_007",
+      "label": 0,
+      "video_score": 0.9999961558231308,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 852,
+      "num_scored_frames": 846
+    },
+    {
+      "video_id": "12_008",
+      "label": 0,
+      "video_score": 0.9999951797217768,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 727,
+      "num_scored_frames": 721
+    },
+    {
+      "video_id": "12_011",
+      "label": 0,
+      "video_score": 0.9999645666864166,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 1652,
+      "num_scored_frames": 1646
+    },
+    {
+      "video_id": "12_012",
+      "label": 0,
+      "video_score": 0.9999929450242866,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 627,
+      "num_scored_frames": 621
+    },
+    {
+      "video_id": "12_0142",
+      "label": 1,
+      "video_score": 0.9999923923862828,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 601,
+      "num_scored_frames": 595
+    },
+    {
+      "video_id": "12_015",
+      "label": 0,
+      "video_score": 0.9999304201854485,
+      "prediction": 0,
+      "correct": true,
+      "num_frames": 1052,
+      "num_scored_frames": 1046
+    },
+    {
+      "video_id": "12_0151",
+      "label": 1,
+      "video_score": 0.9999662516038684,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 289,
+      "num_scored_frames": 283
+    },
+    {
+      "video_id": "12_0173",
+      "label": 1,
+      "video_score": 0.999940643796076,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 217,
+      "num_scored_frames": 211
+    },
+    {
+      "video_id": "12_0174",
+      "label": 1,
+      "video_score": 0.9999737760267876,
+      "prediction": 1,
+      "correct": true,
+      "num_frames": 337,
+      "num_scored_frames": 331
+    },
+    {
+      "video_id": "13_001",
+      "label": 0,
+      "video_score": 0.9999924565721185,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 602,
+      "num_scored_frames": 596
+    },
+    {
+      "video_id": "13_005",
+      "label": 0,
+      "video_score": 0.999979629697416,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 386,
+      "num_scored_frames": 380
+    },
+    {
+      "video_id": "13_006",
+      "label": 0,
+      "video_score": 0.9999852936698455,
+      "prediction": 1,
+      "correct": false,
+      "num_frames": 458,
+      "num_scored_frames": 452
+    }
+  ]
+}

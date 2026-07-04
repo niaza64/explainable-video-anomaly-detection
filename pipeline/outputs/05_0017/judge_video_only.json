@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0017",
+  "variant": "video_only",
+  "human_explanation": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The activity observed in the frames appears normal. The individuals are walking calmly and behaving typically for a pedestrian area.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI completely misses the anomaly of the person throwing a bag into the air, instead describing typical pedestrian behavior, lacking any specific details noted by the human. While the explanation is fluent, it fails in correctness, specificity, and completeness."
+      }
+    }
+  ]
+}

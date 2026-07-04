@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0023",
+  "variant": "video_only",
+  "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "In Frame 219, an individual is bending down on the road, which is unusual for normal pedestrian walking behavior.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 3,
+        "justification": "The AI explanation identifies bending down as the anomaly, which is incorrect as the human explanation describes jumping and a subsequent pushing incident, followed by a chase. The AI's mention of bending down is somewhat specific but not relevant, failing to cover any key aspects of the human explanation. The AI explanation is moderately clear and coherent but lacks substantive detail."
+      }
+    }
+  ]
+}

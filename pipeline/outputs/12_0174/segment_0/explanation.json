@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 54,
+  "end_frame": 305,
+  "include_heatmap": true,
+  "explanation": "An individual is riding a bicycle on the pedestrian walkway, which deviates from normal pedestrian behavior typically expected in this scene, resulting in high anomaly scores in the flagged frames."
+}

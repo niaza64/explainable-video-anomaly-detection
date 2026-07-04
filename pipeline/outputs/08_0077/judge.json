@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0077",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity appears to be the presence of individuals using umbrellas on a clear day, which deviates from normal pedestrian behavior in this scene as indicated by concentrated warm areas in the heatmaps around the umbrellas.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation is incorrect in identifying the anomaly; it incorrectly focuses on umbrellas instead of the bicycle, which is the actual anomaly. The specificity is minimal as it mentions umbrellas generally without detailing context. It entirely misses key details about the cyclist, leading to low completeness. However, the explanation is fluently written."
+      }
+    }
+  ]
+}

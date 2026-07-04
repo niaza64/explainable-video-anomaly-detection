@@ -1,0 +1,17 @@
+{
+  "video_id": "05_062",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1070,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    310,
+    444,
+    578,
+    712,
+    846
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames contain high anomaly scores, with Frame 578 having a perfect score of 1.00. The anomaly heatmaps indicate unusual activity in multiple frames, especially around the pedestrians and their movement."
+}

@@ -1,0 +1,18 @@
+{
+  "video_id": "08_016",
+  "is_anomalous_gt": 0,
+  "total_frames": 937,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    133,
+    267,
+    401,
+    534,
+    668,
+    802,
+    936
+  ],
+  "anomaly_detected": null,
+  "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 26841, Requested 5575. Please try again in 4.832s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+}

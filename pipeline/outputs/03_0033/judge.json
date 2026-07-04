@@ -1,0 +1,18 @@
+{
+  "video_id": "03_0033",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "An unfamiliar interaction, possibly an altercation or unexpected gathering involving several individuals, occurred in this typically less crowded area, causing significant deviation from normal pedestrian behavior as indicated by high anomaly scores and dense heatmap activity.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 1,
+        "completeness": 2,
+        "fluency": 3,
+        "justification": "The AI explanation suggests an altercation but fails to describe the push, the specifics of the individuals or their actions, and completely misses the chase. While it hints at atypical behavior, it lacks any detail about the people involved or their clothing. The language is somewhat clear but vague."
+      }
+    }
+  ]
+}

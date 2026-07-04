@@ -1,0 +1,17 @@
+{
+  "video_id": "06_015",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 846,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    241,
+    343,
+    444,
+    546,
+    647
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, especially for frames 343 and 444, suggest unusual activity likely due to the open and unmonitored door, with no people visible in frame 444. This could indicate a potential security breach or unaccounted access."
+}

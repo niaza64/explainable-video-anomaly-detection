@@ -1,0 +1,17 @@
+{
+  "video_id": "08_0157",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    87,
+    126,
+    165,
+    204,
+    243
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are relatively high throughout the sequence, with a peak at frame 165 (score 1.00), indicating unusual activity. The positioning and clustering of individuals, along with possible interactions, suggest an anomaly compared to typical pedestrian movement."
+}

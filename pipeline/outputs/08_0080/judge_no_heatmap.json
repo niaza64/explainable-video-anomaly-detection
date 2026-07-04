@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0080",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "Throughout the flagged video segment, individuals are consistently seen carrying or interacting with an object near the center of the pathway, which is atypical for this setting and causes high anomaly scores, suggesting unusual behavior for this location.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies an anomaly related to behavior but fails to accurately describe the specific action of skateboarding, focusing instead on object interaction. It is vague in detail and doesn't capture key elements like the skateboard, black shirt, or backpack, though the language used is clear."
+      }
+    }
+  ]
+}

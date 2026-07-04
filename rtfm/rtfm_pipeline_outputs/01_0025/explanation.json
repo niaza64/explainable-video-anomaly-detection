@@ -1,0 +1,6 @@
+{
+  "video_id": "01_0025",
+  "gate_score": 0.9998989105224609,
+  "n_frames_sent": 8,
+  "explanation": "The anomalous activity involves a cyclist riding along a pedestrian walkway, where typically only pedestrians are expected. This starts at snippet 7, where a person on a bicycle is first seen, and peaks at snippet 11 with close proximity to pedestrians, before resolving towards snippet 34 as normal pedestrian activities resume. The deviation from normal behavior is the presence and movement of a bicycle in an area intended for pedestrians, posing potential safety concerns."
+}

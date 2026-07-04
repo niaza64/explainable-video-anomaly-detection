@@ -1,0 +1,17 @@
+{
+  "video_id": "02_008",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 302,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    83,
+    121,
+    159,
+    197,
+    235
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking towards a building, entering through a door. This behavior appears normal for a pedestrian area."
+}

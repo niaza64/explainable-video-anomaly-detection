@@ -1,0 +1,1442 @@
+[
+  {
+    "video_id": "01_0015",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0054"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+    "ai_explanation": "The video shows a person in a patterned shirt walking across a pedestrian plaza, with other individuals visible in the background. The anomaly scores are low (0.4034 and 0.3180), indicating no significant anomalous activity; all individuals are walking normally without unusual objects or behaviors. The scene appears consistent with typical pedestrian movement in a public space, with no deviation from normal behavior observed.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the actual anomaly described by the human, which is skateboarding in a pedestrian-only area where it is not allowed. The AI incorrectly states that there are no significant anomalies and describes normal pedestrian movement instead. While the AI mentions a patterned shirt and individuals in the background, it misses the specific details of individuals skateboarding and their shirt colors. The explanation is incomplete as it does not cover any of the relevant aspects mentioned by the human. However, the AI's explanation is relatively well-written and clear in its structure and language."
+    }
+  },
+  {
+    "video_id": "01_0025",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0030"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in grey shirt riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "A person on a bicycle rides across a wide pedestrian pathway, entering from the right and moving leftward, which is anomalous as cycling is not permitted in this pedestrian zone. The cyclist is wearing a light-colored shirt and dark shorts, and their presence disrupts the normal walking flow, especially as they pass near several pedestrians who are walking normally. The anomaly peaks when the cyclist is in the center of the pathway and resolves as they exit the frame, with the area returning to normal pedestrian activity.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of a person riding a bicycle in a pedestrian-only area where cycling is not permitted, matching the human's identification of the anomaly. It provides specific details about the cyclist's movement, attire, and interaction with pedestrians. The AI explanation covers all aspects mentioned by the human, adding additional context such as the disruption caused and the resolution of the anomaly. The explanation is well-written and clear, demonstrating excellent fluency."
+    }
+  },
+  {
+    "video_id": "01_0027",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0026"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in black shirt pushed a person in white shirt while running",
+    "ai_explanation": "A group of four young males walk across a paved plaza, with two of them (one in a white shirt and one in a striped shirt) suddenly turning and running away from the other two (one in a dark blue shirt and one in a light mint-green shirt), who then also begin to run in pursuit. This sudden shift from casual walking to running and chasing behavior is anomalous, as it deviates from normal pedestrian activity in a public space, suggesting a possible confrontation or chase.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation does not accurately identify the anomaly described by the human, which specifically mentions a pushing incident. The AI focuses instead on the sudden running behavior, which may be related but does not directly correlate to the action of pushing. While the AI provides specific details about shirt colors, it does not capture the specific interaction of 'a person in black shirt pushed a person in white shirt,' missing this key component of the anomaly. The fluency is good, as the explanation is coherent and clear, but it ultimately does not align well with the human's observed anomaly."
+    }
+  },
+  {
+    "video_id": "01_0028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0029"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in white shirt takes a bag from a pedestrian with striped shirt and runs away.",
+    "ai_explanation": "A group of young men are seen walking normally across a paved pedestrian area, but then suddenly break into a run, moving quickly and erratically across the walkway. This abrupt shift from walking to running in a public pedestrian zone is anomalous, as it deviates from typical calm, steady pedestrian behavior and may indicate a potential disturbance or unsafe activity.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation partially identifies erratic behavior (running), but fails to mention the theft (a person taking a bag) which is the central anomaly of the human's explanation. While it captures some context of movement, it lacks specific details like the people involved (a person in white and another in striped shirt) and the actions (bag being taken). Completeness is low as it does not cover all aspects mentioned by the human. The explanation is well-written and clear in terms of fluency, but incorrect in terms of identifying the key event."
+    }
+  },
+  {
+    "video_id": "01_0051",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0016"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in grey shirt and another person in mint/lightgreen shirt are riding two different bicycles in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "A person in a light-colored shirt is riding a bicycle through a pedestrian plaza where cycling is not permitted. The cyclist enters from the left, crosses the paved area, and exits to the right, passing near two pedestrians who are walking. The anomaly lies in the use of a bicycle in a space designated for pedestrian activity, which is inconsistent with normal behavior in this environment.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly as cycling in a pedestrian-only area, matching the human's observation (correctness: 5). It references a light-colored shirt but does not specify the two different shirt colors or acknowledge both cyclists, only mentioning one person (specificity: 3). The AI misses mentioning both individuals and their different shirt colors, which affects its completeness (completeness: 3). The explanation is well-written and clear overall (fluency: 5)."
+    }
+  },
+  {
+    "video_id": "01_0052",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0054"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in white shirt and carrying a bag is riding a bicycle in a pedestrian area.",
+    "ai_explanation": "A person wearing a white shirt and backpack rides a bicycle across a pedestrian plaza, which is unusual as the area is designated for walking only. This behavior deviates from normal pedestrian activity, especially as other individuals are seen walking calmly nearby. The anomaly peaks when the cyclist enters the central area of the plaza and begins to ride through the space, then resolves as they exit the frame.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly described by the human, mentioning the person with a white shirt and a bag (backpack) riding a bicycle in a pedestrian area. It provides specific details about the surroundings and actions, such as the pedestrian plaza and other individuals walking nearby. The explanation includes all aspects noted by the human, such as the clothing, the bicycle, and the location being a pedestrian area. The explanation is well-written, clear, and provides additional context about the designated purpose of the area and the behavior deviation, demonstrating high fluency."
+    }
+  },
+  {
+    "video_id": "01_0053",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0016"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "A person in a red shirt is driving a green three-wheeled utility vehicle across a pedestrian plaza, which is an anomalous activity as such vehicles are not typically allowed in pedestrian zones. The vehicle enters from the left, moves across the paved area, and exits to the right, disrupting the normal pedestrian flow. The anomaly peaks from the second to the sixth snippet, when the vehicle is fully visible and traversing the open space, deviating from expected pedestrian-only behavior.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of a person in a red shirt driving a vehicle in a pedestrian area. It provides specific details like the red shirt, green tricycle, and its path. It covers all aspects the human mentioned and gives additional information about the vehicle's movement. The explanation is clear and well-written."
+    }
+  },
+  {
+    "video_id": "01_0055",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0016"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt is running in a pedestrian area.",
+    "ai_explanation": "A person wearing a red shirt and dark pants is seen running across a paved pedestrian area, moving from the right side of the frame toward the center. This running behavior is anomalous in this context, as the surrounding individuals are walking or standing, and the area appears to be a calm, pedestrian-only zone where running is uncommon. The anomaly begins in the first frame and continues into the second, with the runner maintaining a fast pace across the open space.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the anomaly of a person in a red shirt running in a pedestrian area. It mentions specific details like the red shirt, dark pants, paved pedestrian area, direction of movement, and contrasts the running with the behavior of other individuals. The explanation is complete, covering all aspects mentioned by the human with added detail about the context and duration. It is also well-written and clear."
+    }
+  },
+  {
+    "video_id": "01_0056",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0073"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area.",
+    "ai_explanation": "A girl in a white shirt is riding a skateboard across a pedestrian plaza, while a boy in a light green shirt walks nearby holding a red object. Another person with a red backpack is visible in the background. The use of a skateboard in this pedestrian area is anomalous, as such wheeled activities are typically restricted in zones designated for walking.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of a girl in a white shirt skateboarding in a pedestrian area, which matches the human's description. It adds detailed specificity by mentioning other people and objects, enhancing the scene description beyond what the human provided. The AI explanation is complete, covering all elements the human mentioned and more. The fluency is excellent, with clear and well-structured writing."
+    }
+  },
+  {
+    "video_id": "01_0135",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0134"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "A silver minivan drives into and across a pedestrian-only paved area, which is designated for walking and not vehicle traffic. The vehicle enters from the left, moves across the walkway, and exits to the right, disrupting normal pedestrian flow. This is anomalous because motor vehicles are not permitted in this space, and the presence of the van poses a safety risk to pedestrians, including a person walking nearby.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly as a minivan driving through a pedestrian-only area, which matches the human's observation. It provides specific details about the minivan's actions, such as its entry and exit points and the disruption to pedestrian traffic, although it incorrectly identifies the color of the van as 'silver' instead of 'white'. Despite this minor discrepancy, the explanation is well-rounded, capturing all aspects mentioned by the human and is clearly written."
+    }
+  },
+  {
+    "video_id": "01_0136",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0138"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "A blue and white delivery truck enters a paved pedestrian area and drives across it, disrupting normal foot traffic. The truck, which appears to be a small cargo van with a covered bed, moves from the left side of the frame toward the right, passing close to several pedestrians who are walking normally. This is anomalous because the area is clearly designated for pedestrian use, as evidenced by the presence of multiple people walking and the absence of road markings or vehicle lanes, making vehicle entry inappropriate and potentially hazardous.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the anomaly as a vehicle driving in a pedestrian area and describes it in detail, matching the human explanation. It specifies the truck's color and type, the path it takes, and the context of the pedestrian area. All aspects mentioned by the human are captured, including the potential hazard. The explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "01_0139",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0140"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "A boy in a blue shirt rides a bicycle across a pedestrian-only tiled plaza, which is abnormal as this area is designated for walking. The anomaly peaks in the middle frames when he is centrally visible, and he exits the area by the final frame. Other pedestrians are walking normally around him, highlighting the deviation from expected behavior.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the anomaly of a person in a blue shirt riding a bicycle in a pedestrian-only area, matching the human's observation. It provides specific details about the person's attire, the setting, and the actions occurring, like the presence of other pedestrians walking. The explanation covers all parts mentioned by the human and additional insightful details about the anomaly's progression. It is also clearly written and well-structured."
+    }
+  },
+  {
+    "video_id": "01_0141",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0054"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area.",
+    "ai_explanation": "A person wearing a blue backpack is riding a skateboard across a pedestrian plaza, while two other individuals walk nearby. This is anomalous because skateboarding is typically prohibited in pedestrian zones, which are designed for walking only, and the rider's movement contrasts with the normal walking pace of the others.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of someone skateboarding in a pedestrian area, aligning with the human's focus on the skateboarding action. However, it refers to 'a person' rather than specifically identifying 'a girl' in a 'white shirt,' which reduces its specificity. The AI includes additional context about other individuals walking nearby, which adds to completeness. The explanation is well-written and clear, demonstrating high fluency."
+    }
+  },
+  {
+    "video_id": "01_0162",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0163"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+    "ai_explanation": "A person in a white shirt is riding a bicycle with a passenger on the back through a pedestrian plaza, which is an area where cycling is typically prohibited. The cyclist and passenger are moving alongside a group of four pedestrians walking normally. The anomaly arises from the presence of a bicycle with a passenger in a pedestrian-only zone, which deviates from expected behavior in this environment.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the anomalous presence of a bicycle with a passenger in a pedestrian area where cycling is prohibited, matching the human's observation. It provides specific details, such as the attire of the cyclist and the context of surrounding pedestrians, enhancing the specificity. The AI captures all aspects mentioned by the human and offers clear, well-structured reasoning for why the situation is considered anomalous, demonstrating excellent fluency."
+    }
+  },
+  {
+    "video_id": "01_0177",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0030"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person in a grey shirt rides a bicycle across a wide pedestrian plaza, where cycling is not permitted. This occurs between the second and fourth frames, as the cyclist moves from the right side of the frame toward the left, passing near a pedestrian in a red shirt. The activity is anomalous because bicycles are typically restricted in pedestrian zones to ensure safety and maintain normal foot traffic flow.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the same anomaly related to a person in a gray shirt riding a bicycle in a pedestrian area where cycling is not allowed. It provides specific details about the frames and the cyclist's movement, including the presence of another pedestrian in a red shirt. The explanation is complete, capturing all the aspects mentioned by the human. Additionally, it is well-written and clear, enhancing its fluency."
+    }
+  },
+  {
+    "video_id": "01_034",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "In a pedestrian area, a person wearing a dark shirt is carrying a large cardboard box on their shoulder while walking, which is unusual and potentially obstructive in a public walkway. This behavior deviates from normal pedestrian activity, which typically involves unencumbered walking. The anomaly peaks as the individual continues to carry the oversized object through the open space, drawing attention due to the atypical burden and potential safety hazard.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI misidentifies an anomaly where none exists according to the human explanation, thus scoring low on correctness and completeness. However, the AI provides specific details about the person's clothing and actions, contributing to a moderate score in specificity. The explanation is written in a clear and coherent manner, resulting in a higher fluency score."
+    }
+  },
+  {
+    "video_id": "01_047",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0140"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows several pedestrians walking across a tiled plaza, including a person in a white shirt and another with a backpack, followed by a group of four individuals later in the sequence. All individuals are walking normally, and no vehicles or unusual behaviors are observed. The anomaly scores are consistently low, indicating no significant anomalous activity; the scene appears to depict typical pedestrian movement in a public space.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the absence of an anomaly, matching the human's observation. It provides specific details about the scene, mentioning individuals and describing the normal pedestrian movement. All aspects mentioned by the human are captured, and the explanation is clear and well-written."
+    }
+  },
+  {
+    "video_id": "01_050",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0140"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows several pedestrians walking normally across a tiled outdoor plaza. There is no visible anomalous activity such as vehicles, unusual behavior, or obstruction of movement. The anomaly score is low (0.3290), indicating that the scene is consistent with normal pedestrian behavior, and no significant deviation from expected activity is observed.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the lack of an anomaly, matching the human's assessment. It includes specific details like the 'tiled outdoor plaza,' which enhances specificity, though more specific observations like individual pedestrian actions are not detailed. The AI captures the primary aspect of the human's explanation but expands on it by mentioning the absence of things like vehicles and citing an anomaly score, which the human did not address. The explanation is fluent and well-articulated."
+    }
+  },
+  {
+    "video_id": "01_072",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "In a pedestrian-only area, a woman in a blue jacket is seen running across the walkway, which is unusual given the calm, walking pace of other pedestrians. This sudden, fast movement deviates from the normal behavior expected in this environment, making it anomalous. The activity occurs in the middle of the sequence and resolves as she exits the frame.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identified an anomaly where the human noted none (correctness: 1). The AI mentioned specific details about the running woman in a blue jacket, but these details are irrelevant as there is no anomaly according to the human (specificity: 2). The AI failed to capture the main point from the human explanation, which is the absence of any anomaly (completeness: 1). The AI's explanation is generally well-written and coherent (fluency: 4)."
+    }
+  },
+  {
+    "video_id": "01_074",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "In a pedestrian-only paved area, a person wearing dark clothing is seen riding a bicycle across the walkway, which is prohibited. This activity occurs between the third and fourth frames, peaking in anomaly score at 0.9817, and is anomalous because cycling is not permitted in this zone designated for walking only.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 5,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human states there is none, thus scoring low on correctness and completeness. However, the AI provides a highly detailed and specific explanation, describing the person's clothing, the activity, and providing specific frames and scores. The explanation is also well-written, earning high marks for specificity and fluency."
+    }
+  },
+  {
+    "video_id": "01_078",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0026"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "Two individuals are walking side-by-side on a paved walkway; one is wearing a light blue shirt and beige shorts, while the other wears a dark blue shirt and green shorts. The person in the dark blue shirt repeatedly raises their hand to their head in a manner that appears unusual and possibly aggressive or erratic, deviating from normal pedestrian behavior. This behavior is flagged as anomalous, particularly in the second frame, where the hand gesture becomes more pronounced, suggesting a potential self-directed or confrontational action.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly in the video, which the human states does not exist, resulting in a low correctness score. The AI provides specific details about the individuals and their clothing, contributing to a high score in specificity. However, since there is nothing anomalous according to the human, the AI's explanation lacks completeness. The explanation is well-written and clear, earning a high fluency score."
+    }
+  },
+  {
+    "video_id": "01_079",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "In a pedestrian-only area, a person wearing a black shirt and dark pants is seen riding a skateboard, which is an anomalous activity in this zone. The individual moves across the paved walkway while other pedestrians walk normally, making the skateboarding behavior stand out as a deviation from expected pedestrian conduct. The anomaly is most prominent in the second frame, where the skateboarder is clearly visible and actively moving.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly that the human did not recognize, failing the correctness and completeness criteria, as it does not align with the human's lack of identified anomalies. However, it is specific in its description of the person, clothing, and actions, showing high specificity. The explanation is well-written and clear, fulfilling the fluency criterion."
+    }
+  },
+  {
+    "video_id": "01_080",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "In a pedestrian-only paved area, a person wearing a white shirt and carrying a backpack is seen riding a skateboard, which is an unusual and prohibited activity in this zone. This behavior deviates from normal pedestrian movement, as all other individuals are walking. The anomaly is consistent across the sequence, with the skateboarder moving from the background toward the foreground, indicating a sustained violation of the area's rules.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly that the human stated does not exist, resulting in a low correctness and completeness score. The AI's explanation is specific, mentioning the skateboard, the person's attire, and movement. However, since this was incorrect, it only partially meets the specificity criterion. Fluency is high as the explanation is well-structured and clear, despite being incorrect."
+    }
+  },
+  {
+    "video_id": "01_082",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "01_0076"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A large group of people, mostly young men in casual clothing, suddenly enters the frame from the left and walks quickly across the pedestrian plaza, which is unusual given the otherwise calm and sparse pedestrian activity. This sudden influx of people moving in a coordinated, fast-paced manner deviates from the normal, steady flow of individuals seen in the surrounding frames, making it anomalous.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI explanation identifies an anomaly where the human explicitly states there is none, thus scoring low in correctness and completeness. However, the AI provides specific details about the supposed anomaly, like the description of people and their movement, deserving a high score in specificity. The explanation is clearly written, justifying a high fluency score."
+    }
+  },
+  {
+    "video_id": "02_003",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "02_0128"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man in a gray shirt is riding an electric scooter on a pedestrian pathway, which is designated for walking. This occurs in a public area where cycling or scootering is not permitted, and he is moving at a speed that poses a risk to nearby pedestrians, including a woman walking on the sidewalk. The activity is anomalous because it violates the expected pedestrian-only behavior in this space.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 5,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human states there is none, showing poor correctness and completeness. However, it provides a highly detailed and specific account of the scenario it describes, with excellent fluency."
+    }
+  },
+  {
+    "video_id": "02_012",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "02_0128"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man wearing a red and blue shirt is walking while looking down at his phone, appearing distracted and not paying attention to his surroundings. This behavior is anomalous because it deviates from normal pedestrian conduct in a public area where awareness is expected for safety, especially as he walks near other pedestrians in a shared space. The anomaly is most pronounced in the middle of the sequence, where his focus on the phone is sustained.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly where the human noted there is none, leading to a low correctness score. The AI includes specific details related to the individual's clothing and behavior, which earns it some points for specificity. However, since the human observed no anomaly, the AI's explanation lacks completeness. The fluency of the explanation is good, as it is well-written and clear."
+    }
+  },
+  {
+    "video_id": "02_015",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "02_0164"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of people, including men in white shirts and a woman in a striped dress, are walking along a sidewalk in front of a glass-fronted building. The anomaly is subtle but involves a person in a red top and white shorts walking briskly across the paved area, deviating from the typical pedestrian flow and possibly entering a restricted or non-pedestrian zone. This behavior stands out as anomalous due to its unusual speed and direction relative to the other pedestrians who are walking in a more uniform, relaxed manner.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation identifies an anomaly that is not recognized by the human, who states there is no anomaly. Therefore, correctness is low. Specificity is high due to detailed descriptions of clothing and actions. Completeness is low as it incorrectly perceives an anomaly and misses the human's interpretation. Fluency is high; the explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "02_0161",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "02_0128"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person wearing a dark blue shirt and carrying a backpack rides a bicycle with a front basket along a paved path adjacent to a pedestrian walkway, where cycling is not permitted. This occurs from the middle to the peak of the anomaly sequence, as the cyclist moves from right to left across the frame, while pedestrians walk normally on the sidewalk nearby, highlighting the inappropriate use of the bicycle in a pedestrian zone.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 4,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": "The AI identifies part of the anomaly, specifically mentioning a cyclist in a pedestrian area, similar to the human explanation. However, it incorrectly notes the presence of only one person on the bicycle, whereas the human explanation mentions two people. The AI provides specific details such as the shirt color, backpack, and direction of movement, contributing to specificity. The explanation lacks completeness by not including all details from the human version (the second person and their shirt color). The explanation is well-structured and clear, achieving high fluency."
+    }
+  },
+  {
+    "video_id": "03_002",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0041"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person in a white shirt and dark shorts is seen walking across the road while carrying a backpack, but then suddenly drops the backpack and continues walking without it, which is unusual behavior in a pedestrian crossing area. This action occurs in the first two frames and is flagged as anomalous due to the unexpected and potentially disruptive act of discarding an object in a public space. Other individuals in the scene, including one in a red shirt and another in a dark shirt, walk normally across the crosswalk, highlighting the deviation in the person's behavior.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 4,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly in the video by highlighting a specific event that the human did not consider unusual. While it provides specific details about the pedestrians' clothing and actions, it misinterprets a normal event as anomalous. The explanation is mostly clear and well-written, but it doesn't capture the human's main point that nothing anomalous is present."
+    }
+  },
+  {
+    "video_id": "03_0031",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0035"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a red shirt snatch a bag from a pedestrian in a blue shirt and runs away.",
+    "ai_explanation": "Two boys, one in a red shirt carrying a backpack and another in a dark blue shirt, are seen running across the pedestrian crossing, which is unusual given the typical calm pace of pedestrian movement in this area. This running behavior, especially with a backpack being carried, deviates from normal walking patterns and occurs during the middle to later frames of the sequence, peaking in anomaly score at the point of their fastest movement.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI correctly identifies the unusual running behavior of individuals in a red shirt and a blue shirt as the anomaly, aligning partially with the human description. However, it does not mention the bag snatching explicitly. Specific details about the clothing are provided, but the key action of bag snatching is missed, affecting both specificity and completeness. The explanation is generally well-written and clear, supporting a good fluency score."
+    }
+  },
+  {
+    "video_id": "03_0032",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0036"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+    "ai_explanation": "A man in a light green shirt suddenly falls to the ground in the middle of the road, disrupting normal pedestrian flow. He is then helped up by another man in a red shirt, while other pedestrians continue walking across the crosswalk. This behavior is anomalous because falling and requiring assistance in a public roadway is unexpected and creates a potential hazard, deviating from typical pedestrian movement.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI identifies an anomaly involving a person in a light green shirt, which partially overlaps with the human-identified anomaly. However, the AI describes the situation as a fall with aid from a man in a red shirt, not recognizing that the person was pushed by someone in a white shirt and then got up on their own, thus failing on correctness and completeness. The AI also introduces a man in a red shirt not mentioned by the human. Specificity is limited as it does not detail the push action or the accurate clothing colors. The fluency is high as the explanation is well-written and logically structured."
+    }
+  },
+  {
+    "video_id": "03_0033",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0035"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+    "ai_explanation": "Two boys, one in a white shirt and black shorts and the other in a light green shirt and grey shorts, engage in a physical altercation on a pedestrian crosswalk. The boy in white is pushed to the ground and then runs away, while the boy in green follows him briefly before stopping. This aggressive interaction is highly unusual for a pedestrian area, where normal behavior involves calm walking or crossing.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 5,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly that there is a physical altercation involving a person in a mint-green shirt and a person in a white shirt, aligning with the human's description, but incorrectly states the person in white runs away instead of standing up and chasing. The AI provides specific details about clothing and setting, enhancing specificity. It does not fully capture the sequence mentioned by the human explanation, as it misses the quarrel and the chase continuation. The explanation is well-written and clear, maintaining high fluency."
+    }
+  },
+  {
+    "video_id": "03_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0035"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "Three boys walk across a pedestrian crosswalk: one in a purple shirt and beige pants, another in a red shirt and beige shorts, and a third in a navy blue shirt and gray shorts. They move normally across the crosswalk and exit the frame without any unusual interactions or behaviors. The anomaly scores are very low throughout, indicating no significant anomalous activity; the scene is consistent with normal pedestrian behavior.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is nothing anomalous in the video, matching the human's assessment. It provides specific details on the appearance of the pedestrians and describes their normal behavior, capturing all aspects mentioned by the human. The explanation is also well-written and clear, with no issues in fluency."
+    }
+  },
+  {
+    "video_id": "03_0059",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "03_0036"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "Two people with dark blue and dark grey shirts are fighting on the road and later walk together.",
+    "ai_explanation": "Two men in dark shirts engage in a physical altercation in the middle of a crosswalk, with one appearing to grab or push the other. This aggressive interaction occurs while other pedestrians walk normally around them, making the behavior highly anomalous as it disrupts the expected safe and orderly flow of pedestrian traffic. The anomaly peaks in the middle frames and resolves as the individuals separate and continue walking.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI correctly identifies the altercation as the main anomaly occurring on the road, noting the physical interaction between two men in dark shirts. However, it misses the specific shirt colors (dark blue and dark grey) mentioned by the human. The AI explanation captures the main event of fighting and subsequent separation but doesn't highlight the aspect of them walking together afterward. The description is clear and well-written, but lacks the full specificity and completion compared to the human explanation."
+    }
+  },
+  {
+    "video_id": "04_0004",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "04_0003"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+    "ai_explanation": "A person in a light green shirt suddenly falls to the ground in a paved pedestrian area, while three others nearby stop and appear to react to the incident. The fall occurs in the middle of the sequence and is followed by the group standing around the fallen individual before resuming movement, which is anomalous given the otherwise normal pedestrian flow in the area. This deviation from typical walking behavior triggers high anomaly scores during the event.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": "The AI correctly identifies the fall of a person in a mint-green shirt, matching the human observation of a person being pushed to the ground. However, it does not mention that the fall was caused by another person, missing this critical detail regarding the push. The AI specifies some details, like the presence of other people reacting, but lacks specific identification of those people or the fact that the person in the white shirt initiated the fall. It captures part of the human explanation but omits the stand-up and walking together afterwards. The explanation is generally well-written and clear although it introduces unnecessary context about anomaly scores, which is not mentioned in the human explanation."
+    }
+  },
+  {
+    "video_id": "04_0011",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "04_0013"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A small girl in red shirt is running far away from her family, which could be unsafe.",
+    "ai_explanation": "A young child in a pink outfit is seen running across a pedestrian plaza, moving away from a group of adults who are walking with a stroller. This running behavior is anomalous in this context, as the area is designed for calm walking, and the child's uncontrolled movement contrasts with the steady pace of the surrounding pedestrians. The anomaly peaks as the child runs independently across the open space, while adults continue walking normally in the background.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of a child running away from a group of adults, which aligns with the human observation of the girl running far from her family. However, there is a slight inconsistency in the clothing color description ('pink outfit' versus 'red shirt'), leading to a minor deduction in correctness and specificity. Completeness is relatively high, as the AI captures the core aspects of the scene, including the child's movement relative to the adults. The fluency is excellent, with a clear and well-structured explanation."
+    }
+  },
+  {
+    "video_id": "04_0012",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "04_0010"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+    "ai_explanation": "A man in a white shirt and light pants is seen walking across a pedestrian plaza, but then abruptly changes direction and begins running in a circular path around the central area. This behavior is anomalous because, while other pedestrians walk normally in straight paths, his sudden acceleration and circular movement deviate from typical pedestrian flow. The anomaly peaks in the middle of the sequence and resolves as he slows down and exits the frame.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the same anomaly as the human, which is the person in a white shirt moving in circles. The AI includes more specific details, such as the person's clothing (light pants), the abrupt change in direction, running in a circular path, and how this deviates from normal pedestrian behavior. It captures all aspects mentioned by the human and adds more context, making the explanation both complete and detailed. The writing is clear and well-structured, effectively conveying the anomalous event."
+    }
+  },
+  {
+    "video_id": "04_002",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "10_0075"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of young men are walking across a paved plaza, with one individual in a white shirt and black shorts carrying a backpack and holding a phone. As they move, their formation becomes slightly scattered, with one person veering off the main path. This deviation from typical synchronized pedestrian movement is flagged as anomalous, though the behavior remains within normal bounds of casual walking.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human sees none, scoring low on correctness and completeness. However, it offers a detailed description of the scene, earning a high score in specificity. The explanation is clear and well-written, granting it full marks for fluency."
+    }
+  },
+  {
+    "video_id": "04_0046",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "04_0003"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+    "ai_explanation": "A group of four young men walk across a pedestrian plaza, but one of them, wearing a dark shirt and carrying a backpack, suddenly performs an acrobatic flip or jump in mid-stride, which is highly unusual in this calm, public setting. This erratic movement stands out against the normal walking behavior of the others and the quiet environment, making it anomalous. The activity peaks in the middle frames and resolves as the group continues walking normally.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI explanation identifies a different anomaly involving a person performing an acrobatic flip or jump, whereas the human explanation describes someone throwing a bag in the air. The AI provides specific details about the setting and actions of the group but fails to mention any bag or throwing action, leading to low correctness and completeness. The explanation is well-written and clear, thus scoring high in fluency."
+    }
+  },
+  {
+    "video_id": "04_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "04_0013"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of people, including a man in a blue shirt and another in a yellow shirt, are seen walking together across a pedestrian plaza. The anomaly occurs when one individual in the group suddenly veers off and runs away from the group, deviating from the normal collective walking behavior. This abrupt change in motion and direction is unusual in a public space where pedestrian movement is typically calm and coordinated.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where none exists according to the human explanation. It provides specific details about clothing and actions, enhancing specificity. However, it fails to align with the human observation of no anomaly, thus lacking completeness. The explanation is well-structured and clear, demonstrating fluency."
+    }
+  },
+  {
+    "video_id": "05_0017",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0021"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in dark blue shirt repeatedly throws a bag into the air while walking on the road.",
+    "ai_explanation": "A person wearing a dark blue shirt and shorts performs an acrobatic jump with arms raised in the middle of a pedestrian pathway, which is unusual and potentially hazardous in a public walkway. This action occurs around the middle of the sequence and stands out from the normal walking behavior of the other individuals present, who are casually strolling nearby. The jump deviates from typical pedestrian conduct, making it a safety concern in a shared space.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI does not identify the same anomaly as the human; it focuses on an acrobatic jump instead of repeatedly throwing a bag. The AI mentions specific clothing details and describes the setting, but it does not address the bag-throwing behavior. The explanation is fluent and clear, but it fails to capture the main aspect of the anomaly described by the human."
+    }
+  },
+  {
+    "video_id": "05_0019",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0021"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+    "ai_explanation": "A group of five young men are walking together on a paved path near a pedestrian area with railings. In the middle of the sequence, they suddenly stop and engage in a brief, coordinated physical interaction\u2014appearing to push or shove one another playfully\u2014before dispersing and continuing to walk. This sudden, unstructured physical contact among pedestrians in a public space is anomalous, as it deviates from typical calm, individual or orderly group walking behavior, potentially posing a safety risk or disrupting the normal flow of foot traffic.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation correctly identifies an interaction involving physical contact but mischaracterizes it as playful rather than a fight, leading to a lower correctness score. The specificity is moderate as it mentions the number of people, setting, and actions, but incorrectly describes the nature of the interaction. Completeness is lacking because the explanation does not capture all critical aspects of the human explanation, such as the fact that the group walks away after the interaction. Fluency is high as the explanation is well-structured and clear."
+    }
+  },
+  {
+    "video_id": "05_0023",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0024"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a dark blue shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+    "ai_explanation": "A man in a dark blue shirt performs an acrobatic flip onto a paved road, followed by another man in a light green shirt who falls to the ground after a similar motion. These actions occur in a public pedestrian area, where such high-energy stunts are unusual and disruptive to normal walking behavior. The anomaly peaks during the flips and falls, which are physically risky and out of place in this calm, park-like setting.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation identifies part of the anomaly, particularly the actions involving a person in a dark blue shirt and a person in a mint-green shirt. However, it incorrectly describes their actions as acrobatic flips rather than jumping and being pushed. It fails to mention the person in a red shirt, who plays a critical role in the event. The explanation lacks mention of the chase that follows. While the explanation is fairly specific and detailed regarding the setting, it misses the specific interactions between the people involved, leading to incomplete capture of the event. The fluency is good, with a clear and well-structured narrative."
+    }
+  },
+  {
+    "video_id": "05_010",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0024"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows four individuals walking normally along a paved pathway in a park-like setting. There is no visible anomalous activity such as fighting, running, or erratic behavior. The anomaly score of 0.3680 is relatively low, indicating that the scene is mostly normal, with no significant deviation from typical pedestrian behavior. The individuals are walking in small groups, maintaining steady pace and appropriate spacing, consistent with routine movement in a public space.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the lack of anomalies in the video, matching the human explanation. It provides specific details about the individuals walking, the setting, and the absence of anomalous behavior. It covers most aspects mentioned by the human but goes further by also referring to an 'anomaly score,' which the human does not mention. The explanation is clear and well-written."
+    }
+  },
+  {
+    "video_id": "05_058",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0024"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows a group of pedestrians walking along a paved pathway and sidewalk in a park-like setting. While most individuals are walking normally, a small group in the background, including a person in a red jacket and another in a black jacket, exhibit unusual behavior by stopping and standing still on the pathway, which is atypical for a busy pedestrian area. This deviation from continuous motion makes their behavior anomalous, as it disrupts the normal flow of foot traffic.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI did not correctly identify the same anomaly (or lack thereof) as the human, as it noted an anomaly in a video where the human observed none. The AI specifies some details like the setting and clothing of individuals, but creates an anomaly not present in the human's observation. The explanation is fairly complete in describing a potential anomaly, but this is inaccurate given the task. The fluency is good, with well-constructed sentences and clarity in its own narrative."
+    }
+  },
+  {
+    "video_id": "05_060",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0021"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows a group of young men walking casually along a paved pathway in a campus-like setting, with no clear anomalous behavior. The anomaly scores are low (0.3102, 0.3401), indicating that the activity is normal\u2014pedestrians walking in groups, some interacting and laughing, which is typical for this environment. There is no deviation from expected pedestrian behavior, such as running, climbing, or obstructing pathways, making the scene unremarkable and non-anomalous.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, aligning with the human explanation. It specifies details such as the group of young men and the campus-like setting, though it lacks mention of all pedestrians walking normally. The explanation is complete, capturing the essence of non-anomalous activity as discussed by the human. It is also well-written and clear."
+    }
+  },
+  {
+    "video_id": "05_062",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "05_0024"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows a normal pedestrian scene with no clear anomalous activity. Two women walk together on a paved path, while other individuals are seen in the background near a railing and green area. The anomaly score is low (0.3421), indicating that the behavior observed\u2014such as walking, standing, and casual movement\u2014is consistent with typical pedestrian activity and does not deviate from normal patterns.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human's observation. It provides specific details about the pedestrian scene, mentioning two women walking and other individuals near a railing and green area, although it could be more detailed about all aspects mentioned by the human. The explanation covers all aspects mentioned by the human regarding the normal behavior of pedestrians. The explanation is well-written and clear, making it fluent."
+    }
+  },
+  {
+    "video_id": "06_0144",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0155"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A white minivan is being driven in a pedestrian area.",
+    "ai_explanation": "A silver minivan drives into a pedestrian zone adjacent to a building with glass doors, parking directly in front of the entrance. This is anomalous because vehicles are not expected in this area, which is designated for pedestrian use. The van remains stationary as a man with a backpack walks toward the building entrance, indicating the area is primarily for foot traffic.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomalous event of a minivan driving into a pedestrian area, consistent with the human's identification of the anomaly. It provides specific details such as the color of the minivan, the presence of glass doors, and the man with a backpack, enhancing specificity. However, it slightly differs in color description (silver vs. white), which is a minor detail that could affect completeness but does not significantly impact the understanding of the anomaly. The AI explanation is well-written and clear, scoring high in fluency."
+    }
+  },
+  {
+    "video_id": "06_0153",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0155"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area.",
+    "ai_explanation": "A man in a dark blue shirt and beige pants is riding a bicycle through a pedestrian walkway adjacent to a building with glass doors, which is an area where cycling is typically not permitted. He enters the frame from the left, rides past a pedestrian in a white shirt, and exits to the right, while another person in a green top walks along the sidewalk. This behavior is anomalous because it violates the expected pedestrian-only use of the walkway, especially in proximity to a building entrance.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly related to cycling in a pedestrian area, albeit with a slight discrepancy in shirt color (dark blue versus black) and pants not mentioned by the human. The explanation is specific with detailed descriptions of clothing, actions, and environment, including the presence of other individuals, which indicates higher specificity and completeness. It also provides context on why the action is anomalous with clarity, demonstrating high fluency."
+    }
+  },
+  {
+    "video_id": "06_017",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0150"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man in a white shirt and dark shorts is seen walking out of a building entrance while looking down at his phone, then continues walking along the sidewalk. The anomaly occurs in the second snippet, where his distracted walking behavior\u2014specifically, his focus on the phone while moving in a pedestrian area\u2014deviates from normal, attentive pedestrian conduct. This behavior is flagged as anomalous because it poses a potential safety risk and is inconsistent with typical, aware movement in a public space.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly in the video, whereas the human explanation states there is none, leading to a low correctness score. The AI provides a detailed description of the man's actions, resulting in a higher specificity score. However, since it does not align with the human's interpretation, the completeness score is low. The AI explanation is well-written and clear, justifying a high fluency score."
+    }
+  },
+  {
+    "video_id": "06_018",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0145"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man wearing a plaid shirt, jeans, and red shoes walks along a sidewalk in front of a building with large glass windows, carrying a black backpack. He walks from right to left, passing the entrance, and then exits the frame. The anomaly is subtle but likely stems from his unusual gait or movement pattern compared to the normal pedestrian flow, as indicated by the rising anomaly score peaking at the third frame and then decreasing. The presence of other pedestrians walking normally later in the sequence highlights the deviation in his behavior.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly where the human explanation states there is none, resulting in a low correctness score. While the AI provides specific details about the clothing and actions of an individual in the video, aligning with the specificity criteria, it fails to capture the core aspect of the human explanation\u2014that all pedestrians, including the highlighted individual, are walking normally. This leads to a low completeness score. The explanation is well-written and logically structured, earning a higher fluency score, despite its inaccuracies."
+    }
+  },
+  {
+    "video_id": "06_020",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0150"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man in a white striped shirt and beige pants exits a building and walks along the sidewalk in front of a glass-walled structure. He continues walking steadily to the right, passing by the entrance. The activity is flagged as anomalous due to the model's detection of unusual motion patterns or context, though the behavior appears normal at first glance\u2014possibly indicating a false positive or subtle deviation in gait or timing that deviates from typical pedestrian flow.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 4,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": "The AI identifies a potential anomaly where none was noted by the human, which suggests a misalignment in correctness. Specificity is good as it mentions details like the man's clothing and movements. Completeness is moderate because it does not align with the human's observation of no anomaly whereas it tries to rationalize an anomaly. Fluency is high as the explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "06_026",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0150"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of five young men suddenly gathers and walks together toward the building entrance, which is unusual given the otherwise sparse and individual pedestrian traffic. This coordinated group movement stands out as anomalous compared to the normal pattern of people walking alone or in pairs, and the anomaly peaks as they approach the entrance together.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identified an anomaly when the human stated there was none, affecting correctness and completeness. However, it provides specific details about the group of men and their movements, which shows high specificity. The explanation is well-written and clear, showing high fluency."
+    }
+  },
+  {
+    "video_id": "06_028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "06_0150"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A man in a plaid shirt and beige shorts is seen walking toward a building entrance while looking at his phone, then enters the building. Simultaneously, a woman in a red top walks past the entrance and enters the building. The anomaly arises from the man's distracted behavior\u2014walking while focused on his phone\u2014near a pedestrian entrance, which deviates from typical cautious, aware pedestrian movement in such areas. The anomaly peaks as he enters the building while still engaged with his device, suggesting a potential safety risk or disregard for surroundings.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly where the human states none exists, earning a low correctness score. However, the AI provides detailed descriptions of the individuals and their actions, so it scores high on specificity. It fails to capture that the human observer sees no anomaly, thus performing poorly on completeness. The explanation is well-written, leading to a high fluency score."
+    }
+  },
+  {
+    "video_id": "07_0006",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "07_0007"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+    "ai_explanation": "A person in a light green shirt pushes another person in a white shirt, causing them to fall to the ground on a crosswalk. This aggressive interaction occurs in a public area where such behavior is inappropriate, and the incident is witnessed by several other pedestrians who continue walking without intervening. The anomaly peaks during the push and fall, then resolves as the individuals disengage and walk away.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of the push and fall involving a person in a mint-green shirt and a person in a white shirt. It mentions specifics such as clothing color and context like location (crosswalk) and the presence of other pedestrians, which enhances specificity but does not specifically mention that the person in white chased the other. The explanation is missing the detail of the person in white getting up and chasing, making it incomplete. The fluency is high, with a well-written and clear description."
+    }
+  },
+  {
+    "video_id": "07_0008",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "07_0007"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+    "ai_explanation": "A person in a dark blue shirt and shorts is seen carrying a long, dark object resembling a bat or pole across a crosswalk, holding it above their head in a threatening or aggressive manner. This behavior occurs in a public pedestrian area, where carrying and brandishing such an object is highly unusual and potentially dangerous. The anomaly peaks as the individual stands in the middle of the road with the object raised, before walking away, while other pedestrians avoid the area.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 4,
+      "completeness": 3,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the general anomaly of a person carrying and brandishing a long object in a potentially dangerous manner, partially matching the human's description of swinging a steel bar. However, the AI incorrectly notes the shirt color (dark blue instead of maroon) and doesn't explicitly mention the swinging action, focusing instead on the object's position and pedestrian avoidance. Despite this, the explanation is specifically detailed in terms of actions and setting. The AI explanation is also well-written and clear, demonstrating high fluency."
+    }
+  },
+  {
+    "video_id": "07_0048",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "07_0007"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt while fighting each other.",
+    "ai_explanation": "A person in a dark blue shirt and beige pants suddenly runs toward a group of three individuals standing near a crosswalk, appearing to initiate a physical confrontation. The group, consisting of one person in a white shirt, one in a navy blue 'JUST DO IT' shirt, and one in a red shirt, reacts by turning and moving away. This aggressive approach in a public pedestrian area is anomalous, as it deviates from normal social behavior and suggests potential conflict.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 4,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI correctly identifies a confrontation involving a person in a red shirt but misidentifies the colors of clothing for the people involved in the chase. The AI's description includes specific details of other individuals who were not mentioned by the human, indicating an inconsistency. The explanation misses the key aspect of a chase as opposed to just an aggressive approach and initiation of a physical confrontation. The AI's description is clear and well-written."
+    }
+  },
+  {
+    "video_id": "08_001",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0156"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A large group of students, many wearing backpacks, suddenly begins running in a coordinated manner across a pedestrian plaza, deviating from the normal walking behavior observed in the surrounding individuals. This surge of running activity starts around the middle of the sequence and peaks as the group moves together through the area, which is typically used for calm pedestrian movement, making the collective running highly anomalous.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly, whereas the human states there is none, resulting in a low correctness score. The AI provides specific details about the supposed anomaly, such as students, backpacks, and coordinated running, which warrants a higher score in specificity. However, as the human mentioned no anomaly, the AI's explanation lacks completeness when compared to the human explanation. The explanation is well-written and clear, earning a higher fluency score."
+    }
+  },
+  {
+    "video_id": "08_0058",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0159"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "A man in a white shirt and dark pants carrying a black briefcase is walking briskly and then suddenly runs across the pedestrian plaza, deviating from the normal walking pace of surrounding individuals. This rapid movement stands out as anomalous in a public space where most people are walking calmly, suggesting an unusual or urgent behavior.",
+    "scores": {
+      "correctness": 3,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 5,
+      "justification": "The AI correctly identifies an anomaly related to running in a pedestrian area but differs from the human explanation by not mentioning the cycling at the beginning. The AI adds details about a briefcase instead of a backpack and does not mention the initial cycling incident, reducing completeness and specificity. The explanation is well-written and clear, earning full marks for fluency."
+    }
+  },
+  {
+    "video_id": "08_0077",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0079"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person riding a bicycle enters a pedestrian plaza and continues riding through the area, which is designated for walking. This behavior is anomalous because cycling is typically prohibited in such zones to ensure pedestrian safety, and the cyclist moves through a crowd of people walking normally, creating a potential hazard.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of a person riding a bicycle in a pedestrian area where cycling is not allowed, aligning with the human's observation. It mentions the pedestrian plaza and describes the area being designated for walking, capturing the main idea. However, it does not specify that the person is wearing a black shirt, which was noted by the human. Other than missing the detail about the shirt color, the AI explanation covers all important elements and is well-written and clear."
+    }
+  },
+  {
+    "video_id": "08_0080",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0078"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+    "ai_explanation": "A person in a blue shirt and beige pants is seen running across a pedestrian plaza, which is designated for walking. This running behavior is anomalous compared to the other individuals who are walking calmly nearby. The anomaly peaks in the middle frames and begins to resolve as the runner exits the scene, with the surrounding pedestrians continuing their normal walking patterns.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the correct anomaly, as it describes a person running instead of a person skateboarding, which is the actual anomaly identified by the human. Specificity is low because the AI mentions incorrect details (blue shirt, running) but does include some specifics like pedestrian plaza and walking. Completeness is also very low as it misses the essence of the human explanation entirely, both in terms of the nature of the anomaly (skateboarding) and the apparel (black shirt, backpack). Fluency is relatively high as the explanation is well-written and clear, albeit incorrect."
+    }
+  },
+  {
+    "video_id": "08_0158",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0159"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "A man in a white shirt and dark pants carrying a black briefcase is walking briskly and then suddenly runs across the pedestrian plaza, deviating from the normal walking pace of surrounding individuals. This rapid movement stands out as anomalous in a public space where most people are walking calmly, suggesting an unusual or urgent behavior.",
+    "scores": {
+      "correctness": 2,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI identifies a running individual, which partially aligns with the human's observation. However, it does not mention the initial anomaly of a person cycling. The AI incorrectly describes the running individual as carrying a briefcase instead of a backpack. It provides detailed descriptions of clothing and actions but misses key details such as the cycling at the beginning. The explanation is generally well-written but lacks full alignment and completeness compared to the human description."
+    }
+  },
+  {
+    "video_id": "08_016",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0156"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "The video shows a group of pedestrians walking normally along a paved outdoor pathway in a campus-like environment. There is no clear anomalous behavior such as running, sudden movements, or collisions. The anomaly scores are consistently low (mostly below 0.5), indicating that the activity is normal. The presence of people walking in groups, some with backpacks and umbrellas, is typical for a pedestrian area and does not deviate from expected behavior.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is nothing anomalous in the video, matching the human explanation's conclusion. It provides specific details about the scene, mentioning pedestrians, the environment, and typical behaviors. The explanation is complete, encompassing all elements the human noted - namely, that people are walking normally. Additionally, the AI explanation is well-written and clear, with a structured presentation of the reasoning."
+    }
+  },
+  {
+    "video_id": "08_021",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person in a white shirt and dark pants is pushing a stroller along a pedestrian walkway, while another individual in a white shirt and dark pants walks nearby. The anomaly arises from the unusual interaction or proximity between the two individuals, as they appear to be moving in a coordinated but non-standard manner, potentially indicating a security concern or unusual behavior in a public space where such close, synchronized movement is uncommon.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly, while the human indicated there was none; thus, the correctness score is low. The AI explanation provides specific details about clothing and actions, earning some points for specificity. However, it fails to capture the complete and accurate scenario presented by the human, resulting in a low completeness score. The explanation is generally well-written and clear, thus it scores higher in fluency."
+    }
+  },
+  {
+    "video_id": "08_023",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0156"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A large group of students, many wearing backpacks, is seen walking together in a coordinated manner across a pedestrian plaza, forming a dense cluster that moves as a unit. This collective movement stands out as anomalous because it deviates from the typical scattered, individual pedestrian flow observed in the area; the group's synchronized motion and high density disrupt the normal, calm walking patterns of other individuals in the vicinity. The anomaly peaks in the middle frames and resolves as the group disperses toward the end.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 5,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI explanation incorrectly identifies an anomaly in a situation where the human observer noted no anomaly, which affects the correctness and completeness scores. However, the AI describes the scene with specific details about the students' behavior, which earns a high specificity score. The explanation is well-structured and clear, justifying a high fluency score."
+    }
+  },
+  {
+    "video_id": "08_028",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of individuals in dark uniforms, likely security personnel, are seen converging and standing together in the middle of a pedestrian walkway, which is unusual for a public area where people typically pass through without stopping. This gathering is anomalous as it disrupts the normal flow of pedestrian traffic and suggests an unexpected event or intervention. The anomaly peaks in the middle frames as the group forms, then subsides as they disperse slightly, but their presence remains out of place in the otherwise calm, routine environment.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human states there is none. The AI provides specific details about a supposed group converging, but this is not mentioned by the human and is thus incorrect. The AI's explanation is fluent, specific, and detailed about an event that the human did not acknowledge, but it fails to align with the human's simple claim of normalcy, making it incomplete and incorrect in context."
+    }
+  },
+  {
+    "video_id": "08_029",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person wearing a red shirt is skateboarding along a pedestrian walkway, which is designated for walking only. This activity is anomalous because skateboarding disrupts the normal pedestrian flow and poses a safety risk in a shared public space. The anomaly is most pronounced in the middle frames, where the skateboarder moves across the path while other pedestrians walk normally.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly that the human did not mention, thus failing to correctly identify the same anomaly as the human. It does provide specific details such as the red shirt and skateboarding, but these details are irrelevant since the human noted no anomaly. The AI's completeness is lacking because it introduces an incorrect element rather than capturing the human's observation about normal pedestrian behavior. The explanation is well-written and clear, which is reflected in the fluency score."
+    }
+  },
+  {
+    "video_id": "08_030",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "Two individuals are riding skateboards along a pedestrian walkway, which is designated for walking only. One rider wears a blue shirt and carries a backpack, while the other wears a dark shirt and also carries a backpack. This activity is anomalous because skateboarding in this area disrupts normal pedestrian flow and violates the intended use of the pathway.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 5,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human states none exists; thus, correctness is low. However, the AI provides specific details about the individuals and the supposed activity, so specificity is high. The AI does not capture the human's interpretation, so completeness is low. The explanation is well-written and clear, so fluency is high."
+    }
+  },
+  {
+    "video_id": "08_037",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person wearing a blue shirt is skateboarding along a pedestrian walkway, which is designated for walking only. This activity is anomalous because skateboarding disrupts the normal pedestrian flow and poses a safety risk in a shared public space. The anomaly is most pronounced in the middle of the sequence, where the skateboarder moves across the path while other pedestrians walk normally.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly where the human states there is none, resulting in a low correctness score. The AI gives a specific description involving a person in a blue shirt and skateboarding, which is specific but incorrect. The explanation lacks completeness because it contradicts the human's assessment and creates details that were not mentioned by the human. However, the explanation is well-written and clear, which grants it a higher fluency score."
+    }
+  },
+  {
+    "video_id": "08_047",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "08_0179"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "Multiple individuals are seen skateboarding along a pedestrian walkway, which is designated for walking only. The skaters, including one in a red shirt and another in a striped shirt, move at speed across the paved path, posing a safety risk to other pedestrians. This behavior is anomalous because it violates the expected use of the space, which is designed for slow, foot-based movement.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly that the human did not see, indicating a misalignment in perceived events (correctness: 1). The AI mentions specific details like 'individuals skateboarding,' 'pedestrian walkway,' and 'individuals in a red and a striped shirt,' which adds specificity to the explanation (specificity: 4). However, the AI fails to capture the human's perspective of no anomaly (completeness: 1). The explanation is clear and well-written, maintaining good fluency (fluency: 5)."
+    }
+  },
+  {
+    "video_id": "09_003",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "09_0057"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "Two men are walking together in a pedestrian area; one wears a yellow shirt with a backpack and knee brace, while the other wears a gray jacket and holds a white object. Their behavior appears normal, but the anomaly score suggests a subtle deviation, possibly due to the unusual combination of the knee brace and the object being held, which may indicate an atypical or unexpected activity in this context.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly where the human explicitly states there is none, resulting in a low correctness score. It provides specific details about the individuals observed in the video, which is why specificity is rated high. However, it fails to capture the essence of the human explanation (that there is no anomaly) in its completeness, hence a low score. The explanation is mostly well-written and clear, with good sentence structure and detail, contributing to a higher fluency score."
+    }
+  },
+  {
+    "video_id": "09_007",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "09_0057"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A group of four people, including a man in a red shirt and a woman in a striped shirt, walk together across the plaza and stop briefly to interact closely, with the man leaning down toward the woman as if adjusting something or engaging in an unusual physical interaction. This behavior is anomalous because it deviates from typical pedestrian flow, where individuals usually walk without stopping to engage in close, prolonged interactions in open public spaces. The anomaly peaks in the middle frames and resolves as the group continues walking.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 5,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI's explanation incorrectly identifies an anomaly where the human saw none, resulting in a low correctness score. However, the AI description is rich in specific details, mentioning the clothing and actions of the individuals involved, warranting a high score for specificity. The completeness is low since the AI explanation diverges from the human's simple observation that there is nothing anomalous. The fluency is high, as the explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "10_0038",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "10_0037"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person in a green shirt is riding a bicycle through a pedestrian plaza, moving from the background toward the right foreground. This activity is anomalous because the area is designated for pedestrian use, and cycling is not permitted, especially as the cyclist passes near several walking pedestrians. The anomaly peaks in the middle of the sequence as the cyclist becomes more prominent and continues moving through the space.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the same anomaly as the human by noting a person in a green shirt riding a bicycle where cycling is not allowed. It includes specific details about the movement and location of the cyclist and mentions the pedestrian setting and proximity to pedestrians, capturing all aspects mentioned by the human. The explanation is also well-written and clear, meeting all criteria at the highest level."
+    }
+  },
+  {
+    "video_id": "10_004",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "10_0037"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person in a dark t-shirt and light shorts is walking across a pedestrian plaza, moving from the background toward the center of the frame. Two other individuals are also present, walking in different directions. The anomaly is subtle and likely stems from the person in the center walking with an unusual gait or posture, possibly involving slight arm flailing or unbalanced movement, which deviates from typical pedestrian behavior in this calm, open space. The anomaly is detected across the entire sequence, suggesting a persistent atypical motion pattern.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 1,
+      "fluency": 5,
+      "justification": "The AI incorrectly identifies an anomaly where the human explained that there is none, resulting in a low correctness score. The specificity score is higher as the AI mentions specific clothing and actions, indicating details in the scene. The completeness score is low because the AI introduces an incorrect anomaly, missing the human's emphasis on normalcy. Fluency is high as the explanation is well-structured and clear."
+    }
+  },
+  {
+    "video_id": "10_0042",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "10_0037"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "Two people, one in a white shirt and another in striped shirt, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+    "ai_explanation": "A man in a black t-shirt and shorts is walking across a pedestrian plaza while looking down at his phone, appearing distracted. He walks slowly and remains focused on his device, deviating from normal pedestrian behavior which typically involves awareness of surroundings. This behavior is flagged as anomalous because it increases the risk of collision in a shared public space, especially as other pedestrians and a scooter pass nearby.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI does not identify the same anomaly as the human. While the human notes the anomaly of two people riding a scooter in a pedestrian area, the AI focuses on a man being distracted while walking. The AI does mention specific details regarding the man's appearance and behavior, which adds some specificity, but this is unrelated to the anomaly identified by the human. The AI explanation does not capture any aspect of the human's explanation, making it incomplete. The fluency is decent, with a clear and well-structured narrative, though it ultimately describes a different event."
+    }
+  },
+  {
+    "video_id": "10_005",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "10_0037"
+    ],
+    "video_type": "normal_FP",
+    "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+    "ai_explanation": "A person wearing a dark top and long green skirt walks across a paved pedestrian plaza, moving from the right side of the frame toward a curved planter. The individual appears to be walking normally, but the anomaly likely stems from their unusual attire for the setting \u2014 specifically, the long skirt \u2014 which deviates from typical pedestrian clothing in this modern, urban environment. The anomaly is detected in the middle of the sequence, peaking at the second snippet, suggesting the model flags this as atypical behavior despite no overt irregular action.",
+    "scores": {
+      "correctness": 1,
+      "specificity": 4,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI incorrectly identifies an anomaly in the video when there is none, as stated by the human. It provides specific details about attire and location which demonstrate good specificity, but it fails in completeness by inventing an anomaly not spotted by the human. The explanation is coherent and well-written, thus scoring high in fluency."
+    }
+  },
+  {
+    "video_id": "12_0142",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "12_0148"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person rides a bicycle through a pedestrian-only plaza, navigating across a paved area with trees and benches while other pedestrians walk nearby. This behavior is anomalous because the area is designated for foot traffic only, and cycling poses a safety risk to pedestrians. The anomaly peaks when the cyclist moves through the central walkway, disrupting the normal pedestrian flow.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly of cycling in a pedestrian-only area, aligning with the human's interpretation. It provides a detailed description of the environment and the action, but does not specify the cyclist's gray shirt. It captures most aspects mentioned by the human, like the restriction of cycling and the presence of pedestrians. The explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "12_0151",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "12_0154"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "In a pedestrian-only plaza, a person wearing a yellow shirt is walking normally, but a woman on a bicycle with a front basket enters the area and rides across the paved space. This cycling activity is anomalous because the area is designated for pedestrians, and riding a bicycle through it violates expected behavior. The anomaly peaks as the cyclist moves across the central walkway, then resolves as she exits the frame.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the anomaly as a woman riding a bicycle in a pedestrian area, which matches the human's identification of the anomaly. It provides specific details about the pedestrian-only plaza and the cyclist's action, including a mention of the front basket which isn't in the human explanation, but it incorrectly describes the cyclist's shirt color as yellow instead of white. The AI explanation is fluent and well-structured, offering a clear narrative of the event."
+    }
+  },
+  {
+    "video_id": "12_0173",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "12_0148"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person rides a bicycle through a pedestrian plaza, an area designated for foot traffic only. The cyclist moves across the paved walkway, passing near other pedestrians, including a group of three individuals walking together. This behavior is anomalous because cycling is not permitted in this pedestrian zone, posing a safety risk to others walking in the area.",
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the anomaly of a person cycling in a pedestrian area where cycling is prohibited, matching the human's observation. It is specific in describing the presence of other pedestrians and mentions a group of three individuals, but lacks the specific detail of the cyclist's white shirt. The AI captures all aspects mentioned by the human, including the safety risk posed. The explanation is well-written and clear."
+    }
+  },
+  {
+    "video_id": "12_0174",
+    "model": "Qwen/Qwen3-VL-32B-Instruct",
+    "run_tag": "rag_k1_clip",
+    "retrieved_train_ids": [
+      "12_0148"
+    ],
+    "video_type": "anomalous",
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "A person rides a bicycle through a pedestrian-only plaza, navigating a paved area with trees and benches while a man in a white shirt and black shorts walks nearby. The cycling activity is anomalous because the area is designated for foot traffic only, and the presence of a bicycle disrupts the expected pedestrian behavior, posing a potential safety hazard.",
+    "scores": {
+      "correctness": 4,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the anomaly of riding a bicycle in a pedestrian-only area, which aligns with the human's observation. It provides specific details about the environment, mentioning the paved area, trees, and benches, as well as noting a man in a white shirt and black shorts nearby. However, it does not specify that the person cycling is a girl in a white shirt, which the human pointed out. While the AI captures most aspects mentioned by the human, it misses this detail about the cyclist's gender and clothing. The explanation is well-written and clear."
+    }
+  }
+]

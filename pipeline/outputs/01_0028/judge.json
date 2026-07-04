@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0028",
+  "variant": "with_heatmap",
+  "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is likely due to an unusual behavior of a group of pedestrians engaging in sudden movements, such as running or chasing, which deviates from the normal walking patterns typically seen in this area.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI partially identifies the anomaly involving running but fails to specify the theft or the individual actions accurately. The explanation lacks specific details such as the act of taking a bag and involves general terms like 'group of pedestrians' and 'sudden movements'. It does not fully capture the theft aspect mentioned by the human, but the response is fluently written."
+      }
+    }
+  ]
+}

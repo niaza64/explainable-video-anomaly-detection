@@ -1,0 +1,18 @@
+{
+  "video_id": "01_057",
+  "is_anomalous_gt": 0,
+  "total_frames": 734,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    104,
+    209,
+    314,
+    418,
+    523,
+    628,
+    733
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show pedestrians walking calmly, which is considered normal activity for surveillance footage."
+}

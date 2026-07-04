@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0055",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    89,
+    128,
+    167,
+    206,
+    245
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sampled frames show people walking in a normal manner across a paved area. No unusual or rapid movements are observed."
+}

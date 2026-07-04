@@ -1,0 +1,17 @@
+{
+  "video_id": "06_022",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 724,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    224,
+    311,
+    398,
+    485,
+    572
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are consistently high, especially at frames 311 and 398. The heatmaps indicate unusual activity or presence near the entrance throughout multiple frames, suggesting potential anomalous behavior."
+}

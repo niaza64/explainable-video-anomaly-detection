@@ -1,0 +1,17 @@
+{
+  "video_id": "08_045",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 798,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    239,
+    333,
+    427,
+    521,
+    615
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sampled frames show normal pedestrian activity with individuals walking at a typical pace along a path. No unusual or suspicious behavior is observed in the frames provided."
+}

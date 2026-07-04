@@ -1,0 +1,13 @@
+{
+  "video_id": "06_0153",
+  "total_frames": 217,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 36,
+      "end_frame": 204,
+      "include_heatmap": false,
+      "explanation": "The anomalous activity involves a person riding a bicycle on a path typically used by pedestrians, deviating from normal pedestrian behavior and likely causing the elevated anomaly scores."
+    }
+  ]
+}

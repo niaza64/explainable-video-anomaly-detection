@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0135",
+  "variant": "video_only",
+  "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A vehicle is present and driving on the pedestrian walkway, which is an unusual activity for this area meant for pedestrians.",
+      "scores": {
+        "correctness": 5,
+        "specificity": 3,
+        "completeness": 4,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly of a vehicle driving in a pedestrian area, matching the human explanation. However, it lacks detail about the minivan being white and having black tinted windows. It covers the main point of vehicles being prohibited but misses the specific vehicle description. The explanation is well-written and clear."
+      }
+    }
+  ]
+}

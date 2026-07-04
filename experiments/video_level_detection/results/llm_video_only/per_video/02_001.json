@@ -1,0 +1,18 @@
+{
+  "video_id": "02_001",
+  "is_anomalous_gt": 0,
+  "total_frames": 908,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    129,
+    259,
+    388,
+    518,
+    647,
+    777,
+    907
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames depict individuals walking calmly along the path, which aligns with normal pedestrian behavior."
+}

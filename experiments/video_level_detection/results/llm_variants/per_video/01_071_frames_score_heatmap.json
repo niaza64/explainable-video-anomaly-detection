@@ -1,0 +1,17 @@
+{
+  "video_id": "01_071",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1052,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    302,
+    433,
+    564,
+    695,
+    826
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Higher scores from frames 302 to 695 indicate anomalies, likely due to pedestrians exhibiting unusual behavior such as stopping or making abrupt movements, especially evident in frames 433 and 564."
+}

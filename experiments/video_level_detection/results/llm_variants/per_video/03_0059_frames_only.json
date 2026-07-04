@@ -1,0 +1,17 @@
+{
+  "video_id": "03_0059",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    126,
+    180,
+    235,
+    289,
+    343
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence of frames shows people walking across a pedestrian crossing in a typical manner without any unusual activity."
+}

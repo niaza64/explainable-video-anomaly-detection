@@ -1,0 +1,17 @@
+{
+  "video_id": "12_015",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1052,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    308,
+    438,
+    569,
+    699,
+    829
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show individuals and groups of people walking along a path. Their movement appears normal and consistent with typical pedestrian behavior."
+}

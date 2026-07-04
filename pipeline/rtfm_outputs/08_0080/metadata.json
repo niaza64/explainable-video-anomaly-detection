@@ -1,0 +1,105 @@
+{
+  "video_id": "08_0080",
+  "gate_score": 0.9113319516181946,
+  "n_segments": 18,
+  "segment_scores": [
+    0.005472744815051556,
+    0.07120062410831451,
+    0.23454812169075012,
+    0.6599603891372681,
+    0.7806562781333923,
+    0.9175122976303101,
+    0.8941189646720886,
+    0.921467125415802,
+    0.9416586756706238,
+    0.9469712376594543,
+    0.9268625974655151,
+    0.8887609243392944,
+    0.9183725118637085,
+    0.873218834400177,
+    0.8627279996871948,
+    0.7422100305557251,
+    0.6422126293182373,
+    0.38317662477493286
+  ],
+  "anomalous_segments": [
+    {
+      "start_snippet": 3,
+      "end_snippet": 17,
+      "selected_snippets": [
+        {
+          "snippet_idx": 3,
+          "score": 0.6599603891372681
+        },
+        {
+          "snippet_idx": 5,
+          "score": 0.9175122976303101
+        },
+        {
+          "snippet_idx": 7,
+          "score": 0.921467125415802
+        },
+        {
+          "snippet_idx": 9,
+          "score": 0.9469712376594543
+        },
+        {
+          "snippet_idx": 12,
+          "score": 0.9183725118637085
+        },
+        {
+          "snippet_idx": 14,
+          "score": 0.8627279996871948
+        },
+        {
+          "snippet_idx": 17,
+          "score": 0.38317662477493286
+        }
+      ]
+    }
+  ],
+  "extracted_frames": [
+    {
+      "snippet_idx": 3,
+      "score": 0.6599603891372681,
+      "frame_num": 56,
+      "file": "snippet_003_frame_0056.jpg"
+    },
+    {
+      "snippet_idx": 5,
+      "score": 0.9175122976303101,
+      "frame_num": 88,
+      "file": "snippet_005_frame_0088.jpg"
+    },
+    {
+      "snippet_idx": 7,
+      "score": 0.921467125415802,
+      "frame_num": 120,
+      "file": "snippet_007_frame_0120.jpg"
+    },
+    {
+      "snippet_idx": 9,
+      "score": 0.9469712376594543,
+      "frame_num": 152,
+      "file": "snippet_009_frame_0152.jpg"
+    },
+    {
+      "snippet_idx": 12,
+      "score": 0.9183725118637085,
+      "frame_num": 200,
+      "file": "snippet_012_frame_0200.jpg"
+    },
+    {
+      "snippet_idx": 14,
+      "score": 0.8627279996871948,
+      "frame_num": 232,
+      "file": "snippet_014_frame_0232.jpg"
+    },
+    {
+      "snippet_idx": 17,
+      "score": 0.38317662477493286,
+      "frame_num": 280,
+      "file": "snippet_017_frame_0280.jpg"
+    }
+  ]
+}

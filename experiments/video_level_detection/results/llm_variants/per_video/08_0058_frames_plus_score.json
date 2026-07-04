@@ -1,0 +1,17 @@
+{
+  "video_id": "08_0058",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 337,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    95,
+    137,
+    179,
+    221,
+    263
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores in several frames are quite high, indicating unusual activity. Frame 179 has the highest score of 0.99, suggesting something abnormal likely occurred during that frame."
+}

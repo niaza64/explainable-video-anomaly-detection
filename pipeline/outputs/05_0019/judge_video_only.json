@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0019",
+  "variant": "video_only",
+  "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A group of individuals is seen stopping in the middle of the road, interacting closely and blocking the walkway, which deviates from normal pedestrian behavior of walking calmly on paths.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies a group of individuals interacting, but does not capture the element of a fight or specify the number of people involved or the white shirt. The explanation mentions blocking the walkway and interacting closely, hinting at an abnormal event, but misses the fight and the aftermath of walking away. The language is clear, though lacks necessary detail."
+      }
+    }
+  ]
+}

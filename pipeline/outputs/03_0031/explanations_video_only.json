@@ -1,0 +1,26 @@
+{
+  "video_id": "03_0031",
+  "variant": "video_only",
+  "total_frames": 529,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    75,
+    150,
+    226,
+    301,
+    377,
+    452,
+    528
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 528,
+      "include_heatmap": false,
+      "explanation": "All frames show normal activity with pedestrians walking calmly on the pathway."
+    }
+  ]
+}

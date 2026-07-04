@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0008",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    65,
+    130,
+    195,
+    260,
+    325,
+    390,
+    456
+  ],
+  "anomaly_detected": true,
+  "explanation": "An individual is carrying a rifle-like object, which is unusual for a pedestrian setting and may indicate potential danger or security concern."
+}

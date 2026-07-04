@@ -1,0 +1,17 @@
+{
+  "video_id": "08_004",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 770,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    218,
+    311,
+    404,
+    496,
+    589
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores in frames 311 (0.97) and 404 (0.99) suggest unusual activity, such as a person moving unexpectedly or interacting with the environment differently than normal pedestrian walking."
+}

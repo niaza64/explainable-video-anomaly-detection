@@ -1,0 +1,18 @@
+{
+  "video_id": "09_007",
+  "is_anomalous_gt": 0,
+  "total_frames": 1577,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    225,
+    450,
+    675,
+    900,
+    1125,
+    1350,
+    1576
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show pedestrians walking calmly on the walkway, which is normal behavior for the scene."
+}

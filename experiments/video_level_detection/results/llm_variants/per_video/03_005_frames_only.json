@@ -1,0 +1,17 @@
+{
+  "video_id": "03_005",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 427,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    121,
+    174,
+    227,
+    280,
+    333
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show normal pedestrian walking across a crosswalk over time without any unusual activity."
+}

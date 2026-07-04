@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 99,
+  "end_frame": 543,
+  "include_heatmap": true,
+  "explanation": "The anomalous activity involves a person wearing a brightly colored hat which stands out against the usual pedestrian flow, capturing the model's attention due to unusual coloring patterns that deviate from the normal scene."
+}

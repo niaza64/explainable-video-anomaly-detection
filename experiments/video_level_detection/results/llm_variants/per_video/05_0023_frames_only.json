@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0023",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 769,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    234,
+    326,
+    418,
+    510,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "In frames 234 and 418, individuals appear to be running in an unusual manner, suggesting possible conflict or playful chasing, which is anomalous compared to normal pedestrian walking."
+}

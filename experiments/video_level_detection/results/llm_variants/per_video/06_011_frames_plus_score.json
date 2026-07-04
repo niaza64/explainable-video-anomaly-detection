@@ -1,0 +1,17 @@
+{
+  "video_id": "06_011",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 256,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    74,
+    106,
+    139,
+    171,
+    203
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "An anomaly is detected as a person is seen lingering near the building entrance over multiple frames, which could be considered unusual behavior compared to normal pedestrian movement."
+}

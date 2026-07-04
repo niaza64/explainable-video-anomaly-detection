@@ -1,0 +1,17 @@
+{
+  "video_id": "08_030",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 902,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    280,
+    387,
+    494,
+    601,
+    708
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are relatively high, particularly in frames 387 and 494, indicating unusual activity. The heatmaps show areas of potential anomalies where people might be engaging in atypical movement or behavior."
+}

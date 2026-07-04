@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0053",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by a motorized vehicle operating in a pedestrian-only area, which is unusual given normal pedestrian traffic patterns in this scene.",
+      "scores": {
+        "correctness": 4,
+        "specificity": 2,
+        "completeness": 3,
+        "fluency": 5,
+        "justification": "The AI correctly identifies the anomaly as a vehicle in a pedestrian area, but does not specify the type of vehicle or the driver's clothing. It misses the key detail of the tricycle being driven by a person in a red shirt. However, the explanation is well-written and clear."
+      }
+    }
+  ]
+}

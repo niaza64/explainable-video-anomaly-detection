@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0173",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    30,
+    61,
+    92,
+    123,
+    154,
+    185,
+    216
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames depict individuals walking or cycling in a calm manner on pathways, which appears to be typical pedestrian activity."
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0028",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    136,
+    195,
+    253,
+    312,
+    370
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 195, 253, and 312 show high anomaly scores (0.96, 0.99, and 0.88 respectively) with people interacting closely or moving unusually, possibly indicating anomalous behavior relative to normal pedestrian movement. Frame 253 in particular shows a high anomaly, suggesting significant unusual activity."
+}

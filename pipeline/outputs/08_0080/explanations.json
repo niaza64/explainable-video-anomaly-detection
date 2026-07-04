@@ -1,0 +1,13 @@
+{
+  "video_id": "08_0080",
+  "total_frames": 289,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 47,
+      "end_frame": 267,
+      "include_heatmap": true,
+      "explanation": "The anomalous activity in the video segment is a confrontation or interaction between individuals that appears aggressive or atypical for the scene, as indicated by high anomaly scores and heatmap highlights around the people involved, deviating from normal pedestrian behavior."
+    }
+  ]
+}

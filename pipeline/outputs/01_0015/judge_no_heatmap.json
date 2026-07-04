@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0015",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves individuals unusually spread out and frequently changing direction, which deviates from normal walking patterns typically seen in this area, where people usually move in a consistent direction.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation does not identify the correct anomaly involving two people skateboarding, which is mentioned in the human explanation. It provides a vague description about movement patterns without specific details about objects, actions, or people involved. The AI misses all key points noted by the human. Despite these flaws, the writing is clear and coherent."
+      }
+    }
+  ]
+}

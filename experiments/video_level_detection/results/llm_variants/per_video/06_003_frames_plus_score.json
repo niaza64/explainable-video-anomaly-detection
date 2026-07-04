@@ -1,0 +1,17 @@
+{
+  "video_id": "06_003",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 1024,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    330,
+    460,
+    591,
+    721,
+    851
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores are high, especially frames 460 (0.94) and 591 (0.99), indicating unusual activity like people entering or exiting the building."
+}

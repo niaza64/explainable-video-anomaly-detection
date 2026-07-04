@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0055",
+  "is_anomalous_gt": 1,
+  "total_frames": 313,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    44,
+    89,
+    133,
+    178,
+    222,
+    267,
+    312
+  ],
+  "anomaly_detected": true,
+  "explanation": "A person is seen running in frames 89 and 133, which deviates from the normal behavior of walking calmly."
+}

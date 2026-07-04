@@ -1,0 +1,16 @@
+{
+  "video_id": "03_0033",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+  "ai_explanation": "The anomalous activity involves two individuals engaging in a physical altercation starting in snippet 3 and peaking in snippet 9. One person in a white shirt is seen aggressively approaching and pushing another person wearing a green shirt. This behavior deviates from normal pedestrian behavior typically observed at this location, which is usually void of such conflicts. By snippet 12, the scene returns to normal pedestrian behavior with individuals casually walking through the area.",
+  "gate_score": 0.7251114249229431,
+  "gt_anomaly_start": 51,
+  "gt_anomaly_end": 166,
+  "scores": {
+    "correctness": 3,
+    "specificity": 3,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI identifies an altercation between two individuals but incorrectly states that the person in white shirt pushes the person in green, reversing the roles stated in the human explanation. The mention of colors of clothing provides some specificity, but the AI misinterprets the actions. The explanation misses the sequence of standing up, quarreling, and chasing, thus lacking completeness. The text is fairly well-written and clear."
+  }
+}

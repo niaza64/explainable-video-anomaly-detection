@@ -1,0 +1,18 @@
+{
+  "video_id": "06_003",
+  "is_anomalous_gt": 0,
+  "total_frames": 1024,
+  "frames_sampled": 7,
+  "sampled_indices": [
+    0,
+    146,
+    292,
+    438,
+    584,
+    730,
+    876,
+    1023
+  ],
+  "anomaly_detected": false,
+  "explanation": "All frames show people entering or exiting a building calmly, consistent with normal pedestrian behavior."
+}

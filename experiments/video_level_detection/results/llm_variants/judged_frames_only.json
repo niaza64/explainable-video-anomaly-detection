@@ -1,0 +1,2987 @@
+[
+  {
+    "video_id": "01_0015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a red shirt is skateboarding in a pedestrian-only area where skateboarding is not allowed, followed by another person in a white shirt who is also skateboarding.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking casually across the area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly describes the footage as normal pedestrian activity, failing to identify the anomaly of two individuals skateboarding in a pedestrian-only area. It lacks any mention of the skateboarding activity, which is the key element that the human explanation highlights as anomalous. The AI explanation is fluent, but completely incorrect regarding the event details in the footage."
+    }
+  },
+  {
+    "video_id": "01_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking normally down a pathway, with no unusual behavior or crowding observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations indicate that there is no anomaly in the video. The AI explanation is slightly more specific by describing the normal behavior of people walking down a pathway without any unusual behavior or crowding, which adds valuable context but doesn't introduce any new information that contradicts the human explanation. Both maintain fluency and clarity in their descriptions."
+    }
+  },
+  {
+    "video_id": "01_0025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28839, Requested 3952. Please try again in 5.582s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation is not provided for the video due to a technical error message related to rate limits. Therefore, it cannot be evaluated for correctness, specificity, completeness, or fluency compared to the human explanation."
+    }
+  },
+  {
+    "video_id": "01_0027",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The frames show people walking normally along the pathway with no signs of anomalous behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 5,
+      "justification": "The AI explanation incorrectly states there is no anomalous behavior, while the human explanation indicates a person is running in a pedestrian area, which is the anomaly. The AI fails to capture this detail, hence scores low in correctness, specificity, and completeness. However, the AI explanation is fluently written."
+    }
+  },
+  {
+    "video_id": "01_0028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+    "ai_explanation": "In Frame 312, three individuals are engaged in an activity that resembles running or chasing, which deviates from normal walking behavior observed in other frames.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation correctly identifies an anomaly related to running or chasing, which is in line with the human explanation about a person running away. However, the AI explanation lacks specificity, as it does not mention the bag being taken or identify the exact nature of the anomaly. Completeness is also lacking since it only partially describes the event. The explanation is fluently written but fails to provide enough detail."
+    }
+  },
+  {
+    "video_id": "01_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in various directions, which appears to be normal pedestrian behavior with no unusual activity observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the scenario as normal, aligning with the human explanation of 'No anomaly in the video.' It adds specific details about people walking in various directions, which supports the conclusion of normal activity. The explanation is complete and fluently articulated, providing a clear understanding of the situation without any misleading information."
+    }
+  },
+  {
+    "video_id": "01_0051",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The series of frames show normal pedestrian walking and cycling behavior in a public space. There are no unusual activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the anomaly of a person riding a bicycle in a pedestrian-only area, where cycling is not allowed. It incorrectly categorizes the scene as normal pedestrian and cycling behavior, missing the core detail that makes the scene anomalous. The specificity is low as it generically states normal behavior without acknowledging the specific context of a pedestrian-only area. Additionally, the completeness is lacking since the explanation does not cover the key element of the human explanation. However, the fluency is acceptable, as the explanation is clear and grammatically correct."
+    }
+  },
+  {
+    "video_id": "01_0052",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person wearing a white shirt and carrying a bag is riding a bicycle in a pedestrian area while others are walking.",
+    "ai_explanation": "The video shows normal pedestrian activity and a bicyclist on a walkway. There is no unusual or anomalous behavior detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the bicyclist and indicates normal activity, aligning with the human explanation. However, it lacks the specific detail about the person wearing a white shirt and carrying a bag, which affects its specificity and completeness. Fluency is high as the explanation is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "01_0053",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a red shirt is driving a tricycle in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "There is no anomaly in the video. Pedestrians are walking normally, and the vehicle is moving along without unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the anomaly where a person in a red shirt is driving a tricycle in a pedestrian area. It incorrectly states there is no unusual behavior, demonstrating a lack of correctness and specificity. It also misses important details regarding the restricted area aspect, leading to incomplete analysis. The fluency score remains high, as the language is coherent and grammatically correct, despite the inaccuracy."
+    }
+  },
+  {
+    "video_id": "01_0055",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The sampled frames show people walking in a normal manner across a paved area. No unusual or rapid movements are observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly describes normal activity and misses the anomaly of a person running in a pedestrian area noted by the Human explanation. It lacks specificity and completeness about the unusual behavior of the person in the red shirt described by the Human. However, the explanation is fluently written."
+    }
+  },
+  {
+    "video_id": "01_0056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A girl in a white shirt is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "Pedestrians are walking normally across all sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 5,
+      "justification": "The AI explanation describes normal pedestrian activity, which is partially correct because the human explanation mentions others walking. However, it misses the specific and anomalous aspect of the video where a girl is skateboarding in a pedestrian area. The AI lacks specificity and completeness in identifying the anomaly, and it does not directly address the potentially inappropriate or unexpected activity of skateboarding in this setting. Despite this, the AI explanation is fluently written."
+    }
+  },
+  {
+    "video_id": "01_0064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+    "ai_explanation": "The frames show pedestrians walking along a pathway without any unusual or irregular behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation correctly describes normal pedestrian activity but fails to specifically mention the running girl with a red bag and the skateboarder in a white shirt, which are distinctive details included in the human explanation. The AI's description is general and lacks the specificity needed to match the human description. It also misses the completeness because it doesn't mention any individuals or their actions specifically. The fluency of the AI explanation is good, as it is coherent and grammatically correct."
+    }
+  },
+  {
+    "video_id": "01_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking normally along a path. There are no irregular or unusual activities observed in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional detail by mentioning individuals walking normally and specifying the absence of irregularities, which enhances specificity and completeness. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "01_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking activity with various individuals or groups moving across a paved area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional context by describing the pedestrian activity, which increases specificity and completeness. The description is clear and grammatically correct, ensuring high fluency."
+    }
+  },
+  {
+    "video_id": "01_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video frames show pedestrians walking normally along a pathway without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video by indicating normal pedestrian activity. It adds specificity by mentioning the pathway and behavior of pedestrians, thus aligning perfectly with 'no anomaly.' The explanation is complete, covering the necessary details, and is fluently expressed."
+    }
+  },
+  {
+    "video_id": "01_0135",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A white minivan with black tinted windows is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "The sequence shows normal pedestrian and vehicle movement in the area without any unusual or suspicious activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly characterizes the video as normal, while the human notes an anomaly with a vehicle in a pedestrian area. The AI lacks specificity about the presence of the white minivan mentioned by the human and does not address the anomaly. Fluency is good, but it doesn't compensate for the lack of correctness or completeness."
+    }
+  },
+  {
+    "video_id": "01_0136",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A white-and-blue mini truck is being driven through a pedestrian area where vehicles are not allowed.",
+    "ai_explanation": "A vehicle is present and moving on a pedestrian walkway, which is unusual and potentially hazardous.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the anomaly of a vehicle being in a pedestrian area, similar to the human explanation. It correctly notes the unusual and potentially hazardous nature of the situation. However, it lacks the specific detail about the vehicle being a 'white-and-blue mini truck', which affects specificity and completeness slightly. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "01_0139",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a blue shirt is riding a bicycle in a pedestrian-only area where cycling is not allowed.",
+    "ai_explanation": "The sequence of frames shows normal pedestrian and cyclist movement in an open area, with no unusual behavior or incidents apparent.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly identifies the situation as normal, when there is actually an anomaly present\u2014bicycling in a pedestrian-only zone. The AI fails to specify this anomaly, thus providing an incomplete assessment. The explanation is fluent, but its content is incorrect and lacks specificity regarding the observed event."
+    }
+  },
+  {
+    "video_id": "01_0141",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A girl in a white shirt with a blue bag is skateboarding in a pedestrian area while others are walking.",
+    "ai_explanation": "The individuals appear to be moving in a coordinated and normal manner without any signs of conflict or irregular activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify that a girl is skateboarding in a pedestrian area, which is the notable activity in the human explanation. It generally describes the scene as normal without addressing the specific action of skateboarding. The explanation is fluent but lacks the correct and specific details to match the human description."
+    }
+  },
+  {
+    "video_id": "01_0162",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+    "ai_explanation": "The video frames show normal pedestrian activity and people riding bicycles. There are no signs of unusual behavior or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation inaccurately describes the video as normal, missing the specific anomaly of cycling in a pedestrian area. It does mention bicycles but fails to note the inappropriate context (restricted area) and the presence of two people on a bicycle, which is highlighted in the human explanation. The fluency is good as the language is clear and coherent, but the content lacks correctness, specificity, and completeness."
+    }
+  },
+  {
+    "video_id": "01_0177",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The frames show pedestrians and a cyclist moving across a paved area, with normal pedestrian activity observed. No anomalies are detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation misses the identified anomaly in the footage, which is the person riding a bicycle in an area where cycling is not allowed. It generically describes pedestrian and cyclist movement without acknowledging the potential violation of rules. It fails to recognize the specific prohibited action described by the human explanation. The fluency is good, but the lack of anomaly detection severely impacts the other scores."
+    }
+  },
+  {
+    "video_id": "01_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28850, Requested 3952. Please try again in 5.604s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation does not provide any assessment of the video content. Instead, it returns an error message related to rate limiting, which means no insight into whether the video is normal or anomalous is given."
+    }
+  },
+  {
+    "video_id": "01_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian movement with individuals walking in different directions. There is no indication of anomalous activity in the provided frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It is more specific by mentioning pedestrian movement and the absence of anomalous activity, which provides slightly more detail. The explanation is complete, as it covers the necessary information without omitting any key aspects of the normal video, and it is fluent, with clear and coherent language."
+    }
+  },
+  {
+    "video_id": "01_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show people walking normally on a pathway without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, matching the human explanation. It provides additional details by mentioning the people walking normally and lack of unusual behavior, which enhances specificity and confirms the assessment comprehensively and fluently."
+    }
+  },
+  {
+    "video_id": "01_027",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Frames show normal pedestrian activity with people walking along the path. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, matching the human explanation which states 'No anomaly in the video.' The AI provides additional detail by describing the scene with pedestrians walking, which contributes to its specificity and completeness. The explanation is fluent and easily understandable."
+    }
+  },
+  {
+    "video_id": "01_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show an empty pathway with no apparent activity or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, which aligns with the human explanation. It provides additional detail about the scene being an 'empty pathway with no apparent activity', which adds slightly to specificity without conflicting with the human explanation. The AI's explanation is complete as it addresses the entire scene, and it is presented fluently."
+    }
+  },
+  {
+    "video_id": "01_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames depict individuals walking along a path in a normal manner without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation identifies normal behavior, consistent with the human explanation of no anomaly. It specifically mentions individuals walking in a normal manner, which aligns with typical surveillance observations. Completeness is slightly lower as it could be more explicit about confirming no anomalies, but overall, the explanation is fluent and coherent."
+    }
+  },
+  {
+    "video_id": "01_032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally without any unusual behavior or activities.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, which aligns with the human explanation. It provides a specific observation about the pedestrians walking normally, which adds detail but does not cover all possible features of the video, resulting in a slightly lower specificity score. Completeness is high as it addresses the presence of normal activity, and the explanation is fluently articulated."
+    }
+  },
+  {
+    "video_id": "01_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking and interactions with no unusual or erratic behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the video as normal, matching the human explanation indicating no anomaly. The AI adds specificity by mentioning typical pedestrian walking and interactions, which enhances understanding. It fully encompasses the human explanation's intent and is fluently expressed."
+    }
+  },
+  {
+    "video_id": "01_038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in a pedestrian area with no unusual behavior or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, aligning with the human explanation. It provides additional detail by mentioning people walking and the lack of unusual behavior, enhancing specificity without deviating from the overall assessment. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "01_039",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show people walking normally, with no unusual behavior or activities.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, as stated by the human explanation. It also provides specific details about the normal behavior observed, specifically noting people walking normally without unusual activities. The explanation is fluent and covers all necessary aspects to indicate the video is normal."
+    }
+  },
+  {
+    "video_id": "01_040",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames display normal pedestrian behavior with individuals walking along a pathway. There are no unusual activities or behaviors observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which matches the human explanation. It provides a bit more detail by describing the normal behavior of pedestrians walking along a pathway, which enhances specificity and completeness. The explanation is also fluent and clearly articulated."
+    }
+  },
+  {
+    "video_id": "01_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames depict individuals walking across an open plaza, which appears to be normal pedestrian activity. No unusual behavior or obstruction is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the normal nature of the video, similar to the human explanation. It provides more specificity in stating that individuals are walking and there is no unusual behavior or obstruction, which aligns with the absence of an anomaly. The explanation is complete as it covers the observed activities and fluent in its articulation."
+    }
+  },
+  {
+    "video_id": "01_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in a normal, pedestrian manner across an open area. There are no unusual behaviors or anomalies observed in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional detail about the people walking and the lack of unusual behaviors, which adds specificity. The explanation is complete and fluent, clearly stating the absence of anomalies."
+    }
+  },
+  {
+    "video_id": "01_047",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking activity with different individuals in each frame moving across the area without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It provides specific detail about pedestrian activity, which enhances understanding, although more specificity about the location or time of day could improve further. The explanation is complete in the context of normal video assessment and is fluently articulated."
+    }
+  },
+  {
+    "video_id": "01_050",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally in an open area, and there are no visible signs of unusual or anomalous activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the absence of any anomaly, aligning with the human explanation. It specifies that pedestrians are walking normally, offering more detail than the human's brief statement. It covers all necessary aspects to confirm normalcy, and the language used is clear and fluent."
+    }
+  },
+  {
+    "video_id": "01_052",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 29027, Requested 3952. Please try again in 5.958s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation does not address the content of the video at all, as it is an error message unrelated to the surveillance footage. Consequently, the explanation fails in terms of correctness, specificity, completeness, and fluency."
+    }
+  },
+  {
+    "video_id": "01_053",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian walking behavior with no unusual activity detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations indicate that no anomaly is present in the video. The AI explanation specifies that pedestrian walking behavior is normal, which adds a level of detail and specificity. Completeness and fluency are also high as the AI explanation sufficiently communicates the normalcy of the situation without errors."
+    }
+  },
+  {
+    "video_id": "01_055",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement with individuals walking across the area at different times.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, in line with the human explanation. It provides additional detail about pedestrian movement, adding specificity to the explanation. Completeness is slightly less than perfect because it doesn't explicitly state there is 'no anomaly,' but this is implied. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "01_056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show individuals walking normally in a public space, and no unusual activity is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It elaborates slightly by mentioning the normal activity of individuals walking, hence providing a bit more specificity. The explanation is fluent and complete as it clearly conveys the absence of unusual activity."
+    }
+  },
+  {
+    "video_id": "01_057",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian activity with people walking in a typical manner along a pathway. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the scenario as normal, matching the human explanation that states there is no anomaly. It provides specificity by mentioning pedestrian activity, which adds some detail without being overly specific. The AI explanation is complete, covering the essential aspect that there is no unusual behavior. The language used is fluent and clear."
+    }
+  },
+  {
+    "video_id": "01_058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally along a pathway. There are no unusual or suspicious activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation matches the human explanation as both indicate there is no anomaly, suggesting the situation is normal. The AI provides slightly more detail by mentioning pedestrians, which adds to specificity without contradicting the human explanation. AI fluency is clear and coherent."
+    }
+  },
+  {
+    "video_id": "01_059",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sequence of frames shows people walking along a path in a consistent manner, with no unusual or unexpected behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It specifically mentions people walking consistently, adding some detail to the observation, enhancing specificity. The explanation is complete as it covers all observed aspects, and fluently conveys the information."
+    }
+  },
+  {
+    "video_id": "01_061",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking at a normal pace. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation, which indicates a normal scenario. It provides a bit more specificity by mentioning pedestrians walking at a normal pace and the absence of unusual behavior. This adds context while maintaining correctness and completeness. The language used is fluent and clear, although the specificity could be further enhanced by detailing context such as location or time if available."
+    }
+  },
+  {
+    "video_id": "01_064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking normally across the path with no suspicious or unusual activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies that there is no anomaly in the video, matching the human explanation. It also provides a specific detail about individuals walking normally, enhancing specificity. The explanation is complete as it covers the main point of the video being normal, and it is fluently written."
+    }
+  },
+  {
+    "video_id": "01_065",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian movement with no irregular activity detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the situation as normal, matching the human explanation. It provides specificity by mentioning normal pedestrian movement and the absence of irregular activity, though it doesn't elaborate much beyond this. The completeness is high as it covers the entirety of the situation, and the fluency is optimal with clear and precise language."
+    }
+  },
+  {
+    "video_id": "01_071",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking normally along a pathway. There is no unusual behavior or activity evident in the images.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, consistent with the human explanation. It provides additional specificity by describing people walking normally, which enhances the understanding of the scenario. The explanation is complete as it addresses the lack of unusual behavior or activity. The fluency is high, as the explanation is clear and well-constructed."
+    }
+  },
+  {
+    "video_id": "01_072",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian activity with individuals walking along a path. No unusual behavior is detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, aligning with the human explanation. It provides additional specificity by mentioning normal pedestrian activity and the absence of unusual behavior, making it more complete. The explanation is also fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "01_074",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking calmly on a pathway. There is no unusual behavior or activity apparent in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It provides a specific observation about people walking calmly, which is more detailed than the human explanation. The completeness is high as it adequately covers the content of the video, and the language is fluent and clear."
+    }
+  },
+  {
+    "video_id": "01_075",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals are walking in a consistent manner across the frames, indicating normal pedestrian activity with no unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal by noting the consistent pedestrian activity, without mentioning any anomalies. It provides specificity by describing the demeanor of the individuals as 'consistent walking,' which supports the claim of normalcy. The explanation is complete and aligns with the human explanation, which simply states no anomaly. The language used is clear and fluent."
+    }
+  },
+  {
+    "video_id": "01_076",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian walking behavior with individuals walking across an open area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation identifies the lack of anomaly by describing normal pedestrian behavior, which aligns with the human explanation stating there is no anomaly. The specificity is good as it mentions pedestrian walking behavior, but it could be slightly more detailed by specifying there are no unusual movements or interactions. The AI explanation is complete in conveying that the video is normal, while the fluency is high with a clear and concise description."
+    }
+  },
+  {
+    "video_id": "01_077",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally in each frame, with no unusual behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly present, matching the human explanation. It provides additional detail by mentioning that pedestrians are walking normally, which adds some specificity. The explanation is complete and fluent."
+    }
+  },
+  {
+    "video_id": "01_078",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with individuals walking across a plaza. No unusual or unexpected behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, as stated in the human explanation. It specifies the context of the video with pedestrian activity in a plaza and notes the absence of unusual behavior, which adds specificity and completeness. The fluency of the explanation is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "01_079",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in a pedestrian area without any unusual activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation accurately corresponds with the human explanation by stating there is no anomaly. It provides additional context by describing people walking, enhancing specificity and completeness without contradicting the human statement. The language used is clear and fluent."
+    }
+  },
+  {
+    "video_id": "01_080",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show pedestrians walking normally along a pathway. There is no unusual behavior or anomalies observed in these frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video. It specifies that the pedestrians are walking normally along a pathway, which adds specificity. The description covers the necessary detail to confirm there's no anomaly, thus achieving completeness. The explanation is also fluent and clear."
+    }
+  },
+  {
+    "video_id": "01_081",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking along a path with no unusual activities or behaviors.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there are no anomalies in the video, which aligns with the human explanation. The AI explanation is specific in describing the normal activity in the video, noting pedestrian walking, which adds a level of specificity. The explanation is complete and fluently written."
+    }
+  },
+  {
+    "video_id": "01_082",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activities, with people walking along a pathway without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation's assessment. It specifies that the pedestrian activities are normal, adding a bit more detail about the context, which enhances specificity. Completeness is high since it covers the absence of unusual behavior accurately. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "02_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals in the frames are walking normally along a sidewalk, displaying typical pedestrian behavior without any unusual activities.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies there is no anomaly present, aligning with the human explanation's assertion that the video is normal. It provides specific details about pedestrian behavior which enhances understanding, though it could add more about additional context or elements visible in the video to be fully complete. The explanation is fluently written without errors."
+    }
+  },
+  {
+    "video_id": "02_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally along a building. There is no unusual or suspicious activity observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, matching the human explanation. It provides additional details about pedestrians walking, which, while not necessary for a 'no anomaly' judgment, adds specificity. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "02_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals are walking normally along a path without displaying unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations indicate that there is no anomaly in the video. The AI explanation provides more detail by describing the behavior of the individuals, which aligns with the absence of any unusual behavior, confirming normalcy. The AI was specific enough to mention the individuals walking and their behavior, making it clear that nothing out of the ordinary is occurring."
+    }
+  },
+  {
+    "video_id": "02_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking towards a building, entering through a door. This behavior appears normal for a pedestrian area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation aligns with the human explanation in identifying that there is no anomaly present in the video. The AI provides more detail by describing the actions observed, such as people walking and entering a building, which is considered normal behavior for the setting described. The explanation is clear and properly articulated, demonstrating full fluency."
+    }
+  },
+  {
+    "video_id": "02_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames display normal pedestrian activity with people walking along a sidewalk in various directions.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations indicate there is no anomaly in the video. The AI explanation provides some detail about the scene being observed, specifically mentioning the pedestrian activity and walking patterns, aligning with a normal scenario. The specificity is moderate as it details pedestrian activity but doesn't describe other possible elements of the footage."
+    }
+  },
+  {
+    "video_id": "02_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals in the frames are walking normally along the path, and there are no unusual activities or behaviors observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video. It elaborates on this by mentioning normal walking behavior, adding specificity. Completeness is achieved as it covers the entire context necessary for understanding the scenario. The explanation is well-structured and fluent."
+    }
+  },
+  {
+    "video_id": "02_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking along a sidewalk in an orderly manner, which appears to be normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the footage as normal, as stated by the human. It provides additional context by describing the pedestrian activity, which increases specificity. Completeness is slightly less because it does not explicitly state that no anomaly is present, although it's implied. Fluency is excellent with clear and concise language."
+    }
+  },
+  {
+    "video_id": "02_0161",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "Two people, one in a white shirt and one in a blue shirt, are riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The frames show normal pedestrian and bicycle activity along a pathway adjacent to a building. There is no observable unusual behavior or anomalies in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly describes the activity as normal, failing to identify the anomaly where two people are riding a bicycle in a pedestrian area where cycling is not allowed. It lacks specificity and completeness, as it does not address the clothing or the specific issue of prohibited cycling. Fluency is reasonably good, but content accuracy and detail are lacking."
+    }
+  },
+  {
+    "video_id": "03_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking activity across a crosswalk, with no unusual behavior or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which aligns with the human explanation of 'No anomaly in the video.' The AI adds specificity by mentioning pedestrians and a crosswalk, which supports its assessment of normal activity. The explanation is complete, addressing the key aspect of the task, and is fluently expressed."
+    }
+  },
+  {
+    "video_id": "03_0031",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a red shirt steals a bag from a pedestrian in a blue shirt and runs away.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28977, Requested 3952. Please try again in 5.858s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI did not provide any explanation related to the video content due to a rate limit error. Therefore, it cannot be evaluated for correctness, specificity, completeness, or fluency in relation to the anomaly described."
+    }
+  },
+  {
+    "video_id": "03_0032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a white shirt pushes a person in a light mint-green shirt to the ground; the pushed person stands up and starts walking.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28942, Requested 3952. Please try again in 5.788s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation contains an error message indicating a rate limit issue instead of providing a description of the video. This does not match the human explanation at all, which means it fails in correctness, specificity, and completeness. Fluency is also impacted as the AI did not generate a coherent narrative about the video's content."
+    }
+  },
+  {
+    "video_id": "03_0033",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white stands up, quarrels, and then chases the person in mint green.",
+    "ai_explanation": "Frames show two individuals engaged in what looks like a physical altercation, which is anomalous compared to normal pedestrian movement.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI explanation correctly identifies that an anomaly in the form of a physical altercation occurs, which is consistent with the human explanation. However, while the AI captures the essence of the event, it lacks specificity by not mentioning the specific actions and clothing colors that the human description provides. This affects specificity but to a lesser extent affects completeness since the key event (anomalous physical altercation) is noted. The fluency is good but less detailed."
+    }
+  },
+  {
+    "video_id": "03_0059",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "Two people are fighting on the road and later walk together.",
+    "ai_explanation": "The sequence of frames shows people walking across a pedestrian crossing in a typical manner without any unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the key anomaly described in the human explanation, which is a fight between two people on the road. Instead, it incorrectly states that there is no unusual activity, indicating a lack of correctness and completeness. The specificity is also low as it generalizes the scene without addressing the fight. The fluency of the AI's language is fine, with clear and grammatically correct sentences."
+    }
+  },
+  {
+    "video_id": "03_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking across a crosswalk over time without any unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is consistent with the human explanation, clearly stating that there is no anomaly by describing normal activity. It specifies the pedestrians walking across a crosswalk, showing good specificity in context. The explanation is complete as it thoroughly covers the absence of anomalies and is fluently written."
+    }
+  },
+  {
+    "video_id": "04_0004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+    "ai_explanation": "A person appears to be on the ground in frame 469, suggesting a possible fall or incident.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation partially captures the key event of the human explanation, which is the person being on the ground. However, it does not specify the pushing action or the involvement of two individuals with specific shirt colors. It also misses the context of the individuals standing up and walking together afterward. The AI explanation lacks specificity and completeness compared to the human description, and it does not clearly link the event to an anomaly. However, the language used is fluent."
+    }
+  },
+  {
+    "video_id": "04_0011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A child in a red shirt is running in a pedestrian area while others are walking.",
+    "ai_explanation": "The frames show people walking in a park-like area, including a child running. All movements appear typical of pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the key elements of the scene, including the child running and the presence of pedestrians. It aligns with the human explanation by stating that the child's running is typical pedestrian activity, indicating no anomaly. While both mention the running child, the AI is slightly less specific about the child's clothing, but this detail doesn't significantly affect the overall understanding of the scene. Both descriptions suggest normal activity."
+    }
+  },
+  {
+    "video_id": "04_0012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+    "ai_explanation": "All sampled frames show normal pedestrian walking patterns with no unusual behaviors or activities.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the anomaly present in the video, where a person is moving in circles. This behavior is not considered normal in a pedestrian area, as noted in the human explanation. The specificity is slightly higher because it mentions pedestrian walking patterns, but it does not mention the circling behavior. The explanation lacks the necessary completeness to accurately describe the scenario. The fluency of the AI explanation is clear and understandable."
+    }
+  },
+  {
+    "video_id": "04_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking on a pathway. There are no unusual behaviors or anomalies observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 5,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, matching the human explanation. It specifically mentions pedestrian activity and the absence of unusual behaviors or anomalies, aligning perfectly with the human statement of no anomaly. The description is complete and fluently articulated."
+    }
+  },
+  {
+    "video_id": "04_0046",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a black shirt repeatedly throws a bag into the air in a pedestrian area, which is abnormal behavior.",
+    "ai_explanation": "The frames show pedestrians walking normally across the scene without any unusual or erratic behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to recognize the abnormal behavior described in the human explanation, namely the person repeatedly throwing a bag into the air. Instead, it inaccurately describes the scene as normal pedestrian activity. The AI's description lacks correctness, specificity, and completeness in identifying the anomaly. However, the AI explanation is fluently expressed."
+    }
+  },
+  {
+    "video_id": "04_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement with individuals walking calmly across the area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is highly correct as it states that there is no anomaly by describing normal pedestrian movement, which aligns with the human explanation. The specificity is good as it mentions individuals walking calmly, but it could detail the environment more. Completeness is full since it fully agrees with the human that the scenario is normal. Fluency is excellent with clear and coherent language used."
+    }
+  },
+  {
+    "video_id": "04_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show a group of people walking along a path, and their movement appears normal for pedestrian traffic.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, matching the human explanation. It provides specific information about normal pedestrian traffic, which adds context, thus scoring high in specificity. The AI explanation is complete as it addresses the behavior of people in the video. The language is fluent and clear."
+    }
+  },
+  {
+    "video_id": "04_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "There is no anomaly in the video. People are walking normally in the frames provided.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations correctly identify that there is no anomaly in the video, achieving high correctness. The AI provides additional context by noting that 'people are walking normally,' increasing its specificity slightly compared to the human explanation. Completeness is high as the AI explanation fully conveys the absence of an anomaly with enough detail. Fluency of the AI explanation is also excellent; it's clear and grammatically well-constructed."
+    }
+  },
+  {
+    "video_id": "04_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking normally, with no unusual behavior or activity detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It adds a specific observation about people walking normally, mentioning the absence of unusual behavior, which enhances specificity and completeness. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "04_014",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show pedestrians walking normally along a pathway without any unusual behavior or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional context by mentioning pedestrians walking normally, enhancing specificity without introducing irrelevant details. The AI's language is clear and concise, reflecting high fluency."
+    }
+  },
+  {
+    "video_id": "04_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals are walking normally across the frames without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is correct in identifying that there is no anomaly in the video, matching the human explanation. It specifies that individuals are behaving normally, which adds some specificity, but does not detail the environment or other elements of the video. Completeness is high as it covers the necessary information about behavior. Fluency is excellent, with clear, grammatically correct sentences."
+    }
+  },
+  {
+    "video_id": "04_017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals and small groups walking normally along a path. There are no unusual or anomalous activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the absence of anomalies, matching the human explanation. It provides additional detail about the individuals and groups walking, which increases specificity, but it remains accurate and complete regarding the normalcy. The explanation is also fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "04_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28981, Requested 3952. Please try again in 5.866s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation does not provide any relevant information or analysis regarding the video. It simply reports an error related to exceeding token limits, which is unrelated to the video content. Therefore, it completely fails to address the task of identifying anomalies or confirming normalcy in the video footage."
+    }
+  },
+  {
+    "video_id": "05_0017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a purple shirt repeatedly throws a bag into the air while walking on the road.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28870, Requested 3952. Please try again in 5.644s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation contains an error message regarding rate limits and does not provide any description relevant to the surveillance footage. Therefore, it does not match the human explanation at all."
+    }
+  },
+  {
+    "video_id": "05_0019",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A group of four people fights with a person in a white shirt and then walks away.",
+    "ai_explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28848, Requested 3952. Please try again in 5.6s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}",
+    "anomaly_detected": null,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 1,
+      "justification": "The AI explanation is an error message related to rate limits and doesn't provide any information about the surveillance footage. Therefore, it receives the lowest scores for all criteria since it contains no relevant content about the video."
+    }
+  },
+  {
+    "video_id": "05_0023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a purple shirt is jumping on the walkway, and later a person in a red shirt pushes a person in a mint-green shirt to the ground; the pushed person gets up and chases him.",
+    "ai_explanation": "In frames 234 and 418, individuals appear to be running in an unusual manner, suggesting possible conflict or playful chasing, which is anomalous compared to normal pedestrian walking.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 3,
+      "specificity": 2,
+      "completeness": 3,
+      "fluency": 4,
+      "justification": "The AI explanation correctly identifies an anomaly related to unusual movement patterns but lacks specificity compared to the human explanation. The human explanation details specific actions, individuals, and clothing, identifying an initial jump and a push with a chase. The AI explanation mentions the possibility of chasing or conflict without clear reference to these specific events, providing a somewhat incomplete picture. The fluency of the AI explanation is good, with clear language and logical flow."
+    }
+  },
+  {
+    "video_id": "05_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The person is walking along a sidewalk, exhibiting normal pedestrian behavior. There are no unusual or suspicious activities observed in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional specific detail about normal pedestrian behavior, enhancing the specificity and completeness without diverging from the core observation of no anomalies. The language is clear and fluent."
+    }
+  },
+  {
+    "video_id": "05_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking down the path without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which matches the human explanation. It provides additional detail about the normal activity observed (pedestrians walking normally), enhancing specificity and completeness. The fluency of the explanation is high as it is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "05_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show pedestrians walking normally along the pathway with no unusual behavior or events visible.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 4,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It provides some specificity by mentioning 'pedestrians walking normally' and 'no unusual behavior', but could be more specific about the scene depicted. The explanation is complete in confirming the normalcy of the video, and the language used is clear and understandable."
+    }
+  },
+  {
+    "video_id": "05_010",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show pedestrians walking normally along a pathway. There is no unusual behavior or activity observed in these frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identified the absence of any anomalies in the video, aligning with the human explanation. Specificity is high as it mentions pedestrians walking normally, which is a detail not provided by the human explanation. Completeness is also high as it covers the necessary information about the situation being normal. Fluency is excellent, with the AI providing a clear and coherent explanation."
+    }
+  },
+  {
+    "video_id": "05_013",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians appear to be walking normally along a pathway. No unusual behavior is observed in the frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It is clear and fluent in its description of normal pedestrian behavior. However, while it provides some specifics by mentioning pedestrians and normal behavior, it could have been more detailed in describing the scene. Completeness is ensured as it covers the key point of 'no anomaly.'"
+    }
+  },
+  {
+    "video_id": "05_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian activity with individuals walking along the path without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, as it notes there is no unusual behavior, matching the human's assessment of no anomaly. It provides some specificity by mentioning pedestrian activity and individuals walking, supporting the notion of normalcy. Completeness might be slightly lacking as it doesn't cover all possible aspects of normal behavior, but it is sufficient given the scenario. The explanation is fluent and well-constructed."
+    }
+  },
+  {
+    "video_id": "05_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement along a pathway. No unusual activity is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, reflecting the human explanation. It provides specificity by mentioning 'normal pedestrian movement along a pathway,' which aligns with the normalcy described by the human. The explanation is complete as it covers the essential information (normal activity, no unusual behavior) and is fluently articulated."
+    }
+  },
+  {
+    "video_id": "05_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement with people walking along the pathway. There are no unusual activities or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It provides additional specific detail by describing the normal pedestrian movement, which adds specificity. The explanation is complete, covering the key point that there are no unusual activities, and it is fluently written."
+    }
+  },
+  {
+    "video_id": "05_023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show pedestrians walking normally along the road without any unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is correct as it identifies there is no anomaly, which matches the human explanation. It specifically mentions the normal activity of pedestrians walking without any unusual events, thus confirming the lack of anomalies. The explanation is fluent and complete in conveying that the situation is normal."
+    }
+  },
+  {
+    "video_id": "05_025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking along a path, and there are no signs of unusual behavior or crowding, indicating normal activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional context about the scene, mentioning pedestrians and normal activity, which adds specificity. The explanation is complete and fluent, clearly describing the situation with no contradictions."
+    }
+  },
+  {
+    "video_id": "05_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking along the road in a normal manner without any unusual or anomalous activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which aligns with the human explanation. It provides more detail by describing the individuals walking along the road in a normal manner, which adds specificity to the explanation. The completeness is high as it captures the essence of the video being normal, and the explanation is fluent."
+    }
+  },
+  {
+    "video_id": "05_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity, with people walking along the path without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, matching the human explanation. It is specific in mentioning 'normal pedestrian activity' and 'people walking along the path,' which provides a clear picture of the scene without pointing out any unusual behavior. The explanation is complete and confirms the normalcy of the scene. It is also fluently articulated."
+    }
+  },
+  {
+    "video_id": "05_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally along the path and no unusual activity is observed across the frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the absence of an anomaly, aligning with the human explanation. It provides additional context by mentioning pedestrians walking normally, which slightly increases specificity and completeness. The language used is fluent and clear."
+    }
+  },
+  {
+    "video_id": "05_033",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking along the road and sidewalk. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation's assessment. It specifically mentions normal pedestrian activity and the absence of unusual behavior, providing a clear context for its evaluation. The explanation is complete and fluent, offering detail that supports the conclusion."
+    }
+  },
+  {
+    "video_id": "05_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking along a path, which appears to be normal pedestrian activity with no unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both explanations confirm the absence of an anomaly in the video. The AI explanation provides additional details about normal pedestrian activity, supporting the conclusion of no anomaly. It is specific enough to clarify what was observed without indicating anything unusual. The fluency of the AI explanation is also high, as it is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "05_038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video shows normal pedestrian activity with people walking on a path. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal with no anomalies, as the human explanation does. It provides additional detail about pedestrian activity, enhancing specificity. Completeness and fluency are both high, as the AI description fully and clearly conveys the situation."
+    }
+  },
+  {
+    "video_id": "05_039",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The pedestrian is walking along the road in a consistent manner across the frames, indicating normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies that there is no anomaly in the video by describing the pedestrian's consistent behavior. This matches the human explanation, which states there is no anomaly. The AI is quite specific in mentioning the pedestrian's behavior but could include more context about the surroundings to fully rule out other potential anomalies. Fluency is clear and understandable."
+    }
+  },
+  {
+    "video_id": "05_041",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking on the sidewalk and road in a normal manner, with no unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "Both explanations correctly identify that there is no anomaly in the video. The AI explanation is slightly more specific as it mentions people walking on the sidewalk and road, which provides context to the normalcy observed. Completeness is high for both as they convey the message that the situation is normal. The AI's fluency is perfect, with clear and coherent expression."
+    }
+  },
+  {
+    "video_id": "05_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking activity with people moving along the pathway and crossing the street at different times.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly by describing normal pedestrian activity, which aligns with the human explanation of no anomaly. It provides specific details about pedestrian walking and street crossing, offering more information than the human explanation. Completeness is slightly less than perfect as it could be enhanced by mentioning if there were any potential areas where anomalies might have been expected but confirmed not to occur. The explanation is fluent and well-structured."
+    }
+  },
+  {
+    "video_id": "05_044",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking on a path, and there is no unusual or suspicious behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, consistent with the human explanation. It provides additional context by describing the normal activity occurring (pedestrians walking) which adds specificity. The explanation is complete and fluently written."
+    }
+  },
+  {
+    "video_id": "05_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video frames show individuals walking along a path in a park setting, and all activities appear normal for pedestrian movement.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, aligning with the human explanation. It provides additional context by describing the scene as pedestrians walking in a park, which enhances specificity and completeness. The explanation is fluently articulated."
+    }
+  },
+  {
+    "video_id": "05_048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking along a path and there is no unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly states that there is no unusual activity, which aligns with the human explanation of 'no anomaly.' The AI slightly improves specificity by mentioning individuals walking, but it could expand more on the context to increase specificity."
+    }
+  },
+  {
+    "video_id": "05_049",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video frames show pedestrians walking along a path in a typical manner, without any unusual or erratic behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligned with the human explanation. It provides additional details by describing the normal activity of pedestrians, which adds to its specificity. The explanation is complete as it fully captures the normal nature of the scene, and the language used is fluent and clear."
+    }
+  },
+  {
+    "video_id": "05_054",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking along a path without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, aligning with the human explanation. It is specific in mentioning pedestrian activity and lack of unusual behavior, which adds detail to the description. The explanation is fluent and complete, addressing all necessary aspects of the scenario."
+    }
+  },
+  {
+    "video_id": "05_056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian activity with individuals walking along the path.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It specifies normal pedestrian activity, which is relevant to typical surveillance contexts, making it complete. The explanation is fluent and easy to understand, though it could slightly improve in specificity by describing what normal activity entails in more detail."
+    }
+  },
+  {
+    "video_id": "05_057",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally along the path without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is correct in identifying the video as normal without any anomaly. It specifies that pedestrians are walking normally without unusual behavior, which aligns with the human explanation of 'No anomaly in the video.' The explanation is fluent and comprehensively covers the absence of anomalies by specifying normal pedestrian behavior."
+    }
+  },
+  {
+    "video_id": "05_058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show groups of people walking along a road, which appears to be normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the lack of any anomaly by describing the pedestrian activity as normal. It is specific in mentioning 'groups of people walking along a road', which gives context. The explanation is complete as it confirms the normality of the scene and is fluently written."
+    }
+  },
+  {
+    "video_id": "05_060",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking on a street in a calm and orderly manner, without any unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the absence of any anomaly, which matches the human's conclusion of 'No anomaly in the video.' It provides additional details about the scene being calm and orderly, which enhances specificity. The completeness is high as it fully covers the essence of the video being normal. The fluency is also good as the explanation is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "05_061",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking along a path, and no unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which aligns with the human explanation. It provides additional context by mentioning pedestrians walking along a path and no unusual behavior, thereby enhancing specificity. The explanation is complete and fluent."
+    }
+  },
+  {
+    "video_id": "05_062",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking along a road, and no unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It specifically mentions pedestrians and their ordinary behavior, which adds some level of detail, even though it's not necessary to state that detail explicitly. The explanation is complete and fluent."
+    }
+  },
+  {
+    "video_id": "05_064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Normal pedestrian activity is observed with individuals walking along the sidewalk.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identified the video as normal with no anomalies, matching the human explanation. It provides additional context by describing the normal pedestrian activity, which enhances specificity and completeness. The fluency is clear and coherent."
+    }
+  },
+  {
+    "video_id": "05_065",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally on the sidewalk and crossing the road in an orderly fashion. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, matching the human explanation. It adds specificity by describing pedestrian behavior, enhancing the detail of the explanation, which is relevant for a surveillance context. The completeness is high but not absolute, as the human explanation is more succinct. The explanation is fluent and clearly stated."
+    }
+  },
+  {
+    "video_id": "06_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show people entering and exiting a building in a normal manner. There is no visible unusual behavior or activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is correct as it identifies that there is no anomaly, aligning with the human explanation. It offers some specifics by describing the normal activity of people entering and exiting a building, but does not provide detailed observations about the environment or other contextual elements. The AI explanation is complete in the sense that it verifies the absence of anomalies, and it is fluently articulated."
+    }
+  },
+  {
+    "video_id": "06_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "There is no noticeable activity or movement in the sampled frames. The area remains stable with no signs of anomalous behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the lack of anomaly, matching the human's assessment. It is slightly more specific by mentioning the stability and absence of movement, enhancing the explanation without adding unnecessary complexity. The explanation is complete, as it covers all relevant aspects of the assessment, and is fluently written."
+    }
+  },
+  {
+    "video_id": "06_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sequence shows people walking normally near a building entrance without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video by describing the normal behavior of people walking near a building entrance. It matches the human explanation's assessment of normalcy. The details provided by the AI add specificity to the context, enhancing fluency and completeness."
+    }
+  },
+  {
+    "video_id": "06_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sequence of frames shows a person standing near the entrance and interacting briefly, which appears to be normal activity around a building entrance.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that the activity is normal and implies that there is no anomaly, aligning with the human judgment. However, the AI's explanation provides a bit more detail than necessary, describing specific activities that aren't highlighted in the human explanation. It is complete because it conveys the essential information that there is no anomaly, but specificity is moderate due to extra details not relevant to determining the normalcy of the situation. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "06_0144",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A white minivan is being driven in a pedestrian area.",
+    "ai_explanation": "The sequence shows a car briefly stopping and a pedestrian walking normally towards the entrance. No unusual activity is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation does not identify the anomaly noted in the human explanation, which is the presence of a white minivan being driven in a pedestrian area. The AI mentions a car but does not specify it's in a pedestrian area, thus missing the key anomaly. While the AI explanation is fluently written, it lacks correctness and completeness regarding identifying the anomaly. The specificity is slightly better due to the mention of a car but still fails to capture the critical context."
+    }
+  },
+  {
+    "video_id": "06_0153",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area.",
+    "ai_explanation": "The frames show pedestrians walking and a person cycling past. This appears to be normal activity in an outdoor setting.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the presence of both pedestrians and a cyclist, which indicates normal activity. However, it lacks the specific detail that the human explanation provided, which is the person on the bicycle wearing a black shirt. The AI's explanation is complete regarding the typicality of the scene but could have been more specific about the cyclist's attire. Fluency is high with clear and coherent language."
+    }
+  },
+  {
+    "video_id": "06_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian activity, with people entering and exiting a building.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation. It provides additional context by describing the normal pedestrian activities, adding specificity. The explanation is complete regarding the absence of anomalies and is fluently articulated."
+    }
+  },
+  {
+    "video_id": "06_017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians entering and exiting a building normally, with no unusual behavior or activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the scene as normal by stating no unusual behavior, aligning with the human explanation. It provides additional specificity about people entering and exiting a building, enhancing understanding. Completeness is slightly lower than perfect since it doesn't specify every possible element in the scene but offers a solid overview. Fluency is perfect with clear and coherent language."
+    }
+  },
+  {
+    "video_id": "06_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity as an individual exits a building and walks away. There is no unusual or suspicious behavior apparent.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately identifies the video as normal with no anomaly present, matching the human explanation. It adds detail by describing the pedestrian activity, enhancing specificity without contradicting the human's assessment. The explanation is also fluent and grammatically correct."
+    }
+  },
+  {
+    "video_id": "06_020",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with individuals entering and exiting a building at a walking pace.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, matching the human explanation of no anomaly. It specifies pedestrian activity and the general behavior of individuals, which provides a specific context. The explanation is complete as it confirms no abnormal activities, and it is fluently articulated."
+    }
+  },
+  {
+    "video_id": "06_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people entering and exiting a building, which is typical pedestrian behavior with no visible anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies there is no anomaly, aligning with the human explanation. It provides additional detail about the usual activity of people entering and exiting a building, adding specificity and completeness. The explanation is also clearly articulated."
+    }
+  },
+  {
+    "video_id": "06_022",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking out of a building, which is normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both explanations agree that the video is normal. The AI explanation provides a specific context by describing individuals walking out of a building, which supports the normalcy claim, thus enhancing specificity. Completeness and fluency are high as the AI covers necessary details concisely and clearly."
+    }
+  },
+  {
+    "video_id": "06_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames depict normal pedestrian activity with individuals entering and exiting a building. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations agree that the video is normal with no anomalies. The AI provides additional details about the nature of the activity and verifies that it is typical pedestrian movement, which enhances specificity. Completeness is high as the AI captures the essence of the video comprehensively without missing critical information. The language used in the AI explanation is clear and fluent."
+    }
+  },
+  {
+    "video_id": "06_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "People are walking normally in and out of the building. No unusual or suspicious activities are observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It further specifies the normal activities observed, such as people walking in and out of the building without any unusual behavior. The explanation is complete as it covers the main activity in the footage, and is fluent and coherent."
+    }
+  },
+  {
+    "video_id": "06_029",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with a person walking by without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the absence of an anomaly by specifying normal pedestrian activity and the presence of a person walking. This matches the human explanation that there is no anomaly. The specificity could be higher if more details about the scene were provided, but the AI sufficiently conveys the main point. The AI explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "06_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "A person begins exiting the building in frame 207 and remains by the doorway in all subsequent frames, which is unusual compared to typical pedestrian behavior.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 1,
+      "specificity": 3,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The human explanation indicates no anomaly, suggesting a normal video. The AI explanation, however, incorrectly identifies an anomaly with a person by the doorway, which contradicts the human assessment. While the AI provides specific details about the frames and behavior, it does not align with the human conclusion that there is no anomaly. The AI explanation is fluent but not correct or complete relative to the human explanation."
+    }
+  },
+  {
+    "video_id": "07_0006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+    "ai_explanation": "A person has fallen to the ground in frame 203, which is unusual for normal pedestrian walking.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation identifies an unusual event (a person falling to the ground), but it does not accurately capture the detail that another person pushed the individual to the ground and that the person in white chased afterwards. The explanation is vague and lacks specificity about the interaction between the two people. The fluency is fine, but the incomplete description reduces the overall score."
+    }
+  },
+  {
+    "video_id": "07_0008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a maroon shirt is swinging a steel bar while walking in a pedestrian area, creating a dangerous situation.",
+    "ai_explanation": "An individual is walking with an object resembling a long-barreled item slung over their shoulder, which is unusual and potentially concerning for typical pedestrian activity.",
+    "anomaly_detected": true,
+    "scores": {
+      "correctness": 4,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the presence of an individual carrying an unusual item, which aligns with the human explanation describing a person with a steel bar. However, the AI refers to it as a 'long-barreled item' and does not specify the action of swinging, which is important for depicting the potential danger. Overall, it captures the anomaly but misses specific details about the object's use, leading to slight deductions in correctness, specificity, and completeness."
+    }
+  },
+  {
+    "video_id": "07_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video shows normal pedestrian activity with individuals walking across a zebra crossing at different times, which is common in urban areas.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately reflects the human explanation by confirming there is no anomaly. It adds specificity by describing the normal pedestrian activity, which enhances the explanation without introducing any incorrect elements. The explanation is complete as it covers the necessary details to understand the scene and is fluent in its delivery."
+    }
+  },
+  {
+    "video_id": "07_0048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+    "ai_explanation": "The sequence of frames shows people walking along the road. There is no evident unusual behavior or anomaly in pedestrian movement.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly identifies the video as normal and fails to recognize the described anomalous activity of one person chasing another. It lacks the specifics of the individuals involved and the actions they are taking. While the fluency of the AI's language is adequate, the absence of recognition of the anomaly makes it incorrect, unspecific, and incomplete."
+    }
+  },
+  {
+    "video_id": "07_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking across a crosswalk in an orderly manner.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI correctly identifies that there is no anomaly, matching the human explanation. It provides some specificity by mentioning pedestrian activity and the crosswalk, which enhances understanding but could include more detail about the environment. The explanation is mostly complete but doesn't fully describe the scene. It reads fluently."
+    }
+  },
+  {
+    "video_id": "07_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The individuals are walking across a pedestrian crossing in a normal manner. There is no unusual or suspicious activity observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations conclude that there is no anomaly in the video. The AI explanation provides additional context about the individuals' actions, enhancing specificity without contradicting the human assessment. Completeness and fluency are high as the AI explanation clearly communicates the absence of any unusual activity."
+    }
+  },
+  {
+    "video_id": "08_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show a normal flow of pedestrians walking on a pathway without any unusual behavior or anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the situation as normal, aligning with the human explanation's assertion of no anomaly. It specifies that there are pedestrians on a pathway and mentions the absence of unusual behavior, adding a layer of detail to the account. The description is complete and fluent in its expression."
+    }
+  },
+  {
+    "video_id": "08_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show a static scene with no unusual activity. In Frame 1044, a person appears, which seems normal for a pedestrian area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI correctly identifies the video as normal, aligning with the human explanation by noting no unusual activity. It provides some specifics by mentioning the appearance of a person, which is typical in a pedestrian area, but lacks further detail that might enhance specificity. The explanation is mostly complete in conveying the normalcy of the situation, and it is generally fluent, though slightly more focused phrasing could improve coherence."
+    }
+  },
+  {
+    "video_id": "08_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity, with individuals walking along a pathway at different times.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both explanations indicate there is no anomaly in the video. The AI explanation provides slightly more detail by mentioning pedestrian activity and individuals walking, which adds specificity without contradicting the human explanation. Completeness and fluency are well-maintained."
+    }
+  },
+  {
+    "video_id": "08_0058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "Pedestrians are walking normally along the pathway without any unusual behavior or disturbances.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly identifies the behavior in the video as normal, overlooking the anomaly of a person cycling in a no-cycling zone and the person running. The AI fails to mention any specific details about these activities, leading to low scores for correctness, specificity, and completeness. The fluency of the language is fine, but it does not contribute to an accurate depiction of the scenario."
+    }
+  },
+  {
+    "video_id": "08_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement, with people walking along a path without any unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video. It specifies that the pedestrian movement is normal, which aligns with the human explanation's lack of mentioned anomalies. The AI's explanation is complete and fluently describes the situation without adding unnecessary details."
+    }
+  },
+  {
+    "video_id": "08_0077",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a black shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The sampled frames show pedestrians walking and riding bicycles along a path. There are no visible anomalies or unusual activities observed in these frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": "The AI explanation fails to correctly identify the anomaly, which is a person riding a bicycle in a restricted area. Instead, it incorrectly states there are no anomalies, which indicates a misinterpretation of the scenario. The explanation lacks specificity and completeness because it does not address the specific prohibited behavior (cycling in a pedestrian area). The language used is fluent, but it does not convey the necessary details related to the observed anomaly."
+    }
+  },
+  {
+    "video_id": "08_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian activity with individuals walking along the path. There is no unusual behavior or anomalies detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the lack of anomalies in the video, matching the human explanation. It provides specific detail by describing normal pedestrian activity, which enhances specificity. The completeness is high as it covers the entirety of the video without missing information. The explanation is fluent, clear, and well-structured."
+    }
+  },
+  {
+    "video_id": "08_0080",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a black shirt with a backpack is skateboarding in a pedestrian area where skateboarding is not allowed.",
+    "ai_explanation": "The frames show people walking normally in an outdoor area; no unusual activity is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly identifies the situation as normal and doesn't mention the person skateboarding, which is the anomaly in the scenario. It lacks specificity and completeness in failing to describe the key details of the person in a black shirt with a backpack skateboarding in a pedestrian area where it is not allowed. The fluency of the explanation is clear and understandable, but it doesn't align with the human explanation."
+    }
+  },
+  {
+    "video_id": "08_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally along the path in all sampled frames, indicating no unusual activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the situation as normal, aligning with the human explanation that there is no anomaly. It provides additional details about pedestrian behavior which increases specificity without introducing incorrect information. The fluency is high, with a clear and coherent explanation."
+    }
+  },
+  {
+    "video_id": "08_010",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian walking with people moving in groups or alone without any irregular activities.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the situation as normal, matching the human explanation that states there is no anomaly. The AI provides additional detail about pedestrian movement, which increases specificity and completeness. The language is clear and fluent."
+    }
+  },
+  {
+    "video_id": "08_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The video shows normal pedestrian activity with people walking along a path in a consistent and orderly manner.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. Specificity is slightly less because the AI could have simply stated 'no anomaly' instead of describing normal pedestrian activity, but it still effectively communicates that the situation is normal. Completeness and fluency are both high as the explanation is thorough and well-articulated."
+    }
+  },
+  {
+    "video_id": "08_0157",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person wearing a gray/white layered shirt is riding an electric unicycle scooter in a pedestrian area where such vehicles are not allowed.",
+    "ai_explanation": "The individuals in the frames appear to be walking in a normal manner without any unusual behavior or disturbances.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 3,
+      "justification": "The AI explanation fails to identify the anomalous event described by the human, which is the presence of a person using an electric unicycle scooter in an inappropriate area. Instead, it incorrectly states that individuals are walking normally, showing a lack of specific detail that corresponds to the observed anomaly. While the explanation is grammatically fluent, it does not accurately match the human's observation about the prohibited activity."
+    }
+  },
+  {
+    "video_id": "08_0158",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+    "ai_explanation": "The sequence shows normal pedestrian movement with people walking in a public area. No unusual behavior or anomalies are observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 1,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation completely fails to identify the anomalies noted in the human explanation, such as the person cycling in a pedestrian area and the person running through it. Instead, it incorrectly classifies the scene as normal pedestrian movement with no anomalies. The AI's explanation is fluent but lacks any correctness, specificity, or completeness."
+    }
+  },
+  {
+    "video_id": "08_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking in a typical manner along a path, with no unusual behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, which aligns with the human explanation. It provides specific details about the scene, mentioning pedestrians walking typically, which enhances specificity. Completeness is achieved as it addresses the entire video context effectively. The explanation is fluent and clear."
+    }
+  },
+  {
+    "video_id": "08_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking along a path, and no unusual or unexpected behavior is observed. The pedestrians appear to be moving normally.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, aligning with the human explanation. It provides additional detail by describing the observed behavior of individuals, enhancing specificity. Completeness is achieved as it covers all aspects needed to determine normalcy. The language is fluent and coherent."
+    }
+  },
+  {
+    "video_id": "08_023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in various directions on a path. There is no unusual behavior or activity observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly, aligning with the human explanation. It provides additional context by mentioning that people are walking on a path with no unusual behavior, which adds specificity and completeness. The explanation is fluently written."
+    }
+  },
+  {
+    "video_id": "08_024",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show typical pedestrian movement with people walking along a path. No unusual behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It is specific in mentioning 'typical pedestrian movement' and 'people walking along a path,' adding a bit more detail than the human explanation. The explanation is complete and clearly articulated, making it fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "08_025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians are walking normally along the pathway without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the scenario as normal, consistent with the human explanation, with pedestrians walking normally. The specificity is slightly higher than the human's as it mentions 'walking along the pathway.' Completeness is high as it covers the absence of unusual behavior, matching the human's view. The fluency is perfect with a coherent sentence."
+    }
+  },
+  {
+    "video_id": "08_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "Pedestrians and cyclists are moving normally along the path without any unusual behavior or congestion.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly. It provides specific information about the presence of pedestrians and cyclists moving normally, which aligns with the human explanation of no anomaly. The completeness is high because it describes the activity without indicating any unusual behavior, which matches the scenario where the analysis determined the video to be normal. Fluency is also high as the explanation is clearly structured and easy to understand."
+    }
+  },
+  {
+    "video_id": "08_029",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally along a path. There is no unusual activity observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the situation as normal, matching the human explanation that there is no anomaly. It provides more detail by mentioning pedestrians walking normally, which shows good specificity. Completeness is high as it adequately covers the absence of unusual activity. Fluency is excellent as the explanation is clear and well-structured."
+    }
+  },
+  {
+    "video_id": "08_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking normally along a pathway, which is typical pedestrian behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It specifies that the behavior observed is typical pedestrian activity, which adds specificity. The explanation is complete and fluent, giving a clear reason why the situation is normal."
+    }
+  },
+  {
+    "video_id": "08_032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking on a path with no unusual or unexpected actions observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that the video is normal by stating there are no unusual actions observed. It specifies that people are walking on a path, consistent with the human's 'No anomaly in the video.' The explanation is complete as it addresses the key aspect of normalcy and is fluently written."
+    }
+  },
+  {
+    "video_id": "08_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "A person appears to walk across the frame between frames 439 and 631. The activity seems consistent with normal pedestrian movement.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 4,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that the activity in the video is consistent with normal behavior, suggesting no anomaly, which aligns with the human explanation of no anomaly. However, the AI adds unnecessary detail by describing the frames and the pedestrian movement, which implies specificity but slightly diverges from the human's concise 'no anomaly' statement. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "08_037",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with individuals walking in different directions.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI correctly identifies that there is no anomaly, aligning with the human explanation. However, it does not explicitly state 'no anomaly,' which could make the conclusion clearer. The AI provides some specifics about pedestrian activity, slightly enhancing the completeness by adding context, but could be more explicit in confirming the normalcy. The fluency is good, though not perfect due to potential minor ambiguity."
+    }
+  },
+  {
+    "video_id": "08_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking through an open area without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation. It specifies that there is normal pedestrian activity with people walking, which adds specificity regarding the nature of the normalcy observed. The explanation is complete as it conveys the relevant observation of the scene and is fluently expressed."
+    }
+  },
+  {
+    "video_id": "08_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian activity with individuals walking at a typical pace along a path. No unusual or suspicious behavior is observed in the frames provided.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation. It offers specific details about the pedestrian activity being normal and mentions the absence of unusual or suspicious behavior, which provides a slightly more detailed context than the human explanation. Both explanations are complete and fluent."
+    }
+  },
+  {
+    "video_id": "08_046",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian activity with individuals walking along the pathway at different times.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video by describing normal pedestrian activity. The explanation is specific enough by mentioning individuals walking along the pathway, which aligns with the scenario of a normal video. The AI explanation is complete and matches the human explanation in content, and it is fluently articulated."
+    }
+  },
+  {
+    "video_id": "08_047",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking along a pathway. No unusual or suspicious behavior is observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the absence of any anomalies in the video, consistent with the human explanation which states there is no anomaly. It provides additional detail by describing the scene as normal pedestrian activity, demonstrating good specificity and completeness. The explanation is also fluently written."
+    }
+  },
+  {
+    "video_id": "08_048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking along a pathway, which appears normal without any unusual activity or disruptions.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation is correct as it identifies the video as normal with no anomalies, aligning with the human explanation. It is specific enough by mentioning pedestrians walking and the absence of unusual activities. The explanation is complete and fluently conveys the normalcy of the scene."
+    }
+  },
+  {
+    "video_id": "09_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The series of frames show pedestrians walking casually without any unusual behavior or disturbance.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It specifies that pedestrians are walking casually, which supports the normalcy of the situation, hence a specificity score of 3. The explanation is complete since it addresses the absence of unusual behavior, aligning with the human description. The fluency is high, as the explanation is clear and grammatically correct."
+    }
+  },
+  {
+    "video_id": "09_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian walking with individuals and small groups moving through the area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, which aligns with the human explanation. It adds a bit of detail by mentioning pedestrian walking in individuals and small groups, which is specific to what is observed, but doesn't add significant depth to the overall context of normalcy. The explanation is clear and well-formulated."
+    }
+  },
+  {
+    "video_id": "09_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement where individuals are walking along a path without any unusual behavior or disruption.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, which aligns with the human explanation. However, while it provides some context by mentioning pedestrian movement, it could be more specific about the lack of anomalies. The AI explanation is fluent and complete in indicating normalcy."
+    }
+  },
+  {
+    "video_id": "09_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All frames show normal pedestrian walking behavior with various groups and individuals moving through the area without any unusual or suspicious actions.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, which matches the human explanation stating there's no anomaly. It provides additional details about pedestrian behavior, adding specificity and completeness, but slightly more detail could be added regarding the number of individuals or specific behaviors to enhance specificity. The language used is fluent and clear."
+    }
+  },
+  {
+    "video_id": "10_0038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The scene shows pedestrians walking in a normal manner across a plaza area. There are no unusual activities or behaviors observed in the sampled frames.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the anomaly of a person riding a bicycle in a pedestrian area where cycling is not allowed, which is a key detail provided in the human explanation. The AI only mentions that there are pedestrians walking normally and incorrectly states that there are no unusual activities. The AI explanation is somewhat specific about the setting being a plaza area but misses the anomaly entirely. The fluency is good, as the explanation is grammatically correct and clear, even though it is incorrect."
+    }
+  },
+  {
+    "video_id": "10_0042",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "Two people, one in a white shirt and another in a white shirt with pink stripes, are riding a scooter in a pedestrian area where motor vehicles are not allowed.",
+    "ai_explanation": "The frames show pedestrians and a motorbike moving normally through an open area without any unusual or disruptive behaviors.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the main anomaly, which is the presence of a scooter being ridden in a pedestrian area where motor vehicles are not allowed. The AI mentions nothing unusual, while the human points out the prohibited activity. The AI lacks specificity in describing the scene, merely noting general motion without identifying the key subjects or context accurately. Completeness is limited due to missing the critical aspect of vehicle restriction. The language is fluent but lacks the needed detail to correctly explain the video."
+    }
+  },
+  {
+    "video_id": "10_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking normally through a public area without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation accurately states that there is no anomaly, which aligns with the human explanation. It provides a bit more detail by describing normal pedestrian activity, enhancing specificity and completeness. The language is clear and fluent, making the explanation easy to understand."
+    }
+  },
+  {
+    "video_id": "10_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show people walking in an open area in a consistent manner with normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 2,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the absence of an anomaly by describing normal pedestrian activity, aligning with the human explanation. However, the specificity is lower because it only describes walking in an open area without further details, such as time of day or any specific location features. Completeness suffers slightly because it might have included more context about the video, but it generally captures the gist. Fluency is high as the explanation is clear and grammatically correct."
+    }
+  },
+  {
+    "video_id": "10_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "All sampled frames show normal pedestrian walking with no unusual or suspicious behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation. It is specific in mentioning pedestrian behavior and covers all necessary aspects to confirm normality. The language used is clear and fluent."
+    }
+  },
+  {
+    "video_id": "10_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show normal pedestrian movement across the area with people walking in different directions.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "Both the human and AI explanations agree that the video is normal, with the AI providing additional detail about pedestrian movement that adds specificity and completeness without contradicting the human explanation. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "10_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian movement with people walking calmly across the area.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the video as normal with no anomaly, which aligns with the human explanation. Its specificity is moderate as it details pedestrian movement but doesn't elaborate on environmental context or other factors confirming normalcy. Completeness is slightly less than perfect as it could include more detailed descriptions. The explanation is fluently written."
+    }
+  },
+  {
+    "video_id": "11_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking along a road, and the activity appears normal for pedestrian movement.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "Both explanations indicate that there is no anomaly present in the video. The AI explanation provides additional detail about the observed activity, specifically mentioning pedestrian movement, which slightly enhances its specificity without contradicting the human explanation. The AI's language is fluently presented."
+    }
+  },
+  {
+    "video_id": "11_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show a person walking along a path in a normal manner, and by the last frame, they have exited the frame. This is typical pedestrian activity with no anomalies.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, aligning with the human explanation of 'no anomaly.' It provides specific details about the pedestrian's actions, adding clarity and specificity to the scene. The completion of describing the sequence until the person exits the frame makes it complete and fluent."
+    }
+  },
+  {
+    "video_id": "11_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The sampled frames show a normal, mostly empty street except for one frame with pedestrians walking. This is typical activity for this setting.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, aligning with the human explanation. It provides additional context by mentioning pedestrians, which increases specificity. The explanation is complete and covers all observed elements, and it is fluently written."
+    }
+  },
+  {
+    "video_id": "11_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with people walking along a path without any apparent unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "Both explanations indicate there is no anomaly, matching the normal condition of the video. The AI specifies normal pedestrian activity but lacks more detailed context. The fluency and language use are clear and appropriate."
+    }
+  },
+  {
+    "video_id": "12_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally in an open area without any unusual activity or crowding.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly in the video, matching the human explanation. It provides additional detail about the setting, mentioning pedestrians and the lack of unusual activity, which adds specificity to the description. The explanation is complete in the context of confirming normalcy, though it does not mention every specific detail possible, like the location or time of day, but these are not needed to confirm the normalcy observed. The explanation is fluent and well-structured."
+    }
+  },
+  {
+    "video_id": "12_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity with individuals walking in a park area. There are no unusual behaviors or anomalies detected.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, aligning with the human explanation. It adds specificity by mentioning normal pedestrian activity and the park setting, enhancing the context. The explanation is complete and fluent, covering all necessary aspects of the scene without introducing irrelevant details."
+    }
+  },
+  {
+    "video_id": "12_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show pedestrians walking normally across a plaza, with no unusual or suspicious activities observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the scenario as normal, matching the human explanation. It provides additional context by mentioning pedestrians and normal activity, enhancing specificity without introducing unrelated details. The explanation is fluent and coherent."
+    }
+  },
+  {
+    "video_id": "12_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The people in the frames are walking normally along a path. There is no unusual behavior or irregular movement observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies that there is no anomaly, matching the human explanation. It provides additional detail about the behavior of people, which increases specificity but is not necessary for completeness. The explanation is fluent and easy to understand."
+    }
+  },
+  {
+    "video_id": "12_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show normal pedestrian activity, with people walking and no unusual behavior or anomalies evident.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal with no anomalies, matching the human explanation perfectly. It specifies that there is normal pedestrian activity, which adds some detail, making it more specific. The completeness is high as it covers the essence of the human explanation fully. The language is clear and fluent."
+    }
+  },
+  {
+    "video_id": "12_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking normally along a path with no unusual behaviors or events.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 4,
+      "justification": "The AI explanation correctly identifies the lack of anomalies by describing normal activity, aligning with the human explanation. It is specific enough to mention individuals walking, but not specific about the type of path or any other contextual details. The explanation is mostly complete as it confirms normalcy and lacks any mention of potential anomalies, if there were any subtle ones. It is fluent but could be slightly more concise."
+    }
+  },
+  {
+    "video_id": "12_0142",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The sampled frames show pedestrians walking normally across an open area without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly identifies the situation as normal, missing the anomaly described by the human explanation. The human explanation specifically notes that a person is riding a bicycle in a pedestrian-only area, which is indeed unusual and against the rules for that setting. The AI lacks specificity regarding the anomaly and incorrectly concludes normal pedestrian behavior. The fluency of the AI's explanation is clear and understandable, but it fails to capture the key elements of the scene as described by the human."
+    }
+  },
+  {
+    "video_id": "12_0151",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The pedestrian is walking normally across the frames, and the cyclist's movement appears typical. There is no unusual behavior observed.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 2,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation fails to identify the anomaly noted in the human explanation, which specifies that the girl is cycling in a pedestrian area where cycling is not allowed. The AI focuses instead on general movement and does not address the rule violation. The correctness is low as it misses the main point of anomaly detection. Specificity and completeness scores are low for the same reason \u2013 the AI provides an incorrect assessment without addressing the key issue. However, the AI explanation is generally fluent in its language."
+    }
+  },
+  {
+    "video_id": "12_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals and groups of people walking along a path. Their movement appears normal and consistent with typical pedestrian behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 3,
+      "completeness": 4,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video by describing normal pedestrian behavior, which aligns with the human explanation of 'no anomaly'. The explanation is fluent and specific to pedestrian movement, but does not mention if there are any other potential areas to consider for anomalies. Completeness is slightly lower because while it covers the main idea, it could include more details about the overall scene or environment."
+    }
+  },
+  {
+    "video_id": "12_0173",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A person in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The frames show typical pedestrian and cyclist activity in an open area. People are walking and cycling without any irregular behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 2,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly describes the scene as normal, missing the specific anomaly that a person is cycling in a pedestrian-only area, which is not allowed. This is a critical omission in correctness and completeness. The description is somewhat specific by mentioning pedestrians and cyclists, but it fails to acknowledge the anomaly. Fluency is strong, as the sentences are well-constructed."
+    }
+  },
+  {
+    "video_id": "12_0174",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+    "ai_explanation": "The video shows normal pedestrian and cyclist activity with no unusual behavior or events.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 1,
+      "specificity": 2,
+      "completeness": 1,
+      "fluency": 4,
+      "justification": "The AI explanation incorrectly categorizes the video as normal, missing the specific anomaly of a girl cycling in a pedestrian-only area. There is a lack of specificity regarding the prohibited activity and actors involved, resulting in low completeness and correctness scores. The fluency is adequate, as the explanation is clear and well-structured, but it fails in accurately capturing the anomalous event described by the human."
+    }
+  },
+  {
+    "video_id": "13_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking in an outdoor area. All individuals appear to be walking normally without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies that there is no anomaly in the video, matching the human explanation. It is specific in describing the context that individuals are walking in an outdoor area and noting that their behavior is normal, which adds specificity to the explanation. It covers all necessary aspects by confirming normalcy. The explanation is fluently presented."
+    }
+  },
+  {
+    "video_id": "13_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The pedestrian activity in the sampled frames appears normal, with individuals walking along the pathway without any unusual behavior.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI explanation correctly identifies the video as normal, aligning with the human explanation. It specifies that the pedestrian activity is normal, which adds some detail to the observation, making it specific. The explanation is complete in terms of conveying there is no anomaly observed. The language used is clear and fluent."
+    }
+  },
+  {
+    "video_id": "13_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "human_explanation": "No anomaly in the video.",
+    "ai_explanation": "The frames show individuals walking on a path, which appears to be normal pedestrian activity.",
+    "anomaly_detected": false,
+    "scores": {
+      "correctness": 5,
+      "specificity": 4,
+      "completeness": 5,
+      "fluency": 5,
+      "justification": "The AI correctly identifies the situation as normal pedestrian activity, which aligns with the human explanation indicating no anomaly. The specificity is slightly lower because the AI could have mentioned the absence of any suspicious behavior or unusual conditions to enhance specificity."
+    }
+  }
+]

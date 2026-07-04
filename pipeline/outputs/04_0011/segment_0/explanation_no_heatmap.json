@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 46,
+  "end_frame": 283,
+  "include_heatmap": false,
+  "explanation": "A child is running alone across the open area without a close escort, which deviates from the learned patterns of pedestrian behavior where children are typically accompanied closely by adults."
+}

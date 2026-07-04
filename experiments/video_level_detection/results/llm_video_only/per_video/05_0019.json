@@ -1,0 +1,18 @@
+{
+  "video_id": "05_0019",
+  "is_anomalous_gt": 1,
+  "total_frames": 649,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    92,
+    185,
+    277,
+    370,
+    462,
+    555,
+    648
+  ],
+  "anomaly_detected": true,
+  "explanation": "Several individuals are seen engaged in a confrontation or aggressive interaction in frames 277 to 462, which deviates from normal pedestrian behavior."
+}

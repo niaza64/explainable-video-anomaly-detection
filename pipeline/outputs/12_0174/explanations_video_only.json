@@ -1,0 +1,26 @@
+{
+  "video_id": "12_0174",
+  "variant": "video_only",
+  "total_frames": 337,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    48,
+    96,
+    144,
+    192,
+    240,
+    288,
+    336
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 336,
+      "include_heatmap": false,
+      "explanation": "The activity in the frames shows individuals calmly walking and cycling, which is consistent with normal pedestrian behavior."
+    }
+  ]
+}

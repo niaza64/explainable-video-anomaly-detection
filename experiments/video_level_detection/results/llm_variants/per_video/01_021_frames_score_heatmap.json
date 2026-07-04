@@ -1,0 +1,17 @@
+{
+  "video_id": "01_021",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 1010,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    286,
+    410,
+    534,
+    658,
+    782
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores are high across the sampled frames, particularly for frames 410 (0.96) and 534 (1.00), indicating unusual activity. The crowd density and movement patterns might be contributing to the anomalies."
+}

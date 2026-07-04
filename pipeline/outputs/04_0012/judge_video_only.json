@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0012",
+  "variant": "video_only",
+  "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "In Frame 205, a person is seen running, which deviates from normal pedestrian behavior like walking calmly.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 3,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI correctly identifies an unusual pedestrian behavior, but incorrectly specifies it as running instead of moving in circles. The explanation mentions that the behavior deviates from normal pedestrian activity but misses the detail of the white shirt and the specific action of circling. The AI explanation is clear and well-written."
+      }
+    }
+  ]
+}

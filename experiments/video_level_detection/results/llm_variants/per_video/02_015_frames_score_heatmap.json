@@ -1,0 +1,17 @@
+{
+  "video_id": "02_015",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 202,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    58,
+    83,
+    109,
+    134,
+    159
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames exhibit high anomaly scores, indicating unusual activity, particularly around frames 83 and 109 with scores of 0.96 and 0.99. The anomaly heatmaps show highlighted regions around individuals, suggesting atypical behavior such as sudden movements or interactions with the environment."
+}

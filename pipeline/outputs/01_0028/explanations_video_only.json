@@ -1,0 +1,26 @@
+{
+  "video_id": "01_0028",
+  "variant": "video_only",
+  "total_frames": 457,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    65,
+    130,
+    195,
+    260,
+    325,
+    390,
+    456
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 456,
+      "include_heatmap": false,
+      "explanation": "In Frame 325/456, individuals appear to be running instead of walking calmly, which deviates from normal pedestrian behavior."
+    }
+  ]
+}

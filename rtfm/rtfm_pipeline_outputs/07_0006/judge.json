@@ -1,0 +1,16 @@
+{
+  "video_id": "07_0006",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a mint-green shirt pushes a person in a white shirt to the ground; the person in white gets up and chases him.",
+  "ai_explanation": "A group of individuals is involved in what appears to be a playful physical altercation on a crosswalk. The anomaly starts at snippet 7 and peaks at snippet 12, with one individual pushing another to the ground, deviating from normal pedestrian behavior by causing a disruption in the otherwise orderly movement typical in this area. The activity resolves by snippet 19 as the group continues walking normally.",
+  "gate_score": 0.9216549396514893,
+  "gt_anomaly_start": 159,
+  "gt_anomaly_end": 261,
+  "scores": {
+    "correctness": 4,
+    "specificity": 2,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI correctly identifies the pushing incident as the anomaly, which aligns with the human explanation. However, it lacks specific details about the individuals involved, such as clothing and subsequent actions. The explanation captures the main event but misses the chase afterward. The explanation is generally clear and well-structured."
+  }
+}

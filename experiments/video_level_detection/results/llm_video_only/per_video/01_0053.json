@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0053",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    65,
+    130,
+    195,
+    260,
+    325,
+    390,
+    456
+  ],
+  "anomaly_detected": true,
+  "explanation": "A motorized vehicle is seen moving through an area that appears to be a pedestrian walkway, which deviates from normal pedestrian behavior."
+}

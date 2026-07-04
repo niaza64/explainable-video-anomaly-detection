@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0052",
+  "total_frames": 337,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 55,
+      "end_frame": 310,
+      "include_heatmap": true,
+      "explanation": "The anomaly appears to be a cyclist riding through an area normally occupied by pedestrians, deviating from typical pedestrian-only movement patterns."
+    }
+  ]
+}

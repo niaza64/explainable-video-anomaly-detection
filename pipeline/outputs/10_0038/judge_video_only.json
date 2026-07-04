@@ -1,0 +1,18 @@
+{
+  "video_id": "10_0038",
+  "variant": "video_only",
+  "human_explanation": "A person in a green shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show pedestrians walking calmly on walkways, which is normal behavior for the scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 5,
+        "justification": "The AI fails to identify the anomaly of a person riding a bicycle where it is not allowed, focusing instead on the normal behavior of pedestrians. It lacks specific details about objects, actions, or clothing relevant to the anomaly. The explanation is fluent, but completely omits the key elements of the human's description."
+      }
+    }
+  ]
+}

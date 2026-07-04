@@ -1,0 +1,26 @@
+{
+  "video_id": "01_0162",
+  "variant": "video_only",
+  "total_frames": 193,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    27,
+    54,
+    82,
+    109,
+    137,
+    164,
+    192
+  ],
+  "anomaly_detected": false,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 192,
+      "include_heatmap": false,
+      "explanation": "All frames show people and a cyclist moving calmly along walkways, which is normal pedestrian behavior."
+    }
+  ]
+}

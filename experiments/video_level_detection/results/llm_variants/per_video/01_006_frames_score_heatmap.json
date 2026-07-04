@@ -1,0 +1,17 @@
+{
+  "video_id": "01_006",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 506,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    139,
+    205,
+    270,
+    336,
+    401
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores indicate unusual activity, particularly in frames 205 (0.96) and 270 (1.00). The heatmaps suggest significant deviations from expected patterns, warranting further investigation."
+}

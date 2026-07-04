@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0064",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 289,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    83,
+    120,
+    157,
+    194,
+    231
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly score is high across multiple frames, peaking at frame 157 with a score of 1.00. An individual in a purple shirt is running backwards, which is not typical pedestrian behavior, indicating anomalous activity."
+}

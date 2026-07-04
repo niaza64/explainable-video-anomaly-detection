@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0142",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a gray shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity involves a person wearing a brightly colored hat which stands out against the usual pedestrian flow, capturing the model's attention due to unusual coloring patterns that deviate from the normal scene.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation identifies an anomaly related to clothing color rather than the correct anomaly of cycling in a pedestrian area. It does mention a 'person' and 'unusual coloring patterns,' showing some specificity, but it fails to capture the key aspects of the human's explanation, namely the bicycle and the location's cycling restriction. The explanation is fluently written but incorrect in content."
+      }
+    }
+  ]
+}

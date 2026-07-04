@@ -1,0 +1,17 @@
+{
+  "video_id": "05_018",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 809,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    249,
+    345,
+    440,
+    536,
+    631
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 345 and 440 show high anomaly scores, suggesting irregular activity. The heatmap overlays indicate unusual movements or behaviors in the area."
+}

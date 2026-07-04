@@ -1,0 +1,18 @@
+{
+  "video_id": "12_0151",
+  "variant": "video_only",
+  "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "All frames show normal pedestrian behavior with individuals walking calmly on the walkway. There are no unusual activities observed.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 1,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation fails to identify the main anomaly of a girl cycling in a pedestrian area. It incorrectly describes the scene as having normal pedestrian behavior and doesn't mention any specific details like a girl or a bicycle. The description is clear but completely incorrect."
+      }
+    }
+  ]
+}

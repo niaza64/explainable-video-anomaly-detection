@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0028",
+  "variant": "video_only",
+  "human_explanation": "A person takes a bag from a pedestrian and runs away.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "In Frame 325/456, individuals appear to be running instead of walking calmly, which deviates from normal pedestrian behavior.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI hints at an anomaly involving running, which aligns partially with the human explanation of someone running away, but it fails to mention the theft aspect. The explanation is vague, lacking specific details about the bag and the interaction between individuals. The text is clear and well-structured."
+      }
+    }
+  ]
+}

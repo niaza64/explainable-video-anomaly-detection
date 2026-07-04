@@ -1,0 +1,17 @@
+{
+  "video_id": "06_021",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 723,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    221,
+    307,
+    394,
+    480,
+    566
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Anomaly scores are generally high, with frame 394 showing a person exiting the building. The high scores and heatmaps suggest unusual activity, likely due to unexpected movement."
+}

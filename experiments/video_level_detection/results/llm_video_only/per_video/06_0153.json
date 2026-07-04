@@ -1,0 +1,18 @@
+{
+  "video_id": "06_0153",
+  "is_anomalous_gt": 1,
+  "total_frames": 217,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    30,
+    61,
+    92,
+    123,
+    154,
+    185,
+    216
+  ],
+  "anomaly_detected": false,
+  "explanation": "The frames show normal pedestrian and bicycle traffic, with individuals walking calmly and a cyclist passing by. There are no signs of unusual behavior."
+}

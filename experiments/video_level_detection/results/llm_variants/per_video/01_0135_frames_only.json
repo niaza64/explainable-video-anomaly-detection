@@ -1,0 +1,17 @@
+{
+  "video_id": "01_0135",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 409,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    129,
+    184,
+    240,
+    295,
+    350
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The sequence shows normal pedestrian and vehicle movement in the area without any unusual or suspicious activity."
+}

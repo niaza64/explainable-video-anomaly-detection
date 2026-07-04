@@ -1,0 +1,3383 @@
+[
+  {
+    "video_id": "01_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 765,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      419,
+      510,
+      601
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally down a pathway, with no unusual behavior or crowding observed."
+  },
+  {
+    "video_id": "01_0015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      124,
+      178,
+      232,
+      285,
+      339
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking casually across the area."
+  },
+  {
+    "video_id": "01_0025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      175,
+      249,
+      323,
+      397,
+      471
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28839, Requested 3952. Please try again in 5.582s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "01_0027",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      148,
+      202,
+      257,
+      311
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally along the pathway with no signs of anomalous behavior."
+  },
+  {
+    "video_id": "01_0028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      136,
+      195,
+      253,
+      312,
+      370
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "In Frame 312, three individuals are engaged in an activity that resembles running or chasing, which deviates from normal walking behavior observed in other frames."
+  },
+  {
+    "video_id": "01_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      301,
+      396,
+      490,
+      584
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in various directions, which appears to be normal pedestrian behavior with no unusual activity observed."
+  },
+  {
+    "video_id": "01_0051",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      130,
+      174,
+      217,
+      260
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The series of frames show normal pedestrian walking and cycling behavior in a public space. There are no unusual activities observed."
+  },
+  {
+    "video_id": "01_0052",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      97,
+      140,
+      182,
+      225,
+      267
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian activity and a bicyclist on a walkway. There is no unusual or anomalous behavior detected."
+  },
+  {
+    "video_id": "01_0053",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      133,
+      191,
+      248,
+      306,
+      363
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "There is no anomaly in the video. Pedestrians are walking normally, and the vehicle is moving along without unusual behavior."
+  },
+  {
+    "video_id": "01_0055",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      89,
+      128,
+      167,
+      206,
+      245
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show people walking in a normal manner across a paved area. No unusual or rapid movements are observed."
+  },
+  {
+    "video_id": "01_0056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      143,
+      211,
+      279,
+      347,
+      415
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally across all sampled frames."
+  },
+  {
+    "video_id": "01_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      205,
+      270,
+      336,
+      401
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking normally along a path. There are no irregular or unusual activities observed in the sampled frames."
+  },
+  {
+    "video_id": "01_0064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      120,
+      157,
+      194,
+      231
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a pathway without any unusual or irregular behavior."
+  },
+  {
+    "video_id": "01_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      412,
+      537,
+      661,
+      785
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking activity with various individuals or groups moving across a paved area."
+  },
+  {
+    "video_id": "01_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      220,
+      307,
+      395,
+      482,
+      569
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video frames show pedestrians walking normally along a pathway without any unusual behavior."
+  },
+  {
+    "video_id": "01_0135",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      129,
+      184,
+      240,
+      295,
+      350
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence shows normal pedestrian and vehicle movement in the area without any unusual or suspicious activity."
+  },
+  {
+    "video_id": "01_0136",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      161,
+      232,
+      303,
+      374,
+      445
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A vehicle is present and moving on a pedestrian walkway, which is unusual and potentially hazardous."
+  },
+  {
+    "video_id": "01_0139",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      63,
+      91,
+      118,
+      146,
+      173
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence of frames shows normal pedestrian and cyclist movement in an open area, with no unusual behavior or incidents apparent."
+  },
+  {
+    "video_id": "01_0141",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      134,
+      175,
+      216,
+      257
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals appear to be moving in a coordinated and normal manner without any signs of conflict or irregular activity."
+  },
+  {
+    "video_id": "01_0162",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 193,
+    "frames_sampled": 3,
+    "sampled_indices": [
+      73,
+      112,
+      151
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video frames show normal pedestrian activity and people riding bicycles. There are no signs of unusual behavior or anomalies."
+  },
+  {
+    "video_id": "01_0177",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 317,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      91,
+      131,
+      171,
+      211,
+      251
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians and a cyclist moving across a paved area, with normal pedestrian activity observed. No anomalies are detected."
+  },
+  {
+    "video_id": "01_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 842,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      289,
+      395,
+      500,
+      606,
+      711
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28850, Requested 3952. Please try again in 5.604s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "01_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      410,
+      534,
+      658,
+      782
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian movement with individuals walking in different directions. There is no indication of anomalous activity in the provided frames."
+  },
+  {
+    "video_id": "01_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      229,
+      319,
+      408,
+      498,
+      587
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show people walking normally on a pathway without any unusual behavior."
+  },
+  {
+    "video_id": "01_027",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 944,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      399,
+      512,
+      625,
+      738
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Frames show normal pedestrian activity with people walking along the path. No unusual behavior is observed."
+  },
+  {
+    "video_id": "01_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 945,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      389,
+      502,
+      615,
+      728
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show an empty pathway with no apparent activity or anomalies."
+  },
+  {
+    "video_id": "01_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 969,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      292,
+      408,
+      524,
+      640,
+      756
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames depict individuals walking along a path in a normal manner without any unusual behavior."
+  },
+  {
+    "video_id": "01_032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1192,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      330,
+      485,
+      639,
+      794,
+      948
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally without any unusual behavior or activities."
+  },
+  {
+    "video_id": "01_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      277,
+      383,
+      489,
+      594,
+      700
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking and interactions with no unusual or erratic behavior."
+  },
+  {
+    "video_id": "01_038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      142,
+      206,
+      270,
+      334,
+      398
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in a pedestrian area with no unusual behavior or anomalies."
+  },
+  {
+    "video_id": "01_039",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      403,
+      518,
+      633,
+      748
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show people walking normally, with no unusual behavior or activities."
+  },
+  {
+    "video_id": "01_040",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1168,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      460,
+      610,
+      760,
+      910
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames display normal pedestrian behavior with individuals walking along a pathway. There are no unusual activities or behaviors observed."
+  },
+  {
+    "video_id": "01_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 878,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      381,
+      486,
+      591,
+      696
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames depict individuals walking across an open plaza, which appears to be normal pedestrian activity. No unusual behavior or obstruction is observed."
+  },
+  {
+    "video_id": "01_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      176,
+      251,
+      326,
+      401,
+      476
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in a normal, pedestrian manner across an open area. There are no unusual behaviors or anomalies observed in the sampled frames."
+  },
+  {
+    "video_id": "01_047",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1057,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      296,
+      429,
+      562,
+      695,
+      828
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking activity with different individuals in each frame moving across the area without any unusual behavior."
+  },
+  {
+    "video_id": "01_050",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 806,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      241,
+      336,
+      430,
+      525,
+      619
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally in an open area, and there are no visible signs of unusual or anomalous activity."
+  },
+  {
+    "video_id": "01_052",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      300,
+      419,
+      539,
+      658,
+      777
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 29027, Requested 3952. Please try again in 5.958s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "01_053",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      284,
+      426,
+      568,
+      710,
+      852
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian walking behavior with no unusual activity detected."
+  },
+  {
+    "video_id": "01_055",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      222,
+      309,
+      396,
+      483,
+      570
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement with individuals walking across the area at different times."
+  },
+  {
+    "video_id": "01_056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1010,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      252,
+      380,
+      508,
+      635,
+      763
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show individuals walking normally in a public space, and no unusual activity is observed."
+  },
+  {
+    "video_id": "01_057",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      240,
+      330,
+      420,
+      510,
+      600
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian activity with people walking in a typical manner along a pathway. No unusual behavior is observed."
+  },
+  {
+    "video_id": "01_058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      169,
+      263,
+      357,
+      451,
+      545
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally along a pathway. There are no unusual or suspicious activities observed."
+  },
+  {
+    "video_id": "01_059",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      209,
+      297,
+      385,
+      473,
+      561
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence of frames shows people walking along a path in a consistent manner, with no unusual or unexpected behavior observed."
+  },
+  {
+    "video_id": "01_061",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 890,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      263,
+      368,
+      473,
+      578,
+      683
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking at a normal pace. No unusual behavior is observed."
+  },
+  {
+    "video_id": "01_064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 650,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      182,
+      262,
+      342,
+      422,
+      502
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking normally across the path with no suspicious or unusual activities observed."
+  },
+  {
+    "video_id": "01_065",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 616,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      178,
+      254,
+      330,
+      405,
+      481
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian movement with no irregular activity detected."
+  },
+  {
+    "video_id": "01_071",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      302,
+      433,
+      564,
+      695,
+      826
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally along a pathway. There is no unusual behavior or activity evident in the images."
+  },
+  {
+    "video_id": "01_072",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1053,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      253,
+      392,
+      531,
+      670,
+      809
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with individuals walking along a path. No unusual behavior is detected."
+  },
+  {
+    "video_id": "01_074",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1041,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      320,
+      449,
+      577,
+      706,
+      834
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking calmly on a pathway. There is no unusual behavior or activity apparent in the sampled frames."
+  },
+  {
+    "video_id": "01_075",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 568,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      161,
+      233,
+      305,
+      377,
+      449
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals are walking in a consistent manner across the frames, indicating normal pedestrian activity with no unusual behavior."
+  },
+  {
+    "video_id": "01_076",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      146,
+      217,
+      289,
+      360,
+      431
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian walking behavior with individuals walking across an open area."
+  },
+  {
+    "video_id": "01_077",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 698,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      216,
+      302,
+      388,
+      473,
+      559
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally in each frame, with no unusual behavior observed."
+  },
+  {
+    "video_id": "01_078",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      273,
+      403,
+      533,
+      663,
+      793
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals walking across a plaza. No unusual or unexpected behavior is observed."
+  },
+  {
+    "video_id": "01_079",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 712,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      204,
+      290,
+      376,
+      462,
+      548
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in a pedestrian area without any unusual activities observed."
+  },
+  {
+    "video_id": "01_080",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 788,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      216,
+      312,
+      407,
+      503,
+      598
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking normally along a pathway. There is no unusual behavior or anomalies observed in these frames."
+  },
+  {
+    "video_id": "01_081",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 789,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      424,
+      517,
+      610
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking along a path with no unusual activities or behaviors."
+  },
+  {
+    "video_id": "01_082",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 808,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      227,
+      323,
+      420,
+      516,
+      612
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activities, with people walking along a pathway without any unusual behavior."
+  },
+  {
+    "video_id": "02_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 908,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      265,
+      373,
+      481,
+      589,
+      697
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals in the frames are walking normally along a sidewalk, displaying typical pedestrian behavior without any unusual activities."
+  },
+  {
+    "video_id": "02_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 736,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      203,
+      293,
+      383,
+      472,
+      562
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally along a building. There is no unusual or suspicious activity observed."
+  },
+  {
+    "video_id": "02_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      86,
+      124,
+      162,
+      200,
+      238
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals are walking normally along a path without displaying unusual behavior."
+  },
+  {
+    "video_id": "02_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      121,
+      159,
+      197,
+      235
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking towards a building, entering through a door. This behavior appears normal for a pedestrian area."
+  },
+  {
+    "video_id": "02_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      179,
+      256,
+      333,
+      410,
+      487
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames display normal pedestrian activity with people walking along a sidewalk in various directions."
+  },
+  {
+    "video_id": "02_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 227,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      57,
+      86,
+      116,
+      145,
+      174
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals in the frames are walking normally along the path, and there are no unusual activities or behaviors observed."
+  },
+  {
+    "video_id": "02_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 202,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      58,
+      83,
+      109,
+      134,
+      159
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a sidewalk in an orderly manner, which appears to be normal pedestrian activity."
+  },
+  {
+    "video_id": "02_0161",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      92,
+      134,
+      177,
+      219,
+      261
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian and bicycle activity along a pathway adjacent to a building. There is no observable unusual behavior or anomalies in the sampled frames."
+  },
+  {
+    "video_id": "03_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 402,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      116,
+      167,
+      218,
+      268,
+      319
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking activity across a crosswalk, with no unusual behavior or anomalies."
+  },
+  {
+    "video_id": "03_0031",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      144,
+      213,
+      281,
+      350,
+      418
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28977, Requested 3952. Please try again in 5.858s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "03_0032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 409,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      118,
+      169,
+      221,
+      272,
+      323
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28942, Requested 3952. Please try again in 5.788s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "03_0033",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      90,
+      129,
+      168,
+      207,
+      246
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "Frames show two individuals engaged in what looks like a physical altercation, which is anomalous compared to normal pedestrian movement."
+  },
+  {
+    "video_id": "03_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      121,
+      174,
+      227,
+      280,
+      333
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking across a crosswalk over time without any unusual activity."
+  },
+  {
+    "video_id": "03_0059",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      126,
+      180,
+      235,
+      289,
+      343
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence of frames shows people walking across a pedestrian crossing in a typical manner without any unusual activity."
+  },
+  {
+    "video_id": "04_0004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 865,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      265,
+      367,
+      469,
+      570,
+      672
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A person appears to be on the ground in frame 469, suggesting a possible fall or incident."
+  },
+  {
+    "video_id": "04_0011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      85,
+      125,
+      164,
+      204,
+      243
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in a park-like area, including a child running. All movements appear typical of pedestrian activity."
+  },
+  {
+    "video_id": "04_0012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 361,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      84,
+      132,
+      180,
+      228,
+      276
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All sampled frames show normal pedestrian walking patterns with no unusual behaviors or activities."
+  },
+  {
+    "video_id": "04_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 913,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      281,
+      390,
+      498,
+      607,
+      715
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking on a pathway. There are no unusual behaviors or anomalies observed."
+  },
+  {
+    "video_id": "04_0046",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 529,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      145,
+      213,
+      281,
+      349,
+      417
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally across the scene without any unusual or erratic behavior."
+  },
+  {
+    "video_id": "04_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 976,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      286,
+      404,
+      522,
+      640,
+      758
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement with individuals walking calmly across the area."
+  },
+  {
+    "video_id": "04_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show a group of people walking along a path, and their movement appears normal for pedestrian traffic."
+  },
+  {
+    "video_id": "04_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1702,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      429,
+      667,
+      905,
+      1143,
+      1381
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "There is no anomaly in the video. People are walking normally in the frames provided."
+  },
+  {
+    "video_id": "04_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      145,
+      216,
+      287,
+      358,
+      429
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally, with no unusual behavior or activity detected."
+  },
+  {
+    "video_id": "04_014",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      188,
+      267,
+      346,
+      425,
+      504
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking normally along a pathway without any unusual behavior or anomalies."
+  },
+  {
+    "video_id": "04_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 327,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals are walking normally across the frames without any unusual behavior."
+  },
+  {
+    "video_id": "04_017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      115,
+      184,
+      253,
+      322,
+      391
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals and small groups walking normally along a path. There are no unusual or anomalous activities observed."
+  },
+  {
+    "video_id": "04_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 651,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      174,
+      255,
+      336,
+      417,
+      498
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28981, Requested 3952. Please try again in 5.866s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "05_0017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28870, Requested 3952. Please try again in 5.644s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "05_0019",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 649,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      187,
+      266,
+      344,
+      423,
+      501
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": null,
+    "explanation": "ERROR: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4o in organization org-BnlgWk8QTe3qy1TH8ao8nVFq on tokens per min (TPM): Limit 30000, Used 28848, Requested 3952. Please try again in 5.6s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "video_id": "05_0023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      326,
+      418,
+      510,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "In frames 234 and 418, individuals appear to be running in an unusual manner, suggesting possible conflict or playful chasing, which is anomalous compared to normal pedestrian walking."
+  },
+  {
+    "video_id": "05_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      167,
+      242,
+      317,
+      391,
+      466
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The person is walking along a sidewalk, exhibiting normal pedestrian behavior. There are no unusual or suspicious activities observed in the sampled frames."
+  },
+  {
+    "video_id": "05_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 626,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      175,
+      252,
+      329,
+      406,
+      483
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking down the path without any unusual behavior."
+  },
+  {
+    "video_id": "05_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 866,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      260,
+      362,
+      464,
+      565,
+      667
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking normally along the pathway with no unusual behavior or events visible."
+  },
+  {
+    "video_id": "05_010",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1250,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      331,
+      495,
+      658,
+      822,
+      985
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking normally along a pathway. There is no unusual behavior or activity observed in these frames."
+  },
+  {
+    "video_id": "05_013",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      250,
+      347,
+      443,
+      540,
+      636
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians appear to be walking normally along a pathway. No unusual behavior is observed in the frames."
+  },
+  {
+    "video_id": "05_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      154,
+      224,
+      294,
+      364,
+      434
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian activity with individuals walking along the path without any unusual behavior."
+  },
+  {
+    "video_id": "05_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 809,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      249,
+      345,
+      440,
+      536,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement along a pathway. No unusual activity is observed."
+  },
+  {
+    "video_id": "05_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1058,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      288,
+      421,
+      553,
+      686,
+      818
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement with people walking along the pathway. There are no unusual activities or anomalies."
+  },
+  {
+    "video_id": "05_023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      215,
+      302,
+      390,
+      477,
+      564
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show pedestrians walking normally along the road without any unusual activity."
+  },
+  {
+    "video_id": "05_025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 734,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      220,
+      307,
+      394,
+      480,
+      567
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a path, and there are no signs of unusual behavior or crowding, indicating normal activity."
+  },
+  {
+    "video_id": "05_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 506,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      204,
+      269,
+      334,
+      399
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking along the road in a normal manner without any unusual or anomalous activity."
+  },
+  {
+    "video_id": "05_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 877,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      260,
+      364,
+      468,
+      571,
+      675
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity, with people walking along the path without any unusual behavior."
+  },
+  {
+    "video_id": "05_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 554,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      154,
+      225,
+      296,
+      367,
+      438
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally along the path and no unusual activity is observed across the frames."
+  },
+  {
+    "video_id": "05_033",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      308,
+      460,
+      612,
+      764,
+      916
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking along the road and sidewalk. No unusual behavior is observed."
+  },
+  {
+    "video_id": "05_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 962,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      300,
+      416,
+      532,
+      648,
+      764
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking along a path, which appears to be normal pedestrian activity with no unusual behavior."
+  },
+  {
+    "video_id": "05_038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      135,
+      196,
+      257,
+      318,
+      379
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian activity with people walking on a path. No unusual behavior is observed."
+  },
+  {
+    "video_id": "05_039",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      235,
+      327,
+      419,
+      510,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The pedestrian is walking along the road in a consistent manner across the frames, indicating normal pedestrian activity."
+  },
+  {
+    "video_id": "05_041",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 781,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      424,
+      517,
+      610
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking on the sidewalk and road in a normal manner, with no unusual activity."
+  },
+  {
+    "video_id": "05_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      331,
+      423,
+      516,
+      608
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking activity with people moving along the pathway and crossing the street at different times."
+  },
+  {
+    "video_id": "05_044",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      419,
+      509,
+      600
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking on a path, and there is no unusual or suspicious behavior observed."
+  },
+  {
+    "video_id": "05_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 769,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      225,
+      316,
+      407,
+      498,
+      589
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video frames show individuals walking along a path in a park setting, and all activities appear normal for pedestrian movement."
+  },
+  {
+    "video_id": "05_048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      238,
+      329,
+      420,
+      511,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking along a path and there is no unusual activity."
+  },
+  {
+    "video_id": "05_049",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 739,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      224,
+      312,
+      400,
+      488,
+      576
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video frames show pedestrians walking along a path in a typical manner, without any unusual or erratic behavior."
+  },
+  {
+    "video_id": "05_054",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      296,
+      385,
+      474,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking along a path without any unusual behavior."
+  },
+  {
+    "video_id": "05_056",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      227,
+      315,
+      403,
+      491,
+      579
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with individuals walking along the path."
+  },
+  {
+    "video_id": "05_057",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      222,
+      309,
+      396,
+      483,
+      570
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally along the path without any unusual behavior."
+  },
+  {
+    "video_id": "05_058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 738,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      205,
+      295,
+      384,
+      474,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show groups of people walking along a road, which appears to be normal pedestrian activity."
+  },
+  {
+    "video_id": "05_060",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      282,
+      411,
+      540,
+      668,
+      797
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking on a street in a calm and orderly manner, without any unusual activity."
+  },
+  {
+    "video_id": "05_061",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1069,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      443,
+      576,
+      708,
+      841
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a path, and no unusual behavior is observed."
+  },
+  {
+    "video_id": "05_062",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1070,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      310,
+      444,
+      578,
+      712,
+      846
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a road, and no unusual behavior is observed."
+  },
+  {
+    "video_id": "05_064",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 482,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      139,
+      203,
+      266,
+      330,
+      393
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Normal pedestrian activity is observed with individuals walking along the sidewalk."
+  },
+  {
+    "video_id": "05_065",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1034,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      285,
+      414,
+      542,
+      671,
+      799
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally on the sidewalk and crossing the road in an orderly fashion. No unusual behavior is observed."
+  },
+  {
+    "video_id": "06_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1024,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      330,
+      460,
+      591,
+      721,
+      851
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show people entering and exiting a building in a normal manner. There is no visible unusual behavior or activity."
+  },
+  {
+    "video_id": "06_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 726,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      231,
+      320,
+      409,
+      497,
+      586
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "There is no noticeable activity or movement in the sampled frames. The area remains stable with no signs of anomalous behavior."
+  },
+  {
+    "video_id": "06_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 400,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      117,
+      168,
+      219,
+      270,
+      321
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence shows people walking normally near a building entrance without any unusual behavior."
+  },
+  {
+    "video_id": "06_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 256,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      74,
+      106,
+      139,
+      171,
+      203
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence of frames shows a person standing near the entrance and interacting briefly, which appears to be normal activity around a building entrance."
+  },
+  {
+    "video_id": "06_0144",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      64,
+      95,
+      125,
+      156,
+      186
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence shows a car briefly stopping and a pedestrian walking normally towards the entrance. No unusual activity is observed."
+  },
+  {
+    "video_id": "06_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 846,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      241,
+      343,
+      444,
+      546,
+      647
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian activity, with people entering and exiting a building."
+  },
+  {
+    "video_id": "06_0153",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      64,
+      92,
+      120,
+      148,
+      176
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking and a person cycling past. This appears to be normal activity in an outdoor setting."
+  },
+  {
+    "video_id": "06_017",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      294,
+      381,
+      468,
+      555
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians entering and exiting a building normally, with no unusual behavior or activities observed."
+  },
+  {
+    "video_id": "06_018",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      225,
+      312,
+      399,
+      485,
+      572
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity as an individual exits a building and walks away. There is no unusual or suspicious behavior apparent."
+  },
+  {
+    "video_id": "06_020",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      218,
+      304,
+      390,
+      476,
+      562
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals entering and exiting a building at a walking pace."
+  },
+  {
+    "video_id": "06_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 723,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      221,
+      307,
+      394,
+      480,
+      566
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people entering and exiting a building, which is typical pedestrian behavior with no visible anomalies."
+  },
+  {
+    "video_id": "06_022",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 724,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      224,
+      311,
+      398,
+      485,
+      572
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking out of a building, which is normal pedestrian activity."
+  },
+  {
+    "video_id": "06_026",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1336,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      393,
+      578,
+      763,
+      948,
+      1133
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames depict normal pedestrian activity with individuals entering and exiting a building. No unusual behavior is observed."
+  },
+  {
+    "video_id": "06_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      231,
+      320,
+      410,
+      499,
+      588
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "People are walking normally in and out of the building. No unusual or suspicious activities are observed."
+  },
+  {
+    "video_id": "06_029",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 754,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      248,
+      341,
+      434,
+      526,
+      619
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with a person walking by without any unusual behavior."
+  },
+  {
+    "video_id": "06_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 757,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      207,
+      299,
+      391,
+      483,
+      575
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A person begins exiting the building in frame 207 and remains by the doorway in all subsequent frames, which is unusual compared to typical pedestrian behavior."
+  },
+  {
+    "video_id": "07_0006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 385,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      107,
+      155,
+      203,
+      251,
+      299
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "A person has fallen to the ground in frame 203, which is unusual for normal pedestrian walking."
+  },
+  {
+    "video_id": "07_0008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      131,
+      188,
+      245,
+      302,
+      359
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": true,
+    "explanation": "An individual is walking with an object resembling a long-barreled item slung over their shoulder, which is unusual and potentially concerning for typical pedestrian activity."
+  },
+  {
+    "video_id": "07_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      325,
+      416,
+      507,
+      598
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian activity with individuals walking across a zebra crossing at different times, which is common in urban areas."
+  },
+  {
+    "video_id": "07_0048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      99,
+      129,
+      159,
+      189
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence of frames shows people walking along the road. There is no evident unusual behavior or anomaly in pedestrian movement."
+  },
+  {
+    "video_id": "07_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      219,
+      305,
+      391,
+      477,
+      563
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking across a crosswalk in an orderly manner."
+  },
+  {
+    "video_id": "07_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 302,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      125,
+      163,
+      201,
+      239
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals are walking across a pedestrian crossing in a normal manner. There is no unusual or suspicious activity observed."
+  },
+  {
+    "video_id": "08_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 817,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      262,
+      361,
+      460,
+      558,
+      657
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show a normal flow of pedestrians walking on a pathway without any unusual behavior or anomalies."
+  },
+  {
+    "video_id": "08_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1298,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      348,
+      522,
+      696,
+      870,
+      1044
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show a static scene with no unusual activity. In Frame 1044, a person appears, which seems normal for a pedestrian area."
+  },
+  {
+    "video_id": "08_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 770,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      218,
+      311,
+      404,
+      496,
+      589
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity, with individuals walking along a pathway at different times."
+  },
+  {
+    "video_id": "08_0058",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally along the pathway without any unusual behavior or disturbances."
+  },
+  {
+    "video_id": "08_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      245,
+      339,
+      433,
+      526,
+      620
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement, with people walking along a path without any unusual activity."
+  },
+  {
+    "video_id": "08_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 785,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      243,
+      336,
+      429,
+      522,
+      615
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian activity with individuals walking along the path. There is no unusual behavior or anomalies detected."
+  },
+  {
+    "video_id": "08_0077",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 457,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      132,
+      189,
+      246,
+      303,
+      360
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking and riding bicycles along a path. There are no visible anomalies or unusual activities observed in these frames."
+  },
+  {
+    "video_id": "08_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 786,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      329,
+      421,
+      513,
+      605
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally along the path in all sampled frames, indicating no unusual activity."
+  },
+  {
+    "video_id": "08_0080",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      83,
+      120,
+      157,
+      193,
+      230
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally in an outdoor area; no unusual activity is observed."
+  },
+  {
+    "video_id": "08_010",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 721,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      211,
+      297,
+      384,
+      470,
+      556
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian walking with people moving in groups or alone without any irregular activities."
+  },
+  {
+    "video_id": "08_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 722,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      215,
+      301,
+      386,
+      472,
+      557
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian activity with people walking along a path in a consistent and orderly manner."
+  },
+  {
+    "video_id": "08_0157",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 313,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      87,
+      126,
+      165,
+      204,
+      243
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The individuals in the frames appear to be walking in a normal manner without any unusual behavior or disturbances."
+  },
+  {
+    "video_id": "08_0158",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      93,
+      135,
+      178,
+      220,
+      262
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sequence shows normal pedestrian movement with people walking in a public area. No unusual behavior or anomalies are observed."
+  },
+  {
+    "video_id": "08_016",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 937,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      285,
+      398,
+      511,
+      623,
+      736
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking in a typical manner along a path, with no unusual behavior observed."
+  },
+  {
+    "video_id": "08_021",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1322,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      369,
+      545,
+      721,
+      897,
+      1073
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking along a path, and no unusual or unexpected behavior is observed. The pedestrians appear to be moving normally."
+  },
+  {
+    "video_id": "08_023",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 818,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      249,
+      345,
+      440,
+      536,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in various directions on a path. There is no unusual behavior or activity observed."
+  },
+  {
+    "video_id": "08_024",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 745,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      226,
+      315,
+      404,
+      493,
+      582
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show typical pedestrian movement with people walking along a path. No unusual behavior is observed."
+  },
+  {
+    "video_id": "08_025",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 746,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      208,
+      298,
+      388,
+      478,
+      568
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians are walking normally along the pathway without any unusual behavior."
+  },
+  {
+    "video_id": "08_028",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1082,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      302,
+      438,
+      573,
+      709,
+      844
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "Pedestrians and cyclists are moving normally along the path without any unusual behavior or congestion."
+  },
+  {
+    "video_id": "08_029",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 901,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      276,
+      382,
+      488,
+      594,
+      700
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally along a path. There is no unusual activity observed."
+  },
+  {
+    "video_id": "08_030",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 902,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      280,
+      387,
+      494,
+      601,
+      708
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally along a pathway, which is typical pedestrian behavior."
+  },
+  {
+    "video_id": "08_032",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 801,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      246,
+      340,
+      435,
+      529,
+      623
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking on a path with no unusual or unexpected actions observed."
+  },
+  {
+    "video_id": "08_034",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 805,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      247,
+      343,
+      439,
+      535,
+      631
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "A person appears to walk across the frame between frames 439 and 631. The activity seems consistent with normal pedestrian movement."
+  },
+  {
+    "video_id": "08_037",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1106,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      312,
+      452,
+      592,
+      732,
+      872
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals walking in different directions."
+  },
+  {
+    "video_id": "08_043",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1178,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      337,
+      490,
+      644,
+      797,
+      950
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking through an open area without any unusual behavior."
+  },
+  {
+    "video_id": "08_045",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      239,
+      333,
+      427,
+      521,
+      615
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian activity with individuals walking at a typical pace along a path. No unusual or suspicious behavior is observed in the frames provided."
+  },
+  {
+    "video_id": "08_046",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      243,
+      337,
+      432,
+      526,
+      620
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian activity with individuals walking along the pathway at different times."
+  },
+  {
+    "video_id": "08_047",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      246,
+      340,
+      435,
+      529,
+      623
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking along a pathway. No unusual or suspicious behavior is observed."
+  },
+  {
+    "video_id": "08_048",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 798,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      234,
+      329,
+      423,
+      518,
+      612
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking along a pathway, which appears normal without any unusual activity or disruptions."
+  },
+  {
+    "video_id": "09_002",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 832,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      337,
+      437,
+      536,
+      636
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The series of frames show pedestrians walking casually without any unusual behavior or disturbance."
+  },
+  {
+    "video_id": "09_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 520,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      146,
+      214,
+      283,
+      351,
+      419
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian walking with individuals and small groups moving through the area."
+  },
+  {
+    "video_id": "09_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 502,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      126,
+      193,
+      259,
+      326,
+      392
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement where individuals are walking along a path without any unusual behavior or disruption."
+  },
+  {
+    "video_id": "09_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1577,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      404,
+      622,
+      840,
+      1058,
+      1276
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All frames show normal pedestrian walking behavior with various groups and individuals moving through the area without any unusual or suspicious actions."
+  },
+  {
+    "video_id": "10_0038",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 241,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      99,
+      130,
+      160,
+      190
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The scene shows pedestrians walking in a normal manner across a plaza area. There are no unusual activities or behaviors observed in the sampled frames."
+  },
+  {
+    "video_id": "10_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1827,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      441,
+      704,
+      966,
+      1229,
+      1491
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking normally through a public area without any unusual behavior."
+  },
+  {
+    "video_id": "10_0042",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 433,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      125,
+      179,
+      233,
+      287,
+      341
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians and a motorbike moving normally through an open area without any unusual or disruptive behaviors."
+  },
+  {
+    "video_id": "10_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1852,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      439,
+      705,
+      970,
+      1236,
+      1501
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show people walking in an open area in a consistent manner with normal pedestrian activity."
+  },
+  {
+    "video_id": "10_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1227,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      331,
+      490,
+      650,
+      809,
+      968
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "All sampled frames show normal pedestrian walking with no unusual or suspicious behavior observed."
+  },
+  {
+    "video_id": "10_009",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      181,
+      257,
+      333,
+      409,
+      485
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show normal pedestrian movement across the area with people walking in different directions."
+  },
+  {
+    "video_id": "10_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 777,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      328,
+      420,
+      511,
+      602
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian movement with people walking calmly across the area."
+  },
+  {
+    "video_id": "11_003",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 677,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      192,
+      274,
+      356,
+      438,
+      520
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking along a road, and the activity appears normal for pedestrian movement."
+  },
+  {
+    "video_id": "11_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 252,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      69,
+      101,
+      133,
+      164,
+      196
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show a person walking along a path in a normal manner, and by the last frame, they have exited the frame. This is typical pedestrian activity with no anomalies."
+  },
+  {
+    "video_id": "11_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1102,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      289,
+      431,
+      573,
+      714,
+      856
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show a normal, mostly empty street except for one frame with pedestrians walking. This is typical activity for this setting."
+  },
+  {
+    "video_id": "11_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 552,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      149,
+      219,
+      290,
+      360,
+      430
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with people walking along a path without any apparent unusual behavior."
+  },
+  {
+    "video_id": "12_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 427,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      123,
+      177,
+      231,
+      284,
+      338
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally in an open area without any unusual activity or crowding."
+  },
+  {
+    "video_id": "12_004",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1077,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      303,
+      437,
+      570,
+      704,
+      837
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity with individuals walking in a park area. There are no unusual behaviors or anomalies detected."
+  },
+  {
+    "video_id": "12_007",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 852,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      262,
+      363,
+      464,
+      564,
+      665
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show pedestrians walking normally across a plaza, with no unusual or suspicious activities observed."
+  },
+  {
+    "video_id": "12_008",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 727,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      237,
+      327,
+      417,
+      507,
+      597
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The people in the frames are walking normally along a path. There is no unusual behavior or irregular movement observed."
+  },
+  {
+    "video_id": "12_011",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1652,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      408,
+      637,
+      866,
+      1095,
+      1324
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show normal pedestrian activity, with people walking and no unusual behavior or anomalies evident."
+  },
+  {
+    "video_id": "12_012",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 627,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      180,
+      257,
+      333,
+      410,
+      486
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking normally along a path with no unusual behaviors or events."
+  },
+  {
+    "video_id": "12_0142",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 601,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      173,
+      247,
+      321,
+      395,
+      469
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The sampled frames show pedestrians walking normally across an open area without any unusual behavior."
+  },
+  {
+    "video_id": "12_015",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 1052,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      308,
+      438,
+      569,
+      699,
+      829
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals and groups of people walking along a path. Their movement appears normal and consistent with typical pedestrian behavior."
+  },
+  {
+    "video_id": "12_0151",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 289,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      84,
+      121,
+      158,
+      195,
+      232
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The pedestrian is walking normally across the frames, and the cyclist's movement appears typical. There is no unusual behavior observed."
+  },
+  {
+    "video_id": "12_0173",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 217,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      63,
+      91,
+      118,
+      146,
+      173
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show typical pedestrian and cyclist activity in an open area. People are walking and cycling without any irregular behavior."
+  },
+  {
+    "video_id": "12_0174",
+    "variant": "frames_only",
+    "is_anomalous_gt": 1,
+    "total_frames": 337,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      95,
+      137,
+      179,
+      221,
+      263
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The video shows normal pedestrian and cyclist activity with no unusual behavior or events."
+  },
+  {
+    "video_id": "13_001",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 602,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      173,
+      247,
+      321,
+      395,
+      469
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking in an outdoor area. All individuals appear to be walking normally without any unusual behavior."
+  },
+  {
+    "video_id": "13_005",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 386,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      109,
+      157,
+      205,
+      253,
+      301
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The pedestrian activity in the sampled frames appears normal, with individuals walking along the pathway without any unusual behavior."
+  },
+  {
+    "video_id": "13_006",
+    "variant": "frames_only",
+    "is_anomalous_gt": 0,
+    "total_frames": 458,
+    "frames_sampled": 5,
+    "sampled_indices": [
+      129,
+      186,
+      243,
+      300,
+      357
+    ],
+    "used_pipeline_segment": true,
+    "anomaly_detected": false,
+    "explanation": "The frames show individuals walking on a path, which appears to be normal pedestrian activity."
+  }
+]

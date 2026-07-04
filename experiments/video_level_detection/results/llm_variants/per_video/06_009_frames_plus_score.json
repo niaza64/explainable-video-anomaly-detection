@@ -1,0 +1,17 @@
+{
+  "video_id": "06_009",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 400,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    117,
+    168,
+    219,
+    270,
+    321
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames have high anomaly scores, suggesting unusual behavior. One image shows a person entering an open door, which may not be typical for regular pedestrian movement."
+}

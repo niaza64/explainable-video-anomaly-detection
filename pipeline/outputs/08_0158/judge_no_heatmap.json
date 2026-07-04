@@ -1,0 +1,18 @@
+{
+  "video_id": "08_0158",
+  "variant": "no_heatmap",
+  "human_explanation": "At the beginning, a person is cycling in a pedestrian area where cycling is not allowed; later, a person in a white shirt with a backpack is running in the same area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomalous activity appears to involve a group of individuals moving in a cluster that deviates from normal pedestrian flow in this area, likely causing congestion or unusual interactions not typical in usual foot traffic patterns.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI explanation incorrectly identifies the anomaly as a group movement rather than the specific activities of a cyclist and a running individual. It lacks specificity regarding individuals and actions, only vaguely mentioning a 'cluster' of people. Key aspects like the cycling and running are completely omitted. However, the explanation is well-written and clear."
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "12_0151",
+  "video_type": "anomalous",
+  "human_explanation": "A girl in a white shirt is riding a bicycle in a pedestrian area where cycling is not allowed.",
+  "ai_explanation": "A person in a yellow shirt behaves anomalously by walking back and forth in the same area, starting from snippet 0 and continuing through snippet 16. This behavior contrasts with normal pedestrian activity, which typically involves walking through an area rather than lingering or pacing. The activity is distinguished by the person's erratic path compared to others who are moving purposefully across the frame.",
+  "gate_score": 0.9869630336761475,
+  "gt_anomaly_start": 0,
+  "gt_anomaly_end": 234,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 4,
+    "justification": "The AI incorrectly identifies the anomaly, focusing on a person pacing instead of the girl cycling in a restricted area. It provides specific details about the behavior and its contrast with normal activity, but fails to capture the actual bicycling event described by the human. The text is clear and well-written."
+  }
+}

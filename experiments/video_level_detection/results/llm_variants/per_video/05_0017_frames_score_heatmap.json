@@ -1,0 +1,17 @@
+{
+  "video_id": "05_0017",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 1,
+  "total_frames": 433,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    125,
+    179,
+    233,
+    287,
+    341
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The anomaly scores for frames 125, 179, 233, and 287 are notably high, with frame 233 peaking at 1.00, indicating significant anomalous behavior. The presence of individuals engaging in unusual actions, such as interacting in the middle of the road or carrying large objects, contributes to these high scores."
+}

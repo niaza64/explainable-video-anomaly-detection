@@ -1,0 +1,17 @@
+{
+  "video_id": "12_0142",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 601,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    173,
+    247,
+    321,
+    395,
+    469
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores suggest unusual activity, especially in frames 247 to 321, where individuals appear to move rapidly or unexpectedly alter their path, which may indicate erratic pedestrian behavior."
+}

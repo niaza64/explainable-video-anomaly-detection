@@ -1,0 +1,6 @@
+{
+  "video_id": "01_074",
+  "gate_score": 0.8119511008262634,
+  "n_frames_sent": 4,
+  "explanation": "An anomalous event occurs between snippets 2 and 10 where a person on a bicycle enters the pedestrian path. This behavior deviates from normal pedestrian activity because bicycles are typically not expected in this area. This anomaly peaks in snippet 5 with the highest score of 0.994 when the cyclist is most central and noticeable on the path, and the situation resolves by snippet 10."
+}

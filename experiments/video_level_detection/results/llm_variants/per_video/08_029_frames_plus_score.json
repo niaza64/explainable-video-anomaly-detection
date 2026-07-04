@@ -1,0 +1,17 @@
+{
+  "video_id": "08_029",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 901,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    276,
+    382,
+    488,
+    594,
+    700
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Frames 382 and 488 have high anomaly scores indicating unusual activity. There might be irregular movement or behavior present in these frames."
+}

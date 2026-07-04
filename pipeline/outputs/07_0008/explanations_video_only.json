@@ -1,0 +1,26 @@
+{
+  "video_id": "07_0008",
+  "variant": "video_only",
+  "total_frames": 457,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    65,
+    130,
+    195,
+    260,
+    325,
+    390,
+    456
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 456,
+      "include_heatmap": false,
+      "explanation": "A person is handling a long object in a manner that could be considered unusual for pedestrian behavior in frames 195, 260, and 325. The handling of what appears to be a large object deviates from normal walking activity."
+    }
+  ]
+}

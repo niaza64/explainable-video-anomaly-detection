@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0008",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    131,
+    188,
+    245,
+    302,
+    359
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The presence of a person walking with a rifle-like object in frames 245, 302, and 359 is anomalous and poses a potential security concern."
+}

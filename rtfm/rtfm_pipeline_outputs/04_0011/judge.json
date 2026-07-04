@@ -1,0 +1,16 @@
+{
+  "video_id": "04_0011",
+  "video_type": "anomalous",
+  "human_explanation": "A child in a red shirt is running in a pedestrian area while others are walking.",
+  "ai_explanation": "An anomalous activity is detected involving a child in pink walking away from a group of adults walking with a stroller. The anomaly begins in snippet 6, peaks at snippet 13 with a man in a striped shirt moving towards the child, and resolves in snippet 16. This behavior is anomalous as the child is unsupervised, moving significantly away from the accompanying group, deviating from typical pedestrian behavior involving children.",
+  "gate_score": 0.6413383483886719,
+  "gt_anomaly_start": 0,
+  "gt_anomaly_end": 312,
+  "scores": {
+    "correctness": 3,
+    "specificity": 4,
+    "completeness": 3,
+    "fluency": 4,
+    "justification": "The AI identifies a child-related anomaly but describes the scenario differently, focusing on the child separating from adults rather than running in a pedestrian area. It provides specific details about clothing and actions but misses key points like the color of the shirt or the running action. The explanation is clear and structured but deviates from the human account."
+  }
+}

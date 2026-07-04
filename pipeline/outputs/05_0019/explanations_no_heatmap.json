@@ -1,0 +1,13 @@
+{
+  "video_id": "05_0019",
+  "total_frames": 649,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 109,
+      "end_frame": 580,
+      "include_heatmap": false,
+      "explanation": "A group of individuals are engaged in a physical altercation in the middle of a normally pedestrian walkway, deviating from typical peaceful pedestrian movement in this scene."
+    }
+  ]
+}

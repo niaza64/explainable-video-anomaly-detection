@@ -1,0 +1,6 @@
+{
+  "video_id": "01_0056",
+  "gate_score": 0.6174866557121277,
+  "n_frames_sent": 4,
+  "explanation": "The anomalous activity involves a person on a skateboard using it unusually as a method of moving backward while facing the other direction, which is atypical for pedestrian areas. This starts in snippet 20 and resolves by snippet 26, showing behavior that deviates from normal pedestrian and skateboarder movements such as walking forward or skateboarding in a direct path. The irregularity is highlighted by the increased anomaly score in snippet 22, indicating the peak of the atypical activity."
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "01_0053",
+  "variant": "video_only",
+  "total_frames": 457,
+  "frames_sampled": 8,
+  "sampled_indices": [
+    0,
+    65,
+    130,
+    195,
+    260,
+    325,
+    390,
+    456
+  ],
+  "anomaly_detected": true,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 0,
+      "end_frame": 456,
+      "include_heatmap": false,
+      "explanation": "There is a vehicle driving on the pedestrian path, which is unusual as the area is meant for pedestrians."
+    }
+  ]
+}

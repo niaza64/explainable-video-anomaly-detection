@@ -1,0 +1,17 @@
+{
+  "video_id": "08_011",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 722,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    215,
+    301,
+    386,
+    472,
+    557
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "High anomaly scores and heatmaps indicate unusual behavior, possibly due to interactions or movements deviating from normal walking."
+}

@@ -1,0 +1,6 @@
+{
+  "video_id": "05_0019",
+  "gate_score": 0.7460987567901611,
+  "n_frames_sent": 9,
+  "explanation": "The anomaly involves a group of individuals converging on a single person, situated near a pedestrian walkway. Initially, one individual is seen, which leads to a sudden interaction with a group, peaking at snippet 21 with a score of 0.893, suggesting possible confrontation or unexpected gathering, deviating from typical solitary pedestrian behavior. The situation gradually disperses towards the end of sequence in snippet 35 as individuals move away from the area."
+}

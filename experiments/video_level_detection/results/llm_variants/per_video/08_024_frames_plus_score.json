@@ -1,0 +1,17 @@
+{
+  "video_id": "08_024",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 745,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    226,
+    315,
+    404,
+    493,
+    582
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, particularly in frames 315, 404, and 493, suggest unusual activity. The presence of the same individuals over several frames might indicate loitering or an unusual pattern of movement."
+}

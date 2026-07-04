@@ -1,0 +1,16 @@
+{
+  "video_id": "08_023",
+  "video_type": "normal_FP",
+  "human_explanation": "There is nothing anomalous in this video. All pedestrians are walking normally.",
+  "ai_explanation": "The anomalous activity involves a group of people moving unusually slowly in a line on a pedestrian path. The activity starts at snippet 7 and is most prominent between snippets 10 and 43. This pattern deviates from normal pedestrian behavior as it causes congestion and may indicate an organized formation or distraction event, which is not typical in this public space.",
+  "gate_score": 0.33195364475250244,
+  "gt_anomaly_start": null,
+  "gt_anomaly_end": null,
+  "scores": {
+    "correctness": 1,
+    "specificity": 4,
+    "completeness": 1,
+    "fluency": 5,
+    "justification": "The AI incorrectly identifies an anomaly when the human states there is none, thus it scores a 1 in correctness and completeness. It provides specific details about the supposed anomaly, which aren't present according to the human, hence a 4 in specificity. The explanation is well-written and clear, earning a 5 in fluency."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "video_id": "05_064",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 482,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    139,
+    203,
+    266,
+    330,
+    393
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores, particularly in frames 203, 266, and 330, suggest unusual activity. Frame 266 shows an individual walking on the street, which may be considered non-normal pedestrian behavior."
+}

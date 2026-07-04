@@ -1,0 +1,17 @@
+{
+  "video_id": "10_005",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 1852,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    439,
+    705,
+    970,
+    1236,
+    1501
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show people walking in an open area in a consistent manner with normal pedestrian activity."
+}

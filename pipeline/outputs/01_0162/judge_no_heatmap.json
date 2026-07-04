@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0162",
+  "variant": "no_heatmap",
+  "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A cyclist is riding on a pedestrian path, weaving through foot traffic, which is unusual for this location typically dedicated to pedestrians.",
+      "scores": {
+        "correctness": 3,
+        "specificity": 3,
+        "completeness": 3,
+        "fluency": 5,
+        "justification": "The AI correctly identifies a cyclist on a pedestrian path and notes the unusual nature of cycling there, but it misses that there are two people on the bicycle. It mentions details like 'weaving through foot traffic' and the location's pedestrian nature but lacks the specific detail of a passenger on the bicycle. The explanation is well-written and clear."
+      }
+    }
+  ]
+}

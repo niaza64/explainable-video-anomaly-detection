@@ -1,0 +1,17 @@
+{
+  "video_id": "02_001",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 908,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    265,
+    373,
+    481,
+    589,
+    697
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The high anomaly scores suggest unusual behavior, particularly between frames 373 and 589, where a person\u2019s presence might be unexpected or actions may be abnormal."
+}

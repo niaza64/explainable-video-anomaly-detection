@@ -1,0 +1,18 @@
+{
+  "video_id": "07_0048",
+  "variant": "with_heatmap",
+  "human_explanation": "A person in a gray/maroon shirt is chasing a person in a red shirt.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly is caused by a group of people engaging in playful, unexpected interactions in the crosswalk area, deviating from the typical pedestrian behavior of walking straightforwardly across the street.",
+      "scores": {
+        "correctness": 1,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI does not identify the specific anomaly described by the human, focusing instead on a vague notion of unusual group interactions rather than an individual chase. It also lacks specific details about the people involved, such as clothing colors and actions, contributing to the low specificity and completeness scores. However, the explanation is fairly well-written and coherent, hence the higher fluency score."
+      }
+    }
+  ]
+}

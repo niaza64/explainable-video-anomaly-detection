@@ -1,0 +1,17 @@
+{
+  "video_id": "12_007",
+  "variant": "frames_plus_score",
+  "is_anomalous_gt": 0,
+  "total_frames": 852,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    262,
+    363,
+    464,
+    564,
+    665
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "Several frames have high anomaly scores, particularly frame 464 with a score of 0.98, suggesting unusual activity. This could indicate an atypical event or behavior in the scene."
+}

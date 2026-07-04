@@ -1,0 +1,18 @@
+{
+  "video_id": "01_0064",
+  "variant": "with_heatmap",
+  "human_explanation": "A girl with a red bag is running while another person in a white shirt is skateboarding in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "A person is seen running erratically down the walkway, deviating from the typical walking pattern of pedestrians in this scene, which likely led to the high anomaly scores.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 1,
+        "fluency": 4,
+        "justification": "The AI correctly identifies unusual running behavior as the anomaly, but does not mention the red bag or the second person skateboarding, which are key details. The explanation is clear but lacks specificity and completeness."
+      }
+    }
+  ]
+}

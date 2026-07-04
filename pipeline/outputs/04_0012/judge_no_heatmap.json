@@ -1,0 +1,18 @@
+{
+  "video_id": "04_0012",
+  "variant": "no_heatmap",
+  "human_explanation": "A person in a white shirt is moving in circles, which is abnormal behavior in a pedestrian area.",
+  "segments": [
+    {
+      "segment_index": 0,
+      "ai_explanation": "The anomaly in the video segment involves an individual running across a public area, which deviates from the normal walking behavior typically observed among pedestrians in this scene.",
+      "scores": {
+        "correctness": 2,
+        "specificity": 2,
+        "completeness": 2,
+        "fluency": 4,
+        "justification": "The AI incorrectly identifies the anomaly as running instead of moving in circles, which is a significant deviation from the human explanation. It does mention specific actions (running) and context (public area), but lacks the mention of the white shirt, thus providing some details but not enough for high specificity. The explanation only partially captures the abnormal behavior aspect noted by the human. The text is well-written and clear, deserving a high fluency score."
+      }
+    }
+  ]
+}

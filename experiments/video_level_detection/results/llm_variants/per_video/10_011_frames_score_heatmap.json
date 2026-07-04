@@ -1,0 +1,17 @@
+{
+  "video_id": "10_011",
+  "variant": "frames_score_heatmap",
+  "is_anomalous_gt": 0,
+  "total_frames": 777,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    237,
+    328,
+    420,
+    511,
+    602
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "The frames exhibit high anomaly scores, particularly frame 420 with a score of 0.99, indicating significant anomalous behavior that deviates from normal pedestrian movement."
+}

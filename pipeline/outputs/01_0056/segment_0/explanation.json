@@ -1,0 +1,7 @@
+{
+  "segment_index": 0,
+  "start_frame": 75,
+  "end_frame": 483,
+  "include_heatmap": true,
+  "explanation": "A person is loitering in the middle of a typically open walking area, which is unusual compared to usual pedestrian flow, as indicated by high anomaly scores and bright heatmap regions."
+}

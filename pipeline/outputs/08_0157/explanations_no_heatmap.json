@@ -1,0 +1,13 @@
+{
+  "video_id": "08_0157",
+  "total_frames": 313,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 48,
+      "end_frame": 283,
+      "include_heatmap": false,
+      "explanation": "The anomaly in this video segment is due to a group of individuals congregating and moving in formation, which deviates from usual pedestrian patterns in this area, causing consistently high anomaly scores."
+    }
+  ]
+}

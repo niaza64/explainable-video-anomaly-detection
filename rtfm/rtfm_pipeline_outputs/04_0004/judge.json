@@ -1,0 +1,16 @@
+{
+  "video_id": "04_0004",
+  "video_type": "anomalous",
+  "human_explanation": "A person in a white shirt pushes a person in a mint-green shirt to the ground; the pushed person stands up and they later walk together.",
+  "ai_explanation": "The anomalous activity begins with a lone individual walking normally in snippets 0-1, followed by a group of people walking and interacting in snippets 4-17. In snippets 23-42, one person appears to fall or sit on the ground while others stand around them, which is unusual for the scene. This behavior deviates from normal pedestrian movement, likely contributing to its high anomaly score and out-of-the-ordinary nature for the location.",
+  "gate_score": 0.9888197183609009,
+  "gt_anomaly_start": 426,
+  "gt_anomaly_end": 555,
+  "scores": {
+    "correctness": 2,
+    "specificity": 2,
+    "completeness": 2,
+    "fluency": 4,
+    "justification": "The AI incorrectly focuses on a person sitting or falling as the anomaly rather than someone being pushed, which is central to the human explanation. It does identify a person on the ground but lacks detail about the specific interaction. The explanation partially captures the unusual aspect of someone on the ground but not the interaction between the two people. The writing is generally clear and logically structured, though it lacks specific details."
+  }
+}

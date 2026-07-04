@@ -1,0 +1,13 @@
+{
+  "video_id": "01_0052",
+  "total_frames": 337,
+  "segments": [
+    {
+      "segment_index": 0,
+      "start_frame": 55,
+      "end_frame": 310,
+      "include_heatmap": false,
+      "explanation": "A bicyclist is riding through an area typically occupied by pedestrians, which deviates from normal behavior in this scene, where foot traffic is the norm, leading to elevated anomaly scores during this segment."
+    }
+  ]
+}

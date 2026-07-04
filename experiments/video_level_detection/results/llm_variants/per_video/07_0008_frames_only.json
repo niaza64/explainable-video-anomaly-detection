@@ -1,0 +1,17 @@
+{
+  "video_id": "07_0008",
+  "variant": "frames_only",
+  "is_anomalous_gt": 1,
+  "total_frames": 457,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    131,
+    188,
+    245,
+    302,
+    359
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": true,
+  "explanation": "An individual is walking with an object resembling a long-barreled item slung over their shoulder, which is unusual and potentially concerning for typical pedestrian activity."
+}

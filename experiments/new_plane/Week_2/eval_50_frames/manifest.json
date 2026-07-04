@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "folder": "01_01_0015_frame230",
+    "video": "01_0015",
+    "scene": "01",
+    "frame_idx": 230,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3015
+  },
+  {
+    "id": 2,
+    "folder": "02_01_0025_frame175",
+    "video": "01_0025",
+    "scene": "01",
+    "frame_idx": 175,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.372
+  },
+  {
+    "id": 3,
+    "folder": "03_01_0027_frame114",
+    "video": "01_0027",
+    "scene": "01",
+    "frame_idx": 114,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.7236
+  },
+  {
+    "id": 4,
+    "folder": "04_01_0028_frame298",
+    "video": "01_0028",
+    "scene": "01",
+    "frame_idx": 298,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.5099
+  },
+  {
+    "id": 5,
+    "folder": "05_01_0051_frame183",
+    "video": "01_0051",
+    "scene": "01",
+    "frame_idx": 183,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2073
+  },
+  {
+    "id": 6,
+    "folder": "06_01_0052_frame187",
+    "video": "01_0052",
+    "scene": "01",
+    "frame_idx": 187,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2693
+  },
+  {
+    "id": 7,
+    "folder": "07_01_0053_frame198",
+    "video": "01_0053",
+    "scene": "01",
+    "frame_idx": 198,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2598
+  },
+  {
+    "id": 8,
+    "folder": "08_01_0055_frame190",
+    "video": "01_0055",
+    "scene": "01",
+    "frame_idx": 190,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2679
+  },
+  {
+    "id": 9,
+    "folder": "09_01_0056_frame330",
+    "video": "01_0056",
+    "scene": "01",
+    "frame_idx": 330,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2194
+  },
+  {
+    "id": 10,
+    "folder": "10_01_0064_frame182",
+    "video": "01_0064",
+    "scene": "01",
+    "frame_idx": 182,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3455
+  },
+  {
+    "id": 11,
+    "folder": "11_01_0135_frame261",
+    "video": "01_0135",
+    "scene": "01",
+    "frame_idx": 261,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 1.0367
+  },
+  {
+    "id": 12,
+    "folder": "12_01_0136_frame289",
+    "video": "01_0136",
+    "scene": "01",
+    "frame_idx": 289,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.377
+  },
+  {
+    "id": 13,
+    "folder": "13_01_0139_frame138",
+    "video": "01_0139",
+    "scene": "01",
+    "frame_idx": 138,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2886
+  },
+  {
+    "id": 14,
+    "folder": "14_01_0141_frame151",
+    "video": "01_0141",
+    "scene": "01",
+    "frame_idx": 151,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2466
+  },
+  {
+    "id": 15,
+    "folder": "15_01_0162_frame109",
+    "video": "01_0162",
+    "scene": "01",
+    "frame_idx": 109,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3631
+  },
+  {
+    "id": 16,
+    "folder": "16_01_0177_frame148",
+    "video": "01_0177",
+    "scene": "01",
+    "frame_idx": 148,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2925
+  },
+  {
+    "id": 17,
+    "folder": "17_02_0161_frame178",
+    "video": "02_0161",
+    "scene": "02",
+    "frame_idx": 178,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3439
+  },
+  {
+    "id": 18,
+    "folder": "18_03_0031_frame357",
+    "video": "03_0031",
+    "scene": "03",
+    "frame_idx": 357,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3141
+  },
+  {
+    "id": 19,
+    "folder": "19_03_0032_frame204",
+    "video": "03_0032",
+    "scene": "03",
+    "frame_idx": 204,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.5457
+  },
+  {
+    "id": 20,
+    "folder": "20_03_0033_frame108",
+    "video": "03_0033",
+    "scene": "03",
+    "frame_idx": 108,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3492
+  },
+  {
+    "id": 21,
+    "folder": "21_03_0059_frame204",
+    "video": "03_0059",
+    "scene": "03",
+    "frame_idx": 204,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2915
+  },
+  {
+    "id": 22,
+    "folder": "22_04_0004_frame491",
+    "video": "04_0004",
+    "scene": "04",
+    "frame_idx": 491,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3039
+  },
+  {
+    "id": 23,
+    "folder": "23_04_0011_frame156",
+    "video": "04_0011",
+    "scene": "04",
+    "frame_idx": 156,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4372
+  },
+  {
+    "id": 24,
+    "folder": "24_04_0012_frame172",
+    "video": "04_0012",
+    "scene": "04",
+    "frame_idx": 172,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.9364
+  },
+  {
+    "id": 25,
+    "folder": "25_04_0046_frame252",
+    "video": "04_0046",
+    "scene": "04",
+    "frame_idx": 252,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4295
+  },
+  {
+    "id": 26,
+    "folder": "26_05_0017_frame349",
+    "video": "05_0017",
+    "scene": "05",
+    "frame_idx": 349,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3462
+  },
+  {
+    "id": 27,
+    "folder": "27_05_0019_frame324",
+    "video": "05_0019",
+    "scene": "05",
+    "frame_idx": 324,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3979
+  },
+  {
+    "id": 28,
+    "folder": "28_05_0023_frame374",
+    "video": "05_0023",
+    "scene": "05",
+    "frame_idx": 374,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.408
+  },
+  {
+    "id": 29,
+    "folder": "29_06_0144_frame129",
+    "video": "06_0144",
+    "scene": "06",
+    "frame_idx": 129,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.397
+  },
+  {
+    "id": 30,
+    "folder": "30_06_0153_frame146",
+    "video": "06_0153",
+    "scene": "06",
+    "frame_idx": 146,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3089
+  },
+  {
+    "id": 31,
+    "folder": "31_07_0006_frame210",
+    "video": "07_0006",
+    "scene": "07",
+    "frame_idx": 210,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3925
+  },
+  {
+    "id": 32,
+    "folder": "32_07_0008_frame271",
+    "video": "07_0008",
+    "scene": "07",
+    "frame_idx": 271,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4325
+  },
+  {
+    "id": 33,
+    "folder": "33_07_0048_frame215",
+    "video": "07_0048",
+    "scene": "07",
+    "frame_idx": 215,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4513
+  },
+  {
+    "id": 34,
+    "folder": "34_08_0058_frame132",
+    "video": "08_0058",
+    "scene": "08",
+    "frame_idx": 132,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.426
+  },
+  {
+    "id": 35,
+    "folder": "35_08_0077_frame201",
+    "video": "08_0077",
+    "scene": "08",
+    "frame_idx": 201,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4426
+  },
+  {
+    "id": 36,
+    "folder": "36_08_0080_frame119",
+    "video": "08_0080",
+    "scene": "08",
+    "frame_idx": 119,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.4705
+  },
+  {
+    "id": 37,
+    "folder": "37_08_0157_frame208",
+    "video": "08_0157",
+    "scene": "08",
+    "frame_idx": 208,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2836
+  },
+  {
+    "id": 38,
+    "folder": "38_08_0158_frame174",
+    "video": "08_0158",
+    "scene": "08",
+    "frame_idx": 174,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3714
+  },
+  {
+    "id": 39,
+    "folder": "39_10_0038_frame113",
+    "video": "10_0038",
+    "scene": "10",
+    "frame_idx": 113,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2749
+  },
+  {
+    "id": 40,
+    "folder": "40_10_0042_frame182",
+    "video": "10_0042",
+    "scene": "10",
+    "frame_idx": 182,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2523
+  },
+  {
+    "id": 41,
+    "folder": "41_12_0142_frame340",
+    "video": "12_0142",
+    "scene": "12",
+    "frame_idx": 340,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2852
+  },
+  {
+    "id": 42,
+    "folder": "42_12_0151_frame128",
+    "video": "12_0151",
+    "scene": "12",
+    "frame_idx": 128,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3487
+  },
+  {
+    "id": 43,
+    "folder": "43_12_0173_frame110",
+    "video": "12_0173",
+    "scene": "12",
+    "frame_idx": 110,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2731
+  },
+  {
+    "id": 44,
+    "folder": "44_12_0174_frame215",
+    "video": "12_0174",
+    "scene": "12",
+    "frame_idx": 215,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2834
+  },
+  {
+    "id": 45,
+    "folder": "45_01_0015_frame158",
+    "video": "01_0015",
+    "scene": "01",
+    "frame_idx": 158,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2808
+  },
+  {
+    "id": 46,
+    "folder": "46_01_0052_frame209",
+    "video": "01_0052",
+    "scene": "01",
+    "frame_idx": 209,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2723
+  },
+  {
+    "id": 47,
+    "folder": "47_03_0031_frame372",
+    "video": "03_0031",
+    "scene": "03",
+    "frame_idx": 372,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3589
+  },
+  {
+    "id": 48,
+    "folder": "48_08_0058_frame74",
+    "video": "08_0058",
+    "scene": "08",
+    "frame_idx": 74,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.2989
+  },
+  {
+    "id": 49,
+    "folder": "49_12_0142_frame470",
+    "video": "12_0142",
+    "scene": "12",
+    "frame_idx": 470,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.288
+  },
+  {
+    "id": 50,
+    "folder": "50_05_0017_frame316",
+    "video": "05_0017",
+    "scene": "05",
+    "frame_idx": 316,
+    "ground_truth_caption": "",
+    "anomaly_type": "",
+    "anomaly_score": 0.3579
+  }
+]

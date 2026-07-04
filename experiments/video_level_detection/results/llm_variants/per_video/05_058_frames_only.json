@@ -1,0 +1,17 @@
+{
+  "video_id": "05_058",
+  "variant": "frames_only",
+  "is_anomalous_gt": 0,
+  "total_frames": 738,
+  "frames_sampled": 5,
+  "sampled_indices": [
+    205,
+    295,
+    384,
+    474,
+    563
+  ],
+  "used_pipeline_segment": true,
+  "anomaly_detected": false,
+  "explanation": "The frames show groups of people walking along a road, which appears to be normal pedestrian activity."
+}

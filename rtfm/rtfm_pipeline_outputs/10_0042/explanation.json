@@ -1,0 +1,6 @@
+{
+  "video_id": "10_0042",
+  "gate_score": 0.426253080368042,
+  "n_frames_sent": 4,
+  "explanation": "The anomaly involves a pedestrian leisurely crossing a plaza while a motorbike moves nearby, observed between snippets 7 to 10 and 13 to 16. The presence of a moving motorbike in a pedestrian area is unusual and deviates from normal pedestrian behavior. The anomaly begins at snippet 7 with a peak anomaly score of 0.521, indicating initial unusual activity, and it resolves by snippet 16 with the motorbike exiting the area."
+}

@@ -1,0 +1,16 @@
+{
+  "video_id": "01_0162",
+  "video_type": "anomalous",
+  "human_explanation": "Two people are on a bicycle in a pedestrian area where cycling is not allowed; one is driving and the other is riding as a passenger.",
+  "ai_explanation": "The anomaly involves a bicyclist with a passenger navigating through a pedestrian area with multiple people walking, occurring from snippet 2 to snippet 8. The presence of a bicycle in what appears to be a pedestrian walkway with people nearby is unusual and could pose a safety risk, deviating from typical pedestrian behavior.",
+  "gate_score": 0.30484724044799805,
+  "gt_anomaly_start": 57,
+  "gt_anomaly_end": 160,
+  "scores": {
+    "correctness": 5,
+    "specificity": 4,
+    "completeness": 4,
+    "fluency": 5,
+    "justification": "The AI correctly identifies the anomaly of two people on a bicycle in a pedestrian area, matching the human explanation. It provides specific details about the bicyclist and passenger, though it could elaborate more on their actions or clothing. The explanation is nearly complete, covering the key points but missing the explicit mention of the rules against cycling in the area. The writing is clear and well-structured."
+  }
+}
