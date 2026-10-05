@@ -63,10 +63,19 @@ explanation_benchmark/   Released human reference explanations (references.json)
 
 scripts/                 Shared data-prep helpers (train-anomaly annotations, etc.).
 
-experiments/             Archived, exploratory runs (earlier AED-MAE / Avenue /
-aed-mae/                 SAM heatmap work). NOT part of the reported pipeline;
-rtfm_train_viz/          kept for transparency. May contain machine-specific paths.
+ucf_crime/               Second-dataset extension: UCF-Crime I3D extraction, RTFM
+                         training/gating, and the released gold-reference
+                         explanations built from UCA (CVPR 2024).
+
+experiments/             Archived video-level detection study (threshold tuning,
+                         LLM prompt variants). NOT part of the reported pipeline;
+                         kept for transparency. May contain machine-specific paths.
 ```
+
+Earlier exploratory work that did not make the paper — the AED-MAE reconstruction
+baseline, the Avenue-dataset trials and the SAM-heatmap prompting variants — was
+removed in the cleanup commit and remains in git history. AED-MAE was a vendored
+fork; use [ristea/aed-mae](https://github.com/ristea/aed-mae) upstream instead.
 
 ---
 

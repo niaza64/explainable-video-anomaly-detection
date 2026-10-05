@@ -29,9 +29,9 @@ models/checkpoints/
 rtfm/ckpt/
 rtfm/rtfm_checkpoints/
 rtfm/pytorch-resnet3d/pretrained/
-aed-mae/sam/
-aed-mae/experiments/
 qwen_finetune_colab/qwen3vl32_rtfm_lora/
+ucf_crime/features/
+ucf_crime/outputs/
 **/out/
 **/out_v2/
 **/out_v3/
